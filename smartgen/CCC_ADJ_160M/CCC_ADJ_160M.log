@@ -1,0 +1,114 @@
+
+****************
+Macro Parameters
+****************
+
+Name                            : CCC_ADJ_160M
+Family                          : PA3
+Output Format                   : VHDL
+Type                            : Dynamic CCC
+PowerDown                       : Active Low
+Lock                            : Active High
+Input Freq(Mhz)                 : 200.000000
+CLKA Source                     : External I/O
+Feedback Delay Value Index      : 1
+Feedback Mux Select             : 1
+XDLY Mux Select                 : No
+Primary Freq(Mhz)               : 160.317000
+Primary PhaseShift              : 0
+Primary Delay Value Index       : 1
+Primary Mux Select              : 4
+Secondary1 Freq(Mhz)            : 40.079000
+Use GLB                         : YES
+Use YB                          : NO
+GLB Delay Value Index           : 1
+YB Delay Value Index            : 1
+Secondary1 PhaseShift           : 180
+Secondary1 Mux Select           : 4
+Secondary1 Input Freq(Mhz)      : 0.000000
+CLKB Source                     : Hardwired I/O
+Secondary2 Freq(Mhz)            : 0.000000
+Use GLC                         : NO
+Use YC                          : NO
+GLC Delay Value Index           : 32
+YC Delay Value Index            : 32
+Secondary2 PhaseShift           : 0
+Secondary2 Mux Select           : 0
+Secondary2 Input Freq(Mhz)      : 0.000000
+CLKC Source                     : Hardwired I/O
+Lock Control                    : Yes
+
+Configuration Bits:
+ FINDIV[6:0]     1111101FBDIV[6:0]      1100100OADIV[4:0]      00000OBDIV[4:0]      00011OCDIV[4:0]      11111OAMUX[2:0]      100OBMUX[2:0]      110OCMUX[2:0]      000FBSEL[1:0]      01FBDLY[4:0]      00000XDLYSEL         0DLYGLA[4:0]     00000DLYGLB[4:0]     00000DLYGLC[4:0]     00000DLYYB[4:0]      00000DLYYC[4:0]      00000VCOSEL[2:0]     101
+Primary Clock Frequency 160.317
+Primary Clock Phase Shift 0.000
+Primary Clock Output Delay from CLKA 1.695
+
+Secondary1 Clock Frequency 40.079
+Secondary1 Clock Phase Shift 45.000
+Secondary1 Clock Global Output Delay from CLKA 4.814
+
+######################################
+# Dynamic Stream Data                 
+######################################
+--------------------------------------
+|NAME     |SDIN     |VALUE   |TYPE     |
+--------------------------------------
+|FINDIV   |[6:0]    |1111101 |EDIT     |
+|FBDIV    |[13:7]   |1100100 |EDIT     |
+|OADIV    |[18:14]  |00000   |EDIT     |
+|OBDIV    |[23:19]  |00011   |EDIT     |
+|OCDIV    |[28:24]  |11111   |EDIT     |
+|OAMUX    |[31:29]  |100     |EDIT     |
+|OBMUX    |[34:32]  |110     |EDIT     |
+|OCMUX    |[37:35]  |000     |EDIT     |
+|FBSEL    |[39:38]  |01      |EDIT     |
+|FBDLY    |[44:40]  |00000   |EDIT     |
+|XDLYSEL  |[45]     |0       |EDIT     |
+|DLYGLA   |[50:46]  |00000   |EDIT     |
+|DLYGLB   |[55:51]  |00000   |EDIT     |
+|DLYGLC   |[60:56]  |00000   |EDIT     |
+|DLYYB    |[65:61]  |00000   |EDIT     |
+|DLYYC    |[70:66]  |00000   |EDIT     |
+|STATASEL |[71]     |X       |MASKED*  |
+|STATBSEL |[72]     |X       |MASKED*  |
+|STATCSEL |[73]     |X       |MASKED*  |
+|VCOSEL   |[76:74]  |101     |EDIT     |
+|DYNASEL  |[77]     |X       |MASKED*  |
+|DYNBSEL  |[78]     |X       |MASKED*  |
+|DYNCSEL  |[79]     |X       |MASKED*  |
+|RESETEN  |[80]     |1       |READONLY |
+----------------------------------------
+
+*: These bits are computed after layout has been run
+   and are available in the post-layout CCC_Configuration Global Report
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+
+Wrote VHDL netlist to D:/0_all_libero_project/CERN_LHCb/COMET_TEST/smartgen\CCC_ADJ_160M\CCC_ADJ_160M.vhd.
+ating. This will waste one global resource.
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      0  Total:  38400   (0.00%)
+    IO (W/ clocks)             Used:      0  Total:    147   (0.00%)
+    Differential IO            Used:      0  Total:     65   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      3  Total:     18   (16.67%)
+    PLL                        Used:      1  Total:      2   (50.00%)
+    RAM/FIFO                   Used:      0  Total:     60   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to D:/0_all_libero_project/CERN_LHCb/COMET_TEST/smartgen\CCC_ADJ_160M\CCC_ADJ_160M.vhd.
+
+ ** Log Ended:   Tue Dec 22 09:07:13 2015
+

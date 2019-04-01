@@ -1,0 +1,222 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.5 SP2 11.5.2.6
+
+# Design Name: TOP_COMET 
+
+# Input Netlist Format: edif 
+
+# Family: ProASIC3E , Die: A3PE1500 , Package: 208 PQFP , Speed grade: STD 
+
+# Date generated: Thu Oct 08 17:38:16 2015 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank7 -vcci 2.50 -fixed YES
+set_iobank Bank6 -vcci 2.50 -fixed YES
+set_iobank Bank5 -vcci 3.30 -fixed YES
+set_iobank Bank4 -vcci 2.50 -fixed YES
+set_iobank Bank3 -vcci 2.50 -fixed YES
+set_iobank Bank2 -vcci 2.50 -fixed YES
+set_iobank Bank1 -vcci 2.50 -fixed YES
+set_iobank Bank0 -vcci 2.50 -fixed YES
+
+#
+# I/O constraints
+#
+
+set_io BIDIR_USB_ADBUS\[0\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 66 -fixed yes
+set_io BIDIR_USB_ADBUS\[1\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 64 -fixed yes
+set_io BIDIR_USB_ADBUS\[2\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 68 -fixed yes
+set_io BIDIR_USB_ADBUS\[3\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 67 -fixed yes
+set_io BIDIR_USB_ADBUS\[4\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 70 -fixed yes
+set_io BIDIR_USB_ADBUS\[5\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 69 -fixed yes
+set_io BIDIR_USB_ADBUS\[6\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 74 -fixed yes
+set_io BIDIR_USB_ADBUS\[7\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 73 -fixed yes
+set_io CLK200_N -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 26 -fixed yes
+set_io CLK200_P -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 28 -fixed yes
+
+# GPIO lines
+
+# GPIO_0
+set_io DCB_SALT_SEL -iostd LVCMOS25 -REGISTER No -RES_PULL UP -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 192 -fixed YES
+
+# GPIO_1  
+set_io EXTCLK_40MHZ -iostd LVCMOS25 -REGISTER No -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 172 -fixed yes
+
+#GPIO_9
+set_io EXT_INT_REF_SEL -iostd LVCMOS25 -REGISTER No -RES_PULL UP -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 15 -fixed yes
+
+# GPIO_10
+set_io ALL_PLL_LOCK -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 4 -fixed yes
+
+# GPIO_2
+set_io P_MASTER_POR_B -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 139 -fixed yes
+
+# GPIO_7
+set_io P_USB_MASTER_EN -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 22 -fixed yes
+
+# GPIO_3  --SPARE!!!!!!!
+# set_io P_CCC_MAIN_LOCK -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 125 -fixed yes
+
+# GPIO_4
+set_io P_CLK_40M_GL -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 12 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 124 -fixed yes
+
+# GPIO_8  --SPARE!!!!!!!
+# set_io P_CLK_PH1_160MHZ -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 12 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 21 -fixed yes
+
+#GPIO_6
+set_io P_CCC_160M_FXD -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 12 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 39 -fixed yes
+
+# GPIO_5
+set_io P_CCC_160M_ADJ -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 12 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 99 -fixed yes
+
+# I2C_0 CONN (SDAT_0)
+set_io P_ELK0_SYNC_DET -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 152 -fixed yes
+
+# I2C_0 CONN (SCLK_1)
+set_io P_TFC_SYNC_DET -iostd LVCMOS25 -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 153 -fixed yes
+
+
+
+# THESE ARE ON THE SAME BANK AS THE 3.3V USB I/O
+# I2C_1 CONN (SDAT_1)
+set_io P_OP_MODE2_TE -iostd LVTTL -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 55 -fixed yes
+
+# I2C_1 CONN (SCLK_1)
+set_io P_OP_MODE1_SPE -iostd LVTTL -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 56 -fixed yes
+
+# I2C_2 CONN (SDAT_2)
+set_io P_OP_MODE6_EE -iostd LVTTL -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 57 -fixed yes
+
+# I2C_2 CONN (SCLK_2)
+set_io P_OP_MODE5_AAE -iostd LVTTL -REGISTER NO -OUT_DRIVE 8 -SLEW Low -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 58 -fixed yes
+
+
+
+# BOARD RESET
+set_io DEV_RST_B -iostd LVCMOS25 -REGISTER No -RES_PULL None -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 136 -fixed YES
+
+# NOT USING UNLESS THE LED'S GET SWAPPPED (PRESENTLY INSTALLED IN BACKWARDS)
+#set_io LOCK_STAT -iostd LVCMOS33 -REGISTER No -OUT_DRIVE 12 -SLEW Low -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 59 -fixed yes
+
+##################################################################################################################################
+# SLVS I/O'S TO ERM8 CONNS:
+##################################################################################################################################
+
+# 40 MHZ REFCLK (WAS 175/176) CE_PAIR_23
+set_io REF_CLK_0N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 90 -fixed yes
+set_io REF_CLK_0P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 91 -fixed yes
+
+# TFC DATA (WAS 98/96) CE_PAIR_22
+set_io TFC_DAT_0N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 86 -fixed yes
+set_io TFC_DAT_0P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 87 -fixed yes
+
+
+# ELINK0 DATA (WAS 95/94) CE_PAIR_16
+set_io ELK0_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 6 -fixed yes
+set_io ELK0_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 5 -fixed yes
+
+# ELINK1 DATA  CE_PAIR_17
+set_io ELK1_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 82 -fixed yes
+set_io ELK1_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 83 -fixed yes
+
+# ELINK2 DATA  CE_PAIR_18
+set_io ELK2_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 160 -fixed yes
+set_io ELK2_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 159 -fixed yes
+
+# ELINK3 DATA  CE_PAIR_19
+set_io ELK3_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 84 -fixed yes
+set_io ELK3_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 85 -fixed yes
+
+# ELINK4 DATA  CE_PAIR_15
+set_io ELK4_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 206 -fixed yes
+set_io ELK4_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 205 -fixed yes
+
+
+
+# THESE ARE THE RECD WORDS FROM THE DESERIALIZER...
+#set_io REF_CLK_2N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 179 -fixed yes
+#set_io REF_CLK_2P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 177 -fixed yes
+#set_io REF_CLK_3N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 183 -fixed yes
+#set_io REF_CLK_3P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 182 -fixed yes
+#set_io REF_CLK_4N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 189 -fixed yes
+#set_io REF_CLK_4P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 188 -fixed yes
+#set_io REF_CLK_5N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 194 -fixed yes
+#set_io REF_CLK_5P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 193 -fixed yes
+#set_io REF_CLK_6N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 199 -fixed yes
+#set_io REF_CLK_6P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 198 -fixed yes
+#set_io REF_CLK_7N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 204 -fixed yes
+#set_io REF_CLK_7P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 203 -fixed yes
+#set_io REF_CLK_8N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 6 -fixed yes
+#set_io REF_CLK_8P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 5 -fixed yes
+
+# AUX_SDIN
+#set_io REF_CLK_9N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 160 -fixed yes
+#set_io REF_CLK_9P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 159 -fixed yes
+
+# AUX_SSHIFT
+#set_io REF_CLK_10N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 165 -fixed yes
+#set_io REF_CLK_10P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 164 -fixed yes
+
+# SYNC_BRD_RST_B
+#set_io REF_CLK_11N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 86 -fixed yes
+#set_io REF_CLK_11P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 87 -fixed yes
+
+
+
+
+# BI-DIR CLK200M REF CLOCK (SD27)
+set_io BIDIR_CLK40M_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 116 -fixed yes
+set_io BIDIR_CLK40M_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER NO -OUT_LOAD 0 -pinname 117 -fixed yes
+
+# TX_BUF CLK200M REF CLOCK (SD25) NO LONGER USED!!!!!!!!
+# set_io TX_200M_n -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 167 -fixed yes
+# set_io TX_200M_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER NO -OUT_LOAD 0 -pinname 166 -fixed yes
+
+
+# BI-DIR CLK160M REF CLOCK (SD28)  NO LONGER USED !!!!!!!
+# set_io BIDIR_160M_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 113 -fixed yes
+# set_io BIDIR_160M_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER NO -OUT_LOAD 0 -pinname 115 -fixed yes
+
+# TX_BUF CLK160M REF CLOCK (SD26) NO LONGER USED!!!!!!!!
+# set_io TX_160M_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 181 -fixed yes
+# set_io TX_160M_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER NO -OUT_LOAD 0 -pinname 180 -fixed yes
+
+
+# use next 4 in above assignments!
+#set_io TFC_OUT_1N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 167 -fixed yes
+#set_io TFC_OUT_1P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 166 -fixed yes
+#set_io TFC_OUT_2N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 181 -fixed yes
+#set_io TFC_OUT_2P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 180 -fixed yes
+
+#set_io TFC_OUT_3N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 185 -fixed yes
+#set_io TFC_OUT_3P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 184 -fixed yes
+#set_io TFC_OUT_4N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 191 -fixed yes
+#set_io TFC_OUT_4P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 190 -fixed yes
+#set_io TFC_OUT_5N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 197 -fixed yes
+#set_io TFC_OUT_5P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 196 -fixed yes
+#set_io TFC_OUT_6N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 202 -fixed yes
+#set_io TFC_OUT_6P   -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 201 -fixed yes
+#set_io TFC_OUT_7N   -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 206 -fixed yes
+#set_io TFC_OUT_7P   -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 205 -fixed yes
+#set_io TFC_OUT_8N   -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 82 -fixed yes
+#set_io TFC_OUT_8P   -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 83 -fixed yes
+#set_io TFC_OUT_9N   -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 84 -fixed yes
+#set_io TFC_OUT_9P   -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 85 -fixed yes
+#set_io TFC_OUT_10N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 163 -fixed yes
+#set_io TFC_OUT_10P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 161 -fixed yes
+#set_io TFC_OUT_11N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 90 -fixed yes
+#set_io TFC_OUT_11P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 91 -fixed yes
+
+# USB INTERFACE I/O'S
+set_io USBCLK60MHZ  -iostd LVTTL -REGISTER No -RES_PULL Up -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 76 -fixed yes
+set_io P_USB_RXF_B -iostd LVTTL -REGISTER YES -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 79 -fixed yes
+set_io P_USB_TXE_B -iostd LVTTL -REGISTER YES -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 80 -fixed yes
+set_io USB_OE_B     -iostd LVTTL -REGISTER NO -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 63 -fixed yes
+set_io USB_RD_B     -iostd LVTTL -REGISTER NO -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 77 -fixed yes
+set_io USB_SIWU_B   -iostd LVTTL -REGISTER NO -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 75 -fixed yes
+set_io USB_WR_B     -iostd LVTTL -REGISTER NO -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 78 -fixed yes

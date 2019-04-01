@@ -1,0 +1,40 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Mon Oct 19 13:52:26 2015
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : BIDIR_LVDS_IO
+Family                          : PA3
+Output Format                   : VHDL
+Type                            : Bi-directional Buffers
+Variation                       : Special
+Enable Polarity                 : Active Low
+Width                           : 1
+Technology                      : LVDS
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      1  Total:  38400   (0.00%)
+    IO (W/ clocks)             Used:      2  Total:    147   (1.36%)
+    Differential IO            Used:      1  Total:     65   (1.54%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      2   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     60   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to D:/0_all_libero_project/CERN_LHCb/COMET_TEST/smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd.
+
+ ** Log Ended:   Mon Oct 19 13:52:27 2015
+

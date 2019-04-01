@@ -1,0 +1,1250 @@
+KEY LIBERO "11.7"
+KEY CAPTURE "11.7.0.119"
+KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3E"
+KEY VendorTechnology_Die "IT10X10M3"
+KEY VendorTechnology_Package "pq208"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "A3PE1500;"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\936ffc81-9958-437d-9958-a37d9958a37d.tmp\COMET_TEST"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "TOP_COMET::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1444415624"
+SIZE="437"
+ENDFILE
+VALUE "<project>\constraint\Top_Basic_a.sdc,sdc"
+STATE="utd"
+TIME="1464817912"
+SIZE="1753"
+ENDFILE
+VALUE "<project>\constraint\TOP_COMET_a.pdc,pdc"
+STATE="utd"
+TIME="1465329792"
+SIZE="14474"
+ENDFILE
+VALUE "<project>\constraint\TOP_COMET_STV.pdc,pdc"
+STATE="utd"
+TIME="1465418960"
+SIZE="14374"
+ENDFILE
+VALUE "<project>\designer\impl1\BIDIR_LVDS_IO.ide_des,ide_des"
+STATE="utd"
+TIME="1465237619"
+SIZE="261"
+ENDFILE
+VALUE "<project>\designer\impl1\CCC_SCONFIG_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1444831354"
+SIZE="73976"
+ENDFILE
+VALUE "<project>\designer\impl1\CCC_SCONFIG_ba.vhd,ba_hdl"
+STATE="ood"
+TIME="1444831354"
+SIZE="38593"
+ENDFILE
+VALUE "<project>\designer\impl1\des320M.ide_des,ide_des"
+STATE="utd"
+TIME="1445008392"
+SIZE="203"
+ENDFILE
+VALUE "<project>\designer\impl1\GP_PATT_GEN.ide_des,ide_des"
+STATE="utd"
+TIME="1444049048"
+SIZE="207"
+ENDFILE
+VALUE "<project>\designer\impl1\MASTER_DES320M.ide_des,ide_des"
+STATE="utd"
+TIME="1449687722"
+SIZE="210"
+ENDFILE
+VALUE "<project>\designer\impl1\Pin.rpt,log"
+STATE="utd"
+TIME="1447691380"
+SIZE="13437"
+ENDFILE
+VALUE "<project>\designer\impl1\Pin_02_9_2016.rpt,log"
+STATE="utd"
+TIME="1455028498"
+SIZE="7930"
+ENDFILE
+VALUE "<project>\designer\impl1\Pin_12_22_15.rpt,log"
+STATE="utd"
+TIME="1452192754"
+SIZE="9134"
+ENDFILE
+VALUE "<project>\designer\impl1\Pin_12_4_15.rpt,log"
+STATE="utd"
+TIME="1449233290"
+SIZE="12153"
+ENDFILE
+VALUE "<project>\designer\impl1\SER320M.ide_des,ide_des"
+STATE="utd"
+TIME="1436797786"
+SIZE="203"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET.adb,adb"
+STATE="ood"
+TIME="1465494168"
+SIZE="9050112"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET.ide_des,ide_des"
+STATE="utd"
+TIME="1465494169"
+SIZE="1374"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMETJune7_2016b.pdb,pdb"
+STATE="utd"
+TIME="1465331217"
+SIZE="287830"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMETJune7_2016b.stp,stp"
+STATE="utd"
+TIME="1465331217"
+SIZE="430585"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_20ELKS_June9_2016.pdb,pdb"
+STATE="utd"
+TIME="1465482342"
+SIZE="394116"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_20ELKS_June9_2016.stp,stp"
+STATE="utd"
+TIME="1465482342"
+SIZE="589695"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1465471246"
+SIZE="5314595"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_ba.vhd,ba_hdl"
+STATE="ood"
+TIME="1465471245"
+SIZE="2247811"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_compile_log.rpt,log"
+STATE="utd"
+TIME="1465480768"
+SIZE="16063"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_fp\projectData\TOP_COMET_wUSB_and_Debugio.stp,stp"
+STATE="utd"
+TIME="1442871458"
+SIZE="192809"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_fp\TOP_COMET.pro,pro"
+STATE="utd"
+TIME="1462503422"
+SIZE="2819"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_iteration_summary.rpt,log"
+STATE="utd"
+TIME="1446058414"
+SIZE="1369"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKS.pdb,pdb"
+STATE="utd"
+TIME="1465305937"
+SIZE="277033"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKS.stp,stp"
+STATE="utd"
+TIME="1465305936"
+SIZE="407785"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKSa.pdb,pdb"
+STATE="utd"
+TIME="1465306330"
+SIZE="277033"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKSa.stp,stp"
+STATE="utd"
+TIME="1465306330"
+SIZE="407785"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1465481618"
+SIZE="3320"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_power.rpt,log"
+STATE="utd"
+TIME="1446058094"
+SIZE="13920"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_power_r1_initial.rpt,log"
+STATE="utd"
+TIME="1446057628"
+SIZE="13920"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s1.rpt,log"
+STATE="utd"
+TIME="1446057780"
+SIZE="13920"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s2.rpt,log"
+STATE="utd"
+TIME="1446057946"
+SIZE="13920"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s3.rpt,log"
+STATE="utd"
+TIME="1446058094"
+SIZE="13920"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s4.rpt,log"
+STATE="utd"
+TIME="1446058248"
+SIZE="13920"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s5.rpt,log"
+STATE="utd"
+TIME="1446058414"
+SIZE="13920"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1465494177"
+SIZE="2735"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing.rpt,log"
+STATE="utd"
+TIME="1446058080"
+SIZE="65997"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1450827584"
+SIZE="435"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_initial.rpt,log"
+STATE="utd"
+TIME="1446057598"
+SIZE="64027"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s1.rpt,log"
+STATE="utd"
+TIME="1446057766"
+SIZE="67067"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s2.rpt,log"
+STATE="utd"
+TIME="1446057932"
+SIZE="66115"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s3.rpt,log"
+STATE="utd"
+TIME="1446058080"
+SIZE="65997"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s4.rpt,log"
+STATE="utd"
+TIME="1446058234"
+SIZE="66138"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s5.rpt,log"
+STATE="utd"
+TIME="1446058400"
+SIZE="65397"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max.rpt,log"
+STATE="utd"
+TIME="1446058082"
+SIZE="30312"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_initial.rpt,log"
+STATE="utd"
+TIME="1446057600"
+SIZE="30118"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s1.rpt,log"
+STATE="utd"
+TIME="1446057766"
+SIZE="30421"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s2.rpt,log"
+STATE="utd"
+TIME="1446057934"
+SIZE="30955"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s3.rpt,log"
+STATE="utd"
+TIME="1446058082"
+SIZE="30312"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s4.rpt,log"
+STATE="utd"
+TIME="1446058234"
+SIZE="30059"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s5.rpt,log"
+STATE="utd"
+TIME="1446058402"
+SIZE="30369"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min.rpt,log"
+STATE="utd"
+TIME="1446058084"
+SIZE="29254"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_initial.rpt,log"
+STATE="utd"
+TIME="1446057602"
+SIZE="29377"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s1.rpt,log"
+STATE="utd"
+TIME="1446057768"
+SIZE="29474"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s2.rpt,log"
+STATE="utd"
+TIME="1446057936"
+SIZE="29389"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s3.rpt,log"
+STATE="utd"
+TIME="1446058084"
+SIZE="29254"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s4.rpt,log"
+STATE="utd"
+TIME="1446058236"
+SIZE="29479"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s5.rpt,log"
+STATE="utd"
+TIME="1446058404"
+SIZE="29380"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1465481634"
+SIZE="1286"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_wUSB.pdb,pdb"
+STATE="utd"
+TIME="1442504862"
+SIZE="175178"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_wUSB.stp,stp"
+STATE="utd"
+TIME="1442504860"
+SIZE="256721"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_wUSB_and_Debugio.stp,stp"
+STATE="utd"
+TIME="1439992134"
+SIZE="192809"
+ENDFILE
+VALUE "<project>\designer\impl1\USB_EXEC.ide_des,ide_des"
+STATE="utd"
+TIME="1443118004"
+SIZE="204"
+ENDFILE
+VALUE "<project>\designer\impl1\USB_INTERFACE.ide_des,ide_des"
+STATE="utd"
+TIME="1447862036"
+SIZE="388"
+ENDFILE
+VALUE "<project>\hdl\CLK60M_TO_40M.vhd,hdl"
+STATE="utd"
+TIME="1464270017"
+SIZE="5255"
+ENDFILE
+VALUE "<project>\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd,hdl"
+STATE="utd"
+TIME="1447859670"
+SIZE="4709"
+ENDFILE
+VALUE "<project>\hdl\ELINK_SLAVE.vhd,hdl"
+STATE="utd"
+TIME="1465237833"
+SIZE="11215"
+ENDFILE
+VALUE "<project>\hdl\ELINK_SLAVE_INV.vhd,hdl"
+STATE="utd"
+TIME="1465414774"
+SIZE="11936"
+ENDFILE
+VALUE "<project>\hdl\EXEC_MODE_CNTL.vhd,hdl"
+STATE="utd"
+TIME="1464273412"
+SIZE="10070"
+ENDFILE
+VALUE "<project>\hdl\GP_CCC_SCONFIG.vhd,hdl"
+STATE="utd"
+TIME="1449013392"
+SIZE="16696"
+ENDFILE
+VALUE "<project>\hdl\GP_PATT_GEN.vhd,hdl"
+STATE="utd"
+TIME="1450663148"
+SIZE="17917"
+ENDFILE
+VALUE "<project>\hdl\MASTER_DES320M.vhd,hdl"
+STATE="utd"
+TIME="1464816709"
+SIZE="39296"
+ENDFILE
+VALUE "<project>\hdl\REF_CLK_DIV_GEN.vhd,hdl"
+STATE="utd"
+TIME="1459456116"
+SIZE="2891"
+ENDFILE
+VALUE "<project>\hdl\SER320M.vhd,hdl"
+STATE="utd"
+TIME="1448045098"
+SIZE="9346"
+ENDFILE
+VALUE "<project>\hdl\SLAVE_DES320S.vhd,hdl"
+STATE="utd"
+TIME="1464816182"
+SIZE="12698"
+ENDFILE
+VALUE "<project>\hdl\SYNC_DAT_SEL.vhd,hdl"
+STATE="utd"
+TIME="1448460020"
+SIZE="2394"
+ENDFILE
+VALUE "<project>\hdl\TOP_COMET.vhd,hdl"
+STATE="utd"
+TIME="1465480676"
+SIZE="117600"
+ENDFILE
+VALUE "<project>\hdl\TOP_MASTER_DES320M.vhd,hdl"
+STATE="utd"
+TIME="1464354206"
+SIZE="26353"
+ENDFILE
+VALUE "<project>\hdl\USB_EXEC.vhd,hdl"
+STATE="utd"
+TIME="1459283516"
+SIZE="12301"
+ENDFILE
+VALUE "<project>\hdl\USB_INTERFACE.vhd,hdl"
+STATE="utd"
+TIME="1465469968"
+SIZE="167585"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1465471273"
+SIZE="1044"
+ENDFILE
+VALUE "<project>\simulation\run_alt.do,do"
+STATE="utd"
+TIME="1447773090"
+SIZE="962"
+ENDFILE
+VALUE "<project>\simulation\run_alt_presynth.do,do"
+STATE="utd"
+TIME="1461008656"
+SIZE="2363"
+ENDFILE
+VALUE "<project>\simulation\wave - Copy.do,do"
+STATE="utd"
+TIME="1436912060"
+SIZE="4572"
+ENDFILE
+VALUE "<project>\simulation\wave.do,do"
+STATE="utd"
+TIME="1449229840"
+SIZE="2498"
+ENDFILE
+VALUE "<project>\simulation\wave_CCC_SCONFIG.do,do"
+STATE="utd"
+TIME="1444778468"
+SIZE="1559"
+ENDFILE
+VALUE "<project>\simulation\wave_ccc_sims.do,do"
+STATE="utd"
+TIME="1446750204"
+SIZE="10046"
+ENDFILE
+VALUE "<project>\simulation\wave_DCB_ALONE_DI.do,do"
+STATE="utd"
+TIME="1464659498"
+SIZE="4848"
+ENDFILE
+VALUE "<project>\simulation\wave_DCB_ALONE_D_ELKS - Copy.do,do"
+STATE="utd"
+TIME="1464885410"
+SIZE="6291"
+ENDFILE
+VALUE "<project>\simulation\wave_DCB_ALONE_D_ELKS.do,do"
+STATE="utd"
+TIME="1465300754"
+SIZE="6530"
+ENDFILE
+VALUE "<project>\simulation\wave_DUALCOMETS.do,do"
+STATE="utd"
+TIME="1461011100"
+SIZE="3856"
+ENDFILE
+VALUE "<project>\simulation\wave_Dual_RefClk_VersionA.do,do"
+STATE="utd"
+TIME="1454939348"
+SIZE="10478"
+ENDFILE
+VALUE "<project>\simulation\wave_DUAL_TOP_COMET.do,do"
+STATE="utd"
+TIME="1445641228"
+SIZE="13040"
+ENDFILE
+VALUE "<project>\simulation\wave_DUAL_TOP_COMETA.do,do"
+STATE="utd"
+TIME="1445790878"
+SIZE="3678"
+ENDFILE
+VALUE "<project>\simulation\wave_DUAL_TOP_COMETb.do,do"
+STATE="utd"
+TIME="1447687300"
+SIZE="8882"
+ENDFILE
+VALUE "<project>\simulation\wave_DUAL_TOP_COMET_C.do,do"
+STATE="utd"
+TIME="1448042858"
+SIZE="6116"
+ENDFILE
+VALUE "<project>\simulation\wave_DUAL_TOP_COMET_D.do,do"
+STATE="utd"
+TIME="1448995402"
+SIZE="10394"
+ENDFILE
+VALUE "<project>\simulation\wave_DUAL_TOP_COMET_E.do,do"
+STATE="utd"
+TIME="1449070598"
+SIZE="3526"
+ENDFILE
+VALUE "<project>\simulation\wave_PATT_GEN.do,do"
+STATE="utd"
+TIME="1444074132"
+SIZE="1713"
+ENDFILE
+VALUE "<project>\simulation\wave_pg.do,do"
+STATE="utd"
+TIME="1442435108"
+SIZE="3347"
+ENDFILE
+VALUE "<project>\simulation\wave_salt_alone_20elks.do,do"
+STATE="utd"
+TIME="1465423076"
+SIZE="13715"
+ENDFILE
+VALUE "<project>\simulation\wave_SALT_ALONE_D_ELKS.do,do"
+STATE="utd"
+TIME="1465331764"
+SIZE="11950"
+ENDFILE
+VALUE "<project>\simulation\wave_Single_Post_P_R_A.do,do"
+STATE="utd"
+TIME="1449231248"
+SIZE="2624"
+ENDFILE
+VALUE "<project>\simulation\wave_SUBSET_CCC.do,do"
+STATE="utd"
+TIME="1446754682"
+SIZE="2105"
+ENDFILE
+VALUE "<project>\simulation\wave_TOP-COMET_ALT.do,do"
+STATE="utd"
+TIME="1444659328"
+SIZE="6442"
+ENDFILE
+VALUE "<project>\simulation\wave_UPDATED_CCC.do,do"
+STATE="utd"
+TIME="1446759964"
+SIZE="2287"
+ENDFILE
+VALUE "<project>\simulation\wave_UPDATED_CCC_PR.do,do"
+STATE="utd"
+TIME="1446761736"
+SIZE="2118"
+ENDFILE
+VALUE "<project>\simulation\wave_USB_SUBSET_SINGLE_FPGA.do,do"
+STATE="utd"
+TIME="1450443010"
+SIZE="1291"
+ENDFILE
+VALUE "<project>\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1445277146"
+SIZE="1757"
+ENDFILE
+VALUE "<project>\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.gen,gen"
+STATE="utd"
+TIME="1445277146"
+SIZE="436"
+PARENT="<project>\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.log,log"
+STATE="utd"
+TIME="1445277146"
+SIZE="1385"
+PARENT="<project>\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd,hdl"
+STATE="utd"
+TIME="1445277146"
+SIZE="1715"
+PARENT="<project>\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.cxf,actgen_cxf"
+STATE="utd"
+TIME="1444338092"
+SIZE="1624"
+ENDFILE
+VALUE "<project>\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.gen,gen"
+STATE="utd"
+TIME="1444338090"
+SIZE="435"
+PARENT="<project>\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.log,log"
+STATE="utd"
+TIME="1444338092"
+SIZE="1385"
+PARENT="<project>\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.vhd,hdl"
+STATE="utd"
+TIME="1444338092"
+SIZE="2557"
+PARENT="<project>\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.cxf,actgen_cxf"
+STATE="utd"
+TIME="1464291938"
+SIZE="2740"
+ENDFILE
+VALUE "<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.gen,gen"
+STATE="utd"
+TIME="1464291935"
+SIZE="789"
+PARENT="<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.log,log"
+STATE="utd"
+TIME="1464291936"
+SIZE="4682"
+PARENT="<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.vhd,hdl"
+STATE="utd"
+TIME="1464291936"
+SIZE="8716"
+PARENT="<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.cxf,actgen_cxf"
+STATE="utd"
+TIME="1464297070"
+SIZE="2891"
+ENDFILE
+VALUE "<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.gen,gen"
+STATE="utd"
+TIME="1464297067"
+SIZE="815"
+PARENT="<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.log,log"
+STATE="utd"
+TIME="1464297068"
+SIZE="4676"
+PARENT="<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.vhd,hdl"
+STATE="utd"
+TIME="1464297068"
+SIZE="8863"
+PARENT="<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1436965860"
+SIZE="3340"
+ENDFILE
+VALUE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.gen,gen"
+STATE="utd"
+TIME="1436965860"
+SIZE="809"
+PARENT="<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.log,log"
+STATE="utd"
+TIME="1436965860"
+SIZE="3113"
+PARENT="<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd,hdl"
+STATE="utd"
+TIME="1436965860"
+SIZE="7513"
+PARENT="<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM_R0C0.mem,sim"
+STATE="utd"
+TIME="1436965860"
+SIZE="5632"
+PARENT="<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.cxf"
+ENDFILE
+VALUE "<project>\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.cxf,actgen_cxf"
+STATE="utd"
+TIME="1465397824"
+SIZE="1438"
+ENDFILE
+VALUE "<project>\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.gen,gen"
+STATE="utd"
+TIME="1465397822"
+SIZE="490"
+PARENT="<project>\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.log,log"
+STATE="utd"
+TIME="1465397824"
+SIZE="1377"
+PARENT="<project>\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd,hdl"
+STATE="utd"
+TIME="1465397824"
+SIZE="1576"
+PARENT="<project>\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.cxf,actgen_cxf"
+STATE="utd"
+TIME="1436798966"
+SIZE="1431"
+ENDFILE
+VALUE "<project>\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.gen,gen"
+STATE="utd"
+TIME="1436798966"
+SIZE="434"
+PARENT="<project>\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.log,log"
+STATE="utd"
+TIME="1436798966"
+SIZE="1324"
+PARENT="<project>\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.vhd,hdl"
+STATE="utd"
+TIME="1436798966"
+SIZE="1286"
+PARENT="<project>\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\tristate_buf\tristate_buf.cxf,actgen_cxf"
+STATE="utd"
+TIME="1445256708"
+SIZE="1383"
+ENDFILE
+VALUE "<project>\smartgen\tristate_buf\tristate_buf.gen,gen"
+STATE="utd"
+TIME="1445256706"
+SIZE="440"
+PARENT="<project>\smartgen\tristate_buf\tristate_buf.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\tristate_buf\tristate_buf.log,log"
+STATE="utd"
+TIME="1445256708"
+SIZE="1383"
+PARENT="<project>\smartgen\tristate_buf\tristate_buf.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\tristate_buf\tristate_buf.vhd,hdl"
+STATE="utd"
+TIME="1445256708"
+SIZE="1303"
+PARENT="<project>\smartgen\tristate_buf\tristate_buf.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\stimulus\TB_TOP_COMET_DCB.vhd,tb_hdl"
+STATE="utd"
+TIME="1465329015"
+SIZE="44889"
+ENDFILE
+VALUE "<project>\stimulus\TB_TOP_COMET_SALT.vhd,tb_hdl"
+STATE="utd"
+TIME="1465421476"
+SIZE="34958"
+ENDFILE
+VALUE "<project>\synthesis\CCC_SCONFIG.so,so"
+STATE="utd"
+TIME="1444831032"
+SIZE="236"
+ENDFILE
+VALUE "<project>\synthesis\CCC_SCONFIG_syn.prj,prj"
+STATE="utd"
+TIME="1462503422"
+SIZE="1857"
+ENDFILE
+VALUE "<project>\synthesis\des320M.edn,syn_edn"
+STATE="ood"
+TIME="1445020716"
+SIZE="462876"
+ENDFILE
+VALUE "<project>\synthesis\des320M.so,so"
+STATE="utd"
+TIME="1445020716"
+SIZE="228"
+ENDFILE
+VALUE "<project>\synthesis\des320M_syn.prj,prj"
+STATE="utd"
+TIME="1462503422"
+SIZE="0"
+ENDFILE
+VALUE "<project>\synthesis\GP_PATT_GEN.edn,syn_edn"
+STATE="ood"
+TIME="1450447794"
+SIZE="114522"
+ENDFILE
+VALUE "<project>\synthesis\GP_PATT_GEN.so,so"
+STATE="utd"
+TIME="1450447794"
+SIZE="236"
+ENDFILE
+VALUE "<project>\synthesis\GP_PATT_GEN_syn.prj,prj"
+STATE="utd"
+TIME="1462503422"
+SIZE="0"
+ENDFILE
+VALUE "<project>\synthesis\layer0.so,so"
+STATE="utd"
+TIME="1465403126"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\synwork\CCC_SCONFIG_comp.so,so"
+STATE="utd"
+TIME="1444736300"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\synwork\des320M_comp.so,so"
+STATE="utd"
+TIME="1445015156"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1465251884"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\synwork\TOP_COMET_comp.so,so"
+STATE="utd"
+TIME="1446766088"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\synwork\USB_EXEC_comp.so,so"
+STATE="utd"
+TIME="1443127486"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\synwork\USB_INTERFACE_comp.so,so"
+STATE="utd"
+TIME="1442409812"
+SIZE="159"
+ENDFILE
+VALUE "<project>\synthesis\TESTDDRCONFIG.so,so"
+STATE="utd"
+TIME="1445895506"
+SIZE="240"
+ENDFILE
+VALUE "<project>\synthesis\TESTDDRCONFIG_syn.prj,prj"
+STATE="utd"
+TIME="1462503422"
+SIZE="0"
+ENDFILE
+VALUE "<project>\synthesis\TEST_SYNTAX.so,so"
+STATE="utd"
+TIME="1444695684"
+SIZE="236"
+ENDFILE
+VALUE "<project>\synthesis\TEST_SYNTAX_syn.prj,prj"
+STATE="utd"
+TIME="1462503422"
+SIZE="0"
+ENDFILE
+VALUE "<project>\synthesis\TOP_COMET.edn,syn_edn"
+STATE="ood"
+TIME="1465480714"
+SIZE="4388525"
+ENDFILE
+VALUE "<project>\synthesis\TOP_COMET.so,so"
+STATE="utd"
+TIME="1465480714"
+SIZE="284"
+ENDFILE
+VALUE "<project>\synthesis\TOP_COMET_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1465480714"
+SIZE="851"
+ENDFILE
+VALUE "<project>\synthesis\TOP_COMET_syn.prj,prj"
+STATE="utd"
+TIME="1465480685"
+SIZE="9419"
+ENDFILE
+VALUE "<project>\synthesis\USB_EXEC.edn,syn_edn"
+STATE="ood"
+TIME="1443130944"
+SIZE="32376"
+ENDFILE
+VALUE "<project>\synthesis\USB_EXEC.so,so"
+STATE="utd"
+TIME="1443130944"
+SIZE="230"
+ENDFILE
+VALUE "<project>\synthesis\USB_EXEC_syn.prj,prj"
+STATE="utd"
+TIME="1462503422"
+SIZE="0"
+ENDFILE
+VALUE "<project>\synthesis\USB_INTERFACE.edn,syn_edn"
+STATE="ood"
+TIME="1450460422"
+SIZE="399712"
+ENDFILE
+VALUE "<project>\synthesis\USB_INTERFACE.so,so"
+STATE="utd"
+TIME="1450460422"
+SIZE="240"
+ENDFILE
+VALUE "<project>\synthesis\USB_INTERFACE.vhd,syn_hdl"
+STATE="ood"
+TIME="1441747018"
+SIZE="100116"
+ENDFILE
+VALUE "<project>\synthesis\USB_INTERFACE_syn.prj,prj"
+STATE="utd"
+TIME="1462503422"
+SIZE="0"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "DPRT_512X9_SRAM::work"
+FILE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM_R0C0.mem,sim"
+ENDLIST
+ENDLIST
+LIST "TOP_COMET::work"
+FILE "<project>\hdl\TOP_COMET.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TB_TOP_COMET_SALT.vhd,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\Top_Basic_a.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\TOP_COMET_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\TOP_COMET_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST TOP_COMET
+VALUE "<project>\stimulus\TB_TOP_COMET_SALT.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST DPRT_512X9_SRAM
+VALUE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM_R0C0.mem,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=true
+Type=max
+RunTime=2500us
+Resolution=1fs
+VsimOpt=-sdfnoerror -sdfnowarn -noglitch
+EntityName=TB_TOP_COMET_SALT
+TopInstanceName=<top>_0
+DoFileName=D:/0_all_libero_project/CERN_LHCb/COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC/COMET_TEST/simulation/run_alt_presynth.do
+DoFileName2=F:/0_all_libero_project/CERN_LHCb/COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC/COMET_TEST/simulation/wave_salt_alone_20elks.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=true
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=true
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=1
+PrecisionBase=fs
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Synplify\\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSIm"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Designer\\bin\flashpro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Identify\\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "TOP_COMET::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Programming Data:TOP_COMET_prgdata_log.rpt
+StartPage;StartPage;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "BIDIR_LVDS_IO::work","smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd","TRUE","FALSE"
+ENDLIST
+LIST "BIDIR_LVTTL::work","smartgen\BIDIR_LVTTL\BIDIR_LVTTL.vhd","TRUE","FALSE"
+ENDLIST
+LIST "CCC_DYN_TRIPLE_160M::work","smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.vhd","TRUE","FALSE"
+ENDLIST
+LIST "CLK60M_TO_40M::work","hdl\CLK60M_TO_40M.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLK_FXD_40_160_A60M::work","smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.vhd","TRUE","FALSE"
+ENDLIST
+LIST "DDR_BIDIR_LVDS_DUAL_CLK::work","hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+ENDLIST
+LIST "DPRT_512X9_SRAM::work","smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd","TRUE","FALSE"
+ENDLIST
+LIST "ELINK_SLAVE::work","hdl\ELINK_SLAVE.vhd","FALSE","FALSE"
+SUBBLOCK "DDR_BIDIR_LVDS_DUAL_CLK::work","hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd","FALSE","FALSE"
+SUBBLOCK "SER320M::work","hdl\SER320M.vhd","FALSE","FALSE"
+SUBBLOCK "SLAVE_DES320S::work","hdl\SLAVE_DES320S.vhd","FALSE","FALSE"
+SUBBLOCK "SYNC_DAT_SEL::work","hdl\SYNC_DAT_SEL.vhd","FALSE","FALSE"
+ENDLIST
+LIST "ELINK_SLAVE_INV::work","hdl\ELINK_SLAVE_INV.vhd","FALSE","FALSE"
+SUBBLOCK "DDR_BIDIR_LVDS_DUAL_CLK::work","hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd","FALSE","FALSE"
+SUBBLOCK "SER320M::work","hdl\SER320M.vhd","FALSE","FALSE"
+SUBBLOCK "SLAVE_DES320S::work","hdl\SLAVE_DES320S.vhd","FALSE","FALSE"
+SUBBLOCK "SYNC_DAT_SEL::work","hdl\SYNC_DAT_SEL.vhd","FALSE","FALSE"
+ENDLIST
+LIST "EXEC_MODE_CNTL::work","hdl\EXEC_MODE_CNTL.vhd","FALSE","FALSE"
+SUBBLOCK "USB_EXEC::work","hdl\USB_EXEC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "GP_CCC_SCONFIG::work","hdl\GP_CCC_SCONFIG.vhd","FALSE","FALSE"
+ENDLIST
+LIST "GP_PATT_GEN::work","hdl\GP_PATT_GEN.vhd","FALSE","FALSE"
+ENDLIST
+LIST "LVDS_BUFOUT::work","smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd","TRUE","FALSE"
+ENDLIST
+LIST "LVDS_CLK_IN::work","smartgen\LVDS_CLK_IN\LVDS_CLK_IN.vhd","TRUE","FALSE"
+ENDLIST
+LIST "MASTER_DES320M::work","hdl\MASTER_DES320M.vhd","FALSE","FALSE"
+ENDLIST
+LIST "REF_CLK_DIV_GEN::work","hdl\REF_CLK_DIV_GEN.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SER320M::work","hdl\SER320M.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SLAVE_DES320S::work","hdl\SLAVE_DES320S.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SYNC_DAT_SEL::work","hdl\SYNC_DAT_SEL.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TOP_COMET::work","hdl\TOP_COMET.vhd","FALSE","FALSE"
+SUBBLOCK "BIDIR_LVDS_IO::work","smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd","TRUE","FALSE"
+SUBBLOCK "CLK_FXD_40_160_A60M::work","smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.vhd","TRUE","FALSE"
+SUBBLOCK "DDR_BIDIR_LVDS_DUAL_CLK::work","hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd","FALSE","FALSE"
+SUBBLOCK "ELINK_SLAVE::work","hdl\ELINK_SLAVE.vhd","FALSE","FALSE"
+SUBBLOCK "ELINK_SLAVE_INV::work","hdl\ELINK_SLAVE_INV.vhd","FALSE","FALSE"
+SUBBLOCK "EXEC_MODE_CNTL::work","hdl\EXEC_MODE_CNTL.vhd","FALSE","FALSE"
+SUBBLOCK "GP_PATT_GEN::work","hdl\GP_PATT_GEN.vhd","FALSE","FALSE"
+SUBBLOCK "LVDS_BUFOUT::work","smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd","TRUE","FALSE"
+SUBBLOCK "LVDS_CLK_IN::work","smartgen\LVDS_CLK_IN\LVDS_CLK_IN.vhd","TRUE","FALSE"
+SUBBLOCK "REF_CLK_DIV_GEN::work","hdl\REF_CLK_DIV_GEN.vhd","FALSE","FALSE"
+SUBBLOCK "SER320M::work","hdl\SER320M.vhd","FALSE","FALSE"
+SUBBLOCK "SYNC_DAT_SEL::work","hdl\SYNC_DAT_SEL.vhd","FALSE","FALSE"
+SUBBLOCK "TOP_MASTER_DES320M::work","hdl\TOP_MASTER_DES320M.vhd","FALSE","FALSE"
+SUBBLOCK "USB_INTERFACE::work","hdl\USB_INTERFACE.vhd","FALSE","FALSE"
+SUBBLOCK "tristate_buf::work","smartgen\tristate_buf\tristate_buf.vhd","TRUE","FALSE"
+ENDLIST
+LIST "TOP_MASTER_DES320M::work","hdl\TOP_MASTER_DES320M.vhd","FALSE","FALSE"
+SUBBLOCK "CCC_DYN_TRIPLE_160M::work","smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.vhd","TRUE","FALSE"
+SUBBLOCK "GP_CCC_SCONFIG::work","hdl\GP_CCC_SCONFIG.vhd","FALSE","FALSE"
+SUBBLOCK "MASTER_DES320M::work","hdl\MASTER_DES320M.vhd","FALSE","FALSE"
+ENDLIST
+LIST "tristate_buf::work","smartgen\tristate_buf\tristate_buf.vhd","TRUE","FALSE"
+ENDLIST
+LIST "USB_EXEC::work","hdl\USB_EXEC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "USB_INTERFACE::work","hdl\USB_INTERFACE.vhd","FALSE","FALSE"
+SUBBLOCK "BIDIR_LVTTL::work","smartgen\BIDIR_LVTTL\BIDIR_LVTTL.vhd","TRUE","FALSE"
+SUBBLOCK "CLK60M_TO_40M::work","hdl\CLK60M_TO_40M.vhd","FALSE","FALSE"
+SUBBLOCK "DPRT_512X9_SRAM::work","smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd","TRUE","FALSE"
+ENDLIST
+LIST "TB_TOP_COMET_DCB::work","stimulus\TB_TOP_COMET_DCB.vhd","FALSE","TRUE"
+SUBBLOCK "TOP_COMET::work","hdl\TOP_COMET.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TB_TOP_COMET_SALT::work","stimulus\TB_TOP_COMET_SALT.vhd","FALSE","TRUE"
+SUBBLOCK "TOP_COMET::work","hdl\TOP_COMET.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "TOP_COMET::work"
+ACTIVETESTBENCH "TB_TOP_COMET_SALT::work","stimulus\TB_TOP_COMET_SALT.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\Top_Basic_a.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

@@ -1,0 +1,83 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.5 SP2 11.5.2.6
+
+# Design Name: Top_Basic 
+
+# Input Netlist Format: edif 
+
+# Family: ProASIC3E , Die: A3PE1500 , Package: 208 PQFP , Speed grade: STD 
+
+# Date generated: Fri Jul 10 19:16:14 2015 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank7 -vcci 2.50 -fixed yes
+set_iobank Bank6 -vcci 2.50 -fixed yes
+set_iobank Bank5 -vcci 3.30 -fixed yes
+set_iobank Bank4 -vcci 2.50 -fixed yes
+set_iobank Bank3 -vcci 2.50 -fixed yes
+set_iobank Bank2 -vcci 2.50 -vref 1.00 -fixed yes -vrefpins { 143 137 151 147 }
+set_iobank Bank1 -vcci 2.50 -fixed yes
+set_iobank Bank0 -vcci 2.50 -fixed yes
+
+#
+# I/O constraints
+#
+
+set_io CLK200_N -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 26 -fixed yes
+set_io CLK200_P -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 28 -fixed yes
+set_io DEV_RST_B -iostd LVCMOS25 -REGISTER No -RES_PULL None -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 136 -fixed yes
+set_io LOCK_STAT -iostd LVCMOS33 -REGISTER No -OUT_DRIVE 24 -SLEW Low -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 59 -fixed yes
+set_io REF_CLK_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 176 -fixed yes
+set_io DIFF_TX_PAIR_N\[0\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 197 -fixed yes
+set_io DIFF_TX_PAIR_N\[1\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 174 -fixed yes
+set_io DIFF_TX_PAIR_N\[2\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 169 -fixed yes
+set_io DIFF_TX_PAIR_N\[3\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 167 -fixed yes
+set_io DIFF_TX_PAIR_N\[4\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 179 -fixed yes
+set_io DIFF_TX_PAIR_N\[5\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 181 -fixed yes
+set_io DIFF_TX_PAIR_N\[6\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 183 -fixed yes
+set_io DIFF_TX_PAIR_N\[7\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 185 -fixed yes
+set_io DIFF_TX_PAIR_N\[8\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 189 -fixed yes
+set_io DIFF_TX_PAIR_N\[9\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 191 -fixed yes
+set_io DIFF_TX_PAIR_N\[10\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 194 -fixed yes
+set_io REF_CLK_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 175 -fixed yes
+set_io DIFF_TX_PAIR_P\[0\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 196 -fixed yes
+set_io DIFF_TX_PAIR_P\[1\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 173 -fixed yes
+set_io DIFF_TX_PAIR_P\[2\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 168 -fixed yes
+set_io DIFF_TX_PAIR_P\[3\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 166 -fixed yes
+set_io DIFF_TX_PAIR_P\[4\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 177 -fixed yes
+set_io DIFF_TX_PAIR_P\[5\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 180 -fixed yes
+set_io DIFF_TX_PAIR_P\[6\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 182 -fixed yes
+set_io DIFF_TX_PAIR_P\[7\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 184 -fixed yes
+set_io DIFF_TX_PAIR_P\[8\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 188 -fixed yes
+set_io DIFF_TX_PAIR_P\[9\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 190 -fixed yes
+set_io DIFF_TX_PAIR_P\[10\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 193 -fixed yes
+set_io TFC1_OUT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 199 -fixed yes
+set_io DIFF_RX_PAIR_N\[0\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 90 -fixed yes
+set_io DIFF_RX_PAIR_N\[1\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 202 -fixed yes
+set_io DIFF_RX_PAIR_N\[2\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 204 -fixed yes
+set_io DIFF_RX_PAIR_N\[3\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 206 -fixed yes
+set_io DIFF_RX_PAIR_N\[4\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 6 -fixed yes
+set_io DIFF_RX_PAIR_N\[5\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 82 -fixed yes
+set_io DIFF_RX_PAIR_N\[6\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 160 -fixed yes
+set_io DIFF_RX_PAIR_N\[7\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 84 -fixed yes
+set_io DIFF_RX_PAIR_N\[8\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 165 -fixed yes
+set_io DIFF_RX_PAIR_N\[9\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 163 -fixed yes
+set_io DIFF_RX_PAIR_N\[10\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 86 -fixed yes
+set_io TFC1_OUT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 198 -fixed yes
+set_io DIFF_RX_PAIR_P\[0\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 91 -fixed yes
+set_io DIFF_RX_PAIR_P\[1\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 201 -fixed yes
+set_io DIFF_RX_PAIR_P\[2\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 203 -fixed yes
+set_io DIFF_RX_PAIR_P\[3\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 205 -fixed yes
+set_io DIFF_RX_PAIR_P\[4\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 5 -fixed yes
+set_io DIFF_RX_PAIR_P\[5\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 83 -fixed yes
+set_io DIFF_RX_PAIR_P\[6\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 159 -fixed yes
+set_io DIFF_RX_PAIR_P\[7\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 85 -fixed yes
+set_io DIFF_RX_PAIR_P\[8\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 164 -fixed yes
+set_io DIFF_RX_PAIR_P\[9\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 161 -fixed yes
+set_io DIFF_RX_PAIR_P\[10\] -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 87 -fixed yes
+

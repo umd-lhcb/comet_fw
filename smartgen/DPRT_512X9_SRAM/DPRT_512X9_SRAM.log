@@ -1,0 +1,85 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Wed Jul 15 09:11:00 2015
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : DPRT_512X9_SRAM
+Family                          : PA3
+Output Format                   : VHDL
+Type                            : RAM
+Write Enable                    : Active Low
+Read Enable                     : Active Low
+Reset                           : Active Low
+LP                              : None
+FF                              : None
+Read Clock                      : Rising
+Write Clock                     : Rising
+Write Depth                     : 512
+Write Width                     : 9
+Read Depth                      : 512
+Read Width                      : 9
+RAM Type                        : Dual Port
+Clocks                          : Independent Read and Write Clocks
+Write Mode A                    : Hold Data
+Write Mode B                    : Hold Data
+Read Pipeline A                 : Yes
+Read Pipeline B                 : Yes
+Optimized for                   : Speed
+Portname DataIn                 :
+Portname DataOut                :
+Portname Write En               :
+Portname Read En                :
+Portname WClock                 :
+Portname RClock                 :
+Portname WAddress               :
+Portname RAddress               :
+Portname Reset                  : RESET
+Portname Clock                  :
+Portname DataAIn                : DINA
+Portname DataBIn                : DINB
+Portname DataAOut               : DOUTA
+Portname DataBOut               : DOUTB
+Portname AddressA               : ADDRA
+Portname AddressB               : ADDRB
+Portname CLKA                   : CLKA
+Portname CLKB                   : CLKB
+Portname RWA                    : RWA
+Portname RWB                    : RWB
+Portname BLKA                   : BLKA
+Portname BLKB                   : BLKB
+Portname LP                     :
+Portname FF                     :
+Initialize RAM                  : True
+
+Cascade Configuration:
+     Port A configuration       : 512x9
+     Port B configuration       : 512x9
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 1
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      0  Total:  38400   (0.00%)
+    IO (W/ clocks)             Used:      0  Total:    147   (0.00%)
+    Differential IO            Used:      0  Total:     65   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      2   (0.00%)
+    RAM/FIFO                   Used:      1  Total:     60   (1.67%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to D:/0_all_libero_project/CERN_LHCb/COMET_TEST/smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd.
+
+ ** Log Ended:   Wed Jul 15 09:11:00 2015
+

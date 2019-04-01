@@ -1,0 +1,39 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Wed Jun 08 10:57:03 2016
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : LVDS_BUFOUT
+Family                          : PA3
+Output Format                   : VHDL
+Type                            : Output Buffers
+Variation                       : Special
+Width                           : 1
+Technology                      : LVDS
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      0  Total:  38400   (0.00%)
+    IO (W/ clocks)             Used:      2  Total:    147   (1.36%)
+    Differential IO            Used:      1  Total:     65   (1.54%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      2   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     60   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to F:/0_all_libero_project/CERN_LHCb/COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC/COMET_TEST/smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd.
+
+ ** Log Ended:   Wed Jun 08 10:57:04 2016
+
