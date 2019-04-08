@@ -122,8 +122,8 @@ set_io REF_CLK_0N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 
 set_io REF_CLK_0P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 184 -fixed yes
 
 # TFC DATA (WAS 98/96) CE_PAIR_6
-set_io TFC_DAT_0N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 183 -fixed yes
-set_io TFC_DAT_0P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 182 -fixed yes
+# set_io TFC_DAT_0N -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER No -OUT_LOAD 0 -pinname 183 -fixed yes
+# set_io TFC_DAT_0P -iostd LVDS -OUT_DRIVE 24 -SLEW High -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 0 -pinname 182 -fixed yes
 
 
 # ELINK0 DATA (WAS 95/94) CE_PAIR_23
@@ -209,6 +209,15 @@ set_io ELK18_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 
 # ELINK19 DATA  CE_PAIR_0
 set_io ELK19_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 176 -fixed yes
 set_io ELK19_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 175 -fixed yes
+
+set_io ELK20_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 181 -fixed yes
+set_io ELK20_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 180 -fixed yes
+
+set_io ELK21_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 179 -fixed yes
+set_io ELK21_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 177 -fixed yes
+
+set_io ELK22_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 183 -fixed yes
+set_io ELK22_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 182 -fixed yes
 
 
 #################################################################################################################
