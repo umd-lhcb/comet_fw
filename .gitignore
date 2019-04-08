@@ -1,0 +1,7 @@
+designer
+simulation
+synthesis
+tooldata/libero.*
+*.xml
+*.msg
+viewdraw

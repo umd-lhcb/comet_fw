@@ -33,7 +33,7 @@ set_iobank Bank0 -vcci 2.50 -fixed YES
 #################################################################################################################
 
 set_io USBCLK60MHZ  -iostd LVTTL -REGISTER No -RES_PULL Up -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 76 -fixed yes
-set_io P_USB_RXF_B -iostd LVTTL -REGISTER YES -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 79 -fixed yes
+set_io P_USB_RXF_B -iostd LVTTL -REGISTER No -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 79 -fixed yes
 set_io P_USB_TXE_B -iostd LVTTL -REGISTER YES -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -pinname 80 -fixed yes
 set_io USB_OE_B     -iostd LVTTL -REGISTER NO -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 63 -fixed yes
 set_io USB_RD_B     -iostd LVTTL -REGISTER NO -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SKEW Off -OUT_LOAD 35 -pinname 77 -fixed yes

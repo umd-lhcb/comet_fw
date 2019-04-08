@@ -1,9 +1,11 @@
-KEY LIBERO "11.7"
-KEY CAPTURE "11.7.0.119"
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.2.1"
 KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
 KEY UseConstraintFlowTechnology "FALSE"
 KEY VendorTechnology_Family "ProASIC3E"
 KEY VendorTechnology_Die "IT10X10M3"
@@ -28,7 +30,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\936ffc81-9958-437d-9958-a37d9958a37d.tmp\COMET_TEST"
+KEY ProjectLocation "Z:\windows\comet_fw"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
@@ -56,32 +58,32 @@ SIZE="14474"
 ENDFILE
 VALUE "<project>\constraint\TOP_COMET_STV.pdc,pdc"
 STATE="utd"
-TIME="1465418960"
-SIZE="14374"
+TIME="1554693491"
+SIZE="14373"
 ENDFILE
 VALUE "<project>\designer\impl1\BIDIR_LVDS_IO.ide_des,ide_des"
 STATE="utd"
-TIME="1465237619"
+TIME="1465241218"
 SIZE="261"
 ENDFILE
 VALUE "<project>\designer\impl1\CCC_SCONFIG_ba.sdf,ba_sdf"
 STATE="ood"
-TIME="1444831354"
+TIME="1444834954"
 SIZE="73976"
 ENDFILE
 VALUE "<project>\designer\impl1\CCC_SCONFIG_ba.vhd,ba_hdl"
 STATE="ood"
-TIME="1444831354"
+TIME="1444834954"
 SIZE="38593"
 ENDFILE
 VALUE "<project>\designer\impl1\des320M.ide_des,ide_des"
 STATE="utd"
-TIME="1445008392"
+TIME="1445011992"
 SIZE="203"
 ENDFILE
 VALUE "<project>\designer\impl1\GP_PATT_GEN.ide_des,ide_des"
 STATE="utd"
-TIME="1444049048"
+TIME="1444052648"
 SIZE="207"
 ENDFILE
 VALUE "<project>\designer\impl1\MASTER_DES320M.ide_des,ide_des"
@@ -111,137 +113,127 @@ SIZE="12153"
 ENDFILE
 VALUE "<project>\designer\impl1\SER320M.ide_des,ide_des"
 STATE="utd"
-TIME="1436797786"
+TIME="1436801386"
 SIZE="203"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET.adb,adb"
 STATE="ood"
-TIME="1465494168"
+TIME="1553205874"
 SIZE="9050112"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET.ide_des,ide_des"
 STATE="utd"
-TIME="1465494169"
-SIZE="1374"
+TIME="1554692619"
+SIZE="1062"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMETJune7_2016b.pdb,pdb"
 STATE="utd"
-TIME="1465331217"
+TIME="1465334816"
 SIZE="287830"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMETJune7_2016b.stp,stp"
 STATE="utd"
-TIME="1465331217"
+TIME="1465334816"
 SIZE="430585"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_20ELKS_June9_2016.pdb,pdb"
 STATE="utd"
-TIME="1465482342"
+TIME="1465485942"
 SIZE="394116"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_20ELKS_June9_2016.stp,stp"
 STATE="utd"
-TIME="1465482342"
+TIME="1465485942"
 SIZE="589695"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_ba.sdf,ba_sdf"
 STATE="ood"
-TIME="1465471246"
+TIME="1465474846"
 SIZE="5314595"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_ba.vhd,ba_hdl"
 STATE="ood"
-TIME="1465471245"
+TIME="1465474844"
 SIZE="2247811"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_compile_log.rpt,log"
 STATE="utd"
-TIME="1465480768"
-SIZE="16063"
+TIME="1554693316"
+SIZE="8070"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_fp\projectData\TOP_COMET_wUSB_and_Debugio.stp,stp"
 STATE="utd"
-TIME="1442871458"
+TIME="1442875058"
 SIZE="192809"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_fp\TOP_COMET.pro,pro"
 STATE="utd"
-TIME="1462503422"
-SIZE="2819"
+TIME="1554691679"
+SIZE="2594"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_iteration_summary.rpt,log"
 STATE="utd"
-TIME="1446058414"
+TIME="1446062014"
 SIZE="1369"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKS.pdb,pdb"
 STATE="utd"
-TIME="1465305937"
+TIME="1465309536"
 SIZE="277033"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKS.stp,stp"
 STATE="utd"
-TIME="1465305936"
+TIME="1465309536"
 SIZE="407785"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKSa.pdb,pdb"
 STATE="utd"
-TIME="1465306330"
+TIME="1465309930"
 SIZE="277033"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKSa.stp,stp"
 STATE="utd"
-TIME="1465306330"
+TIME="1465309930"
 SIZE="407785"
-ENDFILE
-VALUE "<project>\designer\impl1\TOP_COMET_placeroute_log.rpt,log"
-STATE="utd"
-TIME="1465481618"
-SIZE="3320"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power.rpt,log"
 STATE="utd"
-TIME="1446058094"
+TIME="1446061694"
 SIZE="13920"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power_r1_initial.rpt,log"
 STATE="utd"
-TIME="1446057628"
+TIME="1446061228"
 SIZE="13920"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s1.rpt,log"
 STATE="utd"
-TIME="1446057780"
+TIME="1446061380"
 SIZE="13920"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s2.rpt,log"
 STATE="utd"
-TIME="1446057946"
+TIME="1446061546"
 SIZE="13920"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s3.rpt,log"
 STATE="utd"
-TIME="1446058094"
+TIME="1446061694"
 SIZE="13920"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s4.rpt,log"
 STATE="utd"
-TIME="1446058248"
+TIME="1446061848"
 SIZE="13920"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power_r1_s5.rpt,log"
 STATE="utd"
-TIME="1446058414"
+TIME="1446062014"
 SIZE="13920"
-ENDFILE
-VALUE "<project>\designer\impl1\TOP_COMET_prgdata_log.rpt,log"
-STATE="utd"
-TIME="1465494177"
-SIZE="2735"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing.rpt,log"
 STATE="utd"
-TIME="1446058080"
+TIME="1446061680"
 SIZE="65997"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timingconstraints_log.rpt,log"
@@ -251,127 +243,122 @@ SIZE="435"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_initial.rpt,log"
 STATE="utd"
-TIME="1446057598"
+TIME="1446061198"
 SIZE="64027"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s1.rpt,log"
 STATE="utd"
-TIME="1446057766"
+TIME="1446061366"
 SIZE="67067"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s2.rpt,log"
 STATE="utd"
-TIME="1446057932"
+TIME="1446061532"
 SIZE="66115"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s3.rpt,log"
 STATE="utd"
-TIME="1446058080"
+TIME="1446061680"
 SIZE="65997"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s4.rpt,log"
 STATE="utd"
-TIME="1446058234"
+TIME="1446061834"
 SIZE="66138"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_r1_s5.rpt,log"
 STATE="utd"
-TIME="1446058400"
+TIME="1446062000"
 SIZE="65397"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max.rpt,log"
 STATE="utd"
-TIME="1446058082"
+TIME="1446061682"
 SIZE="30312"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_initial.rpt,log"
 STATE="utd"
-TIME="1446057600"
+TIME="1446061200"
 SIZE="30118"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s1.rpt,log"
 STATE="utd"
-TIME="1446057766"
+TIME="1446061366"
 SIZE="30421"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s2.rpt,log"
 STATE="utd"
-TIME="1446057934"
+TIME="1446061534"
 SIZE="30955"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s3.rpt,log"
 STATE="utd"
-TIME="1446058082"
+TIME="1446061682"
 SIZE="30312"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s4.rpt,log"
 STATE="utd"
-TIME="1446058234"
+TIME="1446061834"
 SIZE="30059"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_max_r1_s5.rpt,log"
 STATE="utd"
-TIME="1446058402"
+TIME="1446062002"
 SIZE="30369"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min.rpt,log"
 STATE="utd"
-TIME="1446058084"
+TIME="1446061684"
 SIZE="29254"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_initial.rpt,log"
 STATE="utd"
-TIME="1446057602"
+TIME="1446061202"
 SIZE="29377"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s1.rpt,log"
 STATE="utd"
-TIME="1446057768"
+TIME="1446061368"
 SIZE="29474"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s2.rpt,log"
 STATE="utd"
-TIME="1446057936"
+TIME="1446061536"
 SIZE="29389"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s3.rpt,log"
 STATE="utd"
-TIME="1446058084"
+TIME="1446061684"
 SIZE="29254"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s4.rpt,log"
 STATE="utd"
-TIME="1446058236"
+TIME="1446061836"
 SIZE="29479"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_timing_violations_min_r1_s5.rpt,log"
 STATE="utd"
-TIME="1446058404"
+TIME="1446062004"
 SIZE="29380"
-ENDFILE
-VALUE "<project>\designer\impl1\TOP_COMET_verifytiming_log.rpt,log"
-STATE="utd"
-TIME="1465481634"
-SIZE="1286"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_wUSB.pdb,pdb"
 STATE="utd"
-TIME="1442504862"
+TIME="1442508462"
 SIZE="175178"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_wUSB.stp,stp"
 STATE="utd"
-TIME="1442504860"
+TIME="1442508460"
 SIZE="256721"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_wUSB_and_Debugio.stp,stp"
 STATE="utd"
-TIME="1439992134"
+TIME="1439995734"
 SIZE="192809"
 ENDFILE
 VALUE "<project>\designer\impl1\USB_EXEC.ide_des,ide_des"
 STATE="utd"
-TIME="1443118004"
+TIME="1443121604"
 SIZE="204"
 ENDFILE
 VALUE "<project>\designer\impl1\USB_INTERFACE.ide_des,ide_des"
@@ -381,17 +368,17 @@ SIZE="388"
 ENDFILE
 VALUE "<project>\hdl\CLK60M_TO_40M.vhd,hdl"
 STATE="utd"
-TIME="1464270017"
+TIME="1464270016"
 SIZE="5255"
 ENDFILE
 VALUE "<project>\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd,hdl"
 STATE="utd"
-TIME="1447859670"
+TIME="1447856070"
 SIZE="4709"
 ENDFILE
 VALUE "<project>\hdl\ELINK_SLAVE.vhd,hdl"
 STATE="utd"
-TIME="1465237833"
+TIME="1465237832"
 SIZE="11215"
 ENDFILE
 VALUE "<project>\hdl\ELINK_SLAVE_INV.vhd,hdl"
@@ -406,17 +393,17 @@ SIZE="10070"
 ENDFILE
 VALUE "<project>\hdl\GP_CCC_SCONFIG.vhd,hdl"
 STATE="utd"
-TIME="1449013392"
+TIME="1449009792"
 SIZE="16696"
 ENDFILE
 VALUE "<project>\hdl\GP_PATT_GEN.vhd,hdl"
 STATE="utd"
-TIME="1450663148"
+TIME="1450659548"
 SIZE="17917"
 ENDFILE
 VALUE "<project>\hdl\MASTER_DES320M.vhd,hdl"
 STATE="utd"
-TIME="1464816709"
+TIME="1464816708"
 SIZE="39296"
 ENDFILE
 VALUE "<project>\hdl\REF_CLK_DIV_GEN.vhd,hdl"
@@ -426,7 +413,7 @@ SIZE="2891"
 ENDFILE
 VALUE "<project>\hdl\SER320M.vhd,hdl"
 STATE="utd"
-TIME="1448045098"
+TIME="1448041498"
 SIZE="9346"
 ENDFILE
 VALUE "<project>\hdl\SLAVE_DES320S.vhd,hdl"
@@ -436,7 +423,7 @@ SIZE="12698"
 ENDFILE
 VALUE "<project>\hdl\SYNC_DAT_SEL.vhd,hdl"
 STATE="utd"
-TIME="1448460020"
+TIME="1448456420"
 SIZE="2394"
 ENDFILE
 VALUE "<project>\hdl\TOP_COMET.vhd,hdl"
@@ -461,8 +448,8 @@ SIZE="167585"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1465471273"
-SIZE="1044"
+TIME="1548172852"
+SIZE="814"
 ENDFILE
 VALUE "<project>\simulation\run_alt.do,do"
 STATE="utd"
@@ -471,12 +458,12 @@ SIZE="962"
 ENDFILE
 VALUE "<project>\simulation\run_alt_presynth.do,do"
 STATE="utd"
-TIME="1461008656"
+TIME="1461012256"
 SIZE="2363"
 ENDFILE
 VALUE "<project>\simulation\wave - Copy.do,do"
 STATE="utd"
-TIME="1436912060"
+TIME="1436915660"
 SIZE="4572"
 ENDFILE
 VALUE "<project>\simulation\wave.do,do"
@@ -486,7 +473,7 @@ SIZE="2498"
 ENDFILE
 VALUE "<project>\simulation\wave_CCC_SCONFIG.do,do"
 STATE="utd"
-TIME="1444778468"
+TIME="1444782068"
 SIZE="1559"
 ENDFILE
 VALUE "<project>\simulation\wave_ccc_sims.do,do"
@@ -496,22 +483,22 @@ SIZE="10046"
 ENDFILE
 VALUE "<project>\simulation\wave_DCB_ALONE_DI.do,do"
 STATE="utd"
-TIME="1464659498"
+TIME="1464663098"
 SIZE="4848"
 ENDFILE
 VALUE "<project>\simulation\wave_DCB_ALONE_D_ELKS - Copy.do,do"
 STATE="utd"
-TIME="1464885410"
+TIME="1464889010"
 SIZE="6291"
 ENDFILE
 VALUE "<project>\simulation\wave_DCB_ALONE_D_ELKS.do,do"
 STATE="utd"
-TIME="1465300754"
+TIME="1465304354"
 SIZE="6530"
 ENDFILE
 VALUE "<project>\simulation\wave_DUALCOMETS.do,do"
 STATE="utd"
-TIME="1461011100"
+TIME="1461014700"
 SIZE="3856"
 ENDFILE
 VALUE "<project>\simulation\wave_Dual_RefClk_VersionA.do,do"
@@ -521,12 +508,12 @@ SIZE="10478"
 ENDFILE
 VALUE "<project>\simulation\wave_DUAL_TOP_COMET.do,do"
 STATE="utd"
-TIME="1445641228"
+TIME="1445644828"
 SIZE="13040"
 ENDFILE
 VALUE "<project>\simulation\wave_DUAL_TOP_COMETA.do,do"
 STATE="utd"
-TIME="1445790878"
+TIME="1445794478"
 SIZE="3678"
 ENDFILE
 VALUE "<project>\simulation\wave_DUAL_TOP_COMETb.do,do"
@@ -551,22 +538,22 @@ SIZE="3526"
 ENDFILE
 VALUE "<project>\simulation\wave_PATT_GEN.do,do"
 STATE="utd"
-TIME="1444074132"
+TIME="1444077732"
 SIZE="1713"
 ENDFILE
 VALUE "<project>\simulation\wave_pg.do,do"
 STATE="utd"
-TIME="1442435108"
+TIME="1442438708"
 SIZE="3347"
 ENDFILE
 VALUE "<project>\simulation\wave_salt_alone_20elks.do,do"
 STATE="utd"
-TIME="1465423076"
+TIME="1465426676"
 SIZE="13715"
 ENDFILE
 VALUE "<project>\simulation\wave_SALT_ALONE_D_ELKS.do,do"
 STATE="utd"
-TIME="1465331764"
+TIME="1465335364"
 SIZE="11950"
 ENDFILE
 VALUE "<project>\simulation\wave_Single_Post_P_R_A.do,do"
@@ -581,7 +568,7 @@ SIZE="2105"
 ENDFILE
 VALUE "<project>\simulation\wave_TOP-COMET_ALT.do,do"
 STATE="utd"
-TIME="1444659328"
+TIME="1444662928"
 SIZE="6442"
 ENDFILE
 VALUE "<project>\simulation\wave_UPDATED_CCC.do,do"
@@ -658,7 +645,7 @@ SIZE="2740"
 ENDFILE
 VALUE "<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.gen,gen"
 STATE="utd"
-TIME="1464291935"
+TIME="1464291934"
 SIZE="789"
 PARENT="<project>\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.cxf"
 IS_READONLY="TRUE"
@@ -684,7 +671,7 @@ SIZE="2891"
 ENDFILE
 VALUE "<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.gen,gen"
 STATE="utd"
-TIME="1464297067"
+TIME="1464297066"
 SIZE="815"
 PARENT="<project>\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.cxf"
 IS_READONLY="TRUE"
@@ -815,7 +802,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\stimulus\TB_TOP_COMET_DCB.vhd,tb_hdl"
 STATE="utd"
-TIME="1465329015"
+TIME="1465329014"
 SIZE="44889"
 ENDFILE
 VALUE "<project>\stimulus\TB_TOP_COMET_SALT.vhd,tb_hdl"
@@ -825,27 +812,27 @@ SIZE="34958"
 ENDFILE
 VALUE "<project>\synthesis\CCC_SCONFIG.so,so"
 STATE="utd"
-TIME="1444831032"
+TIME="1444834632"
 SIZE="236"
 ENDFILE
 VALUE "<project>\synthesis\CCC_SCONFIG_syn.prj,prj"
 STATE="utd"
-TIME="1462503422"
-SIZE="1857"
+TIME="1554691678"
+SIZE="0"
 ENDFILE
 VALUE "<project>\synthesis\des320M.edn,syn_edn"
 STATE="ood"
-TIME="1445020716"
+TIME="1445024316"
 SIZE="462876"
 ENDFILE
 VALUE "<project>\synthesis\des320M.so,so"
 STATE="utd"
-TIME="1445020716"
+TIME="1445024316"
 SIZE="228"
 ENDFILE
 VALUE "<project>\synthesis\des320M_syn.prj,prj"
 STATE="utd"
-TIME="1462503422"
+TIME="1554691678"
 SIZE="0"
 ENDFILE
 VALUE "<project>\synthesis\GP_PATT_GEN.edn,syn_edn"
@@ -860,27 +847,27 @@ SIZE="236"
 ENDFILE
 VALUE "<project>\synthesis\GP_PATT_GEN_syn.prj,prj"
 STATE="utd"
-TIME="1462503422"
+TIME="1554691678"
 SIZE="0"
 ENDFILE
 VALUE "<project>\synthesis\layer0.so,so"
 STATE="utd"
-TIME="1465403126"
+TIME="1465406726"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\CCC_SCONFIG_comp.so,so"
 STATE="utd"
-TIME="1444736300"
+TIME="1444739900"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\des320M_comp.so,so"
 STATE="utd"
-TIME="1445015156"
+TIME="1445018756"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1465251884"
+TIME="1553204561"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\TOP_COMET_comp.so,so"
@@ -890,67 +877,67 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\USB_EXEC_comp.so,so"
 STATE="utd"
-TIME="1443127486"
+TIME="1443131086"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\USB_INTERFACE_comp.so,so"
 STATE="utd"
-TIME="1442409812"
+TIME="1442413412"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\TESTDDRCONFIG.so,so"
 STATE="utd"
-TIME="1445895506"
+TIME="1445899106"
 SIZE="240"
 ENDFILE
 VALUE "<project>\synthesis\TESTDDRCONFIG_syn.prj,prj"
 STATE="utd"
-TIME="1462503422"
+TIME="1554691678"
 SIZE="0"
 ENDFILE
 VALUE "<project>\synthesis\TEST_SYNTAX.so,so"
 STATE="utd"
-TIME="1444695684"
+TIME="1444699284"
 SIZE="236"
 ENDFILE
 VALUE "<project>\synthesis\TEST_SYNTAX_syn.prj,prj"
 STATE="utd"
-TIME="1462503422"
+TIME="1554691678"
 SIZE="0"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET.edn,syn_edn"
-STATE="ood"
-TIME="1465480714"
-SIZE="4388525"
+STATE="utd"
+TIME="1554691812"
+SIZE="4300568"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET.so,so"
 STATE="utd"
-TIME="1465480714"
-SIZE="284"
+TIME="1554691812"
+SIZE="207"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET_sdc.sdc,syn_sdc"
-STATE="ood"
-TIME="1465480714"
+STATE="utd"
+TIME="1554691812"
 SIZE="851"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET_syn.prj,prj"
 STATE="utd"
-TIME="1465480685"
-SIZE="9419"
+TIME="1554691814"
+SIZE="3530"
 ENDFILE
 VALUE "<project>\synthesis\USB_EXEC.edn,syn_edn"
 STATE="ood"
-TIME="1443130944"
+TIME="1443134544"
 SIZE="32376"
 ENDFILE
 VALUE "<project>\synthesis\USB_EXEC.so,so"
 STATE="utd"
-TIME="1443130944"
+TIME="1443134544"
 SIZE="230"
 ENDFILE
 VALUE "<project>\synthesis\USB_EXEC_syn.prj,prj"
 STATE="utd"
-TIME="1462503422"
+TIME="1554691679"
 SIZE="0"
 ENDFILE
 VALUE "<project>\synthesis\USB_INTERFACE.edn,syn_edn"
@@ -965,12 +952,12 @@ SIZE="240"
 ENDFILE
 VALUE "<project>\synthesis\USB_INTERFACE.vhd,syn_hdl"
 STATE="ood"
-TIME="1441747018"
+TIME="1441750618"
 SIZE="100116"
 ENDFILE
 VALUE "<project>\synthesis\USB_INTERFACE_syn.prj,prj"
 STATE="utd"
-TIME="1462503422"
+TIME="1554691678"
 SIZE="0"
 ENDFILE
 ENDLIST
@@ -993,18 +980,17 @@ VALUE "<project>\constraint\Top_Basic_a.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
+LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\TOP_COMET.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
+UseFhbAutoInst=FALSE
 ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST PinReports
-VALUE "<project>\designer\impl1\TOP_COMET_report_pin_byname.txt,log"
-VALUE "<project>\designer\impl1\TOP_COMET_report_pin_bynumber.txt,log"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -1064,6 +1050,7 @@ EnableSETMitigationOn=FALSE
 DisplayFanoutLimit=10
 AbortFlowOnPDCErrorsOn=TRUE
 AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
 FlashProInputFile=pdb
 SmartGenCompileReport=T
 ENDLIST
@@ -1082,25 +1069,25 @@ EndProfile
 NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Synplify\\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
-NAME="ModelSIm"
+NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
-LOCATION="C:\Microsemi\Libero_SoC_v11.7\Model\win32acoem\modelsim.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
-NAME="FlashPro"
+NAME="FPExpress"
 FUNCTION="Program"
 TOOL="FlashPro"
-LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Designer\\bin\flashpro.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Designer\bin\FPExpress.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -1109,7 +1096,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Identify\\bin\identify_debugger.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Identify\bin\identify_debugger.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -1119,10 +1106,13 @@ ENDLIST
 LIST ProjectState5.1
 LIST "TOP_COMET::work"
 LIST Impl1
+LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\TOP_COMET.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
+UseFhbAutoInst=FALSE
 ENDLIST
 Used_File_List
 ENDUsed_File_List
@@ -1141,10 +1131,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Generate Programming Data:TOP_COMET_prgdata_log.rpt
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "BIDIR_LVDS_IO::work","smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd","TRUE","FALSE"
