@@ -139,8 +139,8 @@ set_io ELK2_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 
 set_io ELK2_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 161 -fixed yes
 
 # ELINK3 DATA  CE_PAIR_20
-set_io ELK3_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 165 -fixed yes
-set_io ELK3_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 164 -fixed yes
+set_io ELK3_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 181 -fixed yes
+set_io ELK3_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 180 -fixed yes
 
 # ELINK4 DATA  CE_PAIR_19
 set_io ELK4_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 84 -fixed yes
