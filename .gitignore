@@ -1,7 +1,16 @@
-designer
-simulation
-synthesis
-tooldata/libero.*
-*.xml
+### ModelSim ###
+*.mti
+*.wlf
+*.bak
+*.do
+*.vstf
+
+simulation/
 *.msg
-viewdraw
+*.log
+
+
+### Other ###
+*~
+*#
+*.tmp

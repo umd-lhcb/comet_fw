@@ -1,0 +1,35 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Date: Sun Dec 29 19:16:25 2019
+Design Name: TOP_COMET  Family: ProASIC3E  Die: A3PE1500  Package: 208 PQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    618               Net   : CLK60MHZ
+                      Driver: U_MAINCLKGEN/Core/U_GLC
+    1890              Net   : CLK_40M_GL
+                      Driver: U_MAINCLKGEN/Core/U_PLL
+    707               Net   : CCC_160M_FXD
+                      Driver: U_MAINCLKGEN/Core/U_GLB
+    465               Net   : CCC_160M_ADJ
+                      Driver: U_MASTER_DES/U13B_CCC/Core/U_PLL
+
+
+The following nets have been routed to a quadrant global resource:
+
+    Fanout            Name
+    ----------------------
+    1390              Net   : MASTER_DCB_POR_B_i_0_i
+                      Driver: U_EXEC_MASTER/MPOR_DCB_B_RNIPFG8/U_GL
+                      Region : quadrant_UR
+
+
+

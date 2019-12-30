@@ -1,0 +1,107 @@
+Synopsys VHDL Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":89:7:89:17|Top entity is set to CCC_SCONFIG.
+File D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd changed - recompiling
+File D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd changed - recompiling
+File D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd2008\misc.vhd changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd2008\std1164.vhd":913:16:913:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":89:7:89:17|Synthesizing work.ccc_sconfig.rtl 
+@N: CD231 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":138:25:138:26|Using onehot encoding for type shift_sm_states (init="100000")
+@W: CD610 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":257:32:257:48|Index value 0 to 127 could be out of prefix range 80 downto 0 
+@W: CD604 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":281:12:281:29|OTHERS clause is not synthesized 
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\smartgen\CCC_ADJ_160M\CCC_ADJ_160M.vhd":8:7:8:18|Synthesizing work.ccc_adj_160m.def_arch 
+@N: CD630 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd":4192:10:4192:15|Synthesizing proasic3e.dynccc.syn_black_box 
+Post processing for proasic3e.dynccc.syn_black_box
+@N: CD630 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd":2999:10:2999:12|Synthesizing proasic3e.vcc.syn_black_box 
+Post processing for proasic3e.vcc.syn_black_box
+@N: CD630 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd":1894:10:1894:12|Synthesizing proasic3e.gnd.syn_black_box 
+Post processing for proasic3e.gnd.syn_black_box
+@N: CD630 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd":407:10:407:15|Synthesizing proasic3e.pllint.syn_black_box 
+Post processing for proasic3e.pllint.syn_black_box
+Post processing for work.ccc_adj_160m.def_arch
+Post processing for work.ccc_sconfig.rtl
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(1) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(5) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(6) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(8) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(12) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(13) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(14) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(15) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(16) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(17) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(18) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(29) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(30) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(32) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(33) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(34) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(35) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(36) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(37) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(39) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(40) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(41) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(42) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(43) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(44) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(45) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(51) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(52) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(53) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(54) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(55) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(56) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(57) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(58) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(59) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(60) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(61) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(62) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(63) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(64) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(65) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(66) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(67) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(68) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(69) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(70) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(74) to a constant 0
+@W: CL190 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Optimizing register bit ALL81BITS(75) to a constant 0
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 75 to 74 of ALL81BITS(80 downto 0)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 70 to 51 of ALL81BITS(80 downto 0)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 45 to 39 of ALL81BITS(80 downto 0)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 37 to 32 of ALL81BITS(80 downto 0)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 30 to 29 of ALL81BITS(80 downto 0)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 18 to 12 of ALL81BITS(80 downto 0)  
+@W: CL260 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bit 8 of ALL81BITS(80 downto 0)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 6 to 5 of ALL81BITS(80 downto 0)  
+@W: CL260 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bit 1 of ALL81BITS(80 downto 0)  
+@N: CL201 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Trying to extract state machine for register SHIFT_SM
+Extracted state machine for register SHIFT_SM
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL260 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bit 80 of ALL81BITS(80 downto 76)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 28 to 20 of ALL81BITS(28 downto 19)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 11 to 10 of ALL81BITS(11 downto 9)  
+@W: CL279 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":187:8:187:9|Pruning register bits 4 to 3 of ALL81BITS(4 downto 2)  
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Oct 14 09:57:09 2015
+
+###########################################################]

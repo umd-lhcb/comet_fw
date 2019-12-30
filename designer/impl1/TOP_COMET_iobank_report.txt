@@ -1,0 +1,56 @@
+********************************************************************
+                            I/O Bank Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+Date: Sun Dec 29 19:16:27 2019
+Design Name: TOP_COMET  Family: ProASIC3E  Die: A3PE1500  Package: 208 PQFP
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 5             | 1            | 0
+    Output I/O                            | 17            | 0            | 0
+    Bidirectional I/O                     | 0             | 8            | 0
+    Differential Input I/O Pairs          | 1             | 0            | 0
+    Differential Output I/O Pairs         | 1             | 0            | 0
+    Differential Bidirectional I/O Pairs  | 2             | 0            | 25
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 3     | 8      | 8
+    LVCMOS25                        | 2.50v | N/A   | 3     | 9      | 0
+    LVDS                            | 2.50v | N/A   | 2     | 2      | 54
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os
+          |-------|-------|------|-------|-------|--------|------|-------|----------
+          | Vcci  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------
+    Bank0 | 2.50v | N/A   | 1    | 25    | 12    | 12     | N/A  | N/A   | N/A
+    Bank1 | 2.50v | N/A   | 1    | 15    | 7     | 7      | N/A  | N/A   | N/A
+    Bank2 | 2.50v | N/A   | 4    | 17    | 0     | 6      | N/A  | N/A   | N/A
+    Bank3 | 2.50v | N/A   | 1    | 16    | 1     | 7      | N/A  | N/A   | N/A
+    Bank4 | 2.50v | N/A   | 1    | 15    | 5     | 7      | N/A  | N/A   | N/A
+    Bank5 | 3.30v | N/A   | 19   | 22    | 0     | 10     | N/A  | N/A   | N/A
+    Bank6 | 2.50v | N/A   | 1    | 19    | 1     | 9      | N/A  | N/A   | N/A
+    Bank7 | 2.50v | N/A   | 3    | 18    | 3     | 7      | N/A  | N/A   | N/A
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os
+    -------|-------|------|-------
+     Vcci  | Vref  | Used | Total
+    -------|-------|------|-------
+     2.50v | N/A   | 70   | 125
+     3.30v | N/A   | 19   | 22
+

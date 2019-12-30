@@ -1,0 +1,10 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "D:\0_all_libero_project\CERN_LHCb\COMET_TEST\designer\impl1\USB_INTERFACE.adb"
+LIST SOURCE_FILES
+VALUE "D:\0_all_libero_project\CERN_LHCb\COMET_TEST\constraint\TOP_COMET_a.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\USB_INTERFACE_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

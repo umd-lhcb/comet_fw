@@ -58,8 +58,8 @@ SIZE="14474"
 ENDFILE
 VALUE "<project>\constraint\TOP_COMET_STV.pdc,pdc"
 STATE="utd"
-TIME="1554693491"
-SIZE="14373"
+TIME="1554698322"
+SIZE="15022"
 ENDFILE
 VALUE "<project>\designer\impl1\BIDIR_LVDS_IO.ide_des,ide_des"
 STATE="utd"
@@ -117,14 +117,14 @@ TIME="1436801386"
 SIZE="203"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET.adb,adb"
-STATE="ood"
-TIME="1553205874"
-SIZE="9050112"
+STATE="utd"
+TIME="1554698350"
+SIZE="9730048"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET.ide_des,ide_des"
 STATE="utd"
-TIME="1554692619"
-SIZE="1062"
+TIME="1554725750"
+SIZE="1064"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMETJune7_2016b.pdb,pdb"
 STATE="utd"
@@ -158,8 +158,8 @@ SIZE="2247811"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_compile_log.rpt,log"
 STATE="utd"
-TIME="1554693316"
-SIZE="8070"
+TIME="1554698351"
+SIZE="16040"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_fp\projectData\TOP_COMET_wUSB_and_Debugio.stp,stp"
 STATE="utd"
@@ -195,6 +195,11 @@ VALUE "<project>\designer\impl1\TOP_COMET_JUNE7_2016_5ELKSa.stp,stp"
 STATE="utd"
 TIME="1465309930"
 SIZE="407785"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP_COMET_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1554821948"
+SIZE="3177"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power.rpt,log"
 STATE="utd"
@@ -378,8 +383,8 @@ SIZE="4709"
 ENDFILE
 VALUE "<project>\hdl\ELINK_SLAVE.vhd,hdl"
 STATE="utd"
-TIME="1465237832"
-SIZE="11215"
+TIME="1554697820"
+SIZE="9198"
 ENDFILE
 VALUE "<project>\hdl\ELINK_SLAVE_INV.vhd,hdl"
 STATE="utd"
@@ -428,8 +433,8 @@ SIZE="2394"
 ENDFILE
 VALUE "<project>\hdl\TOP_COMET.vhd,hdl"
 STATE="utd"
-TIME="1465480676"
-SIZE="117600"
+TIME="1554698094"
+SIZE="104876"
 ENDFILE
 VALUE "<project>\hdl\TOP_MASTER_DES320M.vhd,hdl"
 STATE="utd"
@@ -867,7 +872,7 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1553204561"
+TIME="1554697927"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\synwork\TOP_COMET_comp.so,so"
@@ -907,22 +912,22 @@ SIZE="0"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET.edn,syn_edn"
 STATE="utd"
-TIME="1554691812"
-SIZE="4300568"
+TIME="1554698130"
+SIZE="4389926"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET.so,so"
 STATE="utd"
-TIME="1554691812"
+TIME="1554698130"
 SIZE="207"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1554691812"
+TIME="1554698130"
 SIZE="851"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET_syn.prj,prj"
 STATE="utd"
-TIME="1554691814"
+TIME="1554698132"
 SIZE="3530"
 ENDFILE
 VALUE "<project>\synthesis\USB_EXEC.edn,syn_edn"
@@ -991,6 +996,10 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\TOP_COMET_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\TOP_COMET_report_pin_bynumber.txt,log"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -1070,8 +1079,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile

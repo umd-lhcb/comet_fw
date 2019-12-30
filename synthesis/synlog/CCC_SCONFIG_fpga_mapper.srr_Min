@@ -1,0 +1,57 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Oct 14 09:57:12 2015
+#
+
+
+Top view:               CCC_SCONFIG
+Operating conditions:   PA3.COMWC-2
+Requested Frequency:    40.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3e
+Paths requested:        5
+Constraint File(s):    D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\CCC_SCONFIG_sdc.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+                           Requested     Estimated     Requested     Estimated               Clock        Clock           
+Starting Clock             Frequency     Frequency     Period        Period        Slack     Type         Group           
+--------------------------------------------------------------------------------------------------------------------------
+CCC_SCONFIG|CLK40M_GEN     40.0 MHz      81.3 MHz      25.000        12.305        7.966     declared     default_clkgroup
+==========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------
+Starting                Ending                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------
+CCC_SCONFIG|CLK40M_GEN  CCC_SCONFIG|CLK40M_GEN  |  0.000       False  |  No paths    -      |  12.500      False  |  No paths    -    
+======================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+

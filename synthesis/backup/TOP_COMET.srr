@@ -1,0 +1,27 @@
+#Build: Synplify Pro I-2014.03M-SP1, Build 097R, Oct  9 2014
+#install: D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
+#OS: Windows 7 6.1
+#Hostname: TOBANNON-PC
+
+#Implementation: synthesis
+
+Synopsys VHDL Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TOP_COMET.vhd":29:7:29:15|Top entity is set to TOP_COMET.
+VHDL syntax check successful!
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TOP_COMET.vhd":29:7:29:15|Synthesizing work.top_comet.rtl 
+@E: CD327 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TOP_COMET.vhd":209:44:209:52|Illegal connection of instance input padn to entity output tfc_out_n
+@E: CD327 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TOP_COMET.vhd":208:44:208:52|Illegal connection of instance input padp to entity output tfc_out_p
+@W: CD638 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TOP_COMET.vhd":130:8:130:16|Signal clk_40mhz is undriven 
+@W: CD638 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TOP_COMET.vhd":140:8:140:20|Signal refclk_vector is undriven 
+@W: CD638 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TOP_COMET.vhd":142:8:142:21|Signal tfc_ddr_vector is undriven 
+Synthesis failed
+2 errors during synthesis
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 13 12:33:33 2015
+
+###########################################################]

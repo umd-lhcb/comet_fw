@@ -1,0 +1,188 @@
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1659R, Built Dec 10 2015 09:42:41
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\exec_mode_cntl.vhd":118:8:118:9|Found counter in view:work.EXEC_MODE_CNTL(rtl) inst DEL_CNT[7:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\exec_mode_cntl.vhd":118:8:118:9|Found counter in view:work.EXEC_MODE_CNTL(rtl) inst PRESCALE[3:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\usb_exec.vhd":83:12:83:13|Found counter in view:work.USB_EXEC(rtl_logic) inst T_CNT60M[7:0]
+Encoding state machine TEST_SM[0:4] (view:work.USB_EXEC(rtl_logic))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Found counter in view:work.GP_CCC_SCONFIG(rtl) inst BITCNT[7:0]
+Encoding state machine SHIFT_SM[0:6] (view:work.GP_CCC_SCONFIG(rtl))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[80] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[75] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[70] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[69] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[68] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[67] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[66] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[65] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[64] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[63] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[62] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[61] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[60] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[59] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[58] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[57] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[56] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[45] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[44] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[43] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[42] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[41] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[40] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[39] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[37] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[36] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[35] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[32] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[30] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[29] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[23] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[22] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[21] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[18] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[17] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[16] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[15] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[14] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[11] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[10] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[8] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[7] is always 0, optimizing ...
+@W: MO160 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Register bit ALL81BITS[1] is always 0, optimizing ...
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":58:8:58:20|Found counter in view:work.MASTER_DES320M(rtl) inst REG40M\.BIT_OS_CNT_7[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":58:8:58:20|Found counter in view:work.MASTER_DES320M(rtl) inst REG40M\.BIT_OS_CNT_6[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":58:8:58:20|Found counter in view:work.MASTER_DES320M(rtl) inst REG40M\.BIT_OS_CNT_5[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":58:8:58:20|Found counter in view:work.MASTER_DES320M(rtl) inst REG40M\.BIT_OS_CNT_4[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":58:8:58:20|Found counter in view:work.MASTER_DES320M(rtl) inst REG40M\.BIT_OS_CNT_3[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":58:8:58:20|Found counter in view:work.MASTER_DES320M(rtl) inst REG40M\.BIT_OS_CNT_2[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":58:8:58:20|Found counter in view:work.MASTER_DES320M(rtl) inst REG40M\.BIT_OS_CNT_1[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":58:8:58:20|Found counter in view:work.MASTER_DES320M(rtl) inst REG40M\.BIT_OS_CNT_0[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":105:11:105:19|Found counter in view:work.MASTER_DES320M(rtl) inst WAITCNT[13:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":57:8:57:17|Found counter in view:work.MASTER_DES320M(rtl) inst MAX_CNT[8:0]
+Encoding state machine DES_SM[0:8] (view:work.MASTER_DES320M(rtl))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+@N: MF176 |Default generator successful 
+@N: MF179 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":503:28:503:61|Found 5 bit by 5 bit '<' comparator, 'SYNC_SM\.n_best_clkphase14'
+@N: MF238 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":443:74:443:112|Found 5-bit incrementor, 'un41_n_seqcnts[1:5]'
+@N: MF238 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\master_des320m.vhd":501:44:501:56|Found 6-bit incrementor, 'un3_n_index_cnt[27:32]'
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\usb_interface.vhd":63:12:63:20|Found counter in view:work.USB_INTERFACE(rtl) inst REG_ADDR[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\usb_interface.vhd":383:12:383:13|Found counter in view:work.USB_INTERFACE(rtl) inst SI_CNT[3:0]
+Encoding state machine REG_STATE[0:41] (view:work.USB_INTERFACE(rtl))
+original code -> new code
+   000000 -> 000000
+   000001 -> 000001
+   000010 -> 000011
+   000011 -> 000010
+   000100 -> 000110
+   000101 -> 000111
+   000110 -> 000101
+   000111 -> 000100
+   001000 -> 001100
+   001001 -> 001101
+   001010 -> 001111
+   001011 -> 001110
+   001100 -> 001010
+   001101 -> 001011
+   001110 -> 001001
+   001111 -> 001000
+   010000 -> 011000
+   010001 -> 011001
+   010010 -> 011011
+   010011 -> 011010
+   010100 -> 011110
+   010101 -> 011111
+   010110 -> 011101
+   010111 -> 011100
+   011000 -> 010100
+   011001 -> 010101
+   011010 -> 010111
+   011100 -> 010110
+   011101 -> 010010
+   011110 -> 010011
+   110000 -> 010001
+   110001 -> 010000
+   110010 -> 110000
+   110100 -> 110001
+   110101 -> 110011
+   110110 -> 110010
+   110111 -> 110110
+   111010 -> 110111
+   111100 -> 110101
+   111101 -> 110100
+   111110 -> 111100
+   111111 -> 111101
+Encoding state machine GP_PG_SM[0:10] (view:work.GP_PATT_GEN(rtl_logic))
+original code -> new code
+   00000000000001 -> 00000000001
+   00000000000010 -> 00000000010
+   00000000000100 -> 00000000100
+   00000000001000 -> 00000001000
+   00000000010000 -> 00000010000
+   00000100000000 -> 00000100000
+   00001000000000 -> 00001000000
+   00010000000000 -> 00010000000
+   00100000000000 -> 00100000000
+   01000000000000 -> 01000000000
+   10000000000000 -> 10000000000
+@N: MF179 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_patt_gen.vhd":264:19:264:47|Found 8 bit by 8 bit '<' comparator, 'GP_PG\.un1_ADDR_POINTER'
+Auto Dissolve of U13C_MASTER_DES (inst of view:work.TOP_MASTER_DES320M(rtl))
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 139MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 139MB)
+
+Constraint Checker successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 139MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Thu Mar 31 17:40:29 2016
+
+###########################################################]

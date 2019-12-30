@@ -1,0 +1,316 @@
+#Build: Synplify Pro I-2014.03M-SP1, Build 097R, Oct  9 2014
+#install: D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
+#OS: Windows 7 6.1
+#Hostname: TOBANNON-PC
+
+#Implementation: synthesis
+
+Synopsys VHDL Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":83:7:83:17|Top entity is set to CCC_SCONFIG.
+VHDL syntax check successful!
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":83:7:83:17|Synthesizing work.ccc_sconfig.rtl 
+@N: CD231 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":134:25:134:26|Using onehot encoding for type shift_sm_states (init="10000")
+@W: CD604 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":244:12:244:29|OTHERS clause is not synthesized 
+@W: CG296 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":199:8:199:14|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":206:28:206:33|Referenced variable sshift is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":205:28:205:31|Referenced variable sdin is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":219:34:219:41|Referenced variable dlygla_l is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":203:28:203:36|Referenced variable all81bits is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":204:28:204:33|Referenced variable bitcnt is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":216:43:216:51|Referenced variable dyncsel_w is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":216:55:216:63|Referenced variable dynbsel_v is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":216:67:216:75|Referenced variable dynasel_u is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":217:34:217:43|Referenced variable statcsel_s is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":217:47:217:56|Referenced variable statbsel_r is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":207:28:207:34|Referenced variable supdate is not in sensitivity list
+@W: CG290 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":217:60:217:69|Referenced variable statasel_q is not in sensitivity list
+@W: CD638 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":119:16:119:25|Signal n_dlygla_l is undriven 
+@W: CD638 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":119:28:119:35|Signal dlygla_l is undriven 
+@W: CD638 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":129:20:129:23|Signal sdin is undriven 
+@W: CD638 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":130:22:130:27|Signal sshift is undriven 
+@W: CD638 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":131:23:131:29|Signal supdate is undriven 
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\smartgen\CCC_ADJ_160M\CCC_ADJ_160M.vhd":8:7:8:18|Synthesizing work.ccc_adj_160m.def_arch 
+@N: CD630 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd":4192:10:4192:15|Synthesizing proasic3e.dynccc.syn_black_box 
+Post processing for proasic3e.dynccc.syn_black_box
+@N: CD630 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd":2999:10:2999:12|Synthesizing proasic3e.vcc.syn_black_box 
+Post processing for proasic3e.vcc.syn_black_box
+@N: CD630 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd":1894:10:1894:12|Synthesizing proasic3e.gnd.syn_black_box 
+Post processing for proasic3e.gnd.syn_black_box
+@N: CD630 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd":407:10:407:15|Synthesizing proasic3e.pllint.syn_black_box 
+Post processing for proasic3e.pllint.syn_black_box
+Post processing for work.ccc_adj_160m.def_arch
+Post processing for work.ccc_sconfig.rtl
+@W: CL240 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":131:23:131:29|SUPDATE is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":130:22:130:27|SSHIFT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":129:20:129:23|SDIN is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":119:28:119:35|Bit 0 of signal DLYGLA_L is floating -- simulation mismatch possible.
+@W: CL252 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":119:28:119:35|Bit 1 of signal DLYGLA_L is floating -- simulation mismatch possible.
+@W: CL252 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":119:28:119:35|Bit 2 of signal DLYGLA_L is floating -- simulation mismatch possible.
+@W: CL252 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":119:28:119:35|Bit 3 of signal DLYGLA_L is floating -- simulation mismatch possible.
+@W: CL252 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":119:28:119:35|Bit 4 of signal DLYGLA_L is floating -- simulation mismatch possible.
+@W: CL169 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":137:68:137:72|Pruning register ALL81BITS_3(80 downto 0)  
+@W: CL169 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":137:68:137:72|Pruning register BITCNT_3(6 downto 0)  
+@W: CL169 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":183:8:183:9|Pruning register SHIFT_SM_3(0 to 4)  
+@W: CL167 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":163:0:163:5|Input sdin of instance U1_CCC is floating
+@W: CL167 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":163:0:163:5|Input sshift of instance U1_CCC is floating
+@W: CL167 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":163:0:163:5|Input supdate of instance U1_CCC is floating
+@W: CL159 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":86:8:86:16|Input DEV_RST_B is unused
+@W: CL159 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":90:8:90:17|Input STATASEL_Q is unused
+@W: CL159 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":91:8:91:17|Input STATBSEL_R is unused
+@W: CL159 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":92:8:92:17|Input STATCSEL_S is unused
+@W: CL159 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":93:8:93:16|Input DYNASEL_U is unused
+@W: CL159 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":94:8:94:16|Input DYNBSEL_V is unused
+@W: CL159 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":95:8:95:16|Input DYNCSEL_W is unused
+@W: CL159 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\CCC_SCONFIG.vhd":97:8:97:16|Input PHASE_ADJ is unused
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 13 07:35:29 2015
+
+###########################################################]
+Synopsys Netlist Linker, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 13 07:35:30 2015
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1346R, Built Oct 10 2014 11:20:09
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version I-2014.03M-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\CCC_SCONFIG_scck.rpt 
+Printing clock  summary report in "D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\CCC_SCONFIG_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start                      Requested     Requested     Clock        Clock              
+Clock                      Frequency     Period        Type         Group              
+---------------------------------------------------------------------------------------
+CCC_SCONFIG|CLK40M_GEN     100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+=======================================================================================
+
+@W: MT530 :"d:\0_all_libero_project\cern_lhcb\comet_test\smartgen\ccc_adj_160m\ccc_adj_160m.vhd":146:4:146:7|Found inferred clock CCC_SCONFIG|CLK40M_GEN which controls 0 sequential elements including U1_CCC.Core. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\CCC_SCONFIG.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 45MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 13 07:35:31 2015
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1346R, Built Oct 10 2014 11:20:09
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version I-2014.03M-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK40M_GEN          port                   1          U1_CCC.Core    
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\CCC_SCONFIG.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+Writing Analyst data base D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\synwork\CCC_SCONFIG_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+Writing EDIF Netlist and constraint files
+I-2014.03M-SP1
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+@W: MT420 |Found inferred clock CCC_SCONFIG|CLK40M_GEN with period 10.00ns. Please declare a user-defined clock on object "p:CLK40M_GEN"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Oct 13 07:35:32 2015
+#
+
+
+Top view:               CCC_SCONFIG
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3e
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+                           Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock             Frequency     Frequency     Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------
+CCC_SCONFIG|CLK40M_GEN     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+=============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3PE1500_PQFP208_STD
+Report for cell CCC_SCONFIG.rtl
+  Core Cell usage:
+              cell count     area count*area
+               GND     2      0.0        0.0
+            PLLINT     1      0.0        0.0
+               VCC     2      0.0        0.0
+
+
+            DYNCCC     1      0.0        0.0
+                   -----          ----------
+             TOTAL     6                 0.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     3
+            OUTBUF     2
+                   -----
+             TOTAL     5
+
+
+Core Cells         : 0 of 38400 (0%)
+IO Cells           : 5
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 60 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 13 07:35:32 2015
+
+###########################################################]

@@ -1,0 +1,4 @@
+@E: CD498 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":631:29:631:29|Expecting type name
+@E: CD255 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":926:39:926:39|No identifier "elk_rx_ser_word" in scope
+@E: Parse errors encountered - exiting
+

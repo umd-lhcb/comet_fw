@@ -1,0 +1,12 @@
+#------------------------------------------------------------------------------------------------------------------------------------------
+# RUN NUMBER: 1   DATE: 14:39:54 28-Oct-2015
+# INVOKED AS:  extended_run_gui.tcl -n 5 -starting_seed_index 1 -timing_driven -compare_criteria frequency
+#------------------------------------------------------------------------------------------------------------------------------------------
+# Seed Index  Seed      Slowest Clock          Frequency  Report Analyzed                                Saved Design
+# ==========  ========  ===============  ===============  =============================================  ===================================
+         N/A         0  U3_MAINCLKGEN/Core:GLB           47.134  TOP_COMET_timing_r1_initial.rpt              
+           1         0  U3_MAINCLKGEN/Core:GLB           48.028  TOP_COMET_timing_r1_s1.rpt                   
+           2  86662958  U3_MAINCLKGEN/Core:GLB           47.705  TOP_COMET_timing_r1_s2.rpt                   
+           3   8988747  U3_MAINCLKGEN/Core:GLB           48.957  TOP_COMET_timing_r1_s3.rpt                   
+           4  51071856  U3_MAINCLKGEN/Core:GLB           46.331  TOP_COMET_timing_r1_s4.rpt                   
+           5  78381505  U3_MAINCLKGEN/Core:GLB           47.136  TOP_COMET_timing_r1_s5.rpt                   

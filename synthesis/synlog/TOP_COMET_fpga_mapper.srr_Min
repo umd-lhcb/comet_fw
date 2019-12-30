@@ -1,0 +1,70 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jun 09 09:58:35 2016
+#
+
+
+Top view:               TOP_COMET
+Operating conditions:   PA3.COMWC-2
+Requested Frequency:    40.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3e
+Paths requested:        5
+Constraint File(s):    F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\constraint\Top_Basic_a.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+                       Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group           
+-----------------------------------------------------------------------------------------------------------------------
+CCC_160M_ADJ_ALIAS     160.0 MHz     394.9 MHz     6.250         2.532         3.718      declared     default_clkgroup
+CCC_160M_FXD           160.0 MHz     264.2 MHz     6.250         3.785         2.465      declared     default_clkgroup
+CLK60MHZ               60.0 MHz      57.7 MHz      16.665        17.334        -0.669     declared     group_38_31     
+CLK_40M_GL             40.0 MHz      48.3 MHz      25.000        20.704        3.669      declared     default_clkgroup
+Y_INFERRED             200.0 MHz     269.0 MHz     5.000         3.717         1.283      declared     default_clkgroup
+=======================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------
+CLK_40M_GL          CLK_40M_GL          |  0.000       False  |  No paths    -      |  12.500      False  |  No paths    -    
+CLK_40M_GL          CCC_160M_FXD        |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+CLK_40M_GL          CLK60MHZ            |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+CCC_160M_FXD        CLK_40M_GL          |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+CCC_160M_FXD        CCC_160M_FXD        |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+CLK60MHZ            CLK_40M_GL          |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+CLK60MHZ            CLK60MHZ            |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+CCC_160M_ADJ_ALIAS  CCC_160M_FXD        |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+CCC_160M_ADJ_ALIAS  CCC_160M_ADJ_ALIAS  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+Y_INFERRED          Y_INFERRED          |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+

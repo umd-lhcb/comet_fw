@@ -1,0 +1,84 @@
+----------------------------------------------------------------------
+Report for cell USB_INTERFACE.rtl
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1        50       1.0       50.0
+                               AO1A        20       1.0       20.0
+                               AO1B         1       1.0        1.0
+                               AO1C         2       1.0        2.0
+                               AO1D         3       1.0        3.0
+                               AOI1         1       1.0        1.0
+                               AX1E         2       1.0        2.0
+                        BIDIR_LVTTL         1       0.0        0.0
+                               BUFF         8       1.0        8.0
+                             CLKBUF         1       0.0        0.0
+                             CLKINT         1       0.0        0.0
+                           DFI1E1P0         1       1.0        1.0
+                             DFN1C0        29       1.0       29.0
+                           DFN1E0C0        24       1.0       24.0
+                           DFN1E0P0         4       1.0        4.0
+                           DFN1E1C0       119       1.0      119.0
+                           DFN1E1P0         4       1.0        4.0
+                             DFN1P0         2       1.0        2.0
+                    DPRT_512X9_SRAM         1       0.0        0.0
+                  DPRT_512X9_SRAM_0         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF        42       0.0        0.0
+                               MAJ3         1       1.0        1.0
+                              MIN3X         1       1.0        1.0
+                               NOR2        36       1.0       36.0
+                              NOR2A        76       1.0       76.0
+                              NOR2B        48       1.0       48.0
+                               NOR3         4       1.0        4.0
+                              NOR3A        19       1.0       19.0
+                              NOR3B        42       1.0       42.0
+                              NOR3C        48       1.0       48.0
+                                OA1        12       1.0       12.0
+                               OA1A         8       1.0        8.0
+                               OA1B         5       1.0        5.0
+                               OA1C         4       1.0        4.0
+                                OR2        22       1.0       22.0
+                               OR2A        15       1.0       15.0
+                               OR2B         8       1.0        8.0
+                                OR3        48       1.0       48.0
+                               OR3B         1       1.0        1.0
+                               OR3C         2       1.0        2.0
+                             OUTBUF        62       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XA1C         5       1.0        5.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL            792                681.0
+----------------------------------------------------------------------
+Report for cell BIDIR_LVTTL.netlist
+     Instance path:  U3_USB_DAT_BUS
+                                          Cell usage:
+                               cell       count     area    count*area
+                        BIBUF_F_24U         8       0.0        0.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             10                  0.0
+----------------------------------------------------------------------
+Report for cell DPRT_512X9_SRAM_0.netlist
+  Original Cell name DPRT_512X9_SRAM
+     Instance path:  U100_PATT_ELINK_BLK
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                             RAM4K9         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  0.0
+----------------------------------------------------------------------
+Report for cell DPRT_512X9_SRAM.netlist
+  Original Cell name DPRT_512X9_SRAM
+     Instance path:  U0_PATT_TFC_BLK
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                             RAM4K9         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  0.0

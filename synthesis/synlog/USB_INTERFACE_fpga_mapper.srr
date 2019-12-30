@@ -1,0 +1,614 @@
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1522R, Built Jun  4 2015 12:04:36
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-3
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\usb_interface.vhd":188:69:188:71|Found counter in view:work.USB_INTERFACE(rtl) inst REG_ADDR[8:0]
+@N:"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\usb_interface.vhd":342:12:342:13|Found counter in view:work.USB_INTERFACE(rtl) inst SI_CNT[3:0]
+Encoding state machine REG_STATE[0:41] (view:work.USB_INTERFACE(rtl))
+original code -> new code
+   000000 -> 000000
+   000001 -> 000001
+   000010 -> 000011
+   000011 -> 000010
+   000100 -> 000110
+   000101 -> 000111
+   000110 -> 000101
+   000111 -> 000100
+   001000 -> 001100
+   001001 -> 001101
+   001010 -> 001111
+   001011 -> 001110
+   001100 -> 001010
+   001101 -> 001011
+   001110 -> 001001
+   001111 -> 001000
+   010000 -> 011000
+   010001 -> 011001
+   010010 -> 011011
+   010011 -> 011010
+   010100 -> 011110
+   010101 -> 011111
+   010110 -> 011101
+   010111 -> 011100
+   011000 -> 010100
+   011001 -> 010101
+   011010 -> 010111
+   011100 -> 010110
+   011101 -> 010010
+   011110 -> 010011
+   110000 -> 010001
+   110001 -> 010000
+   110010 -> 110000
+   110100 -> 110001
+   110101 -> 110011
+   110110 -> 110010
+   110111 -> 110110
+   111010 -> 110111
+   111100 -> 110101
+   111101 -> 110100
+   111110 -> 111100
+   111111 -> 111101
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 123MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 123MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 123MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 123MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 123MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 123MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 123MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                   Fanout, notes                   
+-----------------------------------------------------------------------------
+REG_STATE[0] / Q                             25                              
+REG_STATE[2] / Q                             34                              
+REG_STATE[3] / Q                             32                              
+RESETB_pad / Y                               182 : 182 asynchronous set/reset
+REG_STATE_s0_0_a2_0_a2_0_a2 / Y              25                              
+USB_TO_RAM_MUX.n_tfc_blka8_0_a2_0_a2 / Y     25                              
+REG_STATE_s11_0_a5_0_a3_0_a2 / Y             40                              
+=============================================================================
+
+@N: FP130 |Promoting Net CLK60MHZ on CLKINT  CLK60MHZ_keep 
+@N: FP130 |Promoting Net CLK_40MHZ_GEN_c on CLKBUF  CLK_40MHZ_GEN_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+Replicating Combinational Instance REG_STATE_s11_0_a5_0_a3_0_a2, fanout 40 segments 2
+Replicating Combinational Instance USB_TO_RAM_MUX.n_tfc_blka8_0_a2_0_a2, fanout 25 segments 2
+Replicating Combinational Instance REG_STATE_s0_0_a2_0_a2_0_a2, fanout 25 segments 2
+Buffering RESETB_c, fanout 182 segments 8
+Replicating Sequential Instance REG_STATE[3], fanout 32 segments 2
+Replicating Sequential Instance REG_STATE[2], fanout 34 segments 2
+Replicating Sequential Instance REG_STATE[0], fanout 25 segments 2
+Buffering RESETB_c, fanout 31 segments 2
+
+Added 8 Buffers
+Added 6 Cells via replication
+	Added 3 Sequential Cells via replication
+	Added 3 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 187 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================================ Non-Gated/Non-Generated Clocks ============================================
+Clock Tree ID     Driving Element     Drive Element Type             Fanout     Sample Instance                         
+------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CLK60MHZ_keep       clock definition on CLKINT     185        REG_STATE_0[0]                          
+@K:CKID0002       CLK_40MHZ_GEN       clock definition on port       2          U100_PATT_ELINK_BLK.DPRT_512X9_SRAM_R0C0
+========================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 137MB)
+
+Writing Analyst data base D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\synwork\USB_INTERFACE_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 137MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03M-3
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 137MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 137MB)
+
+Found clock CLK40M_GEN_RAM with period 25.00ns 
+Found clock clk60MHZ with period 16.39ns 
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Dec 18 13:40:23 2015
+#
+
+
+Top view:               USB_INTERFACE
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    40.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3e
+Paths requested:        5
+Constraint File(s):    D:\0_all_libero_project\CERN_LHCb\COMET_TEST\constraint\Top_Basic.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.380
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock      
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group      
+--------------------------------------------------------------------------------------------------------------
+CLK40M_GEN_RAM     40.0 MHz      NA            25.000        NA            NA         declared     group_16_23
+clk60MHZ           61.0 MHz      59.6 MHz      16.393        16.773        -0.380     declared     group_16_29
+==============================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+@W: MT548 :"d:/0_all_libero_project/cern_lhcb/comet_test/constraint/top_basic.sdc":20:0:20:0|Source for clock CLK_PH1_160MHZ not found in netlist. Run the constraint checker to verify if constraints are applied correctly.
+@W: MT548 :"d:/0_all_libero_project/cern_lhcb/comet_test/constraint/top_basic.sdc":21:0:21:0|Source for clock CLK40M_GEN_GLB not found in netlist. Run the constraint checker to verify if constraints are applied correctly.
+@W: MT548 :"d:/0_all_libero_project/cern_lhcb/comet_test/constraint/top_basic.sdc":25:0:25:0|Source for clock CCC_160M_ADJ not found in netlist. Run the constraint checker to verify if constraints are applied correctly.
+@W: MT548 :"d:/0_all_libero_project/cern_lhcb/comet_test/constraint/top_basic.sdc":26:0:26:0|Source for clock CCC_160M_adj_i not found in netlist. Run the constraint checker to verify if constraints are applied correctly.
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+clk60MHZ  clk60MHZ  |  16.393      -0.380  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk60MHZ
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                             Arrival           
+Instance            Reference     Type       Pin     Net                 Time        Slack 
+                    Clock                                                                  
+-------------------------------------------------------------------------------------------
+REG_STATE[1]        clk60MHZ      DFN1C0     Q       REG_STATE[1]        0.737       -0.380
+REG_STATE[3]        clk60MHZ      DFN1C0     Q       REG_STATE[3]        0.737       -0.255
+REG_STATE[4]        clk60MHZ      DFN1C0     Q       REG_STATE[4]        0.737       1.753 
+REG_STATE_0[0]      clk60MHZ      DFN1C0     Q       REG_STATE_0[0]      0.737       2.175 
+REG_STATE[5]        clk60MHZ      DFN1C0     Q       REG_STATE[5]        0.737       2.511 
+REG_STATE_0[2]      clk60MHZ      DFN1C0     Q       REG_STATE_0[2]      0.737       2.927 
+REG_STATE[0]        clk60MHZ      DFN1C0     Q       REG_STATE[0]        0.580       3.218 
+REG_STATE[2]        clk60MHZ      DFN1C0     Q       REG_STATE[2]        0.580       3.529 
+USB_RXF_B           clk60MHZ      DFN1P0     Q       USB_RXF_B           0.737       3.737 
+RD_USB_ADBUS[1]     clk60MHZ      DFN1C0     Q       RD_USB_ADBUS[1]     0.737       3.977 
+===========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                   Required           
+Instance            Reference     Type         Pin     Net                     Time         Slack 
+                    Clock                                                                         
+--------------------------------------------------------------------------------------------------
+WR_XFER_TYPE[0]     clk60MHZ      DFN1C0       D       WR_XFER_TYPE_RNO[0]     15.820       -0.380
+WR_XFER_TYPE[1]     clk60MHZ      DFN1C0       D       WR_XFER_TYPE_RNO[1]     15.854       0.468 
+WR_XFER_TYPE[5]     clk60MHZ      DFN1C0       D       WR_XFER_TYPE_RNO[5]     15.854       0.468 
+WR_XFER_TYPE[7]     clk60MHZ      DFN1C0       D       WR_XFER_TYPE_RNO[7]     15.854       1.596 
+WR_USB_ADBUS[1]     clk60MHZ      DFN1E0C0     D       N_WR_USB_ADBUS[1]       15.820       1.944 
+WR_USB_ADBUS[3]     clk60MHZ      DFN1E0C0     D       N_WR_USB_ADBUS[3]       15.820       1.944 
+WR_USB_ADBUS[5]     clk60MHZ      DFN1E0C0     D       N_WR_USB_ADBUS[5]       15.820       1.944 
+WR_USB_ADBUS[7]     clk60MHZ      DFN1E0C0     D       N_WR_USB_ADBUS[7]       15.820       1.944 
+WR_USB_ADBUS[0]     clk60MHZ      DFN1E0C0     D       N_WR_USB_ADBUS[0]       15.820       1.980 
+WR_USB_ADBUS[2]     clk60MHZ      DFN1E0C0     D       N_WR_USB_ADBUS[2]       15.820       2.425 
+==================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      16.393
+    - Setup time:                            0.574
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         15.820
+
+    - Propagation time:                      16.199
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.380
+
+    Number of logic level(s):                8
+    Starting point:                          REG_STATE[1] / Q
+    Ending point:                            WR_XFER_TYPE[0] / D
+    The start point is clocked by            clk60MHZ [rising] on pin CLK
+    The end   point is clocked by            clk60MHZ [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                         Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+REG_STATE[1]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[1]                 Net        -        -       2.437     -           23        
+REG_STATE_RNIGAHU[3]         OR2        A        In      -         3.174       -         
+REG_STATE_RNIGAHU[3]         OR2        Y        Out     0.507     3.681       -         
+N_209                        Net        -        -       1.708     -           10        
+REG_STATE_RNIQ1QD1[4]        OR2        A        In      -         5.390       -         
+REG_STATE_RNIQ1QD1[4]        OR2        Y        Out     0.507     5.897       -         
+N_231                        Net        -        -       1.994     -           12        
+REG_STATE_RNI8ABC2_1[0]      OR2        B        In      -         7.890       -         
+REG_STATE_RNI8ABC2_1[0]      OR2        Y        Out     0.646     8.537       -         
+N_271                        Net        -        -       1.776     -           11        
+RD_USB_ADBUS_RNIB82S3[3]     OR2        B        In      -         10.313      -         
+RD_USB_ADBUS_RNIB82S3[3]     OR2        Y        Out     0.646     10.960      -         
+N_1707                       Net        -        -       0.386     -           2         
+RD_USB_ADBUS_RNI196H4[7]     OR2        B        In      -         11.345      -         
+RD_USB_ADBUS_RNI196H4[7]     OR2        Y        Out     0.646     11.992      -         
+N_403                        Net        -        -       1.279     -           5         
+RD_USB_ADBUS_RNIMS3T4[0]     OR2        A        In      -         13.271      -         
+RD_USB_ADBUS_RNIMS3T4[0]     OR2        Y        Out     0.507     13.778      -         
+N_545                        Net        -        -       0.806     -           3         
+WR_XFER_TYPE_RNO_0[0]        OR2        A        In      -         14.585      -         
+WR_XFER_TYPE_RNO_0[0]        OR2        Y        Out     0.507     15.092      -         
+N_586                        Net        -        -       0.322     -           1         
+WR_XFER_TYPE_RNO[0]          AO1        A        In      -         15.414      -         
+WR_XFER_TYPE_RNO[0]          AO1        Y        Out     0.464     15.878      -         
+WR_XFER_TYPE_RNO[0]          Net        -        -       0.322     -           1         
+WR_XFER_TYPE[0]              DFN1C0     D        In      -         16.199      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 16.773 is 5.744(34.2%) logic and 11.029(65.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      16.393
+    - Setup time:                            0.574
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         15.820
+
+    - Propagation time:                      16.074
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.255
+
+    Number of logic level(s):                8
+    Starting point:                          REG_STATE[3] / Q
+    Ending point:                            WR_XFER_TYPE[0] / D
+    The start point is clocked by            clk60MHZ [rising] on pin CLK
+    The end   point is clocked by            clk60MHZ [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                         Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+REG_STATE[3]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[3]                 Net        -        -       2.172     -           16        
+REG_STATE_RNIGAHU[3]         OR2        B        In      -         2.909       -         
+REG_STATE_RNIGAHU[3]         OR2        Y        Out     0.646     3.556       -         
+N_209                        Net        -        -       1.708     -           10        
+REG_STATE_RNIQ1QD1[4]        OR2        A        In      -         5.264       -         
+REG_STATE_RNIQ1QD1[4]        OR2        Y        Out     0.507     5.772       -         
+N_231                        Net        -        -       1.994     -           12        
+REG_STATE_RNI8ABC2_1[0]      OR2        B        In      -         7.765       -         
+REG_STATE_RNI8ABC2_1[0]      OR2        Y        Out     0.646     8.412       -         
+N_271                        Net        -        -       1.776     -           11        
+RD_USB_ADBUS_RNIB82S3[3]     OR2        B        In      -         10.188      -         
+RD_USB_ADBUS_RNIB82S3[3]     OR2        Y        Out     0.646     10.835      -         
+N_1707                       Net        -        -       0.386     -           2         
+RD_USB_ADBUS_RNI196H4[7]     OR2        B        In      -         11.220      -         
+RD_USB_ADBUS_RNI196H4[7]     OR2        Y        Out     0.646     11.867      -         
+N_403                        Net        -        -       1.279     -           5         
+RD_USB_ADBUS_RNIMS3T4[0]     OR2        A        In      -         13.146      -         
+RD_USB_ADBUS_RNIMS3T4[0]     OR2        Y        Out     0.507     13.653      -         
+N_545                        Net        -        -       0.806     -           3         
+WR_XFER_TYPE_RNO_0[0]        OR2        A        In      -         14.460      -         
+WR_XFER_TYPE_RNO_0[0]        OR2        Y        Out     0.507     14.967      -         
+N_586                        Net        -        -       0.322     -           1         
+WR_XFER_TYPE_RNO[0]          AO1        A        In      -         15.289      -         
+WR_XFER_TYPE_RNO[0]          AO1        Y        Out     0.464     15.753      -         
+WR_XFER_TYPE_RNO[0]          Net        -        -       0.322     -           1         
+WR_XFER_TYPE[0]              DFN1C0     D        In      -         16.074      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 16.648 is 5.883(35.3%) logic and 10.765(64.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      16.393
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         15.854
+
+    - Propagation time:                      15.386
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.468
+
+    Number of logic level(s):                7
+    Starting point:                          REG_STATE[1] / Q
+    Ending point:                            WR_XFER_TYPE[1] / D
+    The start point is clocked by            clk60MHZ [rising] on pin CLK
+    The end   point is clocked by            clk60MHZ [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                         Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+REG_STATE[1]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[1]                 Net        -        -       2.437     -           23        
+REG_STATE_RNIGAHU[3]         OR2        A        In      -         3.174       -         
+REG_STATE_RNIGAHU[3]         OR2        Y        Out     0.507     3.681       -         
+N_209                        Net        -        -       1.708     -           10        
+REG_STATE_RNIQ1QD1[4]        OR2        A        In      -         5.390       -         
+REG_STATE_RNIQ1QD1[4]        OR2        Y        Out     0.507     5.897       -         
+N_231                        Net        -        -       1.994     -           12        
+REG_STATE_RNI8ABC2_1[0]      OR2        B        In      -         7.890       -         
+REG_STATE_RNI8ABC2_1[0]      OR2        Y        Out     0.646     8.537       -         
+N_271                        Net        -        -       1.776     -           11        
+RD_USB_ADBUS_RNIB82S3[3]     OR2        B        In      -         10.313      -         
+RD_USB_ADBUS_RNIB82S3[3]     OR2        Y        Out     0.646     10.960      -         
+N_1707                       Net        -        -       0.386     -           2         
+RD_USB_ADBUS_RNI196H4[7]     OR2        B        In      -         11.345      -         
+RD_USB_ADBUS_RNI196H4[7]     OR2        Y        Out     0.646     11.992      -         
+N_403                        Net        -        -       1.279     -           5         
+RD_USB_ADBUS_RNIMS3T4[0]     OR2        A        In      -         13.271      -         
+RD_USB_ADBUS_RNIMS3T4[0]     OR2        Y        Out     0.507     13.778      -         
+N_545                        Net        -        -       0.806     -           3         
+WR_XFER_TYPE_RNO[1]          AO1A       A        In      -         14.585      -         
+WR_XFER_TYPE_RNO[1]          AO1A       Y        Out     0.480     15.065      -         
+WR_XFER_TYPE_RNO[1]          Net        -        -       0.322     -           1         
+WR_XFER_TYPE[1]              DFN1C0     D        In      -         15.386      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 15.925 is 5.217(32.8%) logic and 10.708(67.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      16.393
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         15.854
+
+    - Propagation time:                      15.386
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.468
+
+    Number of logic level(s):                7
+    Starting point:                          REG_STATE[1] / Q
+    Ending point:                            WR_XFER_TYPE[5] / D
+    The start point is clocked by            clk60MHZ [rising] on pin CLK
+    The end   point is clocked by            clk60MHZ [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                         Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+REG_STATE[1]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[1]                 Net        -        -       2.437     -           23        
+REG_STATE_RNIGAHU[3]         OR2        A        In      -         3.174       -         
+REG_STATE_RNIGAHU[3]         OR2        Y        Out     0.507     3.681       -         
+N_209                        Net        -        -       1.708     -           10        
+REG_STATE_RNIQ1QD1[4]        OR2        A        In      -         5.390       -         
+REG_STATE_RNIQ1QD1[4]        OR2        Y        Out     0.507     5.897       -         
+N_231                        Net        -        -       1.994     -           12        
+REG_STATE_RNI8ABC2_1[0]      OR2        B        In      -         7.890       -         
+REG_STATE_RNI8ABC2_1[0]      OR2        Y        Out     0.646     8.537       -         
+N_271                        Net        -        -       1.776     -           11        
+RD_USB_ADBUS_RNIB82S3[3]     OR2        B        In      -         10.313      -         
+RD_USB_ADBUS_RNIB82S3[3]     OR2        Y        Out     0.646     10.960      -         
+N_1707                       Net        -        -       0.386     -           2         
+RD_USB_ADBUS_RNI196H4[7]     OR2        B        In      -         11.345      -         
+RD_USB_ADBUS_RNI196H4[7]     OR2        Y        Out     0.646     11.992      -         
+N_403                        Net        -        -       1.279     -           5         
+RD_USB_ADBUS_RNIMS3T4[0]     OR2        A        In      -         13.271      -         
+RD_USB_ADBUS_RNIMS3T4[0]     OR2        Y        Out     0.507     13.778      -         
+N_545                        Net        -        -       0.806     -           3         
+WR_XFER_TYPE_RNO[5]          AO1A       A        In      -         14.585      -         
+WR_XFER_TYPE_RNO[5]          AO1A       Y        Out     0.480     15.065      -         
+WR_XFER_TYPE_RNO[5]          Net        -        -       0.322     -           1         
+WR_XFER_TYPE[5]              DFN1C0     D        In      -         15.386      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 15.925 is 5.217(32.8%) logic and 10.708(67.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      16.393
+    - Setup time:                            0.574
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         15.820
+
+    - Propagation time:                      15.278
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.541
+
+    Number of logic level(s):                7
+    Starting point:                          REG_STATE[1] / Q
+    Ending point:                            WR_XFER_TYPE[1] / D
+    The start point is clocked by            clk60MHZ [rising] on pin CLK
+    The end   point is clocked by            clk60MHZ [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                         Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+REG_STATE[1]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[1]                 Net        -        -       2.437     -           23        
+REG_STATE_RNIGAHU[3]         OR2        A        In      -         3.174       -         
+REG_STATE_RNIGAHU[3]         OR2        Y        Out     0.507     3.681       -         
+N_209                        Net        -        -       1.708     -           10        
+REG_STATE_RNIQ1QD1[4]        OR2        A        In      -         5.390       -         
+REG_STATE_RNIQ1QD1[4]        OR2        Y        Out     0.507     5.897       -         
+N_231                        Net        -        -       1.994     -           12        
+REG_STATE_RNI8ABC2_1[0]      OR2        B        In      -         7.890       -         
+REG_STATE_RNI8ABC2_1[0]      OR2        Y        Out     0.646     8.537       -         
+N_271                        Net        -        -       1.776     -           11        
+RD_USB_ADBUS_RNIB82S3[3]     OR2        B        In      -         10.313      -         
+RD_USB_ADBUS_RNIB82S3[3]     OR2        Y        Out     0.646     10.960      -         
+N_1707                       Net        -        -       0.386     -           2         
+RD_USB_ADBUS_RNI196H4[7]     OR2        B        In      -         11.345      -         
+RD_USB_ADBUS_RNI196H4[7]     OR2        Y        Out     0.646     11.992      -         
+N_403                        Net        -        -       1.279     -           5         
+WR_XFER_TYPE_RNO_1[1]        OA1        A        In      -         13.271      -         
+WR_XFER_TYPE_RNO_1[1]        OA1        Y        Out     0.732     14.003      -         
+N_1846                       Net        -        -       0.322     -           1         
+WR_XFER_TYPE_RNO[1]          AO1A       C        In      -         14.324      -         
+WR_XFER_TYPE_RNO[1]          AO1A       Y        Out     0.633     14.957      -         
+WR_XFER_TYPE_RNO[1]          Net        -        -       0.322     -           1         
+WR_XFER_TYPE[1]              DFN1C0     D        In      -         15.278      -         
+=========================================================================================
+Total path delay (propagation time + setup) of 15.852 is 5.629(35.5%) logic and 10.223(64.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 137MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 137MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3PE1500_PQFP208_STD
+Report for cell USB_INTERFACE.rtl
+  Core Cell usage:
+              cell count     area count*area
+               AO1    50      1.0       50.0
+              AO1A    20      1.0       20.0
+              AO1B     1      1.0        1.0
+              AO1C     2      1.0        2.0
+              AO1D     3      1.0        3.0
+              AOI1     1      1.0        1.0
+              AX1E     2      1.0        2.0
+              BUFF     8      1.0        8.0
+            CLKINT     1      0.0        0.0
+               GND     4      0.0        0.0
+              MAJ3     1      1.0        1.0
+             MIN3X     1      1.0        1.0
+              NOR2    36      1.0       36.0
+             NOR2A    76      1.0       76.0
+             NOR2B    48      1.0       48.0
+              NOR3     4      1.0        4.0
+             NOR3A    19      1.0       19.0
+             NOR3B    42      1.0       42.0
+             NOR3C    48      1.0       48.0
+               OA1    12      1.0       12.0
+              OA1A     8      1.0        8.0
+              OA1B     5      1.0        5.0
+              OA1C     4      1.0        4.0
+               OR2    22      1.0       22.0
+              OR2A    15      1.0       15.0
+              OR2B     8      1.0        8.0
+               OR3    48      1.0       48.0
+              OR3B     1      1.0        1.0
+              OR3C     2      1.0        2.0
+               VCC     4      0.0        0.0
+              XA1C     5      1.0        5.0
+             XNOR2     5      1.0        5.0
+              XOR2     1      1.0        1.0
+
+
+          DFI1E1P0     1      1.0        1.0
+            DFN1C0    29      1.0       29.0
+          DFN1E0C0    24      1.0       24.0
+          DFN1E0P0     4      1.0        4.0
+          DFN1E1C0   119      1.0      119.0
+          DFN1E1P0     4      1.0        4.0
+            DFN1P0     2      1.0        2.0
+            RAM4K9     2      0.0        0.0
+                   -----          ----------
+             TOTAL   692               681.0
+
+
+  IO Cell usage:
+              cell count
+       BIBUF_F_24U     8
+            CLKBUF     1
+             INBUF    42
+            OUTBUF    62
+                   -----
+             TOTAL   113
+
+
+Core Cells         : 681 of 38400 (2%)
+IO Cells           : 113
+
+  RAM/ROM Usage Summary
+Block Rams : 2 of 60 (3%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 48MB peak: 137MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Dec 18 13:40:23 2015
+
+###########################################################]

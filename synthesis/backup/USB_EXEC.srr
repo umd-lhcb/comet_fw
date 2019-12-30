@@ -1,0 +1,26 @@
+#Build: Synplify Pro I-2014.03M-SP1, Build 097R, Oct  9 2014
+#install: D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
+#OS: Windows 7 6.1
+#Hostname: TOBANNON-PC
+
+#Implementation: synthesis
+
+Synopsys VHDL Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_EXEC.vhd":29:7:29:14|Top entity is set to USB_EXEC.
+VHDL syntax check successful!
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_EXEC.vhd":29:7:29:14|Synthesizing work.usb_exec.rtl_logic 
+@N: CD231 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_EXEC.vhd":68:24:68:25|Using onehot encoding for type test_sm_states (init="10000")
+@E: CD385 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_EXEC.vhd":133:46:133:49|aggregate with others must be in a constrained context
+@E: CD734 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_EXEC.vhd":133:46:133:49|Can't convert expression to type specified - poorly formed operand of type conversion
+@E: CD716 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_EXEC.vhd":133:46:133:49|Expression has ambiguous type
+(OTHERS => enum:'1')
+@E: CD308 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_EXEC.vhd":133:46:133:49|Unable to evaluate expression type
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Sep 24 16:44:46 2015
+
+###########################################################]

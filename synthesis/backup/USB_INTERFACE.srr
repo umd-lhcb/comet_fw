@@ -1,0 +1,22 @@
+#Build: Synplify Pro I-2014.03M-SP1, Build 097R, Oct  9 2014
+#install: D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
+#OS: Windows 7 6.1
+#Hostname: TOBANNON-PC
+
+#Implementation: synthesis
+
+Synopsys VHDL Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_INTERFACE.vhd":27:7:27:19|Top entity is set to USB_INTERFACE.
+VHDL syntax check successful!
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_INTERFACE.vhd":27:7:27:19|Synthesizing work.usb_interface.rtl 
+@N: CD232 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_INTERFACE.vhd":67:23:67:24|Using gray code encoding for type reg_sm_states
+@E: CD297 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\USB_INTERFACE.vhd":544:12:544:23|Width mismatch, location has width 9, value 8
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 05 11:08:08 2015
+
+###########################################################]

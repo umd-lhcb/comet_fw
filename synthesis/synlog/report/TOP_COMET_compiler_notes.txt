@@ -1,0 +1,61 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":45:7:45:15|Top entity is set to TOP_COMET.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":45:7:45:15|Synthesizing work.top_comet.rtl.
+@N: CD630 :"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd":38:7:38:17|Synthesizing work.gp_patt_gen.rtl_logic.
+@N: CD231 :"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd":79:28:79:29|Using onehot encoding for type gp_pg_sm_states. For example, enumeration init is mapped to "10000000000000".
+@N: CD630 :"Z:\windows\comet_fw\smartgen\tristate_buf\tristate_buf.vhd":8:7:8:18|Synthesizing work.tristate_buf.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":2679:10:2679:22|Synthesizing proasic3e.tribuff_f_24u.syn_black_box.
+@N: CD630 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":38:7:38:19|Synthesizing work.usb_interface.rtl.
+@N: CD232 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":201:23:201:24|Using gray code encoding for type reg_sm_states.
+@N: CD231 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":240:20:240:21|Using onehot encoding for type mux_states. For example, enumeration inactive is mapped to "1000000000000000000000".
+@N: CD630 :"Z:\windows\comet_fw\hdl\CLK60M_TO_40M.vhd":29:7:29:19|Synthesizing work.clk60m_to_40m.rtl.
+@N: CD233 :"Z:\windows\comet_fw\hdl\CLK60M_TO_40M.vhd":49:20:49:21|Using sequential encoding for type state_vals.
+@N: CD630 :"Z:\windows\comet_fw\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.vhd":8:7:8:17|Synthesizing work.bidir_lvttl.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":500:10:500:20|Synthesizing proasic3e.bibuf_f_24u.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":2098:10:2098:12|Synthesizing proasic3e.inv.syn_black_box.
+@N: CD630 :"Z:\windows\comet_fw\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd":8:7:8:21|Synthesizing work.dprt_512x9_sram.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":3161:10:3161:15|Synthesizing proasic3e.ram4k9.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":2999:10:2999:12|Synthesizing proasic3e.vcc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":1894:10:1894:12|Synthesizing proasic3e.gnd.syn_black_box.
+@N: CD630 :"Z:\windows\comet_fw\hdl\ELINK_SLAVE.vhd":33:7:33:17|Synthesizing work.elink_slave.rtl.
+@N: CD630 :"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd":39:7:39:19|Synthesizing work.slave_des320s.rtl.
+@N: CD604 :"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd":194:13:194:26|OTHERS clause is not synthesized.
+@N: CD630 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":22:7:22:29|Synthesizing work.ddr_bidir_lvds_dual_clk.rtl.
+@N: CD630 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":84:10:84:16|Synthesizing work.ddr_reg.syn_black_box.
+@N: CD630 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":69:10:69:16|Synthesizing work.ddr_out.syn_black_box.
+@N: CD630 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":52:10:52:19|Synthesizing work.bibuf_lvds.syn_black_box.
+@N: CD630 :"Z:\windows\comet_fw\hdl\SER320M.vhd":28:7:28:13|Synthesizing work.ser320m.rtl_logic.
+@N: CD630 :"Z:\windows\comet_fw\hdl\SYNC_DAT_SEL.vhd":26:7:26:18|Synthesizing work.sync_dat_sel.rtl.
+@N: CD630 :"Z:\windows\comet_fw\hdl\ELINK_SLAVE_INV.vhd":35:7:35:21|Synthesizing work.elink_slave_inv.rtl.
+@N: CD630 :"Z:\windows\comet_fw\hdl\TOP_MASTER_DES320M.vhd":34:7:34:24|Synthesizing work.top_master_des320m.rtl.
+@N: CD630 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":45:7:45:20|Synthesizing work.master_des320m.rtl.
+@N: CD231 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":82:20:82:21|Using onehot encoding for type des_states. For example, enumeration init is mapped to "100000000".
+@N: CD604 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":595:16:595:37|OTHERS clause is not synthesized.
+@N: CD630 :"Z:\windows\comet_fw\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.vhd":8:7:8:25|Synthesizing work.ccc_dyn_triple_160m.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":4192:10:4192:15|Synthesizing proasic3e.dynccc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":407:10:407:15|Synthesizing proasic3e.pllint.syn_black_box.
+@N: CD630 :"Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd":96:7:96:20|Synthesizing work.gp_ccc_sconfig.rtl.
+@N: CD231 :"Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd":140:25:140:26|Using onehot encoding for type shift_sm_states. For example, enumeration init is mapped to "1000000".
+@N: CD604 :"Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd":286:12:286:29|OTHERS clause is not synthesized.
+@N: CD630 :"Z:\windows\comet_fw\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd":8:7:8:19|Synthesizing work.bidir_lvds_io.def_arch.
+@N: CD630 :"Z:\windows\comet_fw\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.vhd":8:7:8:25|Synthesizing work.clk_fxd_40_160_a60m.def_arch.
+@N: CD630 :"Z:\windows\comet_fw\hdl\REF_CLK_DIV_GEN.vhd":29:7:29:21|Synthesizing work.ref_clk_div_gen.rtl.
+@N: CD630 :"Z:\windows\comet_fw\hdl\EXEC_MODE_CNTL.vhd":26:7:26:20|Synthesizing work.exec_mode_cntl.rtl.
+@N: CD630 :"Z:\windows\comet_fw\hdl\USB_EXEC.vhd":30:7:30:14|Synthesizing work.usb_exec.rtl_logic.
+@N: CD231 :"Z:\windows\comet_fw\hdl\USB_EXEC.vhd":72:24:72:25|Using onehot encoding for type test_sm_states. For example, enumeration init is mapped to "10000".
+@N: CD604 :"Z:\windows\comet_fw\hdl\USB_EXEC.vhd":217:16:217:33|OTHERS clause is not synthesized.
+@N: CD630 :"Z:\windows\comet_fw\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd":8:7:8:17|Synthesizing work.lvds_bufout.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":2519:10:2519:20|Synthesizing proasic3e.outbuf_lvds.syn_black_box.
+@N: CD630 :"Z:\windows\comet_fw\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.vhd":8:7:8:17|Synthesizing work.lvds_clk_in.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":2038:10:2038:19|Synthesizing proasic3e.inbuf_lvds.syn_black_box.
+@N: CL201 :"Z:\windows\comet_fw\hdl\USB_EXEC.vhd":116:12:116:13|Trying to extract state machine for register TEST_SM.
+@N: CL201 :"Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd":162:8:162:9|Trying to extract state machine for register SHIFT_SM.
+@N: CL201 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Trying to extract state machine for register DES_SM.
+@N: CL159 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":24:8:24:14|Input DDR_CLR is unused.
+@N: CL201 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Trying to extract state machine for register REG_STATE.
+@N: CL201 :"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd":94:12:94:13|Trying to extract state machine for register GP_PG_SM.
+@N|Running in 64-bit mode
+

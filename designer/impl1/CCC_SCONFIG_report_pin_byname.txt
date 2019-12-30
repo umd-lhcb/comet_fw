@@ -1,0 +1,29 @@
+*****************************************************************
+Pin Report - Date: Wed Oct 14 09:58:31 2015 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.5 SP2
+Version: 11.5.2.6
+Design Name: CCC_SCONFIG
+Family: ProASIC3E
+Die: A3PE1500
+Package: 208 PQFP
+*****************************************************************
+Port            |Pin |Fixed |Function         |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+----------------|----|------|-----------------|--------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
+CCC_160M_ADJ     121  No     IO101PDB3V1       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+CLK40M_GEN       26   No     GFA0/IO190NPB6V2  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+CLK_PH1_160MHZ   132  No     GCA0/IO87NPB3V0   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DEV_RST_B        137  No     IO83NDB2V3        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DYN_SMODE        134  No     GCB0/IO86NDB2V3   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DYNASEL_U        168  No     IO47PDB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DYNBSEL_V        174  No     IO41NDB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DYNCSEL_W        136  No     GCC1/IO85PSB2V3   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+LOCK_STATUS      129  No     GCA1/IO87PPB3V0   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+PHASE_ADJ_L[46]  169  No     IO47NDB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PHASE_ADJ_L[47]  93   No     IO119PDB4V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PHASE_ADJ_L[48]  173  No     IO41PDB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PHASE_ADJ_L[49]  92   No     IO119NDB4V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PHASE_ADJ_L[50]  172  No     IO43PSB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+STATASEL_Q       90   No     IO121NDB4V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+STATBSEL_R       91   No     IO121PDB4V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+STATCSEL_S       87   No     IO127PDB4V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes

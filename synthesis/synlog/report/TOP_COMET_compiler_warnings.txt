@@ -1,0 +1,161 @@
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_23 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_22 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_21 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_20 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":636:9:636:19|Signal ddr_q0_rise is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":637:9:637:19|Signal ddr_q1_fall is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL169 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning unused register USB_RD_DAT_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning unused register USB_WR_ACTIVE_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning unused register USB_RD_ACTIVE_2. Make sure that there are no unused intermediate registers.
+@W: CL111 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|All reachable assignments to TFC_ADDR8B are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":277:57:277:59|All reachable assignments to ELINK_ADDR8B are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit WR_XFER_TYPE(6) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_0(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_1(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_2(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_3(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_4(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_5(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_6(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_7(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_8(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_9(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_10(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_11(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_12(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_13(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_14(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_15(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_16(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_17(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_18(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_19(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_0(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_1(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_2(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_3(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_4(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_5(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_6(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_7(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_8(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_9(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_10(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_11(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_12(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_13(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_14(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_15(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_16(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_17(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_18(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_19(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit TFC_ADDRA(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit TFC_DINA(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_0(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_1(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_2(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_3(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_4(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_5(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_6(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_7(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_8(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_9(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_10(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_11(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_12(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_13(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_14(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_15(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_16(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_17(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_18(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_19(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of TFC_ADDRA(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 6 of WR_XFER_TYPE(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_0(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_1(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_2(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_3(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_4(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_5(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_6(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_7(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_8(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_9(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_10(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_11(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_12(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_13(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_14(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_15(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_16(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_17(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_18(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_19(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of TFC_DINA(8 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CD638 :"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd":76:12:76:24|Signal ser_in_r_0del is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd":77:12:77:24|Signal ser_in_f_0del is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd":79:12:79:24|Signal ser_in_r_1del is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd":80:12:80:24|Signal ser_in_f_1del is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL265 :"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd":144:12:144:13|Removing unused bit 15 of Q_2(15 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL265 :"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd":98:12:98:13|Removing unused bit 15 of ADJ_Q_18(15 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CD280 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":52:10:52:19|Unbound component BIBUF_LVDS mapped to black box
+@W: CD280 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":69:10:69:16|Unbound component DDR_OUT mapped to black box
+@W: CD280 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":84:10:84:16|Unbound component DDR_REG mapped to black box
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register LOOP_CNT_3(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register REG40M.DAT_ALIGN_0_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register REG40M.DAT_ALIGN_1_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register REG40M.DAT_ALIGN_2_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register REG40M.DAT_ALIGN_3_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register REG40M.DAT_ALIGN_4_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register REG40M.DAT_ALIGN_5_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register REG40M.DAT_ALIGN_6_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register REG40M.DAT_ALIGN_7_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register PHACNT_OK_2(4 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL265 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":202:12:202:13|Removing unused bit 15 of Q_2(15 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL265 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":156:12:156:13|Removing unused bit 15 of ADJ_Q_18(15 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL190 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning unused register SEQCNTS_0(4 downto 0). Make sure that there are no unused intermediate registers.
+@W: CD610 :"Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd":260:32:260:48|Index value 0 to 255 could be out of prefix range 80 downto 0. 
+@W: CL169 :"Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd":162:8:162:9|Pruning unused register LAST_PHA_ADJ_L_3(4 downto 0). Make sure that there are no unused intermediate registers.
+@W: CD275 :"Z:\windows\comet_fw\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd":27:12:27:21|Component declarations with different initial values are not supported.  Port e of component bibuf_lvds may have been given a different initial value in two different component declarations
+@W: CL168 :"Z:\windows\comet_fw\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd":40:4:40:18|Removing instance VCC_power_inst1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+

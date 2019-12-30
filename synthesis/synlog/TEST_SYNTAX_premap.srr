@@ -1,0 +1,36 @@
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1346R, Built Oct 10 2014 11:20:09
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version I-2014.03M-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\TEST_SYNTAX_scck.rpt 
+Printing clock  summary report in "D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\TEST_SYNTAX_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start     Requested     Requested     Clock     Clock
+Clock     Frequency     Period        Type      Group
+-----------------------------------------------------
+=====================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\TEST_SYNTAX.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 44MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 12 20:21:23 2015
+
+###########################################################]

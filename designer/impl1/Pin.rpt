@@ -1,0 +1,86 @@
+*****************************************************************
+Pin Report - Date: Mon Nov 16 12:29:15 2015 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.5 SP2
+Version: 11.5.2.6
+Design Name: TOP_COMET
+Family: ProASIC3E
+Die: A3PE1500
+Package: 208 PQFP
+*****************************************************************
+Port               |Pin |Fixed |Function         |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------------------|----|------|-----------------|---------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
+BIDIR_USB_ADBUS[0]  66   Yes    IO157PDB5V2       LVTTL     24                 High  Up             Yes              Off          No    35                Yes          Yes
+BIDIR_USB_ADBUS[1]  64   Yes    IO157NDB5V2       LVTTL     24                 High  Up             Yes              Off          No    35                Yes          Yes
+BIDIR_USB_ADBUS[2]  68   Yes    IO153PDB5V2       LVTTL     24                 High  Up             Yes              Off          No    35                Yes          Yes
+BIDIR_USB_ADBUS[3]  67   Yes    IO153NDB5V2       LVTTL     24                 High  Up             Yes              Off          No    35                Yes          Yes
+BIDIR_USB_ADBUS[4]  70   Yes    IO149PDB5V1       LVTTL     24                 High  Up             Yes              Off          No    35                Yes          Yes
+BIDIR_USB_ADBUS[5]  69   Yes    IO149NDB5V1       LVTTL     24                 High  Up             Yes              Off          No    35                Yes          Yes
+BIDIR_USB_ADBUS[6]  74   Yes    IO145PDB5V1       LVTTL     24                 High  Up             Yes              Off          No    35                Yes          Yes
+BIDIR_USB_ADBUS[7]  73   Yes    IO145NDB5V1       LVTTL     24                 High  Up             Yes              Off          No    35                Yes          Yes
+CCC1_LOCK_STAT      15   Yes    IO204PSB7V1       LVCMOS25  8                  High  Up             ---              ---          No    35                No           Yes
+CCC2_LOCK_STAT      4    Yes    GAB2/IO220PSB7V3  LVCMOS25  8                  High  Up             ---              ---          No    35                No           Yes
+CLK200_N            26   Yes    GFA0/IO190NPB6V2  LVDS      ---                ---   ---            ---              Off          ---   ---               No           Yes
+CLK200_P            28   Yes    GFA1/IO190PPB6V2  LVDS      ---                ---   ---            ---              Off          ---   ---               No           Yes
+DCB_SALT_SEL        192  Yes    IO12PSB0V1        LVCMOS25  ---                ---   Up             Yes              Off          ---   ---               No           Yes
+DEV_RST_B           136  Yes    GCC1/IO85PSB2V3   LVCMOS25  ---                ---   None           Yes              Off          ---   ---               No           Yes
+EXTCLK_40MHZ        172  Yes    IO43PSB1V1        LVCMOS25  8                  High  Up             ---              ---          No    35                No           Yes
+P_USB_RXF_B         79   Yes    IO135NDB5V0       LVTTL     ---                ---   Up             Yes              Off          ---   ---               Yes          Yes
+P_USB_TXE_B         80   Yes    IO135PDB5V0       LVTTL     ---                ---   Up             Yes              Off          ---   ---               Yes          Yes
+REF_CLK_0N          176  Yes    IO35NDB1V0        LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+REF_CLK_0P          175  Yes    IO35PDB1V0        LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+REF_CLK_1N          169  Yes    IO47NDB1V1        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_1P          168  Yes    IO47PDB1V1        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_2N          179  Yes    IO31NDB0V3        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_2P          177  Yes    IO31PDB0V3        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_3N          183  Yes    IO27NDB0V3        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_3P          182  Yes    IO27PDB0V3        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_4N          189  Yes    IO18NDB0V2        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_4P          188  Yes    IO18PDB0V2        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_5N          194  Yes    IO11NDB0V1        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_5P          193  Yes    IO11PDB0V1        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_6N          199  Yes    IO05NDB0V0        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_6P          198  Yes    IO05PDB0V0        LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_7N          204  Yes    GAB0/IO01NDB0V0   LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_7P          203  Yes    GAB1/IO01PDB0V0   LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_8N          6    Yes    IO221NDB7V3       LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_8P          5    Yes    GAA2/IO221PDB7V3  LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_9N          160  Yes    GBA0/IO57NDB1V3   LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_9P          159  Yes    GBA1/IO57PDB1V3   LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_10N         165  Yes    GBC0/IO55NDB1V3   LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_10P         164  Yes    GBC1/IO55PDB1V3   LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_11N         86   Yes    IO127NDB4V2       LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+REF_CLK_11P         87   Yes    IO127PDB4V2       LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+RX_CLK200_N         116  Yes    GDC0/IO108NDB3V2  LVDS      ---                ---   ---            ---              Off          ---   ---               No           Yes
+RX_CLK200_P         117  Yes    GDC1/IO108PDB3V2  LVDS      ---                ---   ---            ---              Off          ---   ---               No           Yes
+TFC_DAT_0N          174  Yes    IO41NDB1V1        LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_DAT_0P          173  Yes    IO41PDB1V1        LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_1N          167  Yes    IO51NDB1V2        LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_1P          166  Yes    IO51PDB1V2        LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_2N          181  Yes    IO29NDB0V3        LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_2P          180  Yes    IO29PDB0V3        LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_3N          185  Yes    IO23NDB0V2        LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_3P          184  Yes    IO23PDB0V2        LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_4N          191  Yes    IO15NDB0V1        LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_4P          190  Yes    IO15PDB0V1        LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_5N          197  Yes    IO08NDB0V1        LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_5P          196  Yes    IO08PDB0V1        LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_6N          202  Yes    GAC0/IO02NDB0V0   LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_6P          201  Yes    GAC1/IO02PDB0V0   LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_7N          206  Yes    GAA0/IO00NDB0V0   LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_7P          205  Yes    GAA1/IO00PDB0V0   LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_8N          82   Yes    IO131NDB4V2       LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_8P          83   Yes    IO131PDB4V2       LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_9N          84   Yes    IO129NDB4V2       LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_9P          85   Yes    IO129PDB4V2       LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_10N         163  Yes    GBB0/IO56NDB1V3   LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_10P         161  Yes    GBB1/IO56PDB1V3   LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TFC_OUT_11N         90   Yes    IO121NDB4V1       LVDS      24                 High  ---            ---              Off          No    0                 No           Yes
+TFC_OUT_11P         91   Yes    IO121PDB4V1       LVDS      24                 High  ---            ---              Off          No    0                 Yes          Yes
+TX_200M_N           94   Yes    IO113NDB4V0       LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+TX_200M_P           95   Yes    GDC2/IO113PDB4V0  LVDS      24                 High  ---            ---              ---          ---   0                 No           Yes
+USB_OE_B            63   Yes    IO161PSB5V3       LVTTL     24                 High  Up             ---              ---          No    35                No           Yes
+USB_RD_B            77   Yes    IO137NDB5V0       LVTTL     24                 High  Up             ---              ---          No    35                No           Yes
+USB_SIWU_B          75   Yes    IO143NDB5V1       LVTTL     24                 High  Up             ---              ---          No    35                No           Yes
+USB_WR_B            78   Yes    IO137PDB5V0       LVTTL     24                 High  Up             ---              ---          No    35                No           Yes
+USBCLK60MHZ         76   Yes    IO143PDB5V1       LVTTL     ---                ---   Up             No               Off          ---   ---               No           Yes

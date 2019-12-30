@@ -1,0 +1,822 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version v11.5 SP2
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+Date: Wed Oct 28 14:53:22 2015
+
+
+Design: TOP_COMET
+Family: ProASIC3E
+Die: A3PE1500
+Package: 208 PQFP
+Temperature: COM
+Voltage: COM
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        U13A_ADJ_160M/SHIFT_SM[5]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[3]:D
+  Delay (ns):                  0.559
+  Slack (ns):                  -0.757
+  Arrival (ns):                2.495
+  Required (ns):               3.252
+
+Path 2
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[54]/U1:CLR
+  Delay (ns):                  0.692
+  Slack (ns):                  -0.586
+  Arrival (ns):                1.972
+  Required (ns):               2.558
+
+Path 3
+  From:                        U1_EXEC_MASTER/MPOR_B_3:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:CLR
+  Delay (ns):                  1.276
+  Slack (ns):                  -0.575
+  Arrival (ns):                2.666
+  Required (ns):               3.241
+
+Path 4
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[52]/U1:CLR
+  Delay (ns):                  1.185
+  Slack (ns):                  -0.561
+  Arrival (ns):                2.465
+  Required (ns):               3.026
+
+Path 5
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[7]:CLR
+  Delay (ns):                  1.165
+  Slack (ns):                  -0.509
+  Arrival (ns):                2.310
+  Required (ns):               2.819
+
+Path 6
+  From:                        U1_EXEC_MASTER/MPOR_B_5:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[3]:PRE
+  Delay (ns):                  1.631
+  Slack (ns):                  -0.476
+  Arrival (ns):                2.776
+  Required (ns):               3.252
+
+Path 7
+  From:                        U13A_ADJ_160M/BITCNT[6]/U1:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[2]:D
+  Delay (ns):                  1.302
+  Slack (ns):                  -0.456
+  Arrival (ns):                2.785
+  Required (ns):               3.241
+
+Path 8
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[27]:CLR
+  Delay (ns):                  1.280
+  Slack (ns):                  -0.451
+  Arrival (ns):                2.425
+  Required (ns):               2.876
+
+Path 9
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[33]:CLR
+  Delay (ns):                  1.671
+  Slack (ns):                  -0.390
+  Arrival (ns):                2.816
+  Required (ns):               3.206
+
+Path 10
+  From:                        U13A_ADJ_160M/BITCNT[5]/U1:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[2]:D
+  Delay (ns):                  1.231
+  Slack (ns):                  -0.360
+  Arrival (ns):                2.881
+  Required (ns):               3.241
+
+Path 11
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[25]:CLR
+  Delay (ns):                  1.299
+  Slack (ns):                  -0.321
+  Arrival (ns):                2.444
+  Required (ns):               2.765
+
+Path 12
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[80]:CLR
+  Delay (ns):                  1.393
+  Slack (ns):                  -0.316
+  Arrival (ns):                2.538
+  Required (ns):               2.854
+
+Path 13
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[76]:CLR
+  Delay (ns):                  1.227
+  Slack (ns):                  -0.315
+  Arrival (ns):                2.372
+  Required (ns):               2.687
+
+Path 14
+  From:                        U1_EXEC_MASTER/MPOR_B_5:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[0]:PRE
+  Delay (ns):                  1.631
+  Slack (ns):                  -0.312
+  Arrival (ns):                2.776
+  Required (ns):               3.088
+
+Path 15
+  From:                        U1_EXEC_MASTER/MPOR_B_3:CLK
+  To:                          U13A_ADJ_160M/BITCNT[4]/U1:CLR
+  Delay (ns):                  0.961
+  Slack (ns):                  -0.296
+  Arrival (ns):                2.351
+  Required (ns):               2.647
+
+Path 16
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[38]:CLR
+  Delay (ns):                  1.057
+  Slack (ns):                  -0.274
+  Arrival (ns):                2.202
+  Required (ns):               2.476
+
+Path 17
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[51]/U1:CLR
+  Delay (ns):                  1.028
+  Slack (ns):                  -0.274
+  Arrival (ns):                2.308
+  Required (ns):               2.582
+
+Path 18
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[1]:CLR
+  Delay (ns):                  1.827
+  Slack (ns):                  -0.269
+  Arrival (ns):                2.972
+  Required (ns):               3.241
+
+Path 19
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[2]:CLR
+  Delay (ns):                  1.827
+  Slack (ns):                  -0.269
+  Arrival (ns):                2.972
+  Required (ns):               3.241
+
+Path 20
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[3]:CLR
+  Delay (ns):                  1.848
+  Slack (ns):                  -0.256
+  Arrival (ns):                2.993
+  Required (ns):               3.249
+
+Path 21
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[0]:CLR
+  Delay (ns):                  1.827
+  Slack (ns):                  -0.241
+  Arrival (ns):                2.972
+  Required (ns):               3.213
+
+Path 22
+  From:                        U13A_ADJ_160M/SHIFT_SM[0]:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[0]:D
+  Delay (ns):                  0.417
+  Slack (ns):                  -0.236
+  Arrival (ns):                2.977
+  Required (ns):               3.213
+
+Path 23
+  From:                        U13A_ADJ_160M/BITCNT[1]/U1:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:D
+  Delay (ns):                  1.627
+  Slack (ns):                  -0.235
+  Arrival (ns):                3.006
+  Required (ns):               3.241
+
+Path 24
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[11]:CLR
+  Delay (ns):                  1.177
+  Slack (ns):                  -0.235
+  Arrival (ns):                2.322
+  Required (ns):               2.557
+
+Path 25
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[4]:CLR
+  Delay (ns):                  1.718
+  Slack (ns):                  -0.235
+  Arrival (ns):                2.863
+  Required (ns):               3.098
+
+Path 26
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[19]:CLR
+  Delay (ns):                  1.321
+  Slack (ns):                  -0.221
+  Arrival (ns):                2.466
+  Required (ns):               2.687
+
+Path 27
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[55]/U1:CLR
+  Delay (ns):                  0.892
+  Slack (ns):                  -0.221
+  Arrival (ns):                2.172
+  Required (ns):               2.393
+
+Path 28
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[7]:PRE
+  Delay (ns):                  1.271
+  Slack (ns):                  -0.181
+  Arrival (ns):                2.416
+  Required (ns):               2.597
+
+Path 29
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[28]:CLR
+  Delay (ns):                  1.230
+  Slack (ns):                  -0.170
+  Arrival (ns):                2.375
+  Required (ns):               2.545
+
+Path 30
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[31]:CLR
+  Delay (ns):                  1.363
+  Slack (ns):                  -0.161
+  Arrival (ns):                2.508
+  Required (ns):               2.669
+
+Path 31
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[48]/U1:CLR
+  Delay (ns):                  1.272
+  Slack (ns):                  -0.152
+  Arrival (ns):                2.552
+  Required (ns):               2.704
+
+Path 32
+  From:                        U13A_ADJ_160M/SHIFT_SM[4]:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[3]:D
+  Delay (ns):                  0.657
+  Slack (ns):                  -0.124
+  Arrival (ns):                3.125
+  Required (ns):               3.249
+
+Path 33
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[49]/U1:CLR
+  Delay (ns):                  0.919
+  Slack (ns):                  -0.102
+  Arrival (ns):                2.199
+  Required (ns):               2.301
+
+Path 34
+  From:                        U13A_ADJ_160M/BITCNT[6]/U1:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:D
+  Delay (ns):                  1.674
+  Slack (ns):                  -0.084
+  Arrival (ns):                3.157
+  Required (ns):               3.241
+
+Path 35
+  From:                        U13A_ADJ_160M/ALL81BITS[33]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[33]:D
+  Delay (ns):                  0.593
+  Slack (ns):                  -0.059
+  Arrival (ns):                3.147
+  Required (ns):               3.206
+
+Path 36
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[1]:CLR
+  Delay (ns):                  1.261
+  Slack (ns):                  -0.059
+  Arrival (ns):                2.406
+  Required (ns):               2.465
+
+Path 37
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[47]/U1:CLR
+  Delay (ns):                  1.231
+  Slack (ns):                  -0.040
+  Arrival (ns):                2.511
+  Required (ns):               2.551
+
+Path 38
+  From:                        U13A_ADJ_160M/SHIFT_SM[5]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[0]:D
+  Delay (ns):                  1.114
+  Slack (ns):                  -0.038
+  Arrival (ns):                3.050
+  Required (ns):               3.088
+
+Path 39
+  From:                        U13A_ADJ_160M/BITCNT[6]/U1:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[1]:D
+  Delay (ns):                  1.732
+  Slack (ns):                  -0.026
+  Arrival (ns):                3.215
+  Required (ns):               3.241
+
+Path 40
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[20]:CLR
+  Delay (ns):                  1.299
+  Slack (ns):                  -0.020
+  Arrival (ns):                2.444
+  Required (ns):               2.464
+
+Path 41
+  From:                        U13A_ADJ_160M/SUPDATE/U1:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:D
+  Delay (ns):                  0.644
+  Slack (ns):                  -0.015
+  Arrival (ns):                3.226
+  Required (ns):               3.241
+
+Path 42
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[5]:CLR
+  Delay (ns):                  1.271
+  Slack (ns):                  -0.014
+  Arrival (ns):                2.416
+  Required (ns):               2.430
+
+Path 43
+  From:                        U13A_ADJ_160M/ALL81BITS[27]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[27]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.002
+  Arrival (ns):                2.878
+  Required (ns):               2.876
+
+Path 44
+  From:                        U13A_ADJ_160M/BITCNT[5]/U1:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:D
+  Delay (ns):                  1.595
+  Slack (ns):                  0.004
+  Arrival (ns):                3.245
+  Required (ns):               3.241
+
+Path 45
+  From:                        U13A_ADJ_160M/ALL81BITS[80]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[80]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.006
+  Arrival (ns):                2.860
+  Required (ns):               2.854
+
+Path 46
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[46]/U1:CLR
+  Delay (ns):                  0.897
+  Slack (ns):                  0.006
+  Arrival (ns):                2.177
+  Required (ns):               2.171
+
+Path 47
+  From:                        U13A_ADJ_160M/SHIFT_SM[1]:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[1]:D
+  Delay (ns):                  0.669
+  Slack (ns):                  0.010
+  Arrival (ns):                3.251
+  Required (ns):               3.241
+
+Path 48
+  From:                        U13A_ADJ_160M/ALL81BITS[7]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[7]:D
+  Delay (ns):                  0.593
+  Slack (ns):                  0.020
+  Arrival (ns):                2.839
+  Required (ns):               2.819
+
+Path 49
+  From:                        U1_EXEC_MASTER/MPOR_B_6:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[34]:CLR
+  Delay (ns):                  1.139
+  Slack (ns):                  0.021
+  Arrival (ns):                2.284
+  Required (ns):               2.263
+
+Path 50
+  From:                        U13A_ADJ_160M/ALL81BITS[25]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[25]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.024
+  Arrival (ns):                2.789
+  Required (ns):               2.765
+
+Path 51
+  From:                        U13A_ADJ_160M/LAST_PHA_ADJ_L[3]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[3]:D
+  Delay (ns):                  0.696
+  Slack (ns):                  0.035
+  Arrival (ns):                3.287
+  Required (ns):               3.252
+
+Path 52
+  From:                        U13A_ADJ_160M/ALL81BITS[19]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[19]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.040
+  Arrival (ns):                2.727
+  Required (ns):               2.687
+
+Path 53
+  From:                        U13A_ADJ_160M/ALL81BITS[76]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[76]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.040
+  Arrival (ns):                2.727
+  Required (ns):               2.687
+
+Path 54
+  From:                        U13A_ADJ_160M/SHIFT_SM[2]:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[1]:D
+  Delay (ns):                  0.699
+  Slack (ns):                  0.040
+  Arrival (ns):                3.281
+  Required (ns):               3.241
+
+Path 55
+  From:                        U13A_ADJ_160M/ALL81BITS[31]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[31]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.044
+  Arrival (ns):                2.713
+  Required (ns):               2.669
+
+Path 56
+  From:                        U1_EXEC_MASTER/MPOR_B_5:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[1]:PRE
+  Delay (ns):                  1.493
+  Slack (ns):                  0.047
+  Arrival (ns):                2.638
+  Required (ns):               2.591
+
+Path 57
+  From:                        U13A_ADJ_160M/BITCNT[0]/U1:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:D
+  Delay (ns):                  1.849
+  Slack (ns):                  0.049
+  Arrival (ns):                3.290
+  Required (ns):               3.241
+
+Path 58
+  From:                        U13A_ADJ_160M/LAST_PHA_ADJ_L[0]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[0]:D
+  Delay (ns):                  0.695
+  Slack (ns):                  0.067
+  Arrival (ns):                3.155
+  Required (ns):               3.088
+
+Path 59
+  From:                        U13A_ADJ_160M/ALL81BITS[28]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[28]:D
+  Delay (ns):                  0.590
+  Slack (ns):                  0.073
+  Arrival (ns):                2.618
+  Required (ns):               2.545
+
+Path 60
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[50]/U1:CLR
+  Delay (ns):                  1.235
+  Slack (ns):                  0.073
+  Arrival (ns):                2.515
+  Required (ns):               2.442
+
+Path 61
+  From:                        U13A_ADJ_160M/ALL81BITS[11]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[11]:D
+  Delay (ns):                  0.596
+  Slack (ns):                  0.076
+  Arrival (ns):                2.633
+  Required (ns):               2.557
+
+Path 62
+  From:                        U1_EXEC_MASTER/MPOR_B_2:CLK
+  To:                          U13A_ADJ_160M/SSHIFT/U1:CLR
+  Delay (ns):                  1.028
+  Slack (ns):                  0.079
+  Arrival (ns):                2.308
+  Required (ns):               2.229
+
+Path 63
+  From:                        U13A_ADJ_160M/ALL81BITS[38]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[38]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.083
+  Arrival (ns):                2.559
+  Required (ns):               2.476
+
+Path 64
+  From:                        U13A_ADJ_160M/ALL81BITS[52]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[52]/U1:D
+  Delay (ns):                  0.700
+  Slack (ns):                  0.085
+  Arrival (ns):                3.111
+  Required (ns):               3.026
+
+Path 65
+  From:                        U13A_ADJ_160M/ALL81BITS[20]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[20]:D
+  Delay (ns):                  0.588
+  Slack (ns):                  0.087
+  Arrival (ns):                2.551
+  Required (ns):               2.464
+
+Path 66
+  From:                        U13A_ADJ_160M/ALL81BITS[1]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[1]:D
+  Delay (ns):                  0.589
+  Slack (ns):                  0.088
+  Arrival (ns):                2.553
+  Required (ns):               2.465
+
+Path 67
+  From:                        U13A_ADJ_160M/SHIFT_SM[5]:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[4]:D
+  Delay (ns):                  1.273
+  Slack (ns):                  0.111
+  Arrival (ns):                3.209
+  Required (ns):               3.098
+
+Path 68
+  From:                        U13A_ADJ_160M/SHIFT_SM[5]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[80]:D
+  Delay (ns):                  1.042
+  Slack (ns):                  0.124
+  Arrival (ns):                2.978
+  Required (ns):               2.854
+
+Path 69
+  From:                        U13A_ADJ_160M/BITCNT[5]/U1:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[1]:D
+  Delay (ns):                  1.715
+  Slack (ns):                  0.124
+  Arrival (ns):                3.365
+  Required (ns):               3.241
+
+Path 70
+  From:                        U13A_ADJ_160M/ALL81BITS[34]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[34]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.126
+  Arrival (ns):                2.389
+  Required (ns):               2.263
+
+Path 71
+  From:                        U13A_ADJ_160M/ALL81BITS[2]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[2]:D
+  Delay (ns):                  0.587
+  Slack (ns):                  0.127
+  Arrival (ns):                2.391
+  Required (ns):               2.264
+
+Path 72
+  From:                        U13A_ADJ_160M/ALL81BITS[48]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[48]/U1:D
+  Delay (ns):                  0.678
+  Slack (ns):                  0.129
+  Arrival (ns):                2.833
+  Required (ns):               2.704
+
+Path 73
+  From:                        U1_EXEC_MASTER/MPOR_B_5:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[2]:PRE
+  Delay (ns):                  1.605
+  Slack (ns):                  0.132
+  Arrival (ns):                2.750
+  Required (ns):               2.618
+
+Path 74
+  From:                        U13A_ADJ_160M/ALL81BITS[9]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[9]:D
+  Delay (ns):                  0.586
+  Slack (ns):                  0.137
+  Arrival (ns):                2.348
+  Required (ns):               2.211
+
+Path 75
+  From:                        U13A_ADJ_160M/ALL81BITS[51]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[51]/U1:D
+  Delay (ns):                  0.673
+  Slack (ns):                  0.149
+  Arrival (ns):                2.731
+  Required (ns):               2.582
+
+Path 76
+  From:                        U13A_ADJ_160M/ALL81BITS[8]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[8]:D
+  Delay (ns):                  0.590
+  Slack (ns):                  0.150
+  Arrival (ns):                2.319
+  Required (ns):               2.169
+
+Path 77
+  From:                        U13A_ADJ_160M/ALL81BITS[47]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[47]/U1:D
+  Delay (ns):                  0.669
+  Slack (ns):                  0.150
+  Arrival (ns):                2.701
+  Required (ns):               2.551
+
+Path 78
+  From:                        U13A_ADJ_160M/ALL81BITS[10]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[10]:D
+  Delay (ns):                  0.587
+  Slack (ns):                  0.151
+  Arrival (ns):                2.296
+  Required (ns):               2.145
+
+Path 79
+  From:                        U2_MAIN_S_CFG/SHIFT_SM[3]:CLK
+  To:                          U2_MAIN_S_CFG/SSHIFT/U1:D
+  Delay (ns):                  0.984
+  Slack (ns):                  0.154
+  Arrival (ns):                1.408
+  Required (ns):               1.254
+
+Path 80
+  From:                        U13A_ADJ_160M/SHIFT_SM[0]:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:D
+  Delay (ns):                  0.835
+  Slack (ns):                  0.154
+  Arrival (ns):                3.395
+  Required (ns):               3.241
+
+Path 81
+  From:                        U1_EXEC_MASTER/MPOR_B:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[9]:CLR
+  Delay (ns):                  1.024
+  Slack (ns):                  0.157
+  Arrival (ns):                2.368
+  Required (ns):               2.211
+
+Path 82
+  From:                        U13A_ADJ_160M/LAST_PHA_ADJ_L[2]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[2]:D
+  Delay (ns):                  0.696
+  Slack (ns):                  0.164
+  Arrival (ns):                2.782
+  Required (ns):               2.618
+
+Path 83
+  From:                        U13A_ADJ_160M/ALL81BITS[0]:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[0]:D
+  Delay (ns):                  0.590
+  Slack (ns):                  0.166
+  Arrival (ns):                2.252
+  Required (ns):               2.086
+
+Path 84
+  From:                        U13A_ADJ_160M/BITCNT[4]/U1:CLK
+  To:                          U13A_ADJ_160M/BITCNT[4]/U1:D
+  Delay (ns):                  0.704
+  Slack (ns):                  0.166
+  Arrival (ns):                2.813
+  Required (ns):               2.647
+
+Path 85
+  From:                        U13A_ADJ_160M/ALL81BITS[50]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[50]/U1:D
+  Delay (ns):                  0.664
+  Slack (ns):                  0.167
+  Arrival (ns):                2.609
+  Required (ns):               2.442
+
+Path 86
+  From:                        U13A_ADJ_160M/LAST_PHA_ADJ_L[1]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[1]:D
+  Delay (ns):                  0.696
+  Slack (ns):                  0.169
+  Arrival (ns):                2.760
+  Required (ns):               2.591
+
+Path 87
+  From:                        U13A_ADJ_160M/ALL81BITS[49]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[49]/U1:D
+  Delay (ns):                  0.644
+  Slack (ns):                  0.177
+  Arrival (ns):                2.478
+  Required (ns):               2.301
+
+Path 88
+  From:                        U13A_ADJ_160M/SHIFT_SM[5]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[1]:D
+  Delay (ns):                  0.832
+  Slack (ns):                  0.177
+  Arrival (ns):                2.768
+  Required (ns):               2.591
+
+Path 89
+  From:                        U13A_ADJ_160M/ALL81BITS[54]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[54]/U1:D
+  Delay (ns):                  0.700
+  Slack (ns):                  0.180
+  Arrival (ns):                2.738
+  Required (ns):               2.558
+
+Path 90
+  From:                        U13A_ADJ_160M/SHIFT_SM[4]:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:D
+  Delay (ns):                  0.963
+  Slack (ns):                  0.190
+  Arrival (ns):                3.431
+  Required (ns):               3.241
+
+Path 91
+  From:                        U13A_ADJ_160M/BITCNT[6]/U1:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[3]:D
+  Delay (ns):                  1.965
+  Slack (ns):                  0.199
+  Arrival (ns):                3.448
+  Required (ns):               3.249
+
+Path 92
+  From:                        U13A_ADJ_160M/ALL81BITS[55]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[55]/U1:D
+  Delay (ns):                  0.700
+  Slack (ns):                  0.214
+  Arrival (ns):                2.607
+  Required (ns):               2.393
+
+Path 93
+  From:                        U13A_ADJ_160M/SSHIFT/U1:CLK
+  To:                          U13A_ADJ_160M/SSHIFT/U1:D
+  Delay (ns):                  0.667
+  Slack (ns):                  0.214
+  Arrival (ns):                2.443
+  Required (ns):               2.229
+
+Path 94
+  From:                        U13A_ADJ_160M/LAST_PHA_ADJ_L[4]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[4]:D
+  Delay (ns):                  0.696
+  Slack (ns):                  0.225
+  Arrival (ns):                2.544
+  Required (ns):               2.319
+
+Path 95
+  From:                        U13A_ADJ_160M/ALL81BITS[46]/U1:CLK
+  To:                          U13A_ADJ_160M/ALL81BITS[46]/U1:D
+  Delay (ns):                  0.669
+  Slack (ns):                  0.227
+  Arrival (ns):                2.398
+  Required (ns):               2.171
+
+Path 96
+  From:                        U13A_ADJ_160M/SDIN/U1:CLK
+  To:                          U13A_ADJ_160M/SDIN/U1:D
+  Delay (ns):                  0.657
+  Slack (ns):                  0.239
+  Arrival (ns):                2.296
+  Required (ns):               2.057
+
+Path 97
+  From:                        U24A_TFC_CMD_TX/SER_OUT_FI:CLK
+  To:                          U24A_TFC_CMD_TX/SER_OUT_FDEL:D
+  Delay (ns):                  0.304
+  Slack (ns):                  0.245
+  Arrival (ns):                0.739
+  Required (ns):               0.494
+
+Path 98
+  From:                        U13A_ADJ_160M/SHIFT_SM[5]:CLK
+  To:                          U13A_ADJ_160M/LAST_PHA_ADJ_L[2]:D
+  Delay (ns):                  0.929
+  Slack (ns):                  0.247
+  Arrival (ns):                2.865
+  Required (ns):               2.618
+
+Path 99
+  From:                        U13A_ADJ_160M/BITCNT[6]/U1:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[7]:D
+  Delay (ns):                  1.366
+  Slack (ns):                  0.252
+  Arrival (ns):                2.849
+  Required (ns):               2.597
+
+Path 100
+  From:                        U13A_ADJ_160M/SHIFT_SM[3]:CLK
+  To:                          U13A_ADJ_160M/SHIFT_SM[2]:D
+  Delay (ns):                  0.907
+  Slack (ns):                  0.255
+  Arrival (ns):                3.496
+  Required (ns):               3.241
+

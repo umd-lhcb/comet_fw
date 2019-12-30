@@ -1,0 +1,822 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version v11.5 SP2
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+Date: Wed Oct 28 14:45:33 2015
+
+
+Design: TOP_COMET
+Family: ProASIC3E
+Die: A3PE1500
+Package: 208 PQFP
+Temperature: COM
+Voltage: COM
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        U31A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U31A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  2.069
+  Slack (ns):                  -0.269
+  Arrival (ns):                3.162
+  Required (ns):               2.893
+
+Path 2
+  From:                        U33A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U33A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.882
+  Slack (ns):                  -0.091
+  Arrival (ns):                2.975
+  Required (ns):               2.884
+
+Path 3
+  From:                        U10_TFC_CMD_TX/START_RISE:CLK
+  To:                          U10_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.861
+  Slack (ns):                  -0.062
+  Arrival (ns):                2.975
+  Required (ns):               2.913
+
+Path 4
+  From:                        U32A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U32A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.856
+  Slack (ns):                  -0.059
+  Arrival (ns):                2.975
+  Required (ns):               2.916
+
+Path 5
+  From:                        U22A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U22A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.763
+  Slack (ns):                  0.018
+  Arrival (ns):                2.880
+  Required (ns):               2.898
+
+Path 6
+  From:                        U27A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U27A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.751
+  Slack (ns):                  0.035
+  Arrival (ns):                2.874
+  Required (ns):               2.909
+
+Path 7
+  From:                        U33A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  2.213
+  Slack (ns):                  0.124
+  Arrival (ns):                3.342
+  Required (ns):               3.466
+
+Path 8
+  From:                        U33A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U33B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  2.201
+  Slack (ns):                  0.162
+  Arrival (ns):                3.330
+  Required (ns):               3.492
+
+Path 9
+  From:                        U28A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U28A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.596
+  Slack (ns):                  0.188
+  Arrival (ns):                2.719
+  Required (ns):               2.907
+
+Path 10
+  From:                        U23A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U23B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.925
+  Slack (ns):                  0.231
+  Arrival (ns):                3.122
+  Required (ns):               3.353
+
+Path 11
+  From:                        U20A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U20A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.500
+  Slack (ns):                  0.298
+  Arrival (ns):                2.622
+  Required (ns):               2.920
+
+Path 12
+  From:                        U30A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U30B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.854
+  Slack (ns):                  0.327
+  Arrival (ns):                3.030
+  Required (ns):               3.357
+
+Path 13
+  From:                        U24A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U24B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.820
+  Slack (ns):                  0.336
+  Arrival (ns):                3.017
+  Required (ns):               3.353
+
+Path 14
+  From:                        U23A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U23B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.820
+  Slack (ns):                  0.336
+  Arrival (ns):                3.017
+  Required (ns):               3.353
+
+Path 15
+  From:                        U29A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U29A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.450
+  Slack (ns):                  0.351
+  Arrival (ns):                2.547
+  Required (ns):               2.898
+
+Path 16
+  From:                        U31A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U31B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.824
+  Slack (ns):                  0.352
+  Arrival (ns):                3.005
+  Required (ns):               3.357
+
+Path 17
+  From:                        U10_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:DF
+  Delay (ns):                  1.785
+  Slack (ns):                  0.362
+  Arrival (ns):                2.991
+  Required (ns):               3.353
+
+Path 18
+  From:                        U22A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U22B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.785
+  Slack (ns):                  0.362
+  Arrival (ns):                2.991
+  Required (ns):               3.353
+
+Path 19
+  From:                        U21A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U21B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.785
+  Slack (ns):                  0.371
+  Arrival (ns):                2.982
+  Required (ns):               3.353
+
+Path 20
+  From:                        U20A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U20B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.785
+  Slack (ns):                  0.371
+  Arrival (ns):                2.982
+  Required (ns):               3.353
+
+Path 21
+  From:                        U29A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U29B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.787
+  Slack (ns):                  0.374
+  Arrival (ns):                2.993
+  Required (ns):               3.367
+
+Path 22
+  From:                        U25A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U25B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.785
+  Slack (ns):                  0.378
+  Arrival (ns):                3.011
+  Required (ns):               3.389
+
+Path 23
+  From:                        U26A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U26B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.785
+  Slack (ns):                  0.378
+  Arrival (ns):                3.011
+  Required (ns):               3.389
+
+Path 24
+  From:                        U10_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U11_DDR_TFC/BIBUF_LVDS_0/U0/U3:DF
+  Delay (ns):                  1.763
+  Slack (ns):                  0.384
+  Arrival (ns):                2.969
+  Required (ns):               3.353
+
+Path 25
+  From:                        U22A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U22B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.763
+  Slack (ns):                  0.384
+  Arrival (ns):                2.969
+  Required (ns):               3.353
+
+Path 26
+  From:                        U24A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U24B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.763
+  Slack (ns):                  0.393
+  Arrival (ns):                2.960
+  Required (ns):               3.353
+
+Path 27
+  From:                        U21A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U21B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.763
+  Slack (ns):                  0.393
+  Arrival (ns):                2.960
+  Required (ns):               3.353
+
+Path 28
+  From:                        U20A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U20B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.763
+  Slack (ns):                  0.393
+  Arrival (ns):                2.960
+  Required (ns):               3.353
+
+Path 29
+  From:                        U29A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U29B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.765
+  Slack (ns):                  0.396
+  Arrival (ns):                2.971
+  Required (ns):               3.367
+
+Path 30
+  From:                        U25A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U25B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.763
+  Slack (ns):                  0.400
+  Arrival (ns):                2.989
+  Required (ns):               3.389
+
+Path 31
+  From:                        U26A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U26B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.763
+  Slack (ns):                  0.400
+  Arrival (ns):                2.989
+  Required (ns):               3.389
+
+Path 32
+  From:                        U28A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U28B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.781
+  Slack (ns):                  0.401
+  Arrival (ns):                2.956
+  Required (ns):               3.357
+
+Path 33
+  From:                        U27A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U27B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.781
+  Slack (ns):                  0.402
+  Arrival (ns):                2.955
+  Required (ns):               3.357
+
+Path 34
+  From:                        U26A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U26A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.317
+  Slack (ns):                  0.474
+  Arrival (ns):                2.439
+  Required (ns):               2.913
+
+Path 35
+  From:                        U21A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U21A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.307
+  Slack (ns):                  0.492
+  Arrival (ns):                2.421
+  Required (ns):               2.913
+
+Path 36
+  From:                        U32A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U32B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.601
+  Slack (ns):                  0.558
+  Arrival (ns):                2.730
+  Required (ns):               3.288
+
+Path 37
+  From:                        U23A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U23A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.238
+  Slack (ns):                  0.559
+  Arrival (ns):                2.365
+  Required (ns):               2.924
+
+Path 38
+  From:                        U25A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U25A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.184
+  Slack (ns):                  0.603
+  Arrival (ns):                2.295
+  Required (ns):               2.898
+
+Path 39
+  From:                        U24A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U24A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.172
+  Slack (ns):                  0.628
+  Arrival (ns):                2.281
+  Required (ns):               2.909
+
+Path 40
+  From:                        U29A_TFC_CMD_TX/CLK40M_GEN_DEL0:CLK
+  To:                          U29A_TFC_CMD_TX/START_RISE:D
+  Delay (ns):                  3.834
+  Slack (ns):                  0.641
+  Arrival (ns):                4.917
+  Required (ns):               5.558
+
+Path 41
+  From:                        U31A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U31B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.498
+  Slack (ns):                  0.678
+  Arrival (ns):                2.679
+  Required (ns):               3.357
+
+Path 42
+  From:                        U30A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U30B_DDR_TFC/_BIBUF_LVDS[0]_/U0/U3:DF
+  Delay (ns):                  1.498
+  Slack (ns):                  0.683
+  Arrival (ns):                2.674
+  Required (ns):               3.357
+
+Path 43
+  From:                        U28A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U28B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.462
+  Slack (ns):                  0.720
+  Arrival (ns):                2.637
+  Required (ns):               3.357
+
+Path 44
+  From:                        U27A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U27B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.462
+  Slack (ns):                  0.721
+  Arrival (ns):                2.636
+  Required (ns):               3.357
+
+Path 45
+  From:                        U32A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U32B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  1.429
+  Slack (ns):                  0.730
+  Arrival (ns):                2.558
+  Required (ns):               3.288
+
+Path 46
+  From:                        U30A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U30A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.060
+  Slack (ns):                  0.741
+  Arrival (ns):                2.159
+  Required (ns):               2.900
+
+Path 47
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[1]/U1:D
+  Delay (ns):                  15.328
+  Slack (ns):                  0.762
+  Arrival (ns):                16.488
+  Required (ns):               17.250
+
+Path 48
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[3]/U1:D
+  Delay (ns):                  15.324
+  Slack (ns):                  0.770
+  Arrival (ns):                16.484
+  Required (ns):               17.254
+
+Path 49
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[7]/U1:D
+  Delay (ns):                  15.316
+  Slack (ns):                  0.774
+  Arrival (ns):                16.476
+  Required (ns):               17.250
+
+Path 50
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_1/U1:D
+  Delay (ns):                  15.254
+  Slack (ns):                  0.836
+  Arrival (ns):                16.414
+  Required (ns):               17.250
+
+Path 51
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[6]/U1:D
+  Delay (ns):                  15.251
+  Slack (ns):                  0.844
+  Arrival (ns):                16.411
+  Required (ns):               17.255
+
+Path 52
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[2]/U1:D
+  Delay (ns):                  15.236
+  Slack (ns):                  0.854
+  Arrival (ns):                16.396
+  Required (ns):               17.250
+
+Path 53
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[10]/U1:D
+  Delay (ns):                  15.182
+  Slack (ns):                  0.908
+  Arrival (ns):                16.342
+  Required (ns):               17.250
+
+Path 54
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[4]/U1:D
+  Delay (ns):                  15.171
+  Slack (ns):                  0.919
+  Arrival (ns):                16.331
+  Required (ns):               17.250
+
+Path 55
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[7]/U1:D
+  Delay (ns):                  15.165
+  Slack (ns):                  0.925
+  Arrival (ns):                16.325
+  Required (ns):               17.250
+
+Path 56
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_2/U1:D
+  Delay (ns):                  15.133
+  Slack (ns):                  0.957
+  Arrival (ns):                16.293
+  Required (ns):               17.250
+
+Path 57
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[2]/U1:D
+  Delay (ns):                  15.105
+  Slack (ns):                  0.989
+  Arrival (ns):                16.265
+  Required (ns):               17.254
+
+Path 58
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[1]/U1:D
+  Delay (ns):                  15.086
+  Slack (ns):                  1.008
+  Arrival (ns):                16.246
+  Required (ns):               17.254
+
+Path 59
+  From:                        U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:ICLK
+  To:                          U13C_M_TFC_RX/Q_F[0]:D
+  Delay (ns):                  1.386
+  Slack (ns):                  1.042
+  Arrival (ns):                2.573
+  Required (ns):               3.615
+
+Path 60
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[0]/U1:D
+  Delay (ns):                  14.958
+  Slack (ns):                  1.124
+  Arrival (ns):                16.118
+  Required (ns):               17.242
+
+Path 61
+  From:                        U21A_TFC_CMD_TX/SER_OUT_FI:CLK
+  To:                          U21A_TFC_CMD_TX/SER_OUT_FDEL:D
+  Delay (ns):                  3.040
+  Slack (ns):                  1.333
+  Arrival (ns):                4.151
+  Required (ns):               5.484
+
+Path 62
+  From:                        U10_TFC_CMD_TX/START_FALL:CLK
+  To:                          U10_TFC_CMD_TX/SER_CMD_WORD_F[3]:D
+  Delay (ns):                  2.834
+  Slack (ns):                  1.428
+  Arrival (ns):                3.960
+  Required (ns):               5.388
+
+Path 63
+  From:                        U31A_TFC_CMD_TX/START_FALL:CLK
+  To:                          U31A_TFC_CMD_TX/SER_CMD_WORD_F[2]:D
+  Delay (ns):                  2.838
+  Slack (ns):                  1.440
+  Arrival (ns):                3.944
+  Required (ns):               5.384
+
+Path 64
+  From:                        U31A_TFC_CMD_TX/START_FALL:CLK
+  To:                          U31A_TFC_CMD_TX/SER_CMD_WORD_F[1]:D
+  Delay (ns):                  2.843
+  Slack (ns):                  1.442
+  Arrival (ns):                3.949
+  Required (ns):               5.391
+
+Path 65
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[9]/U1:D
+  Delay (ns):                  14.625
+  Slack (ns):                  1.457
+  Arrival (ns):                15.785
+  Required (ns):               17.242
+
+Path 66
+  From:                        U10_TFC_CMD_TX/SER_CMD_WORD_F[2]:CLK
+  To:                          U10_TFC_CMD_TX/SER_CMD_WORD_F[3]:D
+  Delay (ns):                  2.737
+  Slack (ns):                  1.525
+  Arrival (ns):                3.863
+  Required (ns):               5.388
+
+Path 67
+  From:                        U29A_TFC_CMD_TX/SER_CMD_WORD_F[3]:CLK
+  To:                          U29A_TFC_CMD_TX/SER_OUT_FI:D
+  Delay (ns):                  2.739
+  Slack (ns):                  1.536
+  Arrival (ns):                3.852
+  Required (ns):               5.388
+
+Path 68
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[1]/U1:D
+  Delay (ns):                  14.543
+  Slack (ns):                  1.547
+  Arrival (ns):                15.703
+  Required (ns):               17.250
+
+Path 69
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[3]/U1:D
+  Delay (ns):                  14.539
+  Slack (ns):                  1.555
+  Arrival (ns):                15.699
+  Required (ns):               17.254
+
+Path 70
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[7]/U1:D
+  Delay (ns):                  14.531
+  Slack (ns):                  1.559
+  Arrival (ns):                15.691
+  Required (ns):               17.250
+
+Path 71
+  From:                        U31A_TFC_CMD_TX/SER_CMD_WORD_F[2]:CLK
+  To:                          U31A_TFC_CMD_TX/SER_CMD_WORD_F[3]:D
+  Delay (ns):                  2.725
+  Slack (ns):                  1.562
+  Arrival (ns):                3.822
+  Required (ns):               5.384
+
+Path 72
+  From:                        U31A_TFC_CMD_TX/SER_CMD_WORD_R[3]:CLK
+  To:                          U31A_TFC_CMD_TX/SER_OUT_RI:D
+  Delay (ns):                  2.907
+  Slack (ns):                  1.568
+  Arrival (ns):                4.000
+  Required (ns):               5.568
+
+Path 73
+  From:                        U32A_TFC_CMD_TX/SER_OUT_RI:CLK
+  To:                          U32A_TFC_CMD_TX/SER_OUT_RDEL:D
+  Delay (ns):                  2.851
+  Slack (ns):                  1.606
+  Arrival (ns):                3.938
+  Required (ns):               5.544
+
+Path 74
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_1/U1:D
+  Delay (ns):                  14.469
+  Slack (ns):                  1.621
+  Arrival (ns):                15.629
+  Required (ns):               17.250
+
+Path 75
+  From:                        U30A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U30A_TFC_CMD_TX/SER_CMD_WORD_R[3]:D
+  Delay (ns):                  2.798
+  Slack (ns):                  1.628
+  Arrival (ns):                3.897
+  Required (ns):               5.525
+
+Path 76
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[6]/U1:D
+  Delay (ns):                  14.466
+  Slack (ns):                  1.629
+  Arrival (ns):                15.626
+  Required (ns):               17.255
+
+Path 77
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[2]/U1:D
+  Delay (ns):                  14.451
+  Slack (ns):                  1.639
+  Arrival (ns):                15.611
+  Required (ns):               17.250
+
+Path 78
+  From:                        U33A_TFC_CMD_TX/START_FALL:CLK
+  To:                          U33A_TFC_CMD_TX/SER_CMD_WORD_F[3]:D
+  Delay (ns):                  2.638
+  Slack (ns):                  1.661
+  Arrival (ns):                3.735
+  Required (ns):               5.396
+
+Path 79
+  From:                        U29A_TFC_CMD_TX/SER_CMD_WORD_R[3]:CLK
+  To:                          U29A_TFC_CMD_TX/SER_OUT_RI:D
+  Delay (ns):                  2.754
+  Slack (ns):                  1.680
+  Arrival (ns):                3.845
+  Required (ns):               5.525
+
+Path 80
+  From:                        U10_TFC_CMD_TX/START_RISE:CLK
+  To:                          U10_TFC_CMD_TX/SER_CMD_WORD_R[0]:D
+  Delay (ns):                  2.751
+  Slack (ns):                  1.683
+  Arrival (ns):                3.865
+  Required (ns):               5.548
+
+Path 81
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[5]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[3]/U1:D
+  Delay (ns):                  14.372
+  Slack (ns):                  1.687
+  Arrival (ns):                15.532
+  Required (ns):               17.219
+
+Path 82
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[5]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[7]/U1:D
+  Delay (ns):                  14.364
+  Slack (ns):                  1.691
+  Arrival (ns):                15.524
+  Required (ns):               17.215
+
+Path 83
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[10]/U1:D
+  Delay (ns):                  14.397
+  Slack (ns):                  1.693
+  Arrival (ns):                15.557
+  Required (ns):               17.250
+
+Path 84
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[5]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[1]/U1:D
+  Delay (ns):                  14.362
+  Slack (ns):                  1.693
+  Arrival (ns):                15.522
+  Required (ns):               17.215
+
+Path 85
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[4]/U1:D
+  Delay (ns):                  14.386
+  Slack (ns):                  1.704
+  Arrival (ns):                15.546
+  Required (ns):               17.250
+
+Path 86
+  From:                        U10_TFC_CMD_TX/SER_CMD_WORD_F[3]:CLK
+  To:                          U10_TFC_CMD_TX/SER_OUT_FI:D
+  Delay (ns):                  2.582
+  Slack (ns):                  1.705
+  Arrival (ns):                3.683
+  Required (ns):               5.388
+
+Path 87
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[7]/U1:D
+  Delay (ns):                  14.380
+  Slack (ns):                  1.710
+  Arrival (ns):                15.540
+  Required (ns):               17.250
+
+Path 88
+  From:                        U29A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U29A_TFC_CMD_TX/SER_CMD_WORD_R[3]:D
+  Delay (ns):                  2.709
+  Slack (ns):                  1.711
+  Arrival (ns):                3.806
+  Required (ns):               5.517
+
+Path 89
+  From:                        U30A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U30A_TFC_CMD_TX/SER_CMD_WORD_R[1]:D
+  Delay (ns):                  2.730
+  Slack (ns):                  1.731
+  Arrival (ns):                3.829
+  Required (ns):               5.560
+
+Path 90
+  From:                        U32A_TFC_CMD_TX/SER_CMD_WORD_F[3]:CLK
+  To:                          U32A_TFC_CMD_TX/SER_OUT_FI:D
+  Delay (ns):                  2.551
+  Slack (ns):                  1.734
+  Arrival (ns):                3.682
+  Required (ns):               5.416
+
+Path 91
+  From:                        U29A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U29A_TFC_CMD_TX/SER_CMD_WORD_R[1]:D
+  Delay (ns):                  2.715
+  Slack (ns):                  1.741
+  Arrival (ns):                3.812
+  Required (ns):               5.553
+
+Path 92
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_2/U1:D
+  Delay (ns):                  14.348
+  Slack (ns):                  1.742
+  Arrival (ns):                15.508
+  Required (ns):               17.250
+
+Path 93
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[5]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_1/U1:D
+  Delay (ns):                  14.311
+  Slack (ns):                  1.744
+  Arrival (ns):                15.471
+  Required (ns):               17.215
+
+Path 94
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_4/U1:D
+  Delay (ns):                  14.333
+  Slack (ns):                  1.749
+  Arrival (ns):                15.493
+  Required (ns):               17.242
+
+Path 95
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[4]/U1:D
+  Delay (ns):                  14.333
+  Slack (ns):                  1.757
+  Arrival (ns):                15.493
+  Required (ns):               17.250
+
+Path 96
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/REG_STATE[0]:D
+  Delay (ns):                  14.327
+  Slack (ns):                  1.763
+  Arrival (ns):                15.487
+  Required (ns):               17.250
+
+Path 97
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[5]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[6]/U1:D
+  Delay (ns):                  14.297
+  Slack (ns):                  1.763
+  Arrival (ns):                15.457
+  Required (ns):               17.220
+
+Path 98
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[0]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[2]/U1:D
+  Delay (ns):                  14.320
+  Slack (ns):                  1.774
+  Arrival (ns):                15.480
+  Required (ns):               17.254
+
+Path 99
+  From:                        U10_TFC_CMD_TX/SER_OUT_RI:CLK
+  To:                          U10_TFC_CMD_TX/SER_OUT_RDEL:D
+  Delay (ns):                  2.743
+  Slack (ns):                  1.786
+  Arrival (ns):                3.830
+  Required (ns):               5.616
+
+Path 100
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[5]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_3[2]/U1:D
+  Delay (ns):                  14.266
+  Slack (ns):                  1.789
+  Arrival (ns):                15.426
+  Required (ns):               17.215
+

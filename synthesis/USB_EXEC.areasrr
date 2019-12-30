@@ -1,0 +1,30 @@
+----------------------------------------------------------------------
+Report for cell USB_EXEC.rtl_logic
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1C         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                               BUFF         1       1.0        1.0
+                             CLKBUF         2       0.0        0.0
+                             DFN1C0        22       1.0       22.0
+                           DFN1E1C0         1       1.0        1.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         3       1.0        3.0
+                            
+                         TOTAL             57                 51.0

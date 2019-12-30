@@ -1,0 +1,571 @@
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1522R, Built Jun  4 2015 12:04:36
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-3
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+Encoding state machine GP_PG_SM[0:13] (view:work.GP_PATT_GEN(rtl_logic))
+original code -> new code
+   00000000000001 -> 00000000000001
+   00000000000010 -> 00000000000010
+   00000000000100 -> 00000000000100
+   00000000001000 -> 00000000001000
+   00000000010000 -> 00000000010000
+   00000000100000 -> 00000000100000
+   00000001000000 -> 00000001000000
+   00000010000000 -> 00000010000000
+   00000100000000 -> 00000100000000
+   00001000000000 -> 00001000000000
+   00010000000000 -> 00010000000000
+   00100000000000 -> 00100000000000
+   01000000000000 -> 01000000000000
+   10000000000000 -> 10000000000000
+@N: MF179 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\gp_patt_gen.vhd":253:19:253:47|Found 8 bit by 8 bit '<' comparator, 'GP_PG\.un1_ADDR_POINTER'
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+GP_PG_SM[13] / Q               30                            
+RESET_B_pad / Y                42 : 42 asynchronous set/reset
+=============================================================
+
+@N: FP130 |Promoting Net CLK_40MHZ_GEN_c on CLKBUF  CLK_40MHZ_GEN_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+Buffering RESET_B_c, fanout 42 segments 2
+Replicating Sequential Instance GP_PG_SM[13], fanout 30 segments 2
+
+Added 1 Buffers
+Added 1 Cells via replication
+	Added 1 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 43 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK_40MHZ_GEN       port                   43         GP_PG_SM_0[13] 
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+Writing Analyst data base D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\synwork\GP_PATT_GEN_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03M-3
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+@W: MT420 |Found inferred clock GP_PATT_GEN|CLK_40MHZ_GEN with period 10.00ns. Please declare a user-defined clock on object "p:CLK_40MHZ_GEN"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Dec 18 10:09:55 2015
+#
+
+
+Top view:               GP_PATT_GEN
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3e
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -4.631
+
+                              Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                Frequency     Frequency     Period        Period        Slack      Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------
+GP_PATT_GEN|CLK_40MHZ_GEN     100.0 MHz     68.3 MHz      10.000        14.631        -4.631     inferred     Inferred_clkgroup_0
+=================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Starting                   Ending                     |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------
+GP_PATT_GEN|CLK_40MHZ_GEN  GP_PATT_GEN|CLK_40MHZ_GEN  |  10.000      -4.631  |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: GP_PATT_GEN|CLK_40MHZ_GEN
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                                Arrival           
+Instance             Reference                     Type         Pin     Net                  Time        Slack 
+                     Clock                                                                                     
+---------------------------------------------------------------------------------------------------------------
+GP_PG_SM[2]          GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       GP_PG_SM[2]          0.737       -4.631
+ADDR_POINTER[1]      GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       RAM_ADDR_c[1]        0.737       -4.585
+ADDR_POINTER[0]      GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       RAM_ADDR_c[0]        0.737       -4.303
+GP_PG_SM[3]          GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       GP_PG_SM[3]          0.737       -4.072
+ADDR_POINTER[2]      GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       RAM_ADDR_c[2]        0.737       -3.810
+ADDR_POINTER[6]      GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       RAM_ADDR_c[6]        0.737       -3.810
+LOC_STOP_ADDR[1]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1E1C0     Q       LOC_STOP_ADDR[1]     0.580       -3.425
+ADDR_POINTER[4]      GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       RAM_ADDR_c[4]        0.737       -3.424
+ADDR_POINTER[3]      GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       RAM_ADDR_c[3]        0.737       -3.414
+ADDR_POINTER[5]      GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0       Q       RAM_ADDR_c[5]        0.737       -3.394
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                 Required           
+Instance            Reference                     Type       Pin     Net                     Time         Slack 
+                    Clock                                                                                       
+----------------------------------------------------------------------------------------------------------------
+ADDR_POINTER[7]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       N_30                    9.461        -4.631
+ADDR_POINTER[0]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       N_56                    9.427        -4.585
+ADDR_POINTER[1]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       N_54                    9.427        -4.585
+ADDR_POINTER[2]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       N_52                    9.427        -4.585
+ADDR_POINTER[3]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       N_48                    9.427        -4.585
+ADDR_POINTER[4]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       N_46                    9.427        -4.585
+ADDR_POINTER[5]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       ADDR_POINTER_RNO[5]     9.427        -4.585
+ADDR_POINTER[6]     GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       N_32                    9.427        -4.261
+GP_PG_SM[1]         GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       GP_PG_SM_RNO[1]         9.427        -2.574
+GP_PG_SM[2]         GP_PATT_GEN|CLK_40MHZ_GEN     DFN1C0     D       GP_PG_SM_ns[11]         9.461        -1.981
+================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      14.093
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -4.631
+
+    Number of logic level(s):                10
+    Starting point:                          GP_PG_SM[2] / Q
+    Ending point:                            ADDR_POINTER[7] / D
+    The start point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+    The end   point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                  Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+GP_PG_SM[2]                                           DFN1C0     Q        Out     0.737     0.737       -         
+GP_PG_SM[2]                                           Net        -        -       0.806     -           3         
+GP_PG_SM_RNIDKRQ[3]                                   OR2        B        In      -         1.543       -         
+GP_PG_SM_RNIDKRQ[3]                                   OR2        Y        Out     0.646     2.190       -         
+N_57                                                  Net        -        -       2.082     -           14        
+GP_PG_SM_RNI6IS02[13]                                 OR3A       C        In      -         4.272       -         
+GP_PG_SM_RNI6IS02[13]                                 OR3A       Y        Out     0.751     5.023       -         
+GP_PG_SM_RNI6IS02[13]                                 Net        -        -       0.386     -           2         
+un1_ADDR_POINTER_2.I_1                                AND2       B        In      -         5.409       -         
+un1_ADDR_POINTER_2.I_1                                AND2       Y        Out     0.627     6.036       -         
+un1_ADDR_POINTER_2.DWACT_ADD_CI_0_TMP[0]              Net        -        -       0.386     -           2         
+un1_ADDR_POINTER_2.I_36                               NOR2B      A        In      -         6.422       -         
+un1_ADDR_POINTER_2.I_36                               NOR2B      Y        Out     0.514     6.936       -         
+un1_ADDR_POINTER_2.DWACT_ADD_CI_0_g_array_1[0]        Net        -        -       0.806     -           3         
+un1_ADDR_POINTER_2.I_35                               NOR2B      A        In      -         7.742       -         
+un1_ADDR_POINTER_2.I_35                               NOR2B      Y        Out     0.514     8.257       -         
+un1_ADDR_POINTER_2.DWACT_ADD_CI_0_g_array_2[0]        Net        -        -       0.806     -           3         
+un1_ADDR_POINTER_2.I_41                               NOR2B      A        In      -         9.063       -         
+un1_ADDR_POINTER_2.I_41                               NOR2B      Y        Out     0.514     9.578       -         
+un1_ADDR_POINTER_2.DWACT_ADD_CI_0_g_array_11[0]       Net        -        -       0.386     -           2         
+un1_ADDR_POINTER_2.I_44                               NOR2B      A        In      -         9.963       -         
+un1_ADDR_POINTER_2.I_44                               NOR2B      Y        Out     0.514     10.478      -         
+un1_ADDR_POINTER_2.DWACT_ADD_CI_0_g_array_12_2[0]     Net        -        -       0.322     -           1         
+un1_ADDR_POINTER_2.I_34                               XOR2       B        In      -         10.799      -         
+un1_ADDR_POINTER_2.I_34                               XOR2       Y        Out     0.937     11.736      -         
+I_34                                                  Net        -        -       0.322     -           1         
+ADDR_POINTER_RNO_2[7]                                 NOR3A      C        In      -         12.058      -         
+ADDR_POINTER_RNO_2[7]                                 NOR3A      Y        Out     0.641     12.699      -         
+N_377                                                 Net        -        -       0.322     -           1         
+ADDR_POINTER_RNO[7]                                   NOR3       C        In      -         13.020      -         
+ADDR_POINTER_RNO[7]                                   NOR3       Y        Out     0.751     13.771      -         
+N_30                                                  Net        -        -       0.322     -           1         
+ADDR_POINTER[7]                                       DFN1C0     D        In      -         14.093      -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 14.631 is 7.687(52.5%) logic and 6.945(47.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      14.011
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.585
+
+    Number of logic level(s):                8
+    Starting point:                          ADDR_POINTER[1] / Q
+    Ending point:                            ADDR_POINTER[0] / D
+    The start point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+    The end   point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                           Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+ADDR_POINTER[1]                                DFN1C0     Q        Out     0.737     0.737       -         
+RAM_ADDR_c[1]                                  Net        -        -       1.279     -           5         
+GP_PG\.un1_ADDR_POINTER_0.I_14                 OR2A       B        In      -         2.016       -         
+GP_PG\.un1_ADDR_POINTER_0.I_14                 OR2A       Y        Out     0.646     2.663       -         
+GP_PG\.un1_ADDR_POINTER_0.N_2                  Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_20                 AO1C       C        In      -         2.984       -         
+GP_PG\.un1_ADDR_POINTER_0.I_20                 AO1C       Y        Out     0.633     3.617       -         
+GP_PG\.un1_ADDR_POINTER_0.N_8                  Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_23                 OA1A       B        In      -         3.938       -         
+GP_PG\.un1_ADDR_POINTER_0.I_23                 OA1A       Y        Out     0.902     4.840       -         
+GP_PG\.un1_ADDR_POINTER_0.N_11                 Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_24                 OA1        A        In      -         5.162       -         
+GP_PG\.un1_ADDR_POINTER_0.I_24                 OA1        Y        Out     0.984     6.145       -         
+GP_PG\.un1_ADDR_POINTER_0.DWACT_COMP0_E[2]     Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_25                 AO1        B        In      -         6.467       -         
+GP_PG\.un1_ADDR_POINTER_0.I_25                 AO1        Y        Out     0.567     7.033       -         
+GP_PG\.un1_ADDR_POINTER                        Net        -        -       2.127     -           15        
+GP_PG_SM_RNI7KS48[13]                          OA1A       B        In      -         9.161       -         
+GP_PG_SM_RNI7KS48[13]                          OA1A       Y        Out     0.902     10.063      -         
+N_ADDR_POINTER_i_o2_0[7]                       Net        -        -       1.639     -           8         
+ADDR_POINTER_RNO_2[0]                          OA1B       B        In      -         11.702      -         
+ADDR_POINTER_RNO_2[0]                          OA1B       Y        Out     0.984     12.685      -         
+N_397                                          Net        -        -       0.322     -           1         
+ADDR_POINTER_RNO[0]                            NOR3       C        In      -         13.007      -         
+ADDR_POINTER_RNO[0]                            NOR3       Y        Out     0.683     13.690      -         
+N_56                                           Net        -        -       0.322     -           1         
+ADDR_POINTER[0]                                DFN1C0     D        In      -         14.011      -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 14.585 is 7.610(52.2%) logic and 6.974(47.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      14.011
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.585
+
+    Number of logic level(s):                8
+    Starting point:                          ADDR_POINTER[1] / Q
+    Ending point:                            ADDR_POINTER[1] / D
+    The start point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+    The end   point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                           Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+ADDR_POINTER[1]                                DFN1C0     Q        Out     0.737     0.737       -         
+RAM_ADDR_c[1]                                  Net        -        -       1.279     -           5         
+GP_PG\.un1_ADDR_POINTER_0.I_14                 OR2A       B        In      -         2.016       -         
+GP_PG\.un1_ADDR_POINTER_0.I_14                 OR2A       Y        Out     0.646     2.663       -         
+GP_PG\.un1_ADDR_POINTER_0.N_2                  Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_20                 AO1C       C        In      -         2.984       -         
+GP_PG\.un1_ADDR_POINTER_0.I_20                 AO1C       Y        Out     0.633     3.617       -         
+GP_PG\.un1_ADDR_POINTER_0.N_8                  Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_23                 OA1A       B        In      -         3.938       -         
+GP_PG\.un1_ADDR_POINTER_0.I_23                 OA1A       Y        Out     0.902     4.840       -         
+GP_PG\.un1_ADDR_POINTER_0.N_11                 Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_24                 OA1        A        In      -         5.162       -         
+GP_PG\.un1_ADDR_POINTER_0.I_24                 OA1        Y        Out     0.984     6.145       -         
+GP_PG\.un1_ADDR_POINTER_0.DWACT_COMP0_E[2]     Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_25                 AO1        B        In      -         6.467       -         
+GP_PG\.un1_ADDR_POINTER_0.I_25                 AO1        Y        Out     0.567     7.033       -         
+GP_PG\.un1_ADDR_POINTER                        Net        -        -       2.127     -           15        
+GP_PG_SM_RNI7KS48[13]                          OA1A       B        In      -         9.161       -         
+GP_PG_SM_RNI7KS48[13]                          OA1A       Y        Out     0.902     10.063      -         
+N_ADDR_POINTER_i_o2_0[7]                       Net        -        -       1.639     -           8         
+ADDR_POINTER_RNO_2[1]                          OA1B       B        In      -         11.702      -         
+ADDR_POINTER_RNO_2[1]                          OA1B       Y        Out     0.984     12.685      -         
+N_394                                          Net        -        -       0.322     -           1         
+ADDR_POINTER_RNO[1]                            NOR3       C        In      -         13.007      -         
+ADDR_POINTER_RNO[1]                            NOR3       Y        Out     0.683     13.690      -         
+N_54                                           Net        -        -       0.322     -           1         
+ADDR_POINTER[1]                                DFN1C0     D        In      -         14.011      -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 14.585 is 7.610(52.2%) logic and 6.974(47.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      14.011
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.585
+
+    Number of logic level(s):                8
+    Starting point:                          ADDR_POINTER[1] / Q
+    Ending point:                            ADDR_POINTER[3] / D
+    The start point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+    The end   point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                           Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+ADDR_POINTER[1]                                DFN1C0     Q        Out     0.737     0.737       -         
+RAM_ADDR_c[1]                                  Net        -        -       1.279     -           5         
+GP_PG\.un1_ADDR_POINTER_0.I_14                 OR2A       B        In      -         2.016       -         
+GP_PG\.un1_ADDR_POINTER_0.I_14                 OR2A       Y        Out     0.646     2.663       -         
+GP_PG\.un1_ADDR_POINTER_0.N_2                  Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_20                 AO1C       C        In      -         2.984       -         
+GP_PG\.un1_ADDR_POINTER_0.I_20                 AO1C       Y        Out     0.633     3.617       -         
+GP_PG\.un1_ADDR_POINTER_0.N_8                  Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_23                 OA1A       B        In      -         3.938       -         
+GP_PG\.un1_ADDR_POINTER_0.I_23                 OA1A       Y        Out     0.902     4.840       -         
+GP_PG\.un1_ADDR_POINTER_0.N_11                 Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_24                 OA1        A        In      -         5.162       -         
+GP_PG\.un1_ADDR_POINTER_0.I_24                 OA1        Y        Out     0.984     6.145       -         
+GP_PG\.un1_ADDR_POINTER_0.DWACT_COMP0_E[2]     Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_25                 AO1        B        In      -         6.467       -         
+GP_PG\.un1_ADDR_POINTER_0.I_25                 AO1        Y        Out     0.567     7.033       -         
+GP_PG\.un1_ADDR_POINTER                        Net        -        -       2.127     -           15        
+GP_PG_SM_RNI7KS48[13]                          OA1A       B        In      -         9.161       -         
+GP_PG_SM_RNI7KS48[13]                          OA1A       Y        Out     0.902     10.063      -         
+N_ADDR_POINTER_i_o2_0[7]                       Net        -        -       1.639     -           8         
+ADDR_POINTER_RNO_2[3]                          OA1B       B        In      -         11.702      -         
+ADDR_POINTER_RNO_2[3]                          OA1B       Y        Out     0.984     12.685      -         
+N_388                                          Net        -        -       0.322     -           1         
+ADDR_POINTER_RNO[3]                            NOR3       C        In      -         13.007      -         
+ADDR_POINTER_RNO[3]                            NOR3       Y        Out     0.683     13.690      -         
+N_48                                           Net        -        -       0.322     -           1         
+ADDR_POINTER[3]                                DFN1C0     D        In      -         14.011      -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 14.585 is 7.610(52.2%) logic and 6.974(47.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      14.011
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.585
+
+    Number of logic level(s):                8
+    Starting point:                          ADDR_POINTER[1] / Q
+    Ending point:                            ADDR_POINTER[5] / D
+    The start point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+    The end   point is clocked by            GP_PATT_GEN|CLK_40MHZ_GEN [rising] on pin CLK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                           Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+ADDR_POINTER[1]                                DFN1C0     Q        Out     0.737     0.737       -         
+RAM_ADDR_c[1]                                  Net        -        -       1.279     -           5         
+GP_PG\.un1_ADDR_POINTER_0.I_14                 OR2A       B        In      -         2.016       -         
+GP_PG\.un1_ADDR_POINTER_0.I_14                 OR2A       Y        Out     0.646     2.663       -         
+GP_PG\.un1_ADDR_POINTER_0.N_2                  Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_20                 AO1C       C        In      -         2.984       -         
+GP_PG\.un1_ADDR_POINTER_0.I_20                 AO1C       Y        Out     0.633     3.617       -         
+GP_PG\.un1_ADDR_POINTER_0.N_8                  Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_23                 OA1A       B        In      -         3.938       -         
+GP_PG\.un1_ADDR_POINTER_0.I_23                 OA1A       Y        Out     0.902     4.840       -         
+GP_PG\.un1_ADDR_POINTER_0.N_11                 Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_24                 OA1        A        In      -         5.162       -         
+GP_PG\.un1_ADDR_POINTER_0.I_24                 OA1        Y        Out     0.984     6.145       -         
+GP_PG\.un1_ADDR_POINTER_0.DWACT_COMP0_E[2]     Net        -        -       0.322     -           1         
+GP_PG\.un1_ADDR_POINTER_0.I_25                 AO1        B        In      -         6.467       -         
+GP_PG\.un1_ADDR_POINTER_0.I_25                 AO1        Y        Out     0.567     7.033       -         
+GP_PG\.un1_ADDR_POINTER                        Net        -        -       2.127     -           15        
+GP_PG_SM_RNI7KS48[13]                          OA1A       B        In      -         9.161       -         
+GP_PG_SM_RNI7KS48[13]                          OA1A       Y        Out     0.902     10.063      -         
+N_ADDR_POINTER_i_o2_0[7]                       Net        -        -       1.639     -           8         
+ADDR_POINTER_RNO_2[5]                          OA1B       B        In      -         11.702      -         
+ADDR_POINTER_RNO_2[5]                          OA1B       Y        Out     0.984     12.685      -         
+N_382                                          Net        -        -       0.322     -           1         
+ADDR_POINTER_RNO[5]                            NOR3       C        In      -         13.007      -         
+ADDR_POINTER_RNO[5]                            NOR3       Y        Out     0.683     13.690      -         
+ADDR_POINTER_RNO[5]                            Net        -        -       0.322     -           1         
+ADDR_POINTER[5]                                DFN1C0     D        In      -         14.011      -         
+===========================================================================================================
+Total path delay (propagation time + setup) of 14.585 is 7.610(52.2%) logic and 6.974(47.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3PE1500_PQFP208_STD
+Report for cell GP_PATT_GEN.rtl_logic
+  Core Cell usage:
+              cell count     area count*area
+              AND2     3      1.0        3.0
+             AND2A     2      1.0        2.0
+              AND3     1      1.0        1.0
+               AO1     8      1.0        8.0
+              AO1C     4      1.0        4.0
+              AOI1     1      1.0        1.0
+             AOI1A     2      1.0        2.0
+              BUFF     1      1.0        1.0
+               GND     1      0.0        0.0
+              NOR2     2      1.0        2.0
+             NOR2A    11      1.0       11.0
+             NOR2B    10      1.0       10.0
+              NOR3    11      1.0       11.0
+             NOR3A    18      1.0       18.0
+             NOR3B     6      1.0        6.0
+             NOR3C     1      1.0        1.0
+               OA1     4      1.0        4.0
+              OA1A     3      1.0        3.0
+              OA1B     8      1.0        8.0
+               OR2     3      1.0        3.0
+              OR2A     8      1.0        8.0
+              OR2B     1      1.0        1.0
+               OR3     2      1.0        2.0
+              OR3A     1      1.0        1.0
+               VCC     1      0.0        0.0
+             XNOR2     3      1.0        3.0
+               XO1     2      1.0        2.0
+              XOR2    14      1.0       14.0
+
+
+            DFN1C0    21      1.0       21.0
+          DFN1E0P0     1      1.0        1.0
+          DFN1E1C0    18      1.0       18.0
+          DFN1E1P0     1      1.0        1.0
+            DFN1P0     2      1.0        2.0
+                   -----          ----------
+             TOTAL   175               173.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF    39
+            OUTBUF    11
+                   -----
+             TOTAL    51
+
+
+Core Cells         : 173 of 38400 (0%)
+IO Cells           : 51
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 60 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 112MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Dec 18 10:09:55 2015
+
+###########################################################]

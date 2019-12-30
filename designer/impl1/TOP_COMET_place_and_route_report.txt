@@ -1,0 +1,393 @@
+***************************************************************************
+                               Status Report
+                          Sun Dec 29 19:16:23 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.9 SP2
+Version: 11.9.2.1
+File Name: Z:\windows\comet_fw\designer\impl1\TOP_COMET.adb
+Design Name: TOP_COMET  Design State: layout
+Last Saved: Sun Dec 29 19:00:25 2019
+
+***** Device Data **************************************************
+
+Family: ProASIC3E  Die: A3PE1500  Package: 208 PQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Sun Dec 29 19:00:03 2019:
+        Z:\windows\comet_fw\synthesis\TOP_COMET.edn
+        Z:\windows\comet_fw\constraint\TOP_COMET_STV.pdc
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: off
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3E
+Device      : A3PE1500
+Package     : 208 PQFP
+Source      : Z:\windows\comet_fw\synthesis\TOP_COMET.edn
+              Z:\windows\comet_fw\constraint\TOP_COMET_STV.pdc
+Format      : EDIF
+Topcell     : TOP_COMET
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : No
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : Yes
+promote_globals_min_fanout         : 200
+promote_globals_max_limit          : 10
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net U50_PATTERNS/U100_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U100_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U113_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U113_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U112_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U112_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U111_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U111_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U116_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U116_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U103_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U103_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U102_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U102_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U101_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U101_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U106_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U106_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U114_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U114_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U117_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U117_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U104_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U104_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U119_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U119_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U107_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U107_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U109_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U109_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U118_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U118_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U115_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U115_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U0_PATT_TFC_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U0_PATT_TFC_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U110_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U110_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U108_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U108_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U105_PATT_ELINK_BLK/DOUTA_1[8] drives no load.
+Warning: CMP201: Net U50_PATTERNS/U105_PATT_ELINK_BLK/DOUTB_1[8] drives no load.
+Warning: CMP201: Net U_MAINCLKGEN/SDOUT drives no load.
+Warning: CMP201: Net U_MAINCLKGEN/Core_YB_0 drives no load.
+Warning: CMP201: Net U_MAINCLKGEN/Core_YC_0 drives no load.
+Warning: CMP201: Net U_ELK20_CH/U_DDR_ELK1/BIBUF_LVDS_0_Y drives no load.
+Warning: CMP201: Net U_MASTER_DES/CCC_160M_2ADJ drives no load.
+Warning: CMP201: Net U_MASTER_DES/CCC_160M_1ADJ drives no load.
+Warning: CMP201: Net U_MASTER_DES/U13B_CCC/SDOUT drives no load.
+Warning: CMP201: Net U_MASTER_DES/U13B_CCC/Core_YB drives no load.
+Warning: CMP201: Net U_MASTER_DES/U13B_CCC/Core_YC drives no load.
+Warning: CMP201: Net U_ELK21_CH/U_DDR_ELK1/BIBUF_LVDS_0_Y drives no load.
+Warning: CMP201: Net U_ELK22_CH/U_DDR_ELK1/BIBUF_LVDS_0_Y drives no load.
+Warning: CMP201: Net U_ELK23_CH/U_DDR_ELK1/BIBUF_LVDS_0_Y drives no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                3
+  - Inverters:              1
+  - Tieoff:                 0
+  - Logic combining:        42
+
+    Total macros optimized  46
+
+Warning: CMP503: Remapped 1041 enable flip-flop(s) to a 2-tile implementation because the
+         CLR/PRE pin on the enable flip-flop is not being driven by a global net.
+Warning: CMP802: Global Output GLB of DYNCCC instance 'U_MASTER_DES/U13B_CCC/Core' is floating.
+         This will waste one global resource.
+Warning: CMP802: Global Output GLC of DYNCCC instance 'U_MASTER_DES/U13B_CCC/Core' is floating.
+         This will waste one global resource.
+
+There were 0 error(s) and 55 warning(s) in this design.
+=====================================================================
+
+Reading user pdc (Physical Design Constraints) file(s) postcompile
+
+
+There were 0 error(s) and 0 warning(s) in reading the user pdc.
+
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:   8192  Total:  38400   (21.33%)
+    IO (W/ clocks)             Used:     89  Total:    147   (60.54%)
+    Differential IO            Used:     29  Total:     65   (44.62%)
+    GLOBAL (Chip+Quadrant)     Used:      7  Total:     18   (38.89%)
+    PLL                        Used:      2  Total:      2   (100.00%)
+    RAM/FIFO                   Used:     21  Total:     60   (35.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 7      | 6  (116.67%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 4707         | 4707
+    SEQ     | 3485         | 3485
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 5             | 1            | 0
+    Output I/O                            | 17            | 0            | 0
+    Bidirectional I/O                     | 0             | 8            | 0
+    Differential Input I/O Pairs          | 1             | 0            | 0
+    Differential Output I/O Pairs         | 1             | 0            | 0
+    Differential Bidirectional I/O Pairs  | 2             | 0            | 25
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 3     | 8      | 8
+    LVCMOS25                        | 2.50v | N/A   | 3     | 9      | 0
+    LVDS                            | 2.50v | N/A   | 2     | 2      | 54
+
+I/O Placement:
+
+    Locked  :  85 ( 95.51% )
+    Placed  :   0
+    UnPlaced:   4 (  4.49% )
+
+Warning: Only some I/Os are locked
+
+Net information report:
+=======================
+
+The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
+    EffCnt  Type          Name
+    --------------------------
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_3
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_3
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_4
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_4
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_5
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_5
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_6
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_6
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_7
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_7
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_8
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_8
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_9
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_9
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_10
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_10
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_11
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_11
+    24      SET/RESET_NET Net   : P_USB_MASTER_EN_c_12
+                          Driver: U_EXEC_MASTER/USB_MASTER_EN/USB_EN_60M_2S_12
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    1890    CLK_NET       Net   : CLK_40M_GL
+                          Driver: U_MAINCLKGEN/Core
+                          Source: ESSENTIAL
+    1390    SET/RESET_NET Net   : MASTER_DCB_POR_B_i_0_i
+                          Driver: U_EXEC_MASTER/MPOR_DCB_B_RNIPFG8
+                          Source: NETLIST
+    707     CLK_NET       Net   : CCC_160M_FXD
+                          Driver: U_MAINCLKGEN/Core
+                          Source: ESSENTIAL
+    618     CLK_NET       Net   : CLK60MHZ
+                          Driver: U_MAINCLKGEN/Core
+                          Source: ESSENTIAL
+    465     CLK_NET       Net   : CCC_160M_ADJ
+                          Driver: U_MASTER_DES/U13B_CCC/Core
+                          Source: ESSENTIAL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    25      INT_NET       Net   : DCB_SALT_SEL_c_i_0
+                          Driver: DCB_SALT_SEL_pad_RNIJM3B_1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_4[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_4[0]/U1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_3[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_3[0]/U1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_2[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_2[0]/U1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_1[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_1[0]/U1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_0[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_0[0]/U1
+    24      INT_NET       Net   : ELKS_ADDRB[1]
+                          Driver: U200B_ELINKS/ADDR_POINTER[1]
+    24      INT_NET       Net   : ELKS_ADDRB[3]
+                          Driver: U200B_ELINKS/ADDR_POINTER[3]
+    24      INT_NET       Net   : ELKS_ADDRB[5]
+                          Driver: U200B_ELINKS/ADDR_POINTER[5]
+    24      INT_NET       Net   : ELKS_ADDRB[7]
+                          Driver: U200B_ELINKS/ADDR_POINTER[7]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    74      INT_NET       Net   : DCB_SALT_SEL_c
+                          Driver: DCB_SALT_SEL_pad
+    52      SET/RESET_NET Net   : DEV_RST_B_c
+                          Driver: DEV_RST_B_pad
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_4[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_4[0]/U1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_3[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_3[0]/U1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_2[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_2[0]/U1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_1[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_1[0]/U1
+    25      INT_NET       Net   : U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_0[0]
+                          Driver: U_MASTER_DES/U13C_MASTER_DESER/INDEX_CNT_0[0]/U1
+    24      INT_NET       Net   : ELKS_ADDRB[1]
+                          Driver: U200B_ELINKS/ADDR_POINTER[1]
+    24      INT_NET       Net   : ELKS_ADDRB[3]
+                          Driver: U200B_ELINKS/ADDR_POINTER[3]
+    24      INT_NET       Net   : ELKS_ADDRB[5]
+                          Driver: U200B_ELINKS/ADDR_POINTER[5]
+
+
+Layout Output:
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+High Effort Layout Mode: ON
+
+
+Warning: The advanced layout option 'High Effort Layout Mode' is active.
+Info: I/O Bank Assigner detected (8) out of (8) I/O Bank(s) with locked I/O technologies.
+Info: All I/O Banks have locked technologies. Skipping I/O Bank Assigner.
+
+Planning global net placement...
+Info: PLC007: Created quadrant global region Qclock_MASTER_DCB_POR_B_i_0_i for global net
+      MASTER_DCB_POR_B_i_0_i.
+
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Sun Dec 29 19:00:55 2019
+High-Effort Placer Started...
+
+Placer Finished: Sun Dec 29 19:08:08 2019
+Total Placer CPU Time:     00:07:13
+
+                        o - o - o - o - o - o
+
+
+Post-Layout Core Information:
+    Used:   8192  Total:  38400   (21.33%)
+
+    Type       | Instances    | Core tiles
+    -----------|--------------|-----------
+    COMB       | 4707         | 4707
+    SEQ        | 3485         | 3485
+
+Timing-driven Router 
+Design: TOP_COMET                       Started: Sun Dec 29 19:08:27 2019
+
+ 
+Iterative improvement...
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: TOP_COMET                       
+Finished: Sun Dec 29 19:16:01 2019
+Total CPU Time:     00:07:26            Total Elapsed Time: 00:07:34
+Total Memory Usage: 723.2 Mbytes
+                        o - o - o - o - o - o
+
+status 257
+status 257
+status 257
+status 257
+status 257
+status 257
+status 257
+status 257
+
+

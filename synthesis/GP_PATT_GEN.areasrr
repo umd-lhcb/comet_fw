@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+Report for cell GP_PATT_GEN.rtl_logic
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                              AND2A         2       1.0        2.0
+                               AND3         1       1.0        1.0
+                                AO1         8       1.0        8.0
+                               AO1C         4       1.0        4.0
+                               AOI1         1       1.0        1.0
+                              AOI1A         2       1.0        2.0
+                               BUFF         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                             DFN1C0        21       1.0       21.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1C0        18       1.0       18.0
+                           DFN1E1P0         1       1.0        1.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF        39       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A        11       1.0       11.0
+                              NOR2B        10       1.0       10.0
+                               NOR3        11       1.0       11.0
+                              NOR3A        18       1.0       18.0
+                              NOR3B         6       1.0        6.0
+                              NOR3C         1       1.0        1.0
+                                OA1         4       1.0        4.0
+                               OA1A         3       1.0        3.0
+                               OA1B         8       1.0        8.0
+                                OR2         3       1.0        3.0
+                               OR2A         8       1.0        8.0
+                               OR2B         1       1.0        1.0
+                                OR3         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                             OUTBUF        11       0.0        0.0
+                                VCC         1       0.0        0.0
+                              XNOR2         3       1.0        3.0
+                                XO1         2       1.0        2.0
+                               XOR2        14       1.0       14.0
+                            
+                         TOTAL            226                173.0

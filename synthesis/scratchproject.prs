@@ -1,0 +1,96 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09M-SP1-5
+#--  Project file Z:\windows\comet_fw\synthesis\scratchproject.prs
+
+#project files
+add_file -vhdl -lib work "Z:/windows/comet_fw/smartgen/BIDIR_LVDS_IO/BIDIR_LVDS_IO.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/smartgen/CLK_FXD_40_160_A60M/CLK_FXD_40_160_A60M.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/DDR_BIDIR_LVDS_DUAL_CLK.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/SER320M.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/SLAVE_DES320S.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/SYNC_DAT_SEL.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/ELINK_SLAVE.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/ELINK_SLAVE_INV.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/USB_EXEC.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/EXEC_MODE_CNTL.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/GP_PATT_GEN.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/smartgen/LVDS_BUFOUT/LVDS_BUFOUT.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/smartgen/LVDS_CLK_IN/LVDS_CLK_IN.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/REF_CLK_DIV_GEN.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/smartgen/CCC_DYN_TRIPLE_160M/CCC_DYN_TRIPLE_160M.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/GP_CCC_SCONFIG.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/MASTER_DES320M.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/TOP_MASTER_DES320M.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/smartgen/BIDIR_LVTTL/BIDIR_LVTTL.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/CLK60M_TO_40M.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/smartgen/DPRT_512X9_SRAM/DPRT_512X9_SRAM.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/USB_INTERFACE.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/smartgen/tristate_buf/tristate_buf.vhd"
+add_file -vhdl -lib work "Z:/windows/comet_fw/hdl/TOP_COMET.vhd"
+add_file -constraint "Z:/windows/comet_fw/constraint/Top_Basic_a.sdc"
+
+
+
+#implementation: "synthesis"
+impl -add Z:\windows\comet_fw\synthesis -type fpga
+
+#device options
+set_option -technology ProASIC3E
+set_option -part A3PE1500
+set_option -package PQFP208
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "work.TOP_COMET"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi 500K
+set_option -run_prop_extract 1
+set_option -maxfan 24
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -report_path 4000
+set_option -opcond COMWC
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# Microsemi 500K
+set_option -globalthreshold 50
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# Compiler Options
+set_option -vhdl2008 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "Z:/windows/comet_fw/synthesis/TOP_COMET.edn"
+impl -active "synthesis"

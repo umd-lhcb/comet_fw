@@ -1,0 +1,33 @@
+Synopsys VHDL Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\des320M.vhd":29:7:29:13|Top entity is set to des320M.
+File D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\des320M.vhd changed - recompiling
+File D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\misc.vhd changed - recompiling
+File D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\proasic3e.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\des320M.vhd changed - recompiling
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\des320M.vhd":29:7:29:13|Synthesizing work.des320m.rtl 
+@N: CD231 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\des320M.vhd":53:20:53:21|Using onehot encoding for type des_states (init="100000")
+@W: CD604 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\des320M.vhd":299:16:299:37|OTHERS clause is not synthesized 
+Post processing for work.des320m.rtl
+@W: CL169 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\des320M.vhd":124:12:124:13|Pruning register BEST_CLKPHASE_2(4 downto 0)  
+@N: CL201 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\des320M.vhd":124:12:124:13|Trying to extract state machine for register DES_SM
+Extracted state machine for register DES_SM
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 80MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Oct 16 14:38:32 2015
+
+###########################################################]

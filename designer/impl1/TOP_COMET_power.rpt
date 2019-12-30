@@ -1,0 +1,200 @@
+
+Power Report for design TOP_COMET with the following settings:
+
+ Vendor:    Microsemi Corporation                                            
+ Program:   Microsemi Libero Software, Release v11.5 SP2 (Version 11.5.2.6)  
+            Copyright (C) 1989-2015                                          
+ Date:      Wed Oct 28 14:48:15 2015                                         
+ Version:   3.0                                                              
+
+
+ Design:                 TOP_COMET         
+ Family:                 ProASIC3E         
+ Die:                    A3PE1500          
+ Package:                208 PQFP          
+ Temperature Range:      COM               
+ Voltage Range:          COM               
+ Operating Conditions:   Typical           
+ Operating Mode:         Active            
+ Data Source:            Silicon verified  
+
+
+Power Summary
++---------------+------------+------------+
+|               | Power (mW) | Percentage |
++---------------+------------+------------+
+| Total Power   |   1246.524 |     100.0% |
+| Static Power  |    557.380 |      44.7% |
+| Dynamic Power |    689.144 |      55.3% |
++---------------+------------+------------+
+
+
+Annotation Coverage: Frequency Annotation
++-----------------------+------------+------------+--------------+----------------+-------------+-------+
+| Frequency>=0          | VCD        | Manual     | SmartTime    | Vectorless     | Fixed       | Total |
+|                       | Annotation | Annotation | Constraint   | Estimation     | Values      |       |
++-----------------------+------------+------------+--------------+----------------+-------------+-------+
+| Clocks                | 0 (0.00%)  | 0 (0.00%)  | 214 (99.07%) | 0 (0.00%)      | 2 (0.93%)   | 216   |
+| Register outputs      | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 1266 (100.00%) | 0 (0.00%)   | 1266  |
+| Combinational outputs | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 3169 (99.37%)  | 20 (0.63%)  | 3189  |
+| Set/Reset nets        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)      | 3 (100.00%) | 3     |
+| Primary inputs        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)      | 6 (100.00%) | 6     |
+| Enable pins           | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 21 (100.00%)   | 0 (0.00%)   | 21    |
+| Other pins            | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)      | 0 (0.00%)   | 0     |
++-----------------------+------------+------------+--------------+----------------+-------------+-------+
+
++-----------------------+------------+------------+------------+---------------+-------------+-------+
+| Frequency=0           | VCD        | Manual     | SmartTime  | Vectorless    | Fixed       | Total |
+|                       | Annotation | Annotation | Constraint | Estimation    | Values      |       |
++-----------------------+------------+------------+------------+---------------+-------------+-------+
+| Clocks                | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 2 (100.00%) | 2     |
+| Register outputs      | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 46 (100.00%)  | 0 (0.00%)   | 46    |
+| Combinational outputs | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 206 (100.00%) | 0 (0.00%)   | 206   |
+| Set/Reset nets        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 3 (100.00%) | 3     |
+| Primary inputs        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 0 (0.00%)   | 0     |
+| Enable pins           | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 12 (100.00%)  | 0 (0.00%)   | 12    |
+| Other pins            | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)     | 0 (0.00%)   | 0     |
++-----------------------+------------+------------+------------+---------------+-------------+-------+
+
+Annotation Coverage: Probability Annotation
++-----------------------+------------+------------+--------------+----------------+-------------+-------+
+| Probability>=0        | VCD        | Manual     | SmartTime    | Vectorless     | Fixed       | Total |
+|                       | Annotation | Annotation | Constraint   | Estimation     | Values      |       |
++-----------------------+------------+------------+--------------+----------------+-------------+-------+
+| Clocks                | 0 (0.00%)  | 0 (0.00%)  | 214 (99.07%) | 0 (0.00%)      | 2 (0.93%)   | 216   |
+| Register outputs      | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 1266 (100.00%) | 0 (0.00%)   | 1266  |
+| Combinational outputs | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 3169 (99.37%)  | 20 (0.63%)  | 3189  |
+| Set/Reset nets        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)      | 3 (100.00%) | 3     |
+| Primary inputs        | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)      | 6 (100.00%) | 6     |
+| Enable pins           | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 21 (100.00%)   | 0 (0.00%)   | 21    |
+| Other pins            | 0 (0.00%)  | 0 (0.00%)  | 0 (0.00%)    | 0 (0.00%)      | 0 (0.00%)   | 0     |
++-----------------------+------------+------------+--------------+----------------+-------------+-------+
+
+
+Operating Condition Summary
++----------------------+---------+----------------------------------+
+|                      | Value   | Range Definition                 |
++----------------------+---------+----------------------------------+
+| Junction Temperature | 25.00 C | Design operating range (default) |
+|                      |         |                                  |
+| VCC                  | 1.500 V | Design operating range(default)  |
+| VCCI 2.5             | 2.500 V | Design operating range(default)  |
+| VCCI 3.3             | 3.300 V | Design operating range(default)  |
++----------------------+---------+----------------------------------+
+
+
+Breakdown by Rail
++---------------+------------+-------------+--------------+
+|               | Power (mW) | Voltage (V) | Current (mA) |
++---------------+------------+-------------+--------------+
+| Rail VCC      |    122.988 |      1.500  |     81.992   |
+| Rail VCCI 2.5 |   1092.221 |      2.500  |    436.888   |
+| Rail VCCI 3.3 |     31.315 |      3.300  |      9.489   |
++---------------+------------+-------------+--------------+
+
+
+Breakdown by Clock
++-------------------------------------------------------------+------------+------------+
+|                                                             | Power (mW) | Percentage |
++-------------------------------------------------------------+------------+------------+
+| U13B_CCC/Core:GLB (clocks)                                  |      1.140 |       0.2% |
+| U13B_CCC/Core:GLB (register outputs)                        |      0.002 |       0.0% |
+| U13B_CCC/Core:GLB (primary inputs)                          |      0.000 |       0.0% |
+| U13B_CCC/Core:GLB (combinational outputs)                   |      0.000 |       0.0% |
+| U13B_CCC/Core:GLB (set/reset nets)                          |      0.000 |       0.0% |
+| U13B_CCC/Core:GLA (clocks)                                  |      5.148 |       0.7% |
+| U13B_CCC/Core:GLA (register outputs)                        |      0.002 |       0.0% |
+| U13B_CCC/Core:GLA (primary inputs)                          |      0.000 |       0.0% |
+| U13B_CCC/Core:GLA (combinational outputs)                   |      0.000 |       0.0% |
+| U13B_CCC/Core:GLA (set/reset nets)                          |      0.000 |       0.0% |
+| U3_MAINCLKGEN/Core:GLC (clocks)                             |     11.924 |       1.7% |
+| U3_MAINCLKGEN/Core:GLC (register outputs)                   |      1.864 |       0.3% |
+| U3_MAINCLKGEN/Core:GLC (primary inputs)                     |      0.000 |       0.0% |
+| U3_MAINCLKGEN/Core:GLC (combinational outputs)              |     18.048 |       2.6% |
+| U3_MAINCLKGEN/Core:GLC (set/reset nets)                     |      0.000 |       0.0% |
+| U3_MAINCLKGEN/Core:GLB (clocks)                             |     80.734 |      11.7% |
+| U3_MAINCLKGEN/Core:GLB (register outputs)                   |      1.061 |       0.2% |
+| U3_MAINCLKGEN/Core:GLB (primary inputs)                     |      0.000 |       0.0% |
+| U3_MAINCLKGEN/Core:GLB (combinational outputs)              |      1.551 |       0.2% |
+| U3_MAINCLKGEN/Core:GLB (set/reset nets)                     |      0.000 |       0.0% |
+| U3_MAINCLKGEN/Core:GLA (clocks)                             |    553.055 |      80.3% |
+| U3_MAINCLKGEN/Core:GLA (register outputs)                   |      6.926 |       1.0% |
+| U3_MAINCLKGEN/Core:GLA (primary inputs)                     |      0.000 |       0.0% |
+| U3_MAINCLKGEN/Core:GLA (combinational outputs)              |      2.114 |       0.3% |
+| U3_MAINCLKGEN/Core:GLA (set/reset nets)                     |      0.000 |       0.0% |
+| U1_EXEC_MASTER/SCFG_CLK_I:Q (clocks)                        |      4.149 |       0.6% |
+| U1_EXEC_MASTER/SCFG_CLK_I:Q (register outputs)              |      0.811 |       0.1% |
+| U1_EXEC_MASTER/SCFG_CLK_I:Q (primary inputs)                |      0.000 |       0.0% |
+| U1_EXEC_MASTER/SCFG_CLK_I:Q (combinational outputs)         |      0.615 |       0.1% |
+| U1_EXEC_MASTER/SCFG_CLK_I:Q (set/reset nets)                |      0.000 |       0.0% |
+| U0_200M_BUF/_INBUF_LVDS[0]_/U0/U0:Y (clocks)                |      0.000 |       0.0% |
+| U0_200M_BUF/_INBUF_LVDS[0]_/U0/U0:Y (register outputs)      |      0.000 |       0.0% |
+| U0_200M_BUF/_INBUF_LVDS[0]_/U0/U0:Y (primary inputs)        |      0.000 |       0.0% |
+| U0_200M_BUF/_INBUF_LVDS[0]_/U0/U0:Y (combinational outputs) |      0.000 |       0.0% |
+| U0_200M_BUF/_INBUF_LVDS[0]_/U0/U0:Y (set/reset nets)        |      0.000 |       0.0% |
+| Input to Output                                             |      0.000 |       0.0% |
++-------------------------------------------------------------+------------+------------+
+
+
+Breakdown by Type
++-------------------+------------+------------+
+|                   | Power (mW) | Percentage |
++-------------------+------------+------------+
+| Type Net          |     88.982 |       7.1% |
+| Type Gate         |     14.943 |       1.2% |
+| Type I/O          |   1122.759 |      90.1% |
+| Type Memory       |      0.959 |       0.1% |
+| Type Core Static  |     16.800 |       1.3% |
+| Type Banks Static |      2.080 |       0.2% |
++-------------------+------------+------------+
+
+
+Clock Domains Summary: Frequency
++-------------------------------------+---------+------------------+----------------+------------------+------------------+
+| Name                                | Clocks  | Register         | Set/Reset      | Primary          | Combinational    |
+|                                     | (MHz)   | outputs          | nets           | inputs           | outputs          |
+|                                     |         | (MHz)            | (MHz)          | (MHz)            | (MHz)            |
++-------------------------------------+---------+------------------+----------------+------------------+------------------+
+| U13B_CCC/Core:GLB                   | 40.000  | 0.341 (1.71 %)   | 0.000 (0.00 %) | 2.000 (10.00 %)  | 0.000 (0.00 %)   |
+| U13B_CCC/Core:GLA                   | 160.000 | 0.245 (0.31 %)   | 0.000 (0.00 %) | 8.000 (10.00 %)  | 0.000 (0.00 %)   |
+| U3_MAINCLKGEN/Core:GLC              | 59.999  | 1.250 (4.17 %)   | 0.000 (0.00 %) | 3.000 (10.00 %)  | 2.907 (9.69 %)   |
+| U3_MAINCLKGEN/Core:GLB              | 40.000  | 0.548 (2.74 %)   | 0.000 (0.00 %) | 2.000 (10.00 %)  | 0.408 (2.04 %)   |
+| U3_MAINCLKGEN/Core:GLA              | 200.000 | 41.169 (41.17 %) | 0.000 (0.00 %) | 10.000 (10.00 %) | 35.186 (35.19 %) |
+| U1_EXEC_MASTER/SCFG_CLK_I:Q         | 50.000  | 2.308 (9.23 %)   | 0.000 (0.00 %) | 2.500 (10.00 %)  | 2.975 (11.90 %)  |
+| U0_200M_BUF/_INBUF_LVDS[0]_/U0/U0:Y | 0.000   | 0.000 (0.00 %)   | 0.000 (0.00 %) | 0.000 (0.00 %)   | 0.000 (0.00 %)   |
++-------------------------------------+---------+------------------+----------------+------------------+------------------+
+
+Clock Domains Summary: Probability
++-------------------------------------+--------+----------+-----------+---------+---------------+
+| Name                                | Clocks | Register | Set/Reset | Primary | Combinational |
+|                                     | (%)    | outputs  | nets      | inputs  | outputs       |
+|                                     |        | (%)      | (%)       | (%)     | (%)           |
++-------------------------------------+--------+----------+-----------+---------+---------------+
+| U13B_CCC/Core:GLB                   | 50.000 | 49.359   | 50.000    | 50.000  | 50.000        |
+| U13B_CCC/Core:GLA                   | 50.000 | 49.357   | 50.000    | 50.000  | 50.000        |
+| U3_MAINCLKGEN/Core:GLC              | 50.000 | 36.824   | 50.000    | 50.000  | 30.675        |
+| U3_MAINCLKGEN/Core:GLB              | 50.000 | 25.602   | 50.000    | 50.000  | 32.983        |
+| U3_MAINCLKGEN/Core:GLA              | 50.000 | 46.680   | 50.000    | 50.000  | 49.446        |
+| U1_EXEC_MASTER/SCFG_CLK_I:Q         | 50.000 | 63.233   | 50.000    | 50.000  | 39.715        |
+| U0_200M_BUF/_INBUF_LVDS[0]_/U0/U0:Y | 50.000 | 50.000   | 50.000    | 50.000  | 50.000        |
++-------------------------------------+--------+----------+-----------+---------+---------------+
+
+Set Of Pins Summary: Frequency
++-------------------+-------+
+| Name              | Data  |
+|                   | (MHz) |
++-------------------+-------+
+| IOsEnableSet      | 0.186 |
+| MemoriesEnableSet | 0.056 |
++-------------------+-------+
+
+Set Of Pins Summary: Probability
++-------------------+--------+
+| Name              | Data   |
+|                   | (%)    |
++-------------------+--------+
+| IOsEnableSet      | 25.165 |
+| MemoriesEnableSet | 90.940 |
++-------------------+--------+
+
+

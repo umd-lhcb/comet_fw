@@ -1,0 +1,303 @@
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\TOP_COMET.vhd":45:7:45:15|Synthesizing work.top_comet.rtl 
+@W: CD638 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\TOP_COMET.vhd":624:8:624:18|Signal ddr_q0_rise is undriven 
+@W: CD638 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\TOP_COMET.vhd":625:8:625:18|Signal ddr_q1_fall is undriven 
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_PATT_GEN.vhd":38:7:38:17|Synthesizing work.gp_patt_gen.rtl_logic 
+@N: CD231 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_PATT_GEN.vhd":79:28:79:29|Using onehot encoding for type gp_pg_sm_states (init="10000000000000")
+Post processing for work.gp_patt_gen.rtl_logic
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\tristate_buf\tristate_buf.vhd":8:7:8:18|Synthesizing work.tristate_buf.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":2679:10:2679:22|Synthesizing proasic3e.tribuff_f_24u.syn_black_box 
+Post processing for proasic3e.tribuff_f_24u.syn_black_box
+Post processing for work.tristate_buf.def_arch
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":38:7:38:19|Synthesizing work.usb_interface.rtl 
+@N: CD232 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":201:23:201:24|Using gray code encoding for type reg_sm_states
+@N: CD231 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":240:20:240:21|Using onehot encoding for type mux_states (inactive="1000000000000000000000")
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\CLK60M_TO_40M.vhd":29:7:29:19|Synthesizing work.clk60m_to_40m.rtl 
+@N: CD233 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\CLK60M_TO_40M.vhd":49:20:49:21|Using sequential encoding for type state_vals
+Post processing for work.clk60m_to_40m.rtl
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.vhd":8:7:8:17|Synthesizing work.bidir_lvttl.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":500:10:500:20|Synthesizing proasic3e.bibuf_f_24u.syn_black_box 
+Post processing for proasic3e.bibuf_f_24u.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":2098:10:2098:12|Synthesizing proasic3e.inv.syn_black_box 
+Post processing for proasic3e.inv.syn_black_box
+Post processing for work.bidir_lvttl.def_arch
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd":8:7:8:21|Synthesizing work.dprt_512x9_sram.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":3161:10:3161:15|Synthesizing proasic3e.ram4k9.syn_black_box 
+Post processing for proasic3e.ram4k9.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":2999:10:2999:12|Synthesizing proasic3e.vcc.syn_black_box 
+Post processing for proasic3e.vcc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":1894:10:1894:12|Synthesizing proasic3e.gnd.syn_black_box 
+Post processing for proasic3e.gnd.syn_black_box
+Post processing for work.dprt_512x9_sram.def_arch
+Post processing for work.usb_interface.rtl
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register USB_RD_DAT_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register USB_WR_ACTIVE_2  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register USB_RD_ACTIVE_2  
+@W: CL111 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|All reachable assignments to TFC_ADDR8B assign '0'; register removed by optimization
+@W: CL111 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":277:57:277:59|All reachable assignments to ELINK_ADDR8B assign '0'; register removed by optimization
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit WR_XFER_TYPE(3) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit WR_XFER_TYPE(4) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit WR_XFER_TYPE(6) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_0(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_1(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_2(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_3(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_4(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_5(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_6(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_7(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_8(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_9(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_10(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_11(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_12(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_13(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_14(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_15(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_16(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_17(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_18(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_ADDRA_19(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_0(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_1(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_2(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_3(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_4(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_5(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_6(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_7(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_8(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_9(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_10(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_11(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_12(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_13(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_14(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_15(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_16(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_17(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_18(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit REG60M.ELINK_DINA_19(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit TFC_ADDRA(8) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Optimizing register bit TFC_DINA(8) to a constant 0
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_0(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_1(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_2(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_3(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_4(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_5(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_6(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_7(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_8(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_9(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_10(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_11(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_12(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_13(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_14(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_15(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_16(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_17(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_18(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_ADDRA_19(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of TFC_ADDRA(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_0(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_1(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_2(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_3(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_4(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_5(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_6(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_7(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_8(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_9(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_10(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_11(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_12(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_13(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_14(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_15(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_16(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_17(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_18(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of ELINK_DINA_19(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 8 of TFC_DINA(8 downto 0)  
+@W: CL260 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bit 6 of WR_XFER_TYPE(7 downto 0)  
+@W: CL279 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Pruning register bits 4 to 3 of WR_XFER_TYPE(7 downto 0)  
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\ELINK_SLAVE.vhd":33:7:33:17|Synthesizing work.elink_slave.rtl 
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SLAVE_DES320S.vhd":39:7:39:19|Synthesizing work.slave_des320s.rtl 
+@W: CD604 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SLAVE_DES320S.vhd":194:13:194:26|OTHERS clause is not synthesized 
+@W: CD638 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SLAVE_DES320S.vhd":76:12:76:24|Signal ser_in_r_0del is undriven 
+@W: CD638 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SLAVE_DES320S.vhd":77:12:77:24|Signal ser_in_f_0del is undriven 
+@W: CD638 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SLAVE_DES320S.vhd":79:12:79:24|Signal ser_in_r_1del is undriven 
+@W: CD638 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SLAVE_DES320S.vhd":80:12:80:24|Signal ser_in_f_1del is undriven 
+Post processing for work.slave_des320s.rtl
+@W: CL265 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SLAVE_DES320S.vhd":144:12:144:13|Pruning bit 15 of Q_2(15 downto 0) -- not in use ... 
+@W: CL265 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SLAVE_DES320S.vhd":98:12:98:13|Pruning bit 15 of ADJ_Q_18(15 downto 0) -- not in use ... 
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":22:7:22:29|Synthesizing work.ddr_bidir_lvds_dual_clk.rtl 
+@W: CD280 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":52:10:52:19|Unbound component BIBUF_LVDS mapped to black box
+@W: CD280 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":69:10:69:16|Unbound component DDR_OUT mapped to black box
+@W: CD280 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":84:10:84:16|Unbound component DDR_REG mapped to black box
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":84:10:84:16|Synthesizing work.ddr_reg.syn_black_box 
+Post processing for work.ddr_reg.syn_black_box
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":69:10:69:16|Synthesizing work.ddr_out.syn_black_box 
+Post processing for work.ddr_out.syn_black_box
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":52:10:52:19|Synthesizing work.bibuf_lvds.syn_black_box 
+Post processing for work.bibuf_lvds.syn_black_box
+Post processing for work.ddr_bidir_lvds_dual_clk.rtl
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SER320M.vhd":28:7:28:13|Synthesizing work.ser320m.rtl_logic 
+Post processing for work.ser320m.rtl_logic
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\SYNC_DAT_SEL.vhd":26:7:26:18|Synthesizing work.sync_dat_sel.rtl 
+Post processing for work.sync_dat_sel.rtl
+Post processing for work.elink_slave.rtl
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\ELINK_SLAVE_INV.vhd":35:7:35:21|Synthesizing work.elink_slave_inv.rtl 
+Post processing for work.elink_slave_inv.rtl
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\TOP_MASTER_DES320M.vhd":34:7:34:24|Synthesizing work.top_master_des320m.rtl 
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":45:7:45:20|Synthesizing work.master_des320m.rtl 
+@N: CD231 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":82:20:82:21|Using onehot encoding for type des_states (init="100000000")
+@W: CD604 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":595:16:595:37|OTHERS clause is not synthesized 
+Post processing for work.master_des320m.rtl
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register LOOP_CNT_3(2 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register REG40M.DAT_ALIGN_0_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register REG40M.DAT_ALIGN_1_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register REG40M.DAT_ALIGN_2_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register REG40M.DAT_ALIGN_3_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register REG40M.DAT_ALIGN_4_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register REG40M.DAT_ALIGN_5_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register REG40M.DAT_ALIGN_6_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register REG40M.DAT_ALIGN_7_2(7 downto 0)  
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register PHACNT_OK_2(4 downto 0)  
+@W: CL265 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":202:12:202:13|Pruning bit 15 of Q_2(15 downto 0) -- not in use ... 
+@W: CL265 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":156:12:156:13|Pruning bit 15 of ADJ_Q_18(15 downto 0) -- not in use ... 
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(0) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(1) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(2) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(3) to a constant 0
+@W: CL190 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Optimizing register bit REG40M.SEQCNTS_0(4) to a constant 0
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Pruning register SEQCNTS_0(4 downto 0)  
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.vhd":8:7:8:25|Synthesizing work.ccc_dyn_triple_160m.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":4192:10:4192:15|Synthesizing proasic3e.dynccc.syn_black_box 
+Post processing for proasic3e.dynccc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":407:10:407:15|Synthesizing proasic3e.pllint.syn_black_box 
+Post processing for proasic3e.pllint.syn_black_box
+Post processing for work.ccc_dyn_triple_160m.def_arch
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_CCC_SCONFIG.vhd":96:7:96:20|Synthesizing work.gp_ccc_sconfig.rtl 
+@N: CD231 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_CCC_SCONFIG.vhd":140:25:140:26|Using onehot encoding for type shift_sm_states (init="1000000")
+@W: CD610 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_CCC_SCONFIG.vhd":260:32:260:48|Index value 0 to 255 could be out of prefix range 80 downto 0 
+@W: CD604 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_CCC_SCONFIG.vhd":286:12:286:29|OTHERS clause is not synthesized 
+Post processing for work.gp_ccc_sconfig.rtl
+@W: CL169 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_CCC_SCONFIG.vhd":162:8:162:9|Pruning register LAST_PHA_ADJ_L_3(4 downto 0)  
+Post processing for work.top_master_des320m.rtl
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd":8:7:8:19|Synthesizing work.bidir_lvds_io.def_arch 
+@W: CD275 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd":27:12:27:21|Component declarations with different initial values are not supported.  Port e of component bibuf_lvds may have been given a different initial value in two different component declarations
+Post processing for work.bidir_lvds_io.def_arch
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.vhd":8:7:8:25|Synthesizing work.clk_fxd_40_160_a60m.def_arch 
+Post processing for work.clk_fxd_40_160_a60m.def_arch
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\REF_CLK_DIV_GEN.vhd":29:7:29:21|Synthesizing work.ref_clk_div_gen.rtl 
+Post processing for work.ref_clk_div_gen.rtl
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\EXEC_MODE_CNTL.vhd":26:7:26:20|Synthesizing work.exec_mode_cntl.rtl 
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_EXEC.vhd":30:7:30:14|Synthesizing work.usb_exec.rtl_logic 
+@N: CD231 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_EXEC.vhd":72:24:72:25|Using onehot encoding for type test_sm_states (init="10000")
+@W: CD604 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_EXEC.vhd":217:16:217:33|OTHERS clause is not synthesized 
+Post processing for work.usb_exec.rtl_logic
+Post processing for work.exec_mode_cntl.rtl
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd":8:7:8:17|Synthesizing work.lvds_bufout.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":2519:10:2519:20|Synthesizing proasic3e.outbuf_lvds.syn_black_box 
+Post processing for proasic3e.outbuf_lvds.syn_black_box
+Post processing for work.lvds_bufout.def_arch
+@W: CL168 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd":40:4:40:18|Pruning instance VCC_power_inst1 -- not in use ... 
+@N: CD630 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.vhd":8:7:8:17|Synthesizing work.lvds_clk_in.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\proasic\proasic3e.vhd":2038:10:2038:19|Synthesizing proasic3e.inbuf_lvds.syn_black_box 
+Post processing for proasic3e.inbuf_lvds.syn_black_box
+Post processing for work.lvds_clk_in.def_arch
+Post processing for work.top_comet.rtl
+@N: CL201 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_EXEC.vhd":116:12:116:13|Trying to extract state machine for register TEST_SM
+Extracted state machine for register TEST_SM
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL201 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_CCC_SCONFIG.vhd":162:8:162:9|Trying to extract state machine for register SHIFT_SM
+Extracted state machine for register SHIFT_SM
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\MASTER_DES320M.vhd":236:12:236:13|Trying to extract state machine for register DES_SM
+Extracted state machine for register DES_SM
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+@W: CL159 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":24:8:24:14|Input DDR_CLR is unused
+@N: CL201 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\USB_INTERFACE.vhd":867:12:867:13|Trying to extract state machine for register REG_STATE
+Extracted state machine for register REG_STATE
+State machine has 42 reachable states with original encodings of:
+   000000
+   000001
+   000010
+   000011
+   000100
+   000101
+   000110
+   000111
+   001000
+   001001
+   001010
+   001011
+   001100
+   001101
+   001110
+   001111
+   010000
+   010001
+   010010
+   010011
+   010100
+   010101
+   010110
+   010111
+   011000
+   011001
+   011010
+   011100
+   011101
+   011110
+   110000
+   110001
+   110010
+   110100
+   110101
+   110110
+   110111
+   111010
+   111100
+   111101
+   111110
+   111111
+@N: CL201 :"F:\0_all_libero_project\CERN_LHCb\COMET_TEST_Apr18_2016_NEW_Clk_Arch_1elinkPlusInvTFC\COMET_TEST\hdl\GP_PATT_GEN.vhd":94:12:94:13|Trying to extract state machine for register GP_PG_SM
+Extracted state machine for register GP_PG_SM
+State machine has 11 reachable states with original encodings of:
+   00000000000001
+   00000000000010
+   00000000000100
+   00000000001000
+   00000000010000
+   00000100000000
+   00001000000000
+   00010000000000
+   00100000000000
+   01000000000000
+   10000000000000

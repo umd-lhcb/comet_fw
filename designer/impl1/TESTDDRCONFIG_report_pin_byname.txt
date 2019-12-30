@@ -1,0 +1,22 @@
+*****************************************************************
+Pin Report - Date: Mon Oct 26 17:53:51 2015 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.5 SP2
+Version: 11.5.2.6
+Design Name: TESTDDRCONFIG
+Family: ProASIC3E
+Die: A3PE1500
+Package: 208 PQFP
+*****************************************************************
+Port       |Pin |Fixed |Function         |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------|----|------|-----------------|--------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
+DDR_CLR     26   No     GFA0/IO190NPB6V2  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DDR_DIR     31   No     IO189NDB6V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DDR_RX_CLK  30   No     GFA2/IO189PDB6V2  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DDR_RX_F    33   No     GFC2/IO187PPB6V2  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+DDR_RX_R    34   No     IO188NPB6V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+DDR_TX_CLK  32   No     GFB2/IO188PPB6V2  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DDR_TX_F    28   No     GFA1/IO190PPB6V2  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DDR_TX_R    35   No     IO187NPB6V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PADN        24   No     GFB0/IO191NDB7V0  LVDS     24                 High  ---            ---              Off          No    0                 No           Yes
+PADP        23   No     GFB1/IO191PDB7V0  LVDS     24                 High  ---            ---              Off          No    0                 Yes          Yes

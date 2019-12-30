@@ -1,0 +1,17 @@
+Synopsys VHDL Compiler, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"D:\microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TEST_SYNTAX.vhd":23:7:23:17|Top entity is set to TEST_SYNTAX.
+VHDL syntax check successful!
+@N: CD630 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\hdl\TEST_SYNTAX.vhd":23:7:23:17|Synthesizing work.test_syntax.rtl 
+Post processing for work.test_syntax.rtl
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 12 20:21:22 2015
+
+###########################################################]

@@ -1,0 +1,32 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"z:\windows\comet_fw\hdl\exec_mode_cntl.vhd":118:8:118:9|Found counter in view:work.EXEC_MODE_CNTL(rtl) instance DEL_CNT[7:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\exec_mode_cntl.vhd":118:8:118:9|Found counter in view:work.EXEC_MODE_CNTL(rtl) instance PRESCALE[3:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\usb_exec.vhd":83:12:83:13|Found counter in view:work.USB_EXEC(rtl_logic) instance T_CNT60M[7:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\gp_ccc_sconfig.vhd":162:8:162:9|Found counter in view:work.GP_CCC_SCONFIG(rtl) instance BITCNT[7:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance REG40M\.BIT_OS_CNT_7[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance REG40M\.BIT_OS_CNT_6[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance REG40M\.BIT_OS_CNT_5[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance REG40M\.BIT_OS_CNT_4[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance REG40M\.BIT_OS_CNT_3[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance REG40M\.BIT_OS_CNT_2[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance REG40M\.BIT_OS_CNT_1[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance REG40M\.BIT_OS_CNT_0[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance WAITCNT[13:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\master_des320m.vhd":236:12:236:13|Found counter in view:work.MASTER_DES320M(rtl) instance MAX_CNT[8:0] 
+@N: MF176 |Default generator successful 
+@N: MF238 :"z:\windows\comet_fw\hdl\master_des320m.vhd":509:74:509:112|Found 5-bit incrementor, 'un41_n_seqcnts[1:5]'
+@N: MF179 :"z:\windows\comet_fw\hdl\master_des320m.vhd":568:28:568:61|Found 5 by 5 bit less-than operator ('<') SYNC_SM\.n_best_clkphase14 (in view: work.MASTER_DES320M(rtl))
+@N: MF238 :"z:\windows\comet_fw\hdl\master_des320m.vhd":566:44:566:56|Found 5-bit incrementor, 'un3_n_index_cnt[28:32]'
+@N: MO231 :"z:\windows\comet_fw\hdl\usb_interface.vhd":867:12:867:13|Found counter in view:work.USB_INTERFACE(rtl) instance REG_ADDR[8:0] 
+@N: MO231 :"z:\windows\comet_fw\hdl\usb_interface.vhd":867:12:867:13|Found counter in view:work.USB_INTERFACE(rtl) instance SI_CNT[3:0] 
+@N: MF179 :"z:\windows\comet_fw\hdl\gp_patt_gen.vhd":264:19:264:47|Found 8 by 8 bit less-than operator ('<') GP_PG\.un1_ADDR_POINTER (in view: work.GP_PATT_GEN_1(rtl_logic))
+@N: MF179 :"z:\windows\comet_fw\hdl\gp_patt_gen.vhd":264:19:264:47|Found 8 by 8 bit less-than operator ('<') GP_PG\.un1_ADDR_POINTER (in view: work.GP_PATT_GEN_0(rtl_logic))
+@N: FP130 |Promoting Net MASTER_DCB_POR_B_i_0_i on CLKINT  I_267 
+@N: MT615 |Found clock CLK60MHZ with period 16.66ns 
+@N: MT615 |Found clock CLK_40M_GL with period 25.00ns 
+@N: MT615 |Found clock CCC_160M_FXD with period 6.25ns 
+@N: MT615 |Found clock CCC_160M_ADJ_ALIAS with period 6.25ns 
+@N: MT615 |Found clock Y_INFERRED with period 5.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

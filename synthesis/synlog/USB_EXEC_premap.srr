@@ -1,0 +1,41 @@
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1346R, Built Oct 10 2014 11:20:09
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version I-2014.03M-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\USB_EXEC_scck.rpt 
+Printing clock  summary report in "D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\USB_EXEC_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start                      Requested     Requested     Clock        Clock              
+Clock                      Frequency     Period        Type         Group              
+---------------------------------------------------------------------------------------
+USB_EXEC|CLK60MHZ          100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+USB_EXEC|CLK_40MHZ_GEN     100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+=======================================================================================
+
+@W: MT530 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\usb_exec.vhd":82:12:82:13|Found inferred clock USB_EXEC|CLK60MHZ which controls 15 sequential elements including T_CNT60M[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\0_all_libero_project\cern_lhcb\comet_test\hdl\usb_exec.vhd":115:12:115:13|Found inferred clock USB_EXEC|CLK_40MHZ_GEN which controls 10 sequential elements including CNT_EN_40M. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\USB_EXEC.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 45MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Sep 24 17:42:23 2015
+
+###########################################################]

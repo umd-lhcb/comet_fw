@@ -1,0 +1,1760 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.5 SP2
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+Date: Wed Oct 28 14:50:33 2015
+
+
+Design: TOP_COMET
+Family: ProASIC3E
+Die: A3PE1500
+Package: 208 PQFP
+Temperature: COM
+Voltage: COM
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               U13B_CCC/Core:GLA
+Period (ns):                4.166
+Frequency (MHz):            240.038
+Required Period (ns):       6.250
+Required Frequency (MHz):   160.000
+External Setup (ns):        1.058
+External Hold (ns):         0.002
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               U13B_CCC/Core:GLB
+Period (ns):                0.984
+Frequency (MHz):            1016.260
+Required Period (ns):       25.000
+Required Frequency (MHz):   40.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               U1_EXEC_MASTER/SCFG_CLK_I:Q
+Period (ns):                14.715
+Frequency (MHz):            67.958
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        13.607
+External Hold (ns):         -2.399
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               U3_MAINCLKGEN/Core:GLA
+Period (ns):                5.406
+Frequency (MHz):            184.980
+Required Period (ns):       5.000
+Required Frequency (MHz):   200.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      1.330
+Max Clock-To-Out (ns):      4.159
+
+Clock Domain:               U3_MAINCLKGEN/Core:GLB
+Period (ns):                21.584
+Frequency (MHz):            46.331
+Required Period (ns):       25.000
+Required Frequency (MHz):   40.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.189
+Max Clock-To-Out (ns):      8.773
+
+Clock Domain:               U3_MAINCLKGEN/Core:GLC
+Period (ns):                15.527
+Frequency (MHz):            64.404
+Required Period (ns):       16.667
+Required Frequency (MHz):   59.999
+External Setup (ns):        0.708
+External Hold (ns):         0.106
+Min Clock-To-Out (ns):      2.076
+Max Clock-To-Out (ns):      17.514
+
+Clock Domain:               USBCLK60MHZ
+Period (ns):                4.000
+Frequency (MHz):            250.000
+Required Period (ns):       16.667
+Required Frequency (MHz):   59.999
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+                            Input to Output
+Min Delay (ns):             2.437
+Max Delay (ns):             9.587
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain U13B_CCC/Core:GLA
+
+SET Register to Register
+
+Path 1
+  From:                        U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:ICLK
+  To:                          U13C_M_TFC_RX/Q_F[0]:D
+  Delay (ns):                  1.386
+  Slack (ns):                  1.042
+  Arrival (ns):                2.573
+  Required (ns):               3.615
+  Setup (ns):                  0.713
+  Minimum Period (ns):         4.166
+
+Path 2
+  From:                        U13C_M_TFC_RX/Q_R[0]:CLK
+  To:                          U13C_M_TFC_RX/Q_R[1]:D
+  Delay (ns):                  3.181
+  Slack (ns):                  2.502
+  Arrival (ns):                4.261
+  Required (ns):               6.763
+  Setup (ns):                  0.574
+  Minimum Period (ns):         3.748
+
+Path 3
+  From:                        U13C_M_TFC_RX/Q_F[0]:CLK
+  To:                          U13C_M_TFC_RX/Q_F[1]:D
+  Delay (ns):                  2.680
+  Slack (ns):                  2.750
+  Arrival (ns):                3.883
+  Required (ns):               6.633
+  Setup (ns):                  0.713
+  Minimum Period (ns):         3.500
+
+Path 4
+  From:                        U13C_M_TFC_RX/Q_F[1]:CLK
+  To:                          U13C_M_TFC_RX/Q_F[2]:D
+  Delay (ns):                  2.741
+  Slack (ns):                  2.795
+  Arrival (ns):                3.837
+  Required (ns):               6.632
+  Setup (ns):                  0.713
+  Minimum Period (ns):         3.455
+
+Path 5
+  From:                        U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:ICLK
+  To:                          U13C_M_TFC_RX/Q_R[0]:D
+  Delay (ns):                  2.416
+  Slack (ns):                  3.188
+  Arrival (ns):                3.603
+  Required (ns):               6.791
+  Setup (ns):                  0.539
+  Minimum Period (ns):         3.062
+
+
+Expanded Path 1
+  From: U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:ICLK
+  To: U13C_M_TFC_RX/Q_F[0]:D
+  data required time                             3.615
+  data arrival time                          -   2.573
+  slack                                          1.042
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U13B_CCC/Core:GLA
+               +     0.000          Clock source
+  0.000                        U13B_CCC/Core:GLA (r)
+               +     1.187          net: CCC_160M_ADJ
+  1.187                        U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:ICLK (r)
+               +     0.367          cell: ADLIB:IOBI_ID_OD_EB
+  1.554                        U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:YF (f)
+               +     1.019          net: TFC_IN_F
+  2.573                        U13C_M_TFC_RX/Q_F[0]:D (f)
+                                    
+  2.573                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  3.125                        U13B_CCC/Core:GLA
+               +     0.000          Clock source
+  3.125                        U13B_CCC/Core:GLA (f)
+               +     1.203          net: CCC_160M_ADJ
+  4.328                        U13C_M_TFC_RX/Q_F[0]:CLK (f)
+               -     0.713          Library setup time: ADLIB:DFN0C0
+  3.615                        U13C_M_TFC_RX/Q_F[0]:D
+                                    
+  3.615                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        TFC_OUT_0P
+  To:                          U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:YIN
+  Delay (ns):                  1.868
+  Slack (ns):
+  Arrival (ns):                1.868
+  Required (ns):
+  Setup (ns):                  0.377
+  External Setup (ns):         1.058
+
+Path 2
+  From:                        TFC_OUT_0P
+  To:                          U11_DDR_TFC/BIBUF_LVDS_0/U0/U3:YIN
+  Delay (ns):                  1.868
+  Slack (ns):
+  Arrival (ns):                1.868
+  Required (ns):
+  Setup (ns):                  0.377
+  External Setup (ns):         1.058
+
+
+Expanded Path 1
+  From: TFC_OUT_0P
+  To: U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:YIN
+  data required time                             N/C
+  data arrival time                          -   1.868
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        TFC_OUT_0P (f)
+               +     0.000          net: TFC_OUT_0P
+  0.000                        U11_DDR_TFC/BIBUF_LVDS_0/U0/U0:PAD (f)
+               +     1.868          cell: ADLIB:IOPADP_BI
+  1.868                        U11_DDR_TFC/BIBUF_LVDS_0/U0/U0:Y (f)
+               +     0.000          net: U11_DDR_TFC/BIBUF_LVDS_0/U0/NET4
+  1.868                        U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:YIN (f)
+                                    
+  1.868                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          U13B_CCC/Core:GLA
+               +     0.000          Clock source
+  N/C                          U13B_CCC/Core:GLA (r)
+               +     1.187          net: CCC_160M_ADJ
+  N/C                          U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:ICLK (r)
+               -     0.377          Library setup time: ADLIB:IOBI_ID_OD_EB
+  N/C                          U11_DDR_TFC/BIBUF_LVDS_0/U0/U1:YIN
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain U13B_CCC/Core:GLB
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin U13C_M_TFC_RX/ARB_BYTE_40AUX[2]:CLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain U1_EXEC_MASTER/SCFG_CLK_I:Q
+
+SET Register to Register
+
+Path 1
+  From:                        U13A_ADJ_160M/BITCNT[2]/U1:CLK
+  To:                          U13A_ADJ_160M/SDIN/U1:D
+  Delay (ns):                  14.417
+  Slack (ns):                  5.285
+  Arrival (ns):                19.202
+  Required (ns):               24.487
+  Setup (ns):                  0.539
+  Minimum Period (ns):         14.715
+
+Path 2
+  From:                        U2_MAIN_S_CFG/BITCNT[1]/U1:CLK
+  To:                          U2_MAIN_S_CFG/BITCNT[3]/U1:D
+  Delay (ns):                  12.561
+  Slack (ns):                  5.996
+  Arrival (ns):                13.904
+  Required (ns):               19.900
+  Setup (ns):                  0.539
+  Minimum Period (ns):         14.004
+
+Path 3
+  From:                        U13A_ADJ_160M/SSHIFT/U1:CLK
+  To:                          U13B_CCC/Core:SSHIFT
+  Delay (ns):                  5.360
+  Slack (ns):                  6.445
+  Arrival (ns):                10.520
+  Required (ns):               16.965
+  Setup (ns):                  2.360
+  Minimum Period (ns):         7.110
+
+Path 4
+  From:                        U13A_ADJ_160M/SDIN/U1:CLK
+  To:                          U13B_CCC/Core:SDIN
+  Delay (ns):                  5.454
+  Slack (ns):                  6.485
+  Arrival (ns):                10.480
+  Required (ns):               16.965
+  Setup (ns):                  2.360
+  Minimum Period (ns):         7.030
+
+Path 5
+  From:                        U2_MAIN_S_CFG/BITCNT[0]/U1:CLK
+  To:                          U2_MAIN_S_CFG/BITCNT[3]/U1:D
+  Delay (ns):                  11.869
+  Slack (ns):                  6.517
+  Arrival (ns):                13.383
+  Required (ns):               19.900
+  Setup (ns):                  0.539
+  Minimum Period (ns):         13.483
+
+
+Expanded Path 1
+  From: U13A_ADJ_160M/BITCNT[2]/U1:CLK
+  To: U13A_ADJ_160M/SDIN/U1:D
+  data required time                             24.487
+  data arrival time                          -   19.202
+  slack                                          5.285
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U1_EXEC_MASTER/SCFG_CLK_I:Q
+               +     0.000          Clock source
+  0.000                        U1_EXEC_MASTER/SCFG_CLK_I:Q (r)
+               +     4.785          net: SCFG_CLK
+  4.785                        U13A_ADJ_160M/BITCNT[2]/U1:CLK (r)
+               +     0.737          cell: ADLIB:DFN1C0
+  5.522                        U13A_ADJ_160M/BITCNT[2]/U1:Q (f)
+               +     2.774          net: U13A_ADJ_160M/BITCNT[2]
+  8.296                        U13A_ADJ_160M/SDIN_RNO_46:B (f)
+               +     0.407          cell: ADLIB:NOR2A
+  8.703                        U13A_ADJ_160M/SDIN_RNO_46:Y (r)
+               +     1.511          net: U13A_ADJ_160M/N_906
+  10.214                       U13A_ADJ_160M/SDIN_RNO_27:B (r)
+               +     0.678          cell: ADLIB:MX2
+  10.892                       U13A_ADJ_160M/SDIN_RNO_27:Y (r)
+               +     0.334          net: U13A_ADJ_160M/N_907
+  11.226                       U13A_ADJ_160M/SDIN_RNO_14:A (r)
+               +     0.568          cell: ADLIB:MX2
+  11.794                       U13A_ADJ_160M/SDIN_RNO_14:Y (r)
+               +     0.940          net: U13A_ADJ_160M/N_911
+  12.734                       U13A_ADJ_160M/SDIN_RNO_6:A (r)
+               +     0.568          cell: ADLIB:MX2
+  13.302                       U13A_ADJ_160M/SDIN_RNO_6:Y (r)
+               +     1.290          net: U13A_ADJ_160M/N_46
+  14.592                       U13A_ADJ_160M/SDIN_RNO_2:A (r)
+               +     0.568          cell: ADLIB:MX2
+  15.160                       U13A_ADJ_160M/SDIN_RNO_2:Y (r)
+               +     0.361          net: U13A_ADJ_160M/N_918
+  15.521                       U13A_ADJ_160M/SDIN_RNO_0:A (r)
+               +     0.568          cell: ADLIB:MX2A
+  16.089                       U13A_ADJ_160M/SDIN_RNO_0:Y (f)
+               +     0.362          net: U13A_ADJ_160M/N_929
+  16.451                       U13A_ADJ_160M/SDIN_RNO:A (f)
+               +     0.619          cell: ADLIB:MX2A
+  17.070                       U13A_ADJ_160M/SDIN_RNO:Y (r)
+               +     1.106          net: U13A_ADJ_160M/N_SDIN_2
+  18.176                       U13A_ADJ_160M/SDIN/U0:B (r)
+               +     0.678          cell: ADLIB:MX2
+  18.854                       U13A_ADJ_160M/SDIN/U0:Y (r)
+               +     0.348          net: U13A_ADJ_160M/SDIN/Y
+  19.202                       U13A_ADJ_160M/SDIN/U1:D (r)
+                                    
+  19.202                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       U1_EXEC_MASTER/SCFG_CLK_I:Q
+               +     0.000          Clock source
+  20.000                       U1_EXEC_MASTER/SCFG_CLK_I:Q (r)
+               +     5.026          net: SCFG_CLK
+  25.026                       U13A_ADJ_160M/SDIN/U1:CLK (r)
+               -     0.539          Library setup time: ADLIB:DFN1C0
+  24.487                       U13A_ADJ_160M/SDIN/U1:D
+                                    
+  24.487                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        DCB_SALT_SEL
+  To:                          U2_MAIN_S_CFG/ALL81BITS[10]/U1:D
+  Delay (ns):                  14.535
+  Slack (ns):
+  Arrival (ns):                14.535
+  Required (ns):
+  Setup (ns):                  0.539
+  External Setup (ns):         13.607
+
+Path 2
+  From:                        DCB_SALT_SEL
+  To:                          U2_MAIN_S_CFG/ALL81BITS[11]/U1:D
+  Delay (ns):                  14.811
+  Slack (ns):
+  Arrival (ns):                14.811
+  Required (ns):
+  Setup (ns):                  0.539
+  External Setup (ns):         13.454
+
+Path 3
+  From:                        DCB_SALT_SEL
+  To:                          U2_MAIN_S_CFG/ALL81BITS[8]/U1:D
+  Delay (ns):                  13.745
+  Slack (ns):
+  Arrival (ns):                13.745
+  Required (ns):
+  Setup (ns):                  0.539
+  External Setup (ns):         12.125
+
+Path 4
+  From:                        DCB_SALT_SEL
+  To:                          U2_MAIN_S_CFG/ALL81BITS[7]/U1:D
+  Delay (ns):                  13.345
+  Slack (ns):
+  Arrival (ns):                13.345
+  Required (ns):
+  Setup (ns):                  0.539
+  External Setup (ns):         11.676
+
+Path 5
+  From:                        DCB_SALT_SEL
+  To:                          U2_MAIN_S_CFG/ALL81BITS[5]/U1:D
+  Delay (ns):                  12.834
+  Slack (ns):
+  Arrival (ns):                12.834
+  Required (ns):
+  Setup (ns):                  0.574
+  External Setup (ns):         11.276
+
+
+Expanded Path 1
+  From: DCB_SALT_SEL
+  To: U2_MAIN_S_CFG/ALL81BITS[10]/U1:D
+  data required time                             N/C
+  data arrival time                          -   14.535
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        DCB_SALT_SEL (f)
+               +     0.000          net: DCB_SALT_SEL
+  0.000                        DCB_SALT_SEL_pad/U0/U0:PAD (f)
+               +     1.659          cell: ADLIB:IOPAD_IN
+  1.659                        DCB_SALT_SEL_pad/U0/U0:Y (f)
+               +     0.000          net: DCB_SALT_SEL_pad/U0/NET1
+  1.659                        DCB_SALT_SEL_pad/U0/U1:YIN (f)
+               +     0.040          cell: ADLIB:IOIN_IB
+  1.699                        DCB_SALT_SEL_pad/U0/U1:Y (f)
+               +     8.498          net: DCB_SALT_SEL_c
+  10.197                       DCB_SALT_SEL_pad_RNIJM3B:A (f)
+               +     0.537          cell: ADLIB:INV
+  10.734                       DCB_SALT_SEL_pad_RNIJM3B:Y (r)
+               +     2.881          net: DCB_SALT_SEL_c_i
+  13.615                       U2_MAIN_S_CFG/ALL81BITS[10]/U0:B (r)
+               +     0.586          cell: ADLIB:MX2
+  14.201                       U2_MAIN_S_CFG/ALL81BITS[10]/U0:Y (r)
+               +     0.334          net: U2_MAIN_S_CFG/ALL81BITS[10]/Y
+  14.535                       U2_MAIN_S_CFG/ALL81BITS[10]/U1:D (r)
+                                    
+  14.535                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          U1_EXEC_MASTER/SCFG_CLK_I:Q
+               +     0.000          Clock source
+  N/C                          U1_EXEC_MASTER/SCFG_CLK_I:Q (r)
+               +     1.467          net: SCFG_CLK
+  N/C                          U2_MAIN_S_CFG/ALL81BITS[10]/U1:CLK (r)
+               -     0.539          Library setup time: ADLIB:DFN1C0
+  N/C                          U2_MAIN_S_CFG/ALL81BITS[10]/U1:D
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        U1_EXEC_MASTER/MPOR_B_3:CLK
+  To:                          U13A_ADJ_160M/BITCNT[1]/U1:CLR
+  Delay (ns):                  5.557
+  Slack (ns):                  13.929
+  Arrival (ns):                10.456
+  Required (ns):               24.385
+  Recovery (ns):               0.297
+  Minimum Period (ns):         6.071
+  Skew (ns):                   0.217
+
+Path 2
+  From:                        U1_EXEC_MASTER/MPOR_B_3:CLK
+  To:                          U13A_ADJ_160M/SDIN/U1:CLR
+  Delay (ns):                  5.598
+  Slack (ns):                  14.232
+  Arrival (ns):                10.497
+  Required (ns):               24.729
+  Recovery (ns):               0.297
+  Minimum Period (ns):         5.768
+  Skew (ns):                   -0.127
+
+Path 3
+  From:                        U1_EXEC_MASTER/MPOR_B_3:CLK
+  To:                          U13A_ADJ_160M/BITCNT[4]/U1:CLR
+  Delay (ns):                  5.450
+  Slack (ns):                  14.494
+  Arrival (ns):                10.349
+  Required (ns):               24.843
+  Recovery (ns):               0.297
+  Minimum Period (ns):         5.506
+  Skew (ns):                   -0.241
+
+Path 4
+  From:                        U1_EXEC_MASTER/MPOR_B_3:CLK
+  To:                          U13A_ADJ_160M/BITCNT[0]/U1:CLR
+  Delay (ns):                  5.723
+  Slack (ns):                  14.500
+  Arrival (ns):                10.622
+  Required (ns):               25.122
+  Recovery (ns):               0.297
+  Minimum Period (ns):         5.500
+  Skew (ns):                   -0.520
+
+Path 5
+  From:                        U1_EXEC_MASTER/MPOR_B_3:CLK
+  To:                          U13A_ADJ_160M/SUPDATE/U1:CLR
+  Delay (ns):                  6.007
+  Slack (ns):                  14.632
+  Arrival (ns):                10.906
+  Required (ns):               25.538
+  Recovery (ns):               0.297
+  Minimum Period (ns):         5.368
+  Skew (ns):                   -0.936
+
+
+Expanded Path 1
+  From: U1_EXEC_MASTER/MPOR_B_3:CLK
+  To: U13A_ADJ_160M/BITCNT[1]/U1:CLR
+  data required time                             24.385
+  data arrival time                          -   10.456
+  slack                                          13.929
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U1_EXEC_MASTER/SCFG_CLK_I:Q
+               +     0.000          Clock source
+  0.000                        U1_EXEC_MASTER/SCFG_CLK_I:Q (r)
+               +     4.899          net: SCFG_CLK
+  4.899                        U1_EXEC_MASTER/MPOR_B_3:CLK (r)
+               +     0.581          cell: ADLIB:DFN1C0
+  5.480                        U1_EXEC_MASTER/MPOR_B_3:Q (r)
+               +     4.976          net: MASTER_POR_B_3
+  10.456                       U13A_ADJ_160M/BITCNT[1]/U1:CLR (r)
+                                    
+  10.456                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       U1_EXEC_MASTER/SCFG_CLK_I:Q
+               +     0.000          Clock source
+  20.000                       U1_EXEC_MASTER/SCFG_CLK_I:Q (r)
+               +     4.682          net: SCFG_CLK
+  24.682                       U13A_ADJ_160M/BITCNT[1]/U1:CLK (r)
+               -     0.297          Library recovery time: ADLIB:DFN1C0
+  24.385                       U13A_ADJ_160M/BITCNT[1]/U1:CLR
+                                    
+  24.385                       data required time
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+Path 1
+  From:                        DEV_RST_B
+  To:                          U2_MAIN_S_CFG/ALL81BITS[80]:CLR
+  Delay (ns):                  12.693
+  Slack (ns):
+  Arrival (ns):                12.693
+  Required (ns):
+  Recovery (ns):               0.297
+  External Recovery (ns):      11.742
+
+Path 2
+  From:                        DEV_RST_B
+  To:                          U2_MAIN_S_CFG/ALL81BITS[20]:CLR
+  Delay (ns):                  11.977
+  Slack (ns):
+  Arrival (ns):                11.977
+  Required (ns):
+  Recovery (ns):               0.297
+  External Recovery (ns):      11.165
+
+Path 3
+  From:                        DEV_RST_B
+  To:                          U2_MAIN_S_CFG/ALL81BITS[59]:CLR
+  Delay (ns):                  12.420
+  Slack (ns):
+  Arrival (ns):                12.420
+  Required (ns):
+  Recovery (ns):               0.297
+  External Recovery (ns):      10.973
+
+Path 4
+  From:                        DEV_RST_B
+  To:                          U2_MAIN_S_CFG/ALL81BITS[47]:CLR
+  Delay (ns):                  12.042
+  Slack (ns):
+  Arrival (ns):                12.042
+  Required (ns):
+  Recovery (ns):               0.297
+  External Recovery (ns):      10.831
+
+Path 5
+  From:                        DEV_RST_B
+  To:                          U2_MAIN_S_CFG/SHIFT_SM[3]:CLR
+  Delay (ns):                  12.005
+  Slack (ns):
+  Arrival (ns):                12.005
+  Required (ns):
+  Recovery (ns):               0.297
+  External Recovery (ns):      10.342
+
+
+Expanded Path 1
+  From: DEV_RST_B
+  To: U2_MAIN_S_CFG/ALL81BITS[80]:CLR
+  data required time                             N/C
+  data arrival time                          -   12.693
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        DEV_RST_B (r)
+               +     0.000          net: DEV_RST_B
+  0.000                        DEV_RST_B_pad/U0/U0:PAD (r)
+               +     1.444          cell: ADLIB:IOPAD_IN
+  1.444                        DEV_RST_B_pad/U0/U0:Y (r)
+               +     0.000          net: DEV_RST_B_pad/U0/NET1
+  1.444                        DEV_RST_B_pad/U0/U1:YIN (r)
+               +     0.043          cell: ADLIB:IOIN_IB
+  1.487                        DEV_RST_B_pad/U0/U1:Y (r)
+               +    11.206          net: DEV_RST_B_c
+  12.693                       U2_MAIN_S_CFG/ALL81BITS[80]:CLR (r)
+                                    
+  12.693                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          U1_EXEC_MASTER/SCFG_CLK_I:Q
+               +     0.000          Clock source
+  N/C                          U1_EXEC_MASTER/SCFG_CLK_I:Q (r)
+               +     1.248          net: SCFG_CLK
+  N/C                          U2_MAIN_S_CFG/ALL81BITS[80]:CLK (r)
+               -     0.297          Library recovery time: ADLIB:DFN1C0
+  N/C                          U2_MAIN_S_CFG/ALL81BITS[80]:CLR
+
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain U3_MAINCLKGEN/Core:GLA
+
+SET Register to Register
+
+Path 1
+  From:                        U31A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U31A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  2.003
+  Slack (ns):                  -0.203
+  Arrival (ns):                3.096
+  Required (ns):               2.893
+  Setup (ns):                  0.713
+  Minimum Period (ns):         5.406
+
+Path 2
+  From:                        U22A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U22A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.819
+  Slack (ns):                  -0.026
+  Arrival (ns):                2.967
+  Required (ns):               2.941
+  Setup (ns):                  0.713
+  Minimum Period (ns):         5.052
+
+Path 3
+  From:                        U32A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U32A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.796
+  Slack (ns):                  -0.004
+  Arrival (ns):                2.940
+  Required (ns):               2.936
+  Setup (ns):                  0.713
+  Minimum Period (ns):         5.008
+
+Path 4
+  From:                        U21A_TFC_CMD_TX/START_RISE:CLK
+  To:                          U21A_TFC_CMD_TX/START_FALL:D
+  Delay (ns):                  1.766
+  Slack (ns):                  0.067
+  Arrival (ns):                2.853
+  Required (ns):               2.920
+  Setup (ns):                  0.713
+  Minimum Period (ns):         4.866
+
+Path 5
+  From:                        U33A_TFC_CMD_TX/SER_OUT_FDEL:CLK
+  To:                          U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DF
+  Delay (ns):                  2.213
+  Slack (ns):                  0.125
+  Arrival (ns):                3.342
+  Required (ns):               3.467
+  Setup (ns):                  0.330
+  Minimum Period (ns):         4.750
+
+
+Expanded Path 1
+  From: U31A_TFC_CMD_TX/START_RISE:CLK
+  To: U31A_TFC_CMD_TX/START_FALL:D
+  data required time                             2.893
+  data arrival time                          -   3.096
+  slack                                          -0.203
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U3_MAINCLKGEN/Core:GLA
+               +     0.000          Clock source
+  0.000                        U3_MAINCLKGEN/Core:GLA (r)
+               +     1.093          net: CLK_PH1_160MHZ
+  1.093                        U31A_TFC_CMD_TX/START_RISE:CLK (r)
+               +     0.737          cell: ADLIB:DFN1C0
+  1.830                        U31A_TFC_CMD_TX/START_RISE:Q (f)
+               +     1.266          net: U31A_TFC_CMD_TX/START_RISE
+  3.096                        U31A_TFC_CMD_TX/START_FALL:D (f)
+                                    
+  3.096                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  2.500                        U3_MAINCLKGEN/Core:GLA
+               +     0.000          Clock source
+  2.500                        U3_MAINCLKGEN/Core:GLA (f)
+               +     1.106          net: CLK_PH1_160MHZ
+  3.606                        U31A_TFC_CMD_TX/START_FALL:CLK (f)
+               -     0.713          Library setup time: ADLIB:DFN0C0
+  2.893                        U31A_TFC_CMD_TX/START_FALL:D
+                                    
+  2.893                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:OCLK
+  To:                          TFC_OUT_14N
+  Delay (ns):                  2.862
+  Slack (ns):
+  Arrival (ns):                4.159
+  Required (ns):
+  Clock to Out (ns):           4.159
+
+Path 2
+  From:                        U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:OCLK
+  To:                          TFC_OUT_14P
+  Delay (ns):                  2.862
+  Slack (ns):
+  Arrival (ns):                4.159
+  Required (ns):
+  Clock to Out (ns):           4.159
+
+Path 3
+  From:                        U26B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:OCLK
+  To:                          TFC_OUT_7N
+  Delay (ns):                  2.862
+  Slack (ns):
+  Arrival (ns):                4.081
+  Required (ns):
+  Clock to Out (ns):           4.081
+
+Path 4
+  From:                        U26B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:OCLK
+  To:                          TFC_OUT_7P
+  Delay (ns):                  2.862
+  Slack (ns):
+  Arrival (ns):                4.081
+  Required (ns):
+  Clock to Out (ns):           4.081
+
+Path 5
+  From:                        U25B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:OCLK
+  To:                          TFC_OUT_6N
+  Delay (ns):                  2.862
+  Slack (ns):
+  Arrival (ns):                4.081
+  Required (ns):
+  Clock to Out (ns):           4.081
+
+
+Expanded Path 1
+  From: U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:OCLK
+  To: TFC_OUT_14N
+  data required time                             N/C
+  data arrival time                          -   4.159
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U3_MAINCLKGEN/Core:GLA
+               +     0.000          Clock source
+  0.000                        U3_MAINCLKGEN/Core:GLA (r)
+               +     1.297          net: CLK_PH1_160MHZ
+  1.297                        U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:OCLK (r)
+               +     0.939          cell: ADLIB:IOBI_IB_OD_EB
+  2.236                        U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U1:DOUT (f)
+               +     0.000          net: U33B_DDR_TFC/_BIBUF_LVDS[0]_/U0/NET1
+  2.236                        U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U2:DB (f)
+               +     1.923          cell: ADLIB:IOPADN_BI
+  4.159                        U33B_DDR_TFC/\\BIBUF_LVDS[0]\\/U0/U2:PAD (r)
+               +     0.000          net: TFC_OUT_14N
+  4.159                        TFC_OUT_14N (r)
+                                    
+  4.159                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          U3_MAINCLKGEN/Core:GLA
+               +     0.000          Clock source
+  N/C                          U3_MAINCLKGEN/Core:GLA (r)
+                                    
+  N/C                          TFC_OUT_14N (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain U3_MAINCLKGEN/Core:GLB
+
+SET Register to Register
+
+Path 1
+  From:                        U13C_M_TFC_RX/INDEX_CNT[2]/U1:CLK
+  To:                          U13C_M_TFC_RX/BEST_CLKPHASE[4]/U1:D
+  Delay (ns):                  21.043
+  Slack (ns):                  3.416
+  Arrival (ns):                22.154
+  Required (ns):               25.570
+  Setup (ns):                  0.539
+  Minimum Period (ns):         21.584
+
+Path 2
+  From:                        U13C_M_TFC_RX/INDEX_CNT[2]/U1:CLK
+  To:                          U13C_M_TFC_RX/BEST_BIT_OS_VAL[1]/U1:D
+  Delay (ns):                  21.005
+  Slack (ns):                  3.427
+  Arrival (ns):                22.116
+  Required (ns):               25.543
+  Setup (ns):                  0.539
+  Minimum Period (ns):         21.573
+
+Path 3
+  From:                        U13C_M_TFC_RX/INDEX_CNT[2]/U1:CLK
+  To:                          U13C_M_TFC_RX/BEST_CLKPHASE[0]/U1:D
+  Delay (ns):                  21.029
+  Slack (ns):                  3.451
+  Arrival (ns):                22.140
+  Required (ns):               25.591
+  Setup (ns):                  0.539
+  Minimum Period (ns):         21.549
+
+Path 4
+  From:                        U13C_M_TFC_RX/INDEX_CNT[2]/U1:CLK
+  To:                          U13C_M_TFC_RX/BEST_CLKPHASE[1]/U1:D
+  Delay (ns):                  21.029
+  Slack (ns):                  3.451
+  Arrival (ns):                22.140
+  Required (ns):               25.591
+  Setup (ns):                  0.539
+  Minimum Period (ns):         21.549
+
+Path 5
+  From:                        U13C_M_TFC_RX/INDEX_CNT[2]/U1:CLK
+  To:                          U13C_M_TFC_RX/BEST_BIT_OS_VAL[2]/U1:D
+  Delay (ns):                  20.994
+  Slack (ns):                  3.454
+  Arrival (ns):                22.105
+  Required (ns):               25.559
+  Setup (ns):                  0.539
+  Minimum Period (ns):         21.546
+
+
+Expanded Path 1
+  From: U13C_M_TFC_RX/INDEX_CNT[2]/U1:CLK
+  To: U13C_M_TFC_RX/BEST_CLKPHASE[4]/U1:D
+  data required time                             25.570
+  data arrival time                          -   22.154
+  slack                                          3.416
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U3_MAINCLKGEN/Core:GLB
+               +     0.000          Clock source
+  0.000                        U3_MAINCLKGEN/Core:GLB (r)
+               +     1.111          net: CLK40M_GEN
+  1.111                        U13C_M_TFC_RX/INDEX_CNT[2]/U1:CLK (r)
+               +     0.737          cell: ADLIB:DFN1C0
+  1.848                        U13C_M_TFC_RX/INDEX_CNT[2]/U1:Q (f)
+               +     1.333          net: U13C_M_TFC_RX/INDEX_CNT[2]
+  3.181                        U13C_M_TFC_RX/un3_n_index_cnt_I_7:C (f)
+               +     0.488          cell: ADLIB:AX1C
+  3.669                        U13C_M_TFC_RX/un3_n_index_cnt_I_7:Y (r)
+               +     4.228          net: U13C_M_TFC_RX/I_7
+  7.897                        U13C_M_TFC_RX/REG40M.SEQCNTS_1_RNIM04V1[2]:S (r)
+               +     0.365          cell: ADLIB:MX2
+  8.262                        U13C_M_TFC_RX/REG40M.SEQCNTS_1_RNIM04V1[2]:Y (r)
+               +     0.334          net: U13C_M_TFC_RX/N_6623
+  8.596                        U13C_M_TFC_RX/REG40M.SEQCNTS_9_RNI321K3[2]:A (r)
+               +     0.568          cell: ADLIB:MX2
+  9.164                        U13C_M_TFC_RX/REG40M.SEQCNTS_9_RNI321K3[2]:Y (r)
+               +     0.334          net: U13C_M_TFC_RX/N_6643
+  9.498                        U13C_M_TFC_RX/INDEX_CNT_RNIB4QO6[0]:A (r)
+               +     0.568          cell: ADLIB:MX2
+  10.066                       U13C_M_TFC_RX/INDEX_CNT_RNIB4QO6[0]:Y (r)
+               +     1.193          net: U13C_M_TFC_RX/N_6648
+  11.259                       U13C_M_TFC_RX/INDEX_CNT_RNILK5JD[0]:A (r)
+               +     0.568          cell: ADLIB:MX2
+  11.827                       U13C_M_TFC_RX/INDEX_CNT_RNILK5JD[0]:Y (r)
+               +     1.472          net: U13C_M_TFC_RX/un6_n_best_seqcnt[2]
+  13.299                       U13C_M_TFC_RX/SYNC_SM.n_best_clkphase14_0_I_2:B (r)
+               +     0.515          cell: ADLIB:OR2A
+  13.814                       U13C_M_TFC_RX/SYNC_SM.n_best_clkphase14_0_I_2:Y (r)
+               +     0.308          net: U13C_M_TFC_RX/N_3_1
+  14.122                       U13C_M_TFC_RX/SYNC_SM.n_best_clkphase14_0_I_6:C (r)
+               +     0.525          cell: ADLIB:OA1A
+  14.647                       U13C_M_TFC_RX/SYNC_SM.n_best_clkphase14_0_I_6:Y (r)
+               +     0.318          net: U13C_M_TFC_RX/N_7
+  14.965                       U13C_M_TFC_RX/SYNC_SM.n_best_clkphase14_0_I_10:C (r)
+               +     0.398          cell: ADLIB:OA1A
+  15.363                       U13C_M_TFC_RX/SYNC_SM.n_best_clkphase14_0_I_10:Y (r)
+               +     0.334          net: U13C_M_TFC_RX/N_11_0
+  15.697                       U13C_M_TFC_RX/SYNC_SM.n_best_clkphase14_0_I_11:A (r)
+               +     0.984          cell: ADLIB:OA1
+  16.681                       U13C_M_TFC_RX/SYNC_SM.n_best_clkphase14_0_I_11:Y (r)
+               +     0.334          net: U13C_M_TFC_RX/n_best_clkphase14
+  17.015                       U13C_M_TFC_RX/INDEX_CNT_RNI6JFST3[0]:C (r)
+               +     0.655          cell: ADLIB:AO1C
+  17.670                       U13C_M_TFC_RX/INDEX_CNT_RNI6JFST3[0]:Y (f)
+               +     1.654          net: U13C_M_TFC_RX/N_8855
+  19.324                       U13C_M_TFC_RX/DES_SM_RNICS27V3[2]:B (f)
+               +     0.607          cell: ADLIB:OA1A
+  19.931                       U13C_M_TFC_RX/DES_SM_RNICS27V3[2]:Y (f)
+               +     1.395          net: U13C_M_TFC_RX/N_1097
+  21.326                       U13C_M_TFC_RX/BEST_CLKPHASE[4]/U0:S (f)
+               +     0.480          cell: ADLIB:MX2
+  21.806                       U13C_M_TFC_RX/BEST_CLKPHASE[4]/U0:Y (r)
+               +     0.348          net: U13C_M_TFC_RX/BEST_CLKPHASE[4]/Y
+  22.154                       U13C_M_TFC_RX/BEST_CLKPHASE[4]/U1:D (r)
+                                    
+  22.154                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  25.000                       U3_MAINCLKGEN/Core:GLB
+               +     0.000          Clock source
+  25.000                       U3_MAINCLKGEN/Core:GLB (r)
+               +     1.109          net: CLK40M_GEN
+  26.109                       U13C_M_TFC_RX/BEST_CLKPHASE[4]/U1:CLK (r)
+               -     0.539          Library setup time: ADLIB:DFN1C0
+  25.570                       U13C_M_TFC_RX/BEST_CLKPHASE[4]/U1:D
+                                    
+  25.570                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        U13C_M_TFC_RX/RECD_SER_WORD[4]:CLK
+  To:                          REF_CLK_5N
+  Delay (ns):                  7.687
+  Slack (ns):
+  Arrival (ns):                8.773
+  Required (ns):
+  Clock to Out (ns):           8.773
+
+Path 2
+  From:                        U13C_M_TFC_RX/RECD_SER_WORD[4]:CLK
+  To:                          REF_CLK_5P
+  Delay (ns):                  7.687
+  Slack (ns):
+  Arrival (ns):                8.773
+  Required (ns):
+  Clock to Out (ns):           8.773
+
+Path 3
+  From:                        U13C_M_TFC_RX/RECD_SER_WORD[0]:CLK
+  To:                          REF_CLK_1N
+  Delay (ns):                  7.582
+  Slack (ns):
+  Arrival (ns):                8.666
+  Required (ns):
+  Clock to Out (ns):           8.666
+
+Path 4
+  From:                        U13C_M_TFC_RX/RECD_SER_WORD[0]:CLK
+  To:                          REF_CLK_1P
+  Delay (ns):                  7.582
+  Slack (ns):
+  Arrival (ns):                8.666
+  Required (ns):
+  Clock to Out (ns):           8.666
+
+Path 5
+  From:                        U13C_M_TFC_RX/RECD_SER_WORD[7]:CLK
+  To:                          REF_CLK_8N
+  Delay (ns):                  6.369
+  Slack (ns):
+  Arrival (ns):                7.451
+  Required (ns):
+  Clock to Out (ns):           7.451
+
+
+Expanded Path 1
+  From: U13C_M_TFC_RX/RECD_SER_WORD[4]:CLK
+  To: REF_CLK_5N
+  data required time                             N/C
+  data arrival time                          -   8.773
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U3_MAINCLKGEN/Core:GLB
+               +     0.000          Clock source
+  0.000                        U3_MAINCLKGEN/Core:GLB (r)
+               +     1.086          net: CLK40M_GEN
+  1.086                        U13C_M_TFC_RX/RECD_SER_WORD[4]:CLK (r)
+               +     0.581          cell: ADLIB:DFN1C0
+  1.667                        U13C_M_TFC_RX/RECD_SER_WORD[4]:Q (r)
+               +     4.561          net: RECD_SER_WORD[4]
+  6.228                        U24C_REFCLKBUF/\\OUTBUF_LVDS[0]\\/U0/U1:D (r)
+               +     0.652          cell: ADLIB:IOTRI_OB_EB
+  6.880                        U24C_REFCLKBUF/\\OUTBUF_LVDS[0]\\/U0/U1:DOUT (r)
+               +     0.000          net: U24C_REFCLKBUF/_OUTBUF_LVDS[0]_/U0/NET1
+  6.880                        U24C_REFCLKBUF/\\OUTBUF_LVDS[0]\\/U0/U2:DB (r)
+               +     1.893          cell: ADLIB:IOPADN_OUT
+  8.773                        U24C_REFCLKBUF/\\OUTBUF_LVDS[0]\\/U0/U2:PAD (f)
+               +     0.000          net: REF_CLK_5N
+  8.773                        REF_CLK_5N (f)
+                                    
+  8.773                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          U3_MAINCLKGEN/Core:GLB
+               +     0.000          Clock source
+  N/C                          U3_MAINCLKGEN/Core:GLB (r)
+                                    
+  N/C                          REF_CLK_5N (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain U3_MAINCLKGEN/Core:GLC
+
+SET Register to Register
+
+Path 1
+  From:                        U50_PATTERNS/REG_STATE[1]:CLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[0]/U1:D
+  Delay (ns):                  14.994
+  Slack (ns):                  1.140
+  Arrival (ns):                16.103
+  Required (ns):               17.243
+  Setup (ns):                  0.539
+  Minimum Period (ns):         15.527
+
+Path 2
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[1]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[0]/U1:D
+  Delay (ns):                  14.641
+  Slack (ns):                  1.407
+  Arrival (ns):                15.801
+  Required (ns):               17.208
+  Setup (ns):                  0.574
+  Minimum Period (ns):         15.260
+
+Path 3
+  From:                        P_USB_TXE_B_pad/U0/U1:ICLK
+  To:                          U50_PATTERNS/WR_USB_ADBUS_ret_14[1]/U1:D
+  Delay (ns):                  14.648
+  Slack (ns):                  1.459
+  Arrival (ns):                15.808
+  Required (ns):               17.267
+  Setup (ns):                  0.574
+  Minimum Period (ns):         15.208
+
+Path 4
+  From:                        P_USB_TXE_B_pad/U0/U1:ICLK
+  To:                          U50_PATTERNS/WR_USB_ADBUS_ret_0[1]/U1:D
+  Delay (ns):                  14.432
+  Slack (ns):                  1.656
+  Arrival (ns):                15.592
+  Required (ns):               17.248
+  Setup (ns):                  0.574
+  Minimum Period (ns):         15.011
+
+Path 5
+  From:                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[5]\\/U0/U1:ICLK
+  To:                          U50_PATTERNS/USB_RD_BI_ret_5[0]/U1:D
+  Delay (ns):                  14.256
+  Slack (ns):                  1.792
+  Arrival (ns):                15.416
+  Required (ns):               17.208
+  Setup (ns):                  0.574
+  Minimum Period (ns):         14.875
+
+
+Expanded Path 1
+  From: U50_PATTERNS/REG_STATE[1]:CLK
+  To: U50_PATTERNS/USB_RD_BI_ret_5[0]/U1:D
+  data required time                             17.243
+  data arrival time                          -   16.103
+  slack                                          1.140
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U3_MAINCLKGEN/Core:GLC
+               +     0.000          Clock source
+  0.000                        U3_MAINCLKGEN/Core:GLC (r)
+               +     1.109          net: CLK60MHZ
+  1.109                        U50_PATTERNS/REG_STATE[1]:CLK (r)
+               +     0.737          cell: ADLIB:DFN1C0
+  1.846                        U50_PATTERNS/REG_STATE[1]:Q (f)
+               +     1.448          net: U50_PATTERNS/REG_STATE[1]
+  3.294                        U50_PATTERNS/un13_2__un13_5__N_2249_i_0_o2:B (f)
+               +     0.647          cell: ADLIB:OR2
+  3.941                        U50_PATTERNS/un13_2__un13_5__N_2249_i_0_o2:Y (f)
+               +     1.420          net: U50_PATTERNS/N_144
+  5.361                        U50_PATTERNS/REG_STATE_RNIU1LF1_0[0]:B (f)
+               +     0.488          cell: ADLIB:NOR2A
+  5.849                        U50_PATTERNS/REG_STATE_RNIU1LF1_0[0]:Y (r)
+               +     1.267          net: U50_PATTERNS/N_486
+  7.116                        U50_PATTERNS/REG_STATE_RNIJV1A2[5]:A (r)
+               +     0.751          cell: ADLIB:NOR3B
+  7.867                        U50_PATTERNS/REG_STATE_RNIJV1A2[5]:Y (r)
+               +     0.409          net: U50_PATTERNS/N_466
+  8.276                        U50_PATTERNS/REG_STATE_RNI5L684[3]:C (r)
+               +     0.655          cell: ADLIB:AO1
+  8.931                        U50_PATTERNS/REG_STATE_RNI5L684[3]:Y (r)
+               +     0.334          net: U50_PATTERNS/un1_REG_STATE_36_0_0_o2_1_0
+  9.265                        U50_PATTERNS/RD_USB_ADBUS_RNI9H858[7]:C (r)
+               +     0.655          cell: ADLIB:AO1A
+  9.920                        U50_PATTERNS/RD_USB_ADBUS_RNI9H858[7]:Y (r)
+               +     0.318          net: U50_PATTERNS/N_136
+  10.238                       U50_PATTERNS/REG_STATE_RNI14SJG[2]:A (r)
+               +     0.520          cell: ADLIB:AO1
+  10.758                       U50_PATTERNS/REG_STATE_RNI14SJG[2]:Y (r)
+               +     0.999          net: U50_PATTERNS/N_2718
+  11.757                       U50_PATTERNS/REG_STATE_RNIRVC2M[2]:C (r)
+               +     0.683          cell: ADLIB:OR3
+  12.440                       U50_PATTERNS/REG_STATE_RNIRVC2M[2]:Y (r)
+               +     2.821          net: U50_PATTERNS/un1_REG_STATE_36
+  15.261                       U50_PATTERNS/USB_RD_BI_ret_5[0]/U0:S (r)
+               +     0.508          cell: ADLIB:MX2
+  15.769                       U50_PATTERNS/USB_RD_BI_ret_5[0]/U0:Y (r)
+               +     0.334          net: U50_PATTERNS/USB_RD_BI_ret_5[0]/Y
+  16.103                       U50_PATTERNS/USB_RD_BI_ret_5[0]/U1:D (r)
+                                    
+  16.103                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  16.667                       U3_MAINCLKGEN/Core:GLC
+               +     0.000          Clock source
+  16.667                       U3_MAINCLKGEN/Core:GLC (r)
+               +     1.115          net: CLK60MHZ
+  17.782                       U50_PATTERNS/USB_RD_BI_ret_5[0]/U1:CLK (r)
+               -     0.539          Library setup time: ADLIB:DFN1C0
+  17.243                       U50_PATTERNS/USB_RD_BI_ret_5[0]/U1:D
+                                    
+  17.243                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        BIDIR_USB_ADBUS[3]
+  To:                          U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[3]\\/U0/U1:YIN
+  Delay (ns):                  1.565
+  Slack (ns):
+  Arrival (ns):                1.565
+  Required (ns):
+  Setup (ns):                  0.302
+  External Setup (ns):         0.708
+
+Path 2
+  From:                        BIDIR_USB_ADBUS[2]
+  To:                          U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[2]\\/U0/U1:YIN
+  Delay (ns):                  1.565
+  Slack (ns):
+  Arrival (ns):                1.565
+  Required (ns):
+  Setup (ns):                  0.302
+  External Setup (ns):         0.708
+
+Path 3
+  From:                        BIDIR_USB_ADBUS[4]
+  To:                          U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[4]\\/U0/U1:YIN
+  Delay (ns):                  1.565
+  Slack (ns):
+  Arrival (ns):                1.565
+  Required (ns):
+  Setup (ns):                  0.302
+  External Setup (ns):         0.707
+
+Path 4
+  From:                        BIDIR_USB_ADBUS[7]
+  To:                          U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\/U0/U1:YIN
+  Delay (ns):                  1.565
+  Slack (ns):
+  Arrival (ns):                1.565
+  Required (ns):
+  Setup (ns):                  0.302
+  External Setup (ns):         0.707
+
+Path 5
+  From:                        P_USB_TXE_B
+  To:                          P_USB_TXE_B_pad/U0/U1:YIN
+  Delay (ns):                  1.565
+  Slack (ns):
+  Arrival (ns):                1.565
+  Required (ns):
+  Setup (ns):                  0.302
+  External Setup (ns):         0.707
+
+
+Expanded Path 1
+  From: BIDIR_USB_ADBUS[3]
+  To: U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[3]\\/U0/U1:YIN
+  data required time                             N/C
+  data arrival time                          -   1.565
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        BIDIR_USB_ADBUS[3] (r)
+               +     0.000          net: BIDIR_USB_ADBUS[3]
+  0.000                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[3]\\/U0/U0:PAD (r)
+               +     1.565          cell: ADLIB:IOPAD_BI
+  1.565                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[3]\\/U0/U0:Y (r)
+               +     0.000          net: U50_PATTERNS/U3_USB_DAT_BUS/_BIBUF_F_24U[3]_/U0/NET3
+  1.565                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[3]\\/U0/U1:YIN (r)
+                                    
+  1.565                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          U3_MAINCLKGEN/Core:GLC
+               +     0.000          Clock source
+  N/C                          U3_MAINCLKGEN/Core:GLC (r)
+               +     1.159          net: CLK60MHZ
+  N/C                          U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[3]\\/U0/U1:ICLK (r)
+               -     0.302          Library setup time: ADLIB:IOBI_IRC_OB_EB
+  N/C                          U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[3]\\/U0/U1:YIN
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        U50_PATTERNS/WR_USB_ADBUS_ret[1]/U1:CLK
+  To:                          BIDIR_USB_ADBUS[7]
+  Delay (ns):                  16.387
+  Slack (ns):
+  Arrival (ns):                17.514
+  Required (ns):
+  Clock to Out (ns):           17.514
+
+Path 2
+  From:                        U50_PATTERNS/WR_USB_ADBUS_ret[2]/U1:CLK
+  To:                          BIDIR_USB_ADBUS[7]
+  Delay (ns):                  16.350
+  Slack (ns):
+  Arrival (ns):                17.477
+  Required (ns):
+  Clock to Out (ns):           17.477
+
+Path 3
+  From:                        U50_PATTERNS/WR_USB_ADBUS_ret[0]/U1:CLK
+  To:                          BIDIR_USB_ADBUS[7]
+  Delay (ns):                  16.105
+  Slack (ns):
+  Arrival (ns):                17.237
+  Required (ns):
+  Clock to Out (ns):           17.237
+
+Path 4
+  From:                        U50_PATTERNS/WR_USB_ADBUS_ret_0[0]/U1:CLK
+  To:                          BIDIR_USB_ADBUS[4]
+  Delay (ns):                  15.842
+  Slack (ns):
+  Arrival (ns):                16.997
+  Required (ns):
+  Clock to Out (ns):           16.997
+
+Path 5
+  From:                        U50_PATTERNS/WR_USB_ADBUS_ret[1]/U1:CLK
+  To:                          BIDIR_USB_ADBUS[5]
+  Delay (ns):                  15.857
+  Slack (ns):
+  Arrival (ns):                16.984
+  Required (ns):
+  Clock to Out (ns):           16.984
+
+
+Expanded Path 1
+  From: U50_PATTERNS/WR_USB_ADBUS_ret[1]/U1:CLK
+  To: BIDIR_USB_ADBUS[7]
+  data required time                             N/C
+  data arrival time                          -   17.514
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U3_MAINCLKGEN/Core:GLC
+               +     0.000          Clock source
+  0.000                        U3_MAINCLKGEN/Core:GLC (r)
+               +     1.127          net: CLK60MHZ
+  1.127                        U50_PATTERNS/WR_USB_ADBUS_ret[1]/U1:CLK (r)
+               +     0.737          cell: ADLIB:DFN1C0
+  1.864                        U50_PATTERNS/WR_USB_ADBUS_ret[1]/U1:Q (f)
+               +     0.398          net: U50_PATTERNS/REG_STATE_o_0[8]
+  2.262                        U50_PATTERNS/WR_USB_ADBUS_ret_RNI1R97[0]:C (f)
+               +     0.751          cell: ADLIB:OR3
+  3.013                        U50_PATTERNS/WR_USB_ADBUS_ret_RNI1R97[0]:Y (f)
+               +     0.419          net: U50_PATTERNS/N_2623
+  3.432                        U50_PATTERNS/WR_USB_ADBUS_ret_11_RNI85EC_0:A (f)
+               +     0.683          cell: ADLIB:NOR3A
+  4.115                        U50_PATTERNS/WR_USB_ADBUS_ret_11_RNI85EC_0:Y (f)
+               +     3.854          net: U50_PATTERNS/N_WR_USB_ADBUS_0_iv_0_0_a2_0[2]
+  7.969                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\_RNO_4:B (f)
+               +     0.607          cell: ADLIB:NOR3C
+  8.576                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\_RNO_4:Y (f)
+               +     0.323          net: U50_PATTERNS/U3_USB_DAT_BUS/N_118
+  8.899                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\_RNO_0:B (f)
+               +     0.714          cell: ADLIB:OR3
+  9.613                        U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\_RNO_0:Y (f)
+               +     1.172          net: U50_PATTERNS/U3_USB_DAT_BUS/N_WR_USB_ADBUS_0_iv_0_0_5[7]
+  10.785                       U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\_RNO:A (f)
+               +     0.525          cell: ADLIB:OR3
+  11.310                       U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\_RNO:Y (f)
+               +     2.416          net: U50_PATTERNS/U3_USB_DAT_BUS/WR_USB_ADBUS[7]
+  13.726                       U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\/U0/U1:D (f)
+               +     0.582          cell: ADLIB:IOBI_IRC_OB_EB
+  14.308                       U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\/U0/U1:DOUT (f)
+               +     0.000          net: U50_PATTERNS/U3_USB_DAT_BUS/_BIBUF_F_24U[7]_/U0/NET1
+  14.308                       U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\/U0/U0:D (f)
+               +     3.206          cell: ADLIB:IOPAD_BI
+  17.514                       U50_PATTERNS/U3_USB_DAT_BUS/\\BIBUF_F_24U[7]\\/U0/U0:PAD (f)
+               +     0.000          net: BIDIR_USB_ADBUS[7]
+  17.514                       BIDIR_USB_ADBUS[7] (f)
+                                    
+  17.514                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          U3_MAINCLKGEN/Core:GLC
+               +     0.000          Clock source
+  N/C                          U3_MAINCLKGEN/Core:GLC (r)
+                                    
+  N/C                          BIDIR_USB_ADBUS[7] (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        U40_USBMASTER_EN/USB_EN_60M_2S:CLK
+  To:                          U50_PATTERNS/ELINK0_BLKA_ret_10/U1:CLR
+  Delay (ns):                  7.906
+  Slack (ns):                  8.473
+  Arrival (ns):                8.995
+  Required (ns):               17.468
+  Recovery (ns):               0.297
+  Minimum Period (ns):         8.194
+  Skew (ns):                   -0.009
+
+Path 2
+  From:                        U40_USBMASTER_EN/USB_EN_60M_2S:CLK
+  To:                          U50_PATTERNS/REG_STATE[1]:CLR
+  Delay (ns):                  7.489
+  Slack (ns):                  8.901
+  Arrival (ns):                8.578
+  Required (ns):               17.479
+  Recovery (ns):               0.297
+  Minimum Period (ns):         7.766
+  Skew (ns):                   -0.020
+
+Path 3
+  From:                        U40_USBMASTER_EN/USB_EN_60M_2S:CLK
+  To:                          U50_PATTERNS/ELINK0_BLKA_ret_45/U1:PRE
+  Delay (ns):                  7.192
+  Slack (ns):                  9.167
+  Arrival (ns):                8.281
+  Required (ns):               17.448
+  Recovery (ns):               0.297
+  Minimum Period (ns):         7.500
+  Skew (ns):                   0.011
+
+Path 4
+  From:                        U40_USBMASTER_EN/USB_EN_60M_2S:CLK
+  To:                          U50_PATTERNS/ELINK0_BLKA_ret_20[23]/U1:CLR
+  Delay (ns):                  7.040
+  Slack (ns):                  9.326
+  Arrival (ns):                8.129
+  Required (ns):               17.455
+  Recovery (ns):               0.297
+  Minimum Period (ns):         7.341
+  Skew (ns):                   0.004
+
+Path 5
+  From:                        U40_USBMASTER_EN/USB_EN_60M_2S:CLK
+  To:                          U50_PATTERNS/REG_STATE[3]:CLR
+  Delay (ns):                  6.962
+  Slack (ns):                  9.415
+  Arrival (ns):                8.051
+  Required (ns):               17.466
+  Recovery (ns):               0.297
+  Minimum Period (ns):         7.252
+  Skew (ns):                   -0.007
+
+
+Expanded Path 1
+  From: U40_USBMASTER_EN/USB_EN_60M_2S:CLK
+  To: U50_PATTERNS/ELINK0_BLKA_ret_10/U1:CLR
+  data required time                             17.468
+  data arrival time                          -   8.995
+  slack                                          8.473
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        U3_MAINCLKGEN/Core:GLC
+               +     0.000          Clock source
+  0.000                        U3_MAINCLKGEN/Core:GLC (r)
+               +     1.089          net: CLK60MHZ
+  1.089                        U40_USBMASTER_EN/USB_EN_60M_2S:CLK (r)
+               +     0.581          cell: ADLIB:DFN1C0
+  1.670                        U40_USBMASTER_EN/USB_EN_60M_2S:Q (r)
+               +     7.325          net: USB_MASTER_EN
+  8.995                        U50_PATTERNS/ELINK0_BLKA_ret_10/U1:CLR (r)
+                                    
+  8.995                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  16.667                       U3_MAINCLKGEN/Core:GLC
+               +     0.000          Clock source
+  16.667                       U3_MAINCLKGEN/Core:GLC (r)
+               +     1.098          net: CLK60MHZ
+  17.765                       U50_PATTERNS/ELINK0_BLKA_ret_10/U1:CLK (r)
+               -     0.297          Library recovery time: ADLIB:DFN1C0
+  17.468                       U50_PATTERNS/ELINK0_BLKA_ret_10/U1:CLR
+                                    
+  17.468                       data required time
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain USBCLK60MHZ
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin USBCLK60MHZ_pad/U0/U0:PAD
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+Path 1
+  From:                        DCB_SALT_SEL
+  To:                          REF_CLK_0P
+  Delay (ns):                  9.587
+  Slack (ns):
+  Arrival (ns):                9.587
+  Required (ns):
+
+Path 2
+  From:                        DCB_SALT_SEL
+  To:                          REF_CLK_0N
+  Delay (ns):                  9.196
+  Slack (ns):
+  Arrival (ns):                9.196
+  Required (ns):
+
+
+Expanded Path 1
+  From: DCB_SALT_SEL
+  To: REF_CLK_0P
+  data required time                             N/C
+  data arrival time                          -   9.587
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        DCB_SALT_SEL (f)
+               +     0.000          net: DCB_SALT_SEL
+  0.000                        DCB_SALT_SEL_pad/U0/U0:PAD (f)
+               +     1.659          cell: ADLIB:IOPAD_IN
+  1.659                        DCB_SALT_SEL_pad/U0/U0:Y (f)
+               +     0.000          net: DCB_SALT_SEL_pad/U0/NET1
+  1.659                        DCB_SALT_SEL_pad/U0/U1:YIN (f)
+               +     0.040          cell: ADLIB:IOIN_IB
+  1.699                        DCB_SALT_SEL_pad/U0/U1:Y (f)
+               +     5.548          net: DCB_SALT_SEL_c
+  7.247                        U12_REFCLKBUF/\\BIBUF_LVDS[0]\\/U0/U1:E (f)
+               +     0.417          cell: ADLIB:IOBI_IB_OB_EB
+  7.664                        U12_REFCLKBUF/\\BIBUF_LVDS[0]\\/U0/U1:EOUT (f)
+               +     0.000          net: U12_REFCLKBUF/_BIBUF_LVDS[0]_/U0/NET2
+  7.664                        U12_REFCLKBUF/\\BIBUF_LVDS[0]\\/U0/U0:E (f)
+               +     1.923          cell: ADLIB:IOPADP_BI
+  9.587                        U12_REFCLKBUF/\\BIBUF_LVDS[0]\\/U0/U0:PAD (f)
+               +     0.000          net: REF_CLK_0P
+  9.587                        REF_CLK_0P (f)
+                                    
+  9.587                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          DCB_SALT_SEL (f)
+                                    
+  N/C                          REF_CLK_0P (f)
+                                    
+  N/C                          data required time
+
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

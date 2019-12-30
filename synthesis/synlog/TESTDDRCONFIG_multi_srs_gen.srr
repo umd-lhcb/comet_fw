@@ -1,0 +1,11 @@
+Synopsys Netlist Linker, version comp201403sp1p1, Build 095R, built Oct  9 2014
+@N|Running in 64-bit mode
+@N: NF107 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\component\work\TESTDDRCONFIG\TESTDDRCONFIG.vhd":17:7:17:19|Selected library: work cell: TESTDDRCONFIG view rtl as top level
+@N: NF107 :"D:\0_all_libero_project\CERN_LHCb\COMET_TEST\component\work\TESTDDRCONFIG\TESTDDRCONFIG.vhd":17:7:17:19|Selected library: work cell: TESTDDRCONFIG view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 26 17:38:26 2015
+
+###########################################################]

@@ -1,0 +1,188 @@
+@P:  Worst Slack : 1.283
+@P:  CCC_160M_ADJ_ALIAS - Estimated Frequency : 394.9 MHz
+@P:  CCC_160M_ADJ_ALIAS - Requested Frequency : 160.0 MHz
+@P:  CCC_160M_ADJ_ALIAS - Estimated Period : 2.532
+@P:  CCC_160M_ADJ_ALIAS - Requested Period : 6.250
+@P:  CCC_160M_ADJ_ALIAS - Slack : 3.718
+@P:  CCC_160M_FXD - Estimated Frequency : 264.2 MHz
+@P:  CCC_160M_FXD - Requested Frequency : 160.0 MHz
+@P:  CCC_160M_FXD - Estimated Period : 3.785
+@P:  CCC_160M_FXD - Requested Period : 6.250
+@P:  CCC_160M_FXD - Slack : 2.465
+@P:  CLK60MHZ - Estimated Frequency : 66.3 MHz
+@P:  CLK60MHZ - Requested Frequency : 60.0 MHz
+@P:  CLK60MHZ - Estimated Period : 15.085
+@P:  CLK60MHZ - Requested Period : 16.665
+@P:  CLK60MHZ - Slack : 1.580
+@P:  CLK_40M_GL - Estimated Frequency : 57.4 MHz
+@P:  CLK_40M_GL - Requested Frequency : 40.0 MHz
+@P:  CLK_40M_GL - Estimated Period : 17.411
+@P:  CLK_40M_GL - Requested Period : 25.000
+@P:  CLK_40M_GL - Slack : 2.712
+@P:  Y_INFERRED - Estimated Frequency : 269.0 MHz
+@P:  Y_INFERRED - Requested Frequency : 200.0 MHz
+@P:  Y_INFERRED - Estimated Period : 3.717
+@P:  Y_INFERRED - Requested Period : 5.000
+@P:  Y_INFERRED - Slack : 1.283
+@P:  Total Area : 7203.0
+@P:  Total Area : 202.0
+@P:  Total Area : 197.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 1717.0
+@P:  Total Area : 48.0
+@P:  Total Area : 41.0
+@P:  Total Area : 41.0
+@P:  Total Area : 41.0
+@P:  Total Area : 41.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 23.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 23.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 23.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 143.0
+@P:  Total Area : 100.0
+@P:  Total Area : 2.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 143.0
+@P:  Total Area : 100.0
+@P:  Total Area : 2.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 141.0
+@P:  Total Area : 100.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 143.0
+@P:  Total Area : 100.0
+@P:  Total Area : 2.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 2005.0
+@P:  Total Area : 1846.0
+@P:  Total Area : 1.0
+@P:  Total Area : 158.0
+@P:  Total Area : 2.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 23.0
+@P:  Total Area : 16.0
+@P:  Total Area : 0.0
+@P:  Total Area : 8.0
+@P:  Total Area : 205.0
+@P:  Total Area : 82.0
+@P:  Total Area : 0.0
+@P:  Total Area : 1.0
+@P:  Total Area : 0.0
+@P:  Total Area : 7203.0
+@P:  CPU Time : 0h:00m:16s

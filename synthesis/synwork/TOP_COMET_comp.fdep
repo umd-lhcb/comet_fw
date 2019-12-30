@@ -1,0 +1,163 @@
+#OPTIONS:"|-layerid|0|-orig_srs|Z:\\windows\\comet_fw\\synthesis\\synwork\\TOP_COMET_comp.srs|-top|work.TOP_COMET|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1509044428
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1509050436
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1509043928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1509043928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1509043928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1509043928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1509044246
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1509043928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1509043928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1509043928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1509043928
+#CUR:"Z:\\windows\\comet_fw\\smartgen\\BIDIR_LVDS_IO\\BIDIR_LVDS_IO.vhd":1445277146
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3e.vhd":1509041888
+#CUR:"Z:\\windows\\comet_fw\\smartgen\\CLK_FXD_40_160_A60M\\CLK_FXD_40_160_A60M.vhd":1464297068
+#CUR:"Z:\\windows\\comet_fw\\hdl\\DDR_BIDIR_LVDS_DUAL_CLK.vhd":1447856070
+#CUR:"Z:\\windows\\comet_fw\\hdl\\SER320M.vhd":1448041498
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\misc.vhd":1509043928
+#CUR:"Z:\\windows\\comet_fw\\hdl\\SLAVE_DES320S.vhd":1464816182
+#CUR:"Z:\\windows\\comet_fw\\hdl\\SYNC_DAT_SEL.vhd":1448456420
+#CUR:"Z:\\windows\\comet_fw\\hdl\\USB_EXEC.vhd":1459283516
+#CUR:"Z:\\windows\\comet_fw\\hdl\\GP_PATT_GEN.vhd":1450659548
+#CUR:"Z:\\windows\\comet_fw\\smartgen\\LVDS_BUFOUT\\LVDS_BUFOUT.vhd":1465397824
+#CUR:"Z:\\windows\\comet_fw\\smartgen\\LVDS_CLK_IN\\LVDS_CLK_IN.vhd":1436798966
+#CUR:"Z:\\windows\\comet_fw\\hdl\\REF_CLK_DIV_GEN.vhd":1459456116
+#CUR:"Z:\\windows\\comet_fw\\smartgen\\CCC_DYN_TRIPLE_160M\\CCC_DYN_TRIPLE_160M.vhd":1464291936
+#CUR:"Z:\\windows\\comet_fw\\hdl\\GP_CCC_SCONFIG.vhd":1449009792
+#CUR:"Z:\\windows\\comet_fw\\hdl\\MASTER_DES320M.vhd":1464816708
+#CUR:"Z:\\windows\\comet_fw\\smartgen\\BIDIR_LVTTL\\BIDIR_LVTTL.vhd":1444338092
+#CUR:"Z:\\windows\\comet_fw\\hdl\\CLK60M_TO_40M.vhd":1464270016
+#CUR:"Z:\\windows\\comet_fw\\smartgen\\DPRT_512X9_SRAM\\DPRT_512X9_SRAM.vhd":1436965860
+#CUR:"Z:\\windows\\comet_fw\\smartgen\\tristate_buf\\tristate_buf.vhd":1445256708
+#CUR:"Z:\\windows\\comet_fw\\hdl\\ELINK_SLAVE.vhd":1554697820
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhdl_sim\\synplify.vhd":1509043928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\synattr.vhd":1509041926
+#CUR:"Z:\\windows\\comet_fw\\hdl\\ELINK_SLAVE_INV.vhd":1465414774
+#CUR:"Z:\\windows\\comet_fw\\hdl\\EXEC_MODE_CNTL.vhd":1464273412
+#CUR:"Z:\\windows\\comet_fw\\hdl\\TOP_MASTER_DES320M.vhd":1464354206
+#CUR:"Z:\\windows\\comet_fw\\hdl\\USB_INTERFACE.vhd":1465469968
+#CUR:"Z:\\windows\\comet_fw\\hdl\\TOP_COMET.vhd":1554698094
+0			"Z:\windows\comet_fw\smartgen\BIDIR_LVDS_IO\BIDIR_LVDS_IO.vhd" vhdl
+1			"Z:\windows\comet_fw\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.vhd" vhdl
+2			"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd" vhdl
+3			"Z:\windows\comet_fw\hdl\SER320M.vhd" vhdl
+4			"Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd" vhdl
+5			"Z:\windows\comet_fw\hdl\SYNC_DAT_SEL.vhd" vhdl
+6			"Z:\windows\comet_fw\hdl\ELINK_SLAVE.vhd" vhdl
+7			"Z:\windows\comet_fw\hdl\ELINK_SLAVE_INV.vhd" vhdl
+8			"Z:\windows\comet_fw\hdl\USB_EXEC.vhd" vhdl
+9			"Z:\windows\comet_fw\hdl\EXEC_MODE_CNTL.vhd" vhdl
+10			"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd" vhdl
+11			"Z:\windows\comet_fw\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd" vhdl
+12			"Z:\windows\comet_fw\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.vhd" vhdl
+13			"Z:\windows\comet_fw\hdl\REF_CLK_DIV_GEN.vhd" vhdl
+14			"Z:\windows\comet_fw\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.vhd" vhdl
+15			"Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd" vhdl
+16			"Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd" vhdl
+17			"Z:\windows\comet_fw\hdl\TOP_MASTER_DES320M.vhd" vhdl
+18			"Z:\windows\comet_fw\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.vhd" vhdl
+19			"Z:\windows\comet_fw\hdl\CLK60M_TO_40M.vhd" vhdl
+20			"Z:\windows\comet_fw\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd" vhdl
+21			"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd" vhdl
+22			"Z:\windows\comet_fw\smartgen\tristate_buf\tristate_buf.vhd" vhdl
+23			"Z:\windows\comet_fw\hdl\TOP_COMET.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 4 2 3 5
+7 4 2 3 5
+8 -1
+9 8
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 16 14 15
+18 -1
+19 -1
+20 -1
+21 19 18 20
+22 -1
+23 10 22 21 6 7 17 2 3 5 1 13 9 11 0 12
+#Dependency Lists(Users Of)
+0 23
+1 23
+2 7 6 23
+3 7 6 23
+4 7 6
+5 7 6 23
+6 23
+7 23
+8 9
+9 23
+10 23
+11 23
+12 23
+13 23
+14 17
+15 17
+16 17
+17 23
+18 21
+19 21
+20 21
+21 23
+22 23
+23 -1
+#Design Unit to File Association
+module work top_comet 23
+arch work top_comet rtl 23
+module work tristate_buf 22
+arch work tristate_buf def_arch 22
+module work usb_interface 21
+arch work usb_interface rtl 21
+module work dprt_512x9_sram 20
+arch work dprt_512x9_sram def_arch 20
+module work clk60m_to_40m 19
+arch work clk60m_to_40m rtl 19
+module work bidir_lvttl 18
+arch work bidir_lvttl def_arch 18
+module work top_master_des320m 17
+arch work top_master_des320m rtl 17
+module work master_des320m 16
+arch work master_des320m rtl 16
+module work gp_ccc_sconfig 15
+arch work gp_ccc_sconfig rtl 15
+module work ccc_dyn_triple_160m 14
+arch work ccc_dyn_triple_160m def_arch 14
+module work ref_clk_div_gen 13
+arch work ref_clk_div_gen rtl 13
+module work lvds_clk_in 12
+arch work lvds_clk_in def_arch 12
+module work lvds_bufout 11
+arch work lvds_bufout def_arch 11
+module work gp_patt_gen 10
+arch work gp_patt_gen rtl_logic 10
+module work exec_mode_cntl 9
+arch work exec_mode_cntl rtl 9
+module work usb_exec 8
+arch work usb_exec rtl_logic 8
+module work elink_slave_inv 7
+arch work elink_slave_inv rtl 7
+module work elink_slave 6
+arch work elink_slave rtl 6
+module work sync_dat_sel 5
+arch work sync_dat_sel rtl 5
+module work slave_des320s 4
+arch work slave_des320s rtl 4
+module work ser320m 3
+arch work ser320m rtl_logic 3
+module work ddr_bidir_lvds_dual_clk 2
+arch work ddr_bidir_lvds_dual_clk rtl 2
+module work clk_fxd_40_160_a60m 1
+arch work clk_fxd_40_160_a60m def_arch 1
+module work bidir_lvds_io 0
+arch work bidir_lvds_io def_arch 0
