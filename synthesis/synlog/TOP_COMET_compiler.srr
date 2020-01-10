@@ -8,15 +8,42 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 
 @N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
 @N:"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":45:7:45:15|Top entity is set to TOP_COMET.
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\SER320M.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\misc.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\SYNC_DAT_SEL.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\REF_CLK_DIV_GEN.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\CLK60M_TO_40M.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\tristate_buf\tristate_buf.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\ELINK_SLAVE.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhdl_sim\synplify.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd\synattr.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\ELINK_SLAVE_INV.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\EXEC_MODE_CNTL.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\TOP_MASTER_DES320M.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\TOP_COMET.vhd changed - recompiling
 VHDL syntax check successful!
+File Z:\windows\comet_fw\hdl\TOP_COMET.vhd changed - recompiling
 @N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":45:7:45:15|Synthesizing work.top_comet.rtl.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_23 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_22 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_21 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_20 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":636:9:636:19|Signal ddr_q0_rise is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":637:9:637:19|Signal ddr_q1_fall is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Signal PATT_ELK_DAT_23 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Signal PATT_ELK_DAT_22 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Signal PATT_ELK_DAT_21 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Signal PATT_ELK_DAT_20 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":639:9:639:19|Signal ddr_q0_rise is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":640:9:640:19|Signal ddr_q1_fall is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd":38:7:38:17|Synthesizing work.gp_patt_gen.rtl_logic.
 @N: CD231 :"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd":79:28:79:29|Using onehot encoding for type gp_pg_sm_states. For example, enumeration init is mapped to "10000000000000".
 Post processing for work.gp_patt_gen.rtl_logic
@@ -223,38 +250,40 @@ Post processing for work.lvds_bufout.def_arch
 Post processing for proasic3e.inbuf_lvds.syn_black_box
 Post processing for work.lvds_clk_in.def_arch
 Post processing for work.top_comet.rtl
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 0 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 1 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 2 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 3 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 4 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 5 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 6 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 7 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 0 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 1 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 2 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 3 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 4 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 5 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 6 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 7 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 0 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 1 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 2 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 3 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 4 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 5 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 6 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 7 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 0 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 1 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 2 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 3 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 4 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 5 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 6 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 7 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL168 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":770:2:770:14|Removing instance U_GEN_REF_CLK because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":717:2:717:12|Removing instance U0_200M_BUF because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @N: CL201 :"Z:\windows\comet_fw\hdl\USB_EXEC.vhd":116:12:116:13|Trying to extract state machine for register TEST_SM.
 Extracted state machine for register TEST_SM
 State machine has 5 reachable states with original encodings of:
@@ -345,33 +374,35 @@ State machine has 11 reachable states with original encodings of:
    00100000000000
    01000000000000
    10000000000000
+@N: CL159 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":47:4:47:11|Input CLK200_P is unused.
+@N: CL159 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":48:4:48:11|Input CLK200_N is unused.
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 113MB peak: 126MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 113MB peak: 126MB)
 
-Process took 0h:00m:11s realtime, 0h:00m:09s cputime
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Sun Dec 29 18:59:21 2019
+# Fri Jan 10 10:14:57 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Dec 29 18:59:23 2019
+# Fri Jan 10 10:14:58 2020
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:10s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:12s realtime, 0h:00m:10s cputime
+Process took 0h:00m:08s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Sun Dec 29 18:59:23 2019
+# Fri Jan 10 10:14:58 2020
 
 ###########################################################]

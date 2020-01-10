@@ -48,9 +48,10 @@ set_io BIDIR_USB_ADBUS\[4\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -
 set_io BIDIR_USB_ADBUS\[5\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 69 -fixed yes
 set_io BIDIR_USB_ADBUS\[6\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 74 -fixed yes
 set_io BIDIR_USB_ADBUS\[7\] -iostd LVTTL -OUT_DRIVE 24 -SLEW High -RES_PULL Up -SCHMITT_TRIGGER On -IN_DELAY Off -SKEW Off -REGISTER Yes -OUT_LOAD 35 -pinname 73 -fixed yes
-set_io CLK200_N -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 26 -fixed yes
-set_io CLK200_P -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 28 -fixed yes
-
+#set_io CLK200_N -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 26 -fixed yes
+#set_io CLK200_P -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 28 -fixed yes
+set_io BP_CLK40_N -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 174 -fixed yes
+set_io BP_CLK40_P -iostd LVDS -IN_DELAY Off -REGISTER No -pinname 173 -fixed yes
 
 #################################################################################################################
 # GPIO TEST AND MONITOR lines
@@ -203,8 +204,8 @@ set_io ELK17_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0
 set_io ELK17_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 168 -fixed yes
 
 # ELINK18 DATA  CE_PAIR_1
-set_io ELK18_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 174 -fixed yes
-set_io ELK18_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 173 -fixed yes
+#set_io ELK18_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 174 -fixed yes
+#set_io ELK18_DAT_P -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER Yes -OUT_LOAD 0 -pinname 173 -fixed yes
 
 # ELINK19 DATA  CE_PAIR_0
 set_io ELK19_DAT_N -iostd LVDS -OUT_DRIVE 24 -SLEW High -REGISTER No -OUT_LOAD 0 -pinname 176 -fixed yes

@@ -6,7 +6,7 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-6 non-gated/non-generated clock tree(s) driving 3537 clock pin(s) of sequential element(s)
+5 non-gated/non-generated clock tree(s) driving 3532 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
@@ -15,10 +15,9 @@ Clock Tree ID     Driving Element               Drive Element Type              
 -------------------------------------------------------------------------------------------------------------------------------------
 @K:CKID0001       CLK_40M_GL                    clock definition on keepbuf       1837       TFC_SYNC_DET                            
 @K:CKID0002       CCC_160M_FXD                  clock definition on keepbuf       656        U_ELK0_CMD_TX.SER_CMD_WORD_R[3]         
-@K:CKID0003       CLK60MHZ                      clock definition on keepbuf       618        U50_PATTERNS.RD_USB_ADBUS[7]            
+@K:CKID0003       CLK60MHZ                      clock definition on keepbuf       617        U50_PATTERNS.RD_USB_ADBUS[7]            
 @K:CKID0004       U_MASTER_DES                  clock definition on hierarchy     403        TFC_IN_F                                
 @K:CKID0005       U_MASTER_DES.CCC_160M_ADJ     clock definition on keepbuf       19         U_MASTER_DES.U13C_MASTER_DESER.ADJ_Q[14]
-@K:CKID0006       U0_200M_BUF                   clock definition on hierarchy     4          U_GEN_REF_CLK.GEN_40M_REFCNT[2]         
 =====================================================================================================================================
 
 

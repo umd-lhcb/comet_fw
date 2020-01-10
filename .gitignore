@@ -1,9 +1,5 @@
-### ModelSim ###
-*.mti
-*.wlf
+tooldata/libero*
 *.bak
-*.do
-*.vstf
 
 simulation/
 *.msg

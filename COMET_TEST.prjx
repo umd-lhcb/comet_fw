@@ -118,13 +118,13 @@ SIZE="203"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET.adb,adb"
 STATE="utd"
-TIME="1554698350"
-SIZE="9730048"
+TIME="1577675789"
+SIZE="9774592"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET.ide_des,ide_des"
 STATE="utd"
-TIME="1554725750"
-SIZE="1064"
+TIME="1577675792"
+SIZE="1068"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMETJune7_2016b.pdb,pdb"
 STATE="utd"
@@ -158,7 +158,7 @@ SIZE="2247811"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_compile_log.rpt,log"
 STATE="utd"
-TIME="1554698351"
+TIME="1577674826"
 SIZE="16040"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_fp\projectData\TOP_COMET_wUSB_and_Debugio.stp,stp"
@@ -198,8 +198,8 @@ SIZE="407785"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1554821948"
-SIZE="3177"
+TIME="1577675793"
+SIZE="3245"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_COMET_power.rpt,log"
 STATE="utd"
@@ -860,36 +860,6 @@ STATE="utd"
 TIME="1465406726"
 SIZE="159"
 ENDFILE
-VALUE "<project>\synthesis\synwork\CCC_SCONFIG_comp.so,so"
-STATE="utd"
-TIME="1444739900"
-SIZE="159"
-ENDFILE
-VALUE "<project>\synthesis\synwork\des320M_comp.so,so"
-STATE="utd"
-TIME="1445018756"
-SIZE="159"
-ENDFILE
-VALUE "<project>\synthesis\synwork\layer0.so,so"
-STATE="utd"
-TIME="1554697927"
-SIZE="159"
-ENDFILE
-VALUE "<project>\synthesis\synwork\TOP_COMET_comp.so,so"
-STATE="utd"
-TIME="1446766088"
-SIZE="159"
-ENDFILE
-VALUE "<project>\synthesis\synwork\USB_EXEC_comp.so,so"
-STATE="utd"
-TIME="1443131086"
-SIZE="159"
-ENDFILE
-VALUE "<project>\synthesis\synwork\USB_INTERFACE_comp.so,so"
-STATE="utd"
-TIME="1442413412"
-SIZE="159"
-ENDFILE
 VALUE "<project>\synthesis\TESTDDRCONFIG.so,so"
 STATE="utd"
 TIME="1445899106"
@@ -912,22 +882,22 @@ SIZE="0"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET.edn,syn_edn"
 STATE="utd"
-TIME="1554698130"
-SIZE="4389926"
+TIME="1577674789"
+SIZE="4389928"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET.so,so"
 STATE="utd"
-TIME="1554698130"
+TIME="1577674789"
 SIZE="207"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1554698130"
+TIME="1577674789"
 SIZE="851"
 ENDFILE
 VALUE "<project>\synthesis\TOP_COMET_syn.prj,prj"
 STATE="utd"
-TIME="1554698132"
+TIME="1577674792"
 SIZE="3530"
 ENDFILE
 VALUE "<project>\synthesis\USB_EXEC.edn,syn_edn"
@@ -975,6 +945,21 @@ LIST Other_Association
 VALUE "<project>\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM_R0C0.mem,sim"
 ENDLIST
 ENDLIST
+LIST "GP_PATT_GEN::work"
+FILE "<project>\hdl\GP_PATT_GEN.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\GP_PATT_GEN.edn,syn_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 LIST "TOP_COMET::work"
 FILE "<project>\hdl\TOP_COMET.vhd,hdl"
 LIST AssociatedStimulus
@@ -985,9 +970,10 @@ VALUE "<project>\constraint\Top_Basic_a.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Synthesis
+LiberoState=Post_Layout
 ideSTIMULUS=StateSuccess
 ideSYNTHESIS(<project>\synthesis\TOP_COMET.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\TOP_COMET.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -1000,6 +986,36 @@ ENDLIST
 LIST PinReports
 VALUE "<project>\designer\impl1\TOP_COMET_report_pin_byname.txt,log"
 VALUE "<project>\designer\impl1\TOP_COMET_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+LIST "USB_EXEC::work"
+FILE "<project>\hdl\USB_EXEC.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\USB_EXEC.edn,syn_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "USB_INTERFACE::work"
+FILE "<project>\hdl\USB_INTERFACE.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\USB_INTERFACE.edn,syn_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 ENDLIST
 ENDLIST
@@ -1113,11 +1129,48 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "GP_PATT_GEN::work"
+LIST Impl1
+ideSYNTHESIS(D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\GP_PATT_GEN.edn,syn_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 LIST "TOP_COMET::work"
 LIST Impl1
-LiberoState=Post_Synthesis
+LiberoState=Post_Layout
 ideSTIMULUS=StateSuccess
 ideSYNTHESIS(<project>\synthesis\TOP_COMET.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\TOP_COMET.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "USB_EXEC::work"
+LIST Impl1
+ideSYNTHESIS(D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\USB_EXEC.edn,syn_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "USB_INTERFACE::work"
+LIST Impl1
+ideSYNTHESIS(D:\0_all_libero_project\CERN_LHCb\COMET_TEST\synthesis\USB_INTERFACE.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE

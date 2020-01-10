@@ -22,11 +22,10 @@
 @N: MO231 :"z:\windows\comet_fw\hdl\usb_interface.vhd":867:12:867:13|Found counter in view:work.USB_INTERFACE(rtl) instance SI_CNT[3:0] 
 @N: MF179 :"z:\windows\comet_fw\hdl\gp_patt_gen.vhd":264:19:264:47|Found 8 by 8 bit less-than operator ('<') GP_PG\.un1_ADDR_POINTER (in view: work.GP_PATT_GEN_1(rtl_logic))
 @N: MF179 :"z:\windows\comet_fw\hdl\gp_patt_gen.vhd":264:19:264:47|Found 8 by 8 bit less-than operator ('<') GP_PG\.un1_ADDR_POINTER (in view: work.GP_PATT_GEN_0(rtl_logic))
-@N: FP130 |Promoting Net MASTER_DCB_POR_B_i_0_i on CLKINT  I_267 
+@N: FP130 |Promoting Net MASTER_DCB_POR_B_i_0_i on CLKINT  I_270 
 @N: MT615 |Found clock CLK60MHZ with period 16.66ns 
 @N: MT615 |Found clock CLK_40M_GL with period 25.00ns 
 @N: MT615 |Found clock CCC_160M_FXD with period 6.25ns 
 @N: MT615 |Found clock CCC_160M_ADJ_ALIAS with period 6.25ns 
-@N: MT615 |Found clock Y_INFERRED with period 5.00ns 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 @N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -47,6 +47,9 @@ entity TOP_COMET is
     CLK200_P : in std_logic;            -- EXTERNAL LVDS CLOCK ON COMET BOARDS
     CLK200_N : in std_logic;
 
+    BP_CLK40_P : in std_logic;            -- LVDS CLOCK coming from Pathfinder backplane
+    BP_CLK40_N : in std_logic;
+
     DEV_RST_B : in std_logic;  -- ACTIVE LOW RESET --DEDICATED COMET BOARD RC TIME CONSTANT
 
 -- GPIO TEST AND CONFIG SIGNALS
@@ -718,6 +721,13 @@ begin
       Y    => RAW_CLK_200M
       );
 
+  U0_40M_BUF : LVDS_CLK_IN
+    port map (
+      PADP => BP_CLK40_P,
+      PADN => BP_CLK40_N,
+      Y    => CLK40M_10NS_REF
+      );
+
 -- LVDS CLOCK BI-DIR BUFFER OF THE COMET 40 MHZ CLOCK DERIVED FROM THE 200 MHZ OSC CLOCK TO BE USED AS A MAIN CCC REF CLOCK
 -- EXT_INT_REF_SEL = '1' => DCB RX OF CLOCK (IE USE EXT REF CLK).  DCB_SALT_SEL = '0' => DCB TX REF CLOCKS (IE DRIVER OUT ENABLED).  
   U0A_40M_REFCLK : BIDIR_LVDS_IO
@@ -761,7 +771,7 @@ begin
     port map (
       CLK_200MHZ      => RAW_CLK_200M,  -- 200 MHZ OSCILLATOR SOURCE
       POR_N           => DEV_RST_B,     -- ACTIVE LOW POWER-ON RESET
-      CLK40M_10NS_REF => CLK40M_10NS_REF  -- 40 MHZ WITH 40/60 DUTY CYCLE (IE 0 NS PW) DERIVED FROM 200 MHZ
+      CLK40M_10NS_REF => open  -- 40 MHZ WITH 40/60 DUTY CYCLE (IE 0 NS PW) DERIVED FROM 200 MHZ
       );
 --+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- THIS IS THE CCC USED TO GENERATE THE FIXED 40 AND 160 MHZ CLOCK SOURCES AS WELL AS THE ASYNCHRONOUS USB 60 MHZ GLOBAL CLOCK BUFFER WITH FIXED DELAY OFFSET.  

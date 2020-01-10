@@ -32,29 +32,28 @@ Report for cell TOP_COMET.rtl
                   ELINK_SLAVE_INV_2         1     143.0      143.0
                 ELINK_SLAVE_INV_2_0         1     143.0      143.0
                 ELINK_SLAVE_INV_2_1         1     143.0      143.0
-                     EXEC_MODE_CNTL         1     205.0      205.0
+                     EXEC_MODE_CNTL         1     206.0      206.0
                                 GND         1       0.0        0.0
-                      GP_PATT_GEN_1         1     197.0      197.0
-                    GP_PATT_GEN_1_0         1     202.0      202.0
+                      GP_PATT_GEN_1         1     198.0      198.0
+                    GP_PATT_GEN_1_0         1     200.0      200.0
                               INBUF         6       0.0        0.0
                                 INV         2       1.0        2.0
                         LVDS_BUFOUT         1       0.0        0.0
                         LVDS_CLK_IN         1       0.0        0.0
                              OUTBUF        13       0.0        0.0
-                    REF_CLK_DIV_GEN         1       8.0        8.0
                        SER320M_4_40         1      23.0       23.0
                      SER320M_4_40_0         1      23.0       23.0
                        SYNC_DAT_SEL         1      16.0       16.0
                      SYNC_DAT_SEL_0         1      16.0       16.0
-                 TOP_MASTER_DES320M         1    2005.0     2005.0
-                      USB_INTERFACE         1    1717.0     1717.0
+                 TOP_MASTER_DES320M         1    2000.0     2000.0
+                      USB_INTERFACE         1    1726.0     1726.0
                                 VCC         1       0.0        0.0
                        tristate_buf         1       0.0        0.0
                      tristate_buf_0         1       0.0        0.0
                      tristate_buf_1         1       0.0        0.0
                      tristate_buf_2         1       0.0        0.0
                             
-                         TOTAL             76               7203.0
+                         TOTAL             75               7199.0
 ----------------------------------------------------------------------
 Report for cell GP_PATT_GEN_1_0.netlist
   Original Cell name GP_PATT_GEN_1
@@ -71,48 +70,6 @@ Report for cell GP_PATT_GEN_1_0.netlist
                               AOI1A         2       1.0        2.0
                               AOI1B         1       1.0        1.0
                              DFN1C0        41       1.0       41.0
-                           DFN1E0P0         1       1.0        1.0
-                           DFN1E1C0        17       1.0       17.0
-                           DFN1E1P0         1       1.0        1.0
-                             DFN1P0         5       1.0        5.0
-                                GND         1       0.0        0.0
-                                INV         4       1.0        4.0
-                               NOR2         4       1.0        4.0
-                              NOR2A        35       1.0       35.0
-                              NOR2B         9       1.0        9.0
-                               NOR3         9       1.0        9.0
-                              NOR3A         3       1.0        3.0
-                              NOR3B         3       1.0        3.0
-                              NOR3C         7       1.0        7.0
-                                OA1         2       1.0        2.0
-                               OA1A         3       1.0        3.0
-                                OR2         9       1.0        9.0
-                               OR2A         9       1.0        9.0
-                               OR2B         2       1.0        2.0
-                                OR3         4       1.0        4.0
-                               OR3A         1       1.0        1.0
-                               OR3C         1       1.0        1.0
-                                VCC         1       0.0        0.0
-                              XNOR2         3       1.0        3.0
-                               XOR2         8       1.0        8.0
-                            
-                         TOTAL            204                202.0
-----------------------------------------------------------------------
-Report for cell GP_PATT_GEN_1.netlist
-  Original Cell name GP_PATT_GEN
-     Instance path:  U200A_TFC
-                                          Cell usage:
-                               cell       count     area    count*area
-                               AND2         3       1.0        3.0
-                              AND2A         2       1.0        2.0
-                               AND3         1       1.0        1.0
-                                AO1         5       1.0        5.0
-                               AO1A         1       1.0        1.0
-                               AO1C         5       1.0        5.0
-                               AOI1         1       1.0        1.0
-                              AOI1A         2       1.0        2.0
-                              AOI1B         1       1.0        1.0
-                             DFN1C0        38       1.0       38.0
                            DFN1E0P0         1       1.0        1.0
                            DFN1E1C0        17       1.0       17.0
                            DFN1E1P0         1       1.0        1.0
@@ -139,7 +96,49 @@ Report for cell GP_PATT_GEN_1.netlist
                               XNOR2         3       1.0        3.0
                                XOR2         8       1.0        8.0
                             
-                         TOTAL            199                197.0
+                         TOTAL            202                200.0
+----------------------------------------------------------------------
+Report for cell GP_PATT_GEN_1.netlist
+  Original Cell name GP_PATT_GEN
+     Instance path:  U200A_TFC
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                              AND2A         2       1.0        2.0
+                               AND3         1       1.0        1.0
+                                AO1         5       1.0        5.0
+                               AO1A         1       1.0        1.0
+                               AO1C         5       1.0        5.0
+                               AOI1         1       1.0        1.0
+                              AOI1A         2       1.0        2.0
+                              AOI1B         1       1.0        1.0
+                             DFN1C0        38       1.0       38.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1C0        17       1.0       17.0
+                           DFN1E1P0         1       1.0        1.0
+                             DFN1P0         5       1.0        5.0
+                                GND         1       0.0        0.0
+                                INV         4       1.0        4.0
+                               NOR2         4       1.0        4.0
+                              NOR2A        33       1.0       33.0
+                              NOR2B        10       1.0       10.0
+                               NOR3         9       1.0        9.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         5       1.0        5.0
+                                OA1         2       1.0        2.0
+                               OA1A         3       1.0        3.0
+                                OR2         9       1.0        9.0
+                               OR2A         9       1.0        9.0
+                               OR2B         2       1.0        2.0
+                                OR3         4       1.0        4.0
+                               OR3A         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         3       1.0        3.0
+                               XOR2         8       1.0        8.0
+                            
+                         TOTAL            200                198.0
 ----------------------------------------------------------------------
 Report for cell tristate_buf_2.netlist
   Original Cell name tristate_buf
@@ -189,14 +188,15 @@ Report for cell USB_INTERFACE.netlist
      Instance path:  U50_PATTERNS
                                           Cell usage:
                                cell       count     area    count*area
-                               AND2         1       1.0        1.0
-                                AO1        94       1.0       94.0
-                               AO1A        34       1.0       34.0
-                               AO1B         3       1.0        3.0
-                               AO1C         7       1.0        7.0
-                               AO1D         5       1.0        5.0
-                               AOI1        32       1.0       32.0
-                              AOI1B         4       1.0        4.0
+                               AND2         2       1.0        2.0
+                                AO1        83       1.0       83.0
+                               AO1A        32       1.0       32.0
+                               AO1B         4       1.0        4.0
+                               AO1C         9       1.0        9.0
+                               AO1D         6       1.0        6.0
+                               AOI1        17       1.0       17.0
+                              AOI1B         6       1.0        6.0
+                                AX1         1       1.0        1.0
                                AX1E         1       1.0        1.0
                         BIDIR_LVTTL         1       0.0        0.0
                     CLK60M_TO_40M_0         1      48.0       48.0
@@ -205,7 +205,7 @@ Report for cell USB_INTERFACE.netlist
                   CLK60M_TO_40M_4_1         1      41.0       41.0
                   CLK60M_TO_40M_4_2         1      41.0       41.0
                            DFI1E1P0         1       1.0        1.0
-                             DFN1C0        36       1.0       36.0
+                             DFN1C0        35       1.0       35.0
                            DFN1E0C0        88       1.0       88.0
                            DFN1E0P0        44       1.0       44.0
                            DFN1E1C0       379       1.0      379.0
@@ -234,35 +234,34 @@ Report for cell USB_INTERFACE.netlist
                   DPRT_512X9_SRAM_9         1       0.0        0.0
                                 GND         1       0.0        0.0
                                 MX2         3       1.0        3.0
-                               MX2A         1       1.0        1.0
-                               NOR2        41       1.0       41.0
-                              NOR2A        85       1.0       85.0
-                              NOR2B       166       1.0      166.0
-                               NOR3        16       1.0       16.0
-                              NOR3A        67       1.0       67.0
+                               NOR2        45       1.0       45.0
+                              NOR2A       102       1.0      102.0
+                              NOR2B       181       1.0      181.0
+                               NOR3        12       1.0       12.0
+                              NOR3A        48       1.0       48.0
                               NOR3B        65       1.0       65.0
-                              NOR3C        26       1.0       26.0
-                                OA1        14       1.0       14.0
-                               OA1A         4       1.0        4.0
-                               OA1B        31       1.0       31.0
-                               OA1C        11       1.0       11.0
+                              NOR3C        29       1.0       29.0
+                                OA1        23       1.0       23.0
+                               OA1A         3       1.0        3.0
+                               OA1B        23       1.0       23.0
+                               OA1C        21       1.0       21.0
                                OAI1         2       1.0        2.0
-                                OR2        62       1.0       62.0
-                               OR2A        30       1.0       30.0
-                               OR2B         9       1.0        9.0
-                                OR3        94       1.0       94.0
-                               OR3A        17       1.0       17.0
-                               OR3B         7       1.0        7.0
-                               OR3C         1       1.0        1.0
+                                OR2        60       1.0       60.0
+                               OR2A        28       1.0       28.0
+                               OR2B        13       1.0       13.0
+                                OR3        93       1.0       93.0
+                               OR3A        22       1.0       22.0
+                               OR3B         8       1.0        8.0
+                               OR3C         2       1.0        2.0
                                 VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
                                XA1A         1       1.0        1.0
                                XA1B         8       1.0        8.0
-                               XA1C         2       1.0        2.0
                               XNOR2         1       1.0        1.0
-                                XO1         1       1.0        1.0
+                               XO1A         1       1.0        1.0
                                XOR2         4       1.0        4.0
                             
-                         TOTAL           1534               1717.0
+                         TOTAL           1543               1726.0
 ----------------------------------------------------------------------
 Report for cell CLK60M_TO_40M_0.netlist
   Original Cell name CLK60M_TO_40M
@@ -2013,10 +2012,10 @@ Report for cell TOP_MASTER_DES320M.netlist
                 CCC_DYN_TRIPLE_160M         1       1.0        1.0
                                 GND         1       0.0        0.0
                      GP_CCC_SCONFIG         1     158.0      158.0
-                     MASTER_DES320M         1    1846.0     1846.0
+                     MASTER_DES320M         1    1841.0     1841.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL              5               2005.0
+                         TOTAL              5               2000.0
 ----------------------------------------------------------------------
 Report for cell MASTER_DES320M.netlist
      Instance path:  U_MASTER_DES.U13C_MASTER_DESER
@@ -2024,49 +2023,48 @@ Report for cell MASTER_DES320M.netlist
                                cell       count     area    count*area
                                AND2         3       1.0        3.0
                                AND3         4       1.0        4.0
-                                AO1        62       1.0       62.0
+                                AO1        64       1.0       64.0
                                AO13         3       1.0        3.0
                                AO16         1       1.0        1.0
                                AO1A        16       1.0       16.0
                                AO1B         3       1.0        3.0
                                AO1C         3       1.0        3.0
-                               AOI1         2       1.0        2.0
-                              AOI1B         1       1.0        1.0
-                               AX1E         3       1.0        3.0
+                               AOI1         4       1.0        4.0
                              DFN1C0       131       1.0      131.0
                            DFN1E0C0        37       1.0       37.0
                            DFN1E1C0       374       1.0      374.0
                            DFN1E1P0         1       1.0        1.0
-                             DFN1P0         5       1.0        5.0
+                             DFN1P0         4       1.0        4.0
                                 GND         1       0.0        0.0
                                 MX2       641       1.0      641.0
-                               MX2A         8       1.0        8.0
+                               MX2A         7       1.0        7.0
                                MX2B        26       1.0       26.0
-                               NOR2        31       1.0       31.0
-                              NOR2A        60       1.0       60.0
-                              NOR2B        62       1.0       62.0
-                               NOR3         5       1.0        5.0
+                               NOR2        28       1.0       28.0
+                              NOR2A        66       1.0       66.0
+                              NOR2B        67       1.0       67.0
+                               NOR3         2       1.0        2.0
                               NOR3A        28       1.0       28.0
-                              NOR3B        36       1.0       36.0
-                              NOR3C        57       1.0       57.0
+                              NOR3B        35       1.0       35.0
+                              NOR3C        56       1.0       56.0
                                 OA1         9       1.0        9.0
                                OA1A         2       1.0        2.0
                                OA1B         1       1.0        1.0
-                               OA1C        12       1.0       12.0
-                                OR2        26       1.0       26.0
-                               OR2A        47       1.0       47.0
-                               OR2B         8       1.0        8.0
-                                OR3        33       1.0       33.0
+                               OA1C         8       1.0        8.0
+                                OR2        21       1.0       21.0
+                               OR2A        44       1.0       44.0
+                               OR2B         6       1.0        6.0
+                                OR3        34       1.0       34.0
                                OR3A         7       1.0        7.0
                                OR3B         7       1.0        7.0
+                               OR3C         6       1.0        6.0
                                 VCC         1       0.0        0.0
                                XA1B        31       1.0       31.0
-                               XA1C        42       1.0       42.0
+                               XA1C        43       1.0       43.0
                               XNOR2         1       1.0        1.0
                               XNOR3         3       1.0        3.0
                                XOR2        14       1.0       14.0
                             
-                         TOTAL           1848               1846.0
+                         TOTAL           1843               1841.0
 ----------------------------------------------------------------------
 Report for cell CCC_DYN_TRIPLE_160M.netlist
      Instance path:  U_MASTER_DES.U13B_CCC
@@ -2086,7 +2084,6 @@ Report for cell GP_CCC_SCONFIG.netlist
                                cell       count     area    count*area
                                 AO1         2       1.0        2.0
                               AOI1B         1       1.0        1.0
-                               AX1C         1       1.0        1.0
                                AX1E         1       1.0        1.0
                              DFN1C0        30       1.0       30.0
                            DFN1E0C0         9       1.0        9.0
@@ -2098,18 +2095,18 @@ Report for cell GP_CCC_SCONFIG.netlist
                                MX2B         1       1.0        1.0
                                MX2C        11       1.0       11.0
                                NOR2         9       1.0        9.0
-                              NOR2A        12       1.0       12.0
-                              NOR2B        10       1.0       10.0
+                              NOR2A        11       1.0       11.0
+                              NOR2B        12       1.0       12.0
                                NOR3         2       1.0        2.0
                               NOR3A         2       1.0        2.0
                               NOR3B         2       1.0        2.0
-                              NOR3C         4       1.0        4.0
+                              NOR3C         3       1.0        3.0
                                OA1A         1       1.0        1.0
                                OA1C         1       1.0        1.0
                                 OR2        24       1.0       24.0
                                OR2A         2       1.0        2.0
                                 VCC         1       0.0        0.0
-                               XA1B         5       1.0        5.0
+                               XA1B         6       1.0        6.0
                             
                          TOTAL            160                158.0
 ----------------------------------------------------------------------
@@ -2216,20 +2213,6 @@ Report for cell CLK_FXD_40_160_A60M.netlist
                             
                          TOTAL              5                  0.0
 ----------------------------------------------------------------------
-Report for cell REF_CLK_DIV_GEN.netlist
-     Instance path:  U_GEN_REF_CLK
-                                          Cell usage:
-                               cell       count     area    count*area
-                             DFN1C0         4       1.0        4.0
-                                GND         1       0.0        0.0
-                               NOR2         1       1.0        1.0
-                               OA1C         1       1.0        1.0
-                                VCC         1       0.0        0.0
-                                XA1         1       1.0        1.0
-                               XOR2         1       1.0        1.0
-                            
-                         TOTAL             10                  8.0
-----------------------------------------------------------------------
 Report for cell EXEC_MODE_CNTL.netlist
      Instance path:  U_EXEC_MASTER
                                           Cell usage:
@@ -2238,7 +2221,7 @@ Report for cell EXEC_MODE_CNTL.netlist
                              CLKINT         1       0.0        0.0
                              DFI1C0         1       1.0        1.0
                              DFI1P0        26       1.0       26.0
-                             DFN1C0        48       1.0       48.0
+                             DFN1C0        49       1.0       49.0
                            DFN1E0C0        12       1.0       12.0
                                 GND         1       0.0        0.0
                               NOR2A         1       1.0        1.0
@@ -2260,7 +2243,7 @@ Report for cell EXEC_MODE_CNTL.netlist
                               XNOR2         1       1.0        1.0
                                XOR2         1       1.0        1.0
                             
-                         TOTAL            127                205.0
+                         TOTAL            128                206.0
 ----------------------------------------------------------------------
 Report for cell USB_EXEC.netlist
      Instance path:  U_EXEC_MASTER.USB_MASTER_EN
@@ -2306,7 +2289,7 @@ Report for cell BIDIR_LVDS_IO.netlist
                          TOTAL              4                  1.0
 ----------------------------------------------------------------------
 Report for cell LVDS_CLK_IN.netlist
-     Instance path:  U0_200M_BUF
+     Instance path:  U0_40M_BUF
                                           Cell usage:
                                cell       count     area    count*area
                                 GND         1       0.0        0.0

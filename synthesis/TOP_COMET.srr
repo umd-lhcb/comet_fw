@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: DESKTOP-PLJUDQE
 
-# Sun Dec 29 18:59:10 2019
+# Fri Jan 10 10:14:49 2020
 
 #Implementation: synthesis
 
@@ -17,15 +17,42 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 
 @N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
 @N:"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":45:7:45:15|Top entity is set to TOP_COMET.
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\CLK_FXD_40_160_A60M\CLK_FXD_40_160_A60M.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\SER320M.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\misc.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\SLAVE_DES320S.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\SYNC_DAT_SEL.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\LVDS_BUFOUT\LVDS_BUFOUT.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\LVDS_CLK_IN\LVDS_CLK_IN.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\REF_CLK_DIV_GEN.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\CCC_DYN_TRIPLE_160M\CCC_DYN_TRIPLE_160M.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\GP_CCC_SCONFIG.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\MASTER_DES320M.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\BIDIR_LVTTL\BIDIR_LVTTL.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\CLK60M_TO_40M.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\DPRT_512X9_SRAM\DPRT_512X9_SRAM.vhd changed - recompiling
+File Z:\windows\comet_fw\smartgen\tristate_buf\tristate_buf.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\ELINK_SLAVE.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhdl_sim\synplify.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd\synattr.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\ELINK_SLAVE_INV.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\EXEC_MODE_CNTL.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\TOP_MASTER_DES320M.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd changed - recompiling
+File Z:\windows\comet_fw\hdl\TOP_COMET.vhd changed - recompiling
 VHDL syntax check successful!
+File Z:\windows\comet_fw\hdl\TOP_COMET.vhd changed - recompiling
 @N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":45:7:45:15|Synthesizing work.top_comet.rtl.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_23 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_22 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_21 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Signal PATT_ELK_DAT_20 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":636:9:636:19|Signal ddr_q0_rise is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":637:9:637:19|Signal ddr_q1_fall is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Signal PATT_ELK_DAT_23 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Signal PATT_ELK_DAT_22 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Signal PATT_ELK_DAT_21 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Signal PATT_ELK_DAT_20 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":639:9:639:19|Signal ddr_q0_rise is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":640:9:640:19|Signal ddr_q1_fall is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd":38:7:38:17|Synthesizing work.gp_patt_gen.rtl_logic.
 @N: CD231 :"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd":79:28:79:29|Using onehot encoding for type gp_pg_sm_states. For example, enumeration init is mapped to "10000000000000".
 Post processing for work.gp_patt_gen.rtl_logic
@@ -232,38 +259,40 @@ Post processing for work.lvds_bufout.def_arch
 Post processing for proasic3e.inbuf_lvds.syn_black_box
 Post processing for work.lvds_clk_in.def_arch
 Post processing for work.top_comet.rtl
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 0 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 1 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 2 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 3 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 4 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 5 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 6 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
-@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":629:9:629:20|Bit 7 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 0 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 1 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 2 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 3 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 4 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 5 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 6 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 7 of signal PATT_ELK_DAT_23 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 0 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 1 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 2 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 3 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 4 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 5 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 6 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 7 of signal PATT_ELK_DAT_22 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 0 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 1 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 2 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 3 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 4 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 5 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 6 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 7 of signal PATT_ELK_DAT_21 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 0 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 1 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 2 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 3 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 4 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 5 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 6 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL252 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":632:9:632:20|Bit 7 of signal PATT_ELK_DAT_20 is floating -- simulation mismatch possible.
+@W: CL168 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":770:2:770:14|Removing instance U_GEN_REF_CLK because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":717:2:717:12|Removing instance U0_200M_BUF because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @N: CL201 :"Z:\windows\comet_fw\hdl\USB_EXEC.vhd":116:12:116:13|Trying to extract state machine for register TEST_SM.
 Extracted state machine for register TEST_SM
 State machine has 5 reachable states with original encodings of:
@@ -354,50 +383,51 @@ State machine has 11 reachable states with original encodings of:
    00100000000000
    01000000000000
    10000000000000
+@N: CL159 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":47:4:47:11|Input CLK200_P is unused.
+@N: CL159 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":48:4:48:11|Input CLK200_N is unused.
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 113MB peak: 126MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 113MB peak: 126MB)
 
-Process took 0h:00m:11s realtime, 0h:00m:09s cputime
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Sun Dec 29 18:59:21 2019
+# Fri Jan 10 10:14:57 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Dec 29 18:59:23 2019
+# Fri Jan 10 10:14:58 2020
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:10s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:12s realtime, 0h:00m:10s cputime
+Process took 0h:00m:08s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Sun Dec 29 18:59:23 2019
+# Fri Jan 10 10:14:58 2020
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
+File Z:\windows\comet_fw\synthesis\synwork\TOP_COMET_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 74MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 74MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Dec 29 18:59:26 2019
+# Fri Jan 10 10:15:01 2020
 
 ###########################################################]
-Pre-mapping Report
-
-# Sun Dec 29 18:59:27 2019
+# Fri Jan 10 10:15:03 2020
 
 Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -446,7 +476,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 @N: BN362 :"z:\windows\comet_fw\hdl\slave_des320s.vhd":144:12:144:13|Removing sequential instance Q[14:0] (in view: work.SLAVE_DES320S_1_20(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"z:\windows\comet_fw\hdl\slave_des320s.vhd":144:12:144:13|Removing sequential instance Q[14:0] (in view: work.SLAVE_DES320S_1_21(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 122MB peak: 124MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 124MB)
 
 
 
@@ -461,7 +491,7 @@ CCC_160M_ADJ_ALIAS     160.0 MHz     6.250         declared     default_clkgroup
 CCC_160M_FXD           160.0 MHz     6.250         declared     default_clkgroup     653  
 CLK60MHZ               60.0 MHz      16.665        declared     group_39_31          618  
 CLK_40M_GL             40.0 MHz      25.000        declared     default_clkgroup     1847 
-Y_INFERRED             200.0 MHz     5.000         declared     default_clkgroup     4    
+Y_INFERRED             200.0 MHz     5.000         declared     default_clkgroup     0    
 ==========================================================================================
 
 Finished Pre Mapping Phase.
@@ -577,12 +607,10 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 40MB peak: 131MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Sun Dec 29 18:59:30 2019
+# Fri Jan 10 10:15:06 2020
 
 ###########################################################]
-Map & Optimize Report
-
-# Sun Dec 29 18:59:32 2019
+# Fri Jan 10 10:15:07 2020
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -785,41 +813,41 @@ original code -> new code
 Starting factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 129MB peak: 130MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 145MB peak: 149MB)
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 145MB peak: 149MB)
 
-@W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK23_CH.U_ELK1_SERDAT_SOURCE.SERDAT[0] because it is equivalent to instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK22_CH.U_ELK1_SERDAT_SOURCE.SERDAT[0] because it is equivalent to instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[0] because it is equivalent to instance U_ELK20_CH.U_ELK1_SERDAT_SOURCE.SERDAT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK20_CH.U_ELK1_SERDAT_SOURCE.SERDAT[0] because it is equivalent to instance U_ELK19_CH.U_ELK1_SERDAT_SOURCE.SERDAT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK23_CH.U_ELK1_SERDAT_SOURCE.SERDAT[1] because it is equivalent to instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK22_CH.U_ELK1_SERDAT_SOURCE.SERDAT[1] because it is equivalent to instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[1] because it is equivalent to instance U_ELK20_CH.U_ELK1_SERDAT_SOURCE.SERDAT[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK20_CH.U_ELK1_SERDAT_SOURCE.SERDAT[1] because it is equivalent to instance U_ELK19_CH.U_ELK1_SERDAT_SOURCE.SERDAT[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK23_CH.U_ELK1_SERDAT_SOURCE.SERDAT[2] because it is equivalent to instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK22_CH.U_ELK1_SERDAT_SOURCE.SERDAT[2] because it is equivalent to instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[2] because it is equivalent to instance U_ELK20_CH.U_ELK1_SERDAT_SOURCE.SERDAT[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK20_CH.U_ELK1_SERDAT_SOURCE.SERDAT[2] because it is equivalent to instance U_ELK19_CH.U_ELK1_SERDAT_SOURCE.SERDAT[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK23_CH.U_ELK1_SERDAT_SOURCE.SERDAT[3] because it is equivalent to instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"z:\windows\comet_fw\hdl\sync_dat_sel.vhd":48:12:48:13|Removing sequential instance U_ELK22_CH.U_ELK1_SERDAT_SOURCE.SERDAT[3] because it is equivalent to instance U_ELK21_CH.U_ELK1_SERDAT_SOURCE.SERDAT[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 140MB peak: 149MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 140MB peak: 149MB)
-
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 143MB peak: 167MB)
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 140MB peak: 149MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 144MB peak: 167MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 140MB peak: 149MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 144MB peak: 167MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 142MB peak: 170MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 143MB peak: 167MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 144MB peak: 170MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 144MB peak: 167MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 144MB peak: 170MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 197MB peak: 200MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 143MB peak: 170MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 144MB peak: 170MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 203MB peak: 206MB)
 
 
 High Fanout Net Report
@@ -833,40 +861,39 @@ U_MASTER_DES.U13C_MASTER_DESER.BIT_OS_SEL[2] / Q                          215
 U200B_ELINKS.ADDR_POINTER[2] / Q                                          25                                
 U200B_ELINKS.ADDR_POINTER[4] / Q                                          25                                
 U200B_ELINKS.ADDR_POINTER[6] / Q                                          25                                
-U200A_TFC.GP_PG_SM[10] / Q                                                29                                
-U50_PATTERNS.USB_RXF_B / Q                                                25                                
+U200B_ELINKS.GP_PG_SM[10] / Q                                             29                                
+U50_PATTERNS.USB_RXF_B / Q                                                26                                
 U50_PATTERNS.SM_BANK_SEL[20] / Q                                          43                                
-U50_PATTERNS.SM_BANK_SEL[21] / Q                                          31                                
-U50_PATTERNS.REG_STATE[0] / Q                                             28                                
+U50_PATTERNS.SM_BANK_SEL[21] / Q                                          32                                
 U50_PATTERNS.REG_STATE[1] / Q                                             33                                
-U50_PATTERNS.REG_STATE[2] / Q                                             44                                
-U50_PATTERNS.REG_STATE[3] / Q                                             37                                
-U50_PATTERNS.REG_STATE[4] / Q                                             36                                
+U50_PATTERNS.REG_STATE[2] / Q                                             40                                
+U50_PATTERNS.REG_STATE[3] / Q                                             30                                
+U50_PATTERNS.REG_STATE[4] / Q                                             35                                
 U50_PATTERNS.REG_STATE[5] / Q                                             32                                
 U_MASTER_DES.U13C_MASTER_DESER.INDEX_CNT[0] / Q                           142                               
 U_MASTER_DES.U13C_MASTER_DESER.INDEX_CNT[2] / Q                           40                                
 U_MASTER_DES.U13C_MASTER_DESER.INDEX_CNT[3] / Q                           75                                
-U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[1] / Q                            39                                
+U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[1] / Q                            43                                
 U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[2] / Q                            55                                
-U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[3] / Q                            91                                
-U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[4] / Q                            162                               
-U_MASTER_DES.U13C_MASTER_DESER.DES_SM[8] / Q                              45                                
+U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[3] / Q                            81                                
+U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[4] / Q                            152                               
+U_MASTER_DES.U13C_MASTER_DESER.DES_SM[8] / Q                              36                                
 U_MASTER_DES.U13C_MASTER_DESER.DES_SM[6] / Q                              134                               
 U_MASTER_DES.U13A_ADJ_160M.SHIFT_SM[4] / Q                                31                                
-DEV_RST_B_pad / Y                                                         49 : 49 asynchronous set/reset    
+DEV_RST_B_pad / Y                                                         45 : 45 asynchronous set/reset    
 U_EXEC_MASTER.MPOR_B / Q                                                  833 : 832 asynchronous set/reset  
 U_EXEC_MASTER.USB_MASTER_EN.USB_EN_60M_2S / Q                             574 : 567 asynchronous set/reset  
 U50_PATTERNS.U4E_REGCROSS.LOCAL_REG_VAL[1] / Q                            170                               
-U50_PATTERNS.REG_STATE_s0_0_a2_0_a5 / Y                                   27                                
-U50_PATTERNS.N_1566_i_i_o5 / Y                                            26                                
 U50_PATTERNS.REG_STATE_s11_0_a2 / Y                                       40                                
+U50_PATTERNS.REG_STATE_s0_0_a2_0_a5 / Y                                   26                                
+U50_PATTERNS.N_1566_i_i_o5 / Y                                            26                                
 U_MASTER_DES.U13C_MASTER_DESER.N_5150_i_0_o3 / Y                          80                                
-U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_i_a2[1] / Y     32                                
-U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_31_18_i_o2[2] / Y     33                                
 U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_3_0_a2 / Y      32                                
+U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_31_18_i_o2[2] / Y     33                                
+U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_i_a2[1] / Y     32                                
+U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_0_o3[0] / Y     32                                
 U_MASTER_DES.U13C_MASTER_DESER.un1_DES_SM_1034_i_a3 / Y                   32                                
 U_MASTER_DES.U13C_MASTER_DESER.un1_DES_SM_1034_i_o2 / Y                   31                                
-U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_0_o3[0] / Y     32                                
 U_MASTER_DES.U13C_MASTER_DESER.N_SEQCNTS_10[4] / Y                        31                                
 U_MASTER_DES.U13C_MASTER_DESER.N_SEQCNTS_10[3] / Y                        31                                
 U_MASTER_DES.U13C_MASTER_DESER.N_SEQCNTS_10[2] / Y                        31                                
@@ -877,9 +904,9 @@ U_EXEC_MASTER.MPOR_SALT_B / QN                                            496 : 
 DCB_SALT_SEL_c_i / Y                                                      25                                
 ============================================================================================================
 
-@N: FP130 |Promoting Net MASTER_DCB_POR_B_i_0_i on CLKINT  I_267 
+@N: FP130 |Promoting Net MASTER_DCB_POR_B_i_0_i on CLKINT  I_270 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 197MB peak: 200MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 203MB peak: 206MB)
 
 Replicating Combinational Instance DCB_SALT_SEL_c_i, fanout 25 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_SALT_B, fanout 496 segments 21
@@ -888,68 +915,69 @@ Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.N_SEQCNTS_10[1
 Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.N_SEQCNTS_10[2], fanout 31 segments 2
 Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.N_SEQCNTS_10[3], fanout 31 segments 2
 Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.N_SEQCNTS_10[4], fanout 31 segments 2
-Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_0_o3[0], fanout 32 segments 2
 Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.un1_DES_SM_1034_i_o2, fanout 31 segments 2
 Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.un1_DES_SM_1034_i_a3, fanout 32 segments 2
-Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_3_0_a2, fanout 32 segments 2
-Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_31_18_i_o2[2], fanout 34 segments 2
+Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_0_o3[0], fanout 32 segments 2
 Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_i_a2[1], fanout 32 segments 2
+Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_31_18_i_o2[2], fanout 33 segments 2
+Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.SYNC_SM.N_BIT_OS_VAL_14_18_3_0_a2, fanout 32 segments 2
 Replicating Combinational Instance U_MASTER_DES.U13C_MASTER_DESER.N_5150_i_0_o3, fanout 80 segments 4
-Replicating Combinational Instance U50_PATTERNS.REG_STATE_s11_0_a2, fanout 40 segments 2
 Replicating Combinational Instance U50_PATTERNS.N_1566_i_i_o5, fanout 26 segments 2
-Replicating Combinational Instance U50_PATTERNS.REG_STATE_s0_0_a2_0_a5, fanout 27 segments 2
+Replicating Combinational Instance U50_PATTERNS.REG_STATE_s0_0_a2_0_a5, fanout 26 segments 2
+Replicating Combinational Instance U50_PATTERNS.REG_STATE_s11_0_a2, fanout 40 segments 2
 Replicating Sequential Instance U50_PATTERNS.U4E_REGCROSS.LOCAL_REG_VAL[1], fanout 170 segments 8
 Replicating Sequential Instance U_EXEC_MASTER.USB_MASTER_EN.USB_EN_60M_2S, fanout 574 segments 24
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_B, fanout 863 segments 36
-Buffering DEV_RST_B_c, fanout 49 segments 3
+Buffering DEV_RST_B_c, fanout 45 segments 2
 Replicating Sequential Instance U_MASTER_DES.U13A_ADJ_160M.SHIFT_SM[4], fanout 31 segments 2
 Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.DES_SM[6], fanout 138 segments 6
-Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.DES_SM[8], fanout 54 segments 3
-Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[4], fanout 162 segments 7
-Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[3], fanout 91 segments 4
+Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.DES_SM[8], fanout 45 segments 2
+Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[4], fanout 152 segments 7
+Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[3], fanout 81 segments 4
 Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[2], fanout 55 segments 3
-Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[1], fanout 39 segments 2
+Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.CLKPHASE[1], fanout 43 segments 2
 Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.INDEX_CNT[3], fanout 75 segments 4
 Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.INDEX_CNT[2], fanout 40 segments 2
 Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.INDEX_CNT[0], fanout 142 segments 6
 Replicating Sequential Instance U50_PATTERNS.REG_STATE[5], fanout 32 segments 2
-Replicating Sequential Instance U50_PATTERNS.REG_STATE[4], fanout 37 segments 2
-Replicating Sequential Instance U50_PATTERNS.REG_STATE[3], fanout 38 segments 2
-Replicating Sequential Instance U50_PATTERNS.REG_STATE[2], fanout 44 segments 2
+Replicating Sequential Instance U50_PATTERNS.REG_STATE[4], fanout 36 segments 2
+Replicating Sequential Instance U50_PATTERNS.REG_STATE[3], fanout 31 segments 2
+Replicating Sequential Instance U50_PATTERNS.REG_STATE[2], fanout 40 segments 2
 Replicating Sequential Instance U50_PATTERNS.REG_STATE[1], fanout 33 segments 2
-Replicating Sequential Instance U50_PATTERNS.REG_STATE[0], fanout 29 segments 2
-Replicating Sequential Instance U50_PATTERNS.SM_BANK_SEL[21], fanout 31 segments 2
+Replicating Sequential Instance U50_PATTERNS.SM_BANK_SEL[21], fanout 32 segments 2
 Replicating Sequential Instance U50_PATTERNS.SM_BANK_SEL[20], fanout 43 segments 2
-Replicating Sequential Instance U50_PATTERNS.USB_RXF_B, fanout 25 segments 2
-Replicating Sequential Instance U200A_TFC.GP_PG_SM[10], fanout 29 segments 2
+Replicating Sequential Instance U50_PATTERNS.USB_RXF_B, fanout 26 segments 2
+Replicating Sequential Instance U200B_ELINKS.GP_PG_SM[10], fanout 29 segments 2
 Replicating Sequential Instance U200B_ELINKS.ADDR_POINTER[6], fanout 25 segments 2
 Replicating Sequential Instance U200B_ELINKS.ADDR_POINTER[4], fanout 25 segments 2
 Replicating Sequential Instance U200B_ELINKS.ADDR_POINTER[2], fanout 25 segments 2
 Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.BIT_OS_SEL[2], fanout 215 segments 9
 Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.BIT_OS_SEL[1], fanout 178 segments 8
 Replicating Sequential Instance U_MASTER_DES.U13C_MASTER_DESER.BIT_OS_SEL[0], fanout 160 segments 7
+Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_34, fanout 25 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_32, fanout 26 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_31, fanout 25 segments 2
-Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_27, fanout 53 segments 3
+Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_27, fanout 51 segments 3
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_24, fanout 36 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_22, fanout 25 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_17, fanout 28 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_16, fanout 29 segments 2
-Replicating Sequential Instance U_EXEC_MASTER.USB_MASTER_EN.USB_EN_60M_2S_22, fanout 30 segments 2
+Replicating Sequential Instance U_EXEC_MASTER.USB_MASTER_EN.USB_EN_60M_2S_22, fanout 29 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.USB_MASTER_EN.USB_EN_60M_2S_2, fanout 25 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.USB_MASTER_EN.USB_EN_60M_2S_1, fanout 25 segments 2
-Replicating Sequential Instance U_EXEC_MASTER.SYNC_BRD_RST_BI, fanout 80 segments 4
+Replicating Sequential Instance U_EXEC_MASTER.SYNC_BRD_RST_BI, fanout 81 segments 4
 Buffering DCB_SALT_SEL_c, fanout 25 segments 2
-Replicating Combinational Instance U_EXEC_MASTER.un1_CCC_1_LOCK_STAT_1D_i_i_a2_0, fanout 51 segments 3
+Replicating Combinational Instance U_EXEC_MASTER.un1_CCC_1_LOCK_STAT_1D_i_i_a2_0, fanout 52 segments 3
 Replicating Sequential Instance U_EXEC_MASTER.MPOR_B_0, fanout 27 segments 2
+Buffering DEV_RST_B_c, fanout 26 segments 2
 Replicating Sequential Instance U_EXEC_MASTER.USB_MASTER_EN.USB_EN_60M_1S, fanout 27 segments 2
 
 Added 3 Buffers
-Added 184 Cells via replication
-	Added 164 Sequential Cells via replication
+Added 183 Cells via replication
+	Added 163 Sequential Cells via replication
 	Added 20 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:12s; Memory used current: 198MB peak: 200MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 204MB peak: 206MB)
 
 
 
@@ -959,7 +987,7 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-6 non-gated/non-generated clock tree(s) driving 3537 clock pin(s) of sequential element(s)
+5 non-gated/non-generated clock tree(s) driving 3532 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
@@ -968,39 +996,37 @@ Clock Tree ID     Driving Element               Drive Element Type              
 -------------------------------------------------------------------------------------------------------------------------------------
 @K:CKID0001       CLK_40M_GL                    clock definition on keepbuf       1837       TFC_SYNC_DET                            
 @K:CKID0002       CCC_160M_FXD                  clock definition on keepbuf       656        U_ELK0_CMD_TX.SER_CMD_WORD_R[3]         
-@K:CKID0003       CLK60MHZ                      clock definition on keepbuf       618        U50_PATTERNS.RD_USB_ADBUS[7]            
+@K:CKID0003       CLK60MHZ                      clock definition on keepbuf       617        U50_PATTERNS.RD_USB_ADBUS[7]            
 @K:CKID0004       U_MASTER_DES                  clock definition on hierarchy     403        TFC_IN_F                                
 @K:CKID0005       U_MASTER_DES.CCC_160M_ADJ     clock definition on keepbuf       19         U_MASTER_DES.U13C_MASTER_DESER.ADJ_Q[14]
-@K:CKID0006       U0_200M_BUF                   clock definition on hierarchy     4          U_GEN_REF_CLK.GEN_40M_REFCNT[2]         
 =====================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 186MB peak: 200MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 192MB peak: 206MB)
 
 Writing Analyst data base Z:\windows\comet_fw\synthesis\synwork\TOP_COMET_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 195MB peak: 200MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 201MB peak: 206MB)
 
 Writing EDIF Netlist and constraint files
 L-2016.09M-SP1-5
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:16s; Memory used current: 197MB peak: 200MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 202MB peak: 206MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:16s; Memory used current: 195MB peak: 200MB)
+Start final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:13s; Memory used current: 200MB peak: 206MB)
 
 @N: MT615 |Found clock CLK60MHZ with period 16.66ns 
 @N: MT615 |Found clock CLK_40M_GL with period 25.00ns 
 @N: MT615 |Found clock CCC_160M_FXD with period 6.25ns 
 @N: MT615 |Found clock CCC_160M_ADJ_ALIAS with period 6.25ns 
-@N: MT615 |Found clock Y_INFERRED with period 5.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Dec 29 18:59:50 2019
+# Timing Report written on Fri Jan 10 10:15:22 2020
 #
 
 
@@ -1023,18 +1049,18 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 1.283
+Worst slack in design: -2.124
 
-                       Requested     Estimated     Requested     Estimated               Clock        Clock           
-Starting Clock         Frequency     Frequency     Period        Period        Slack     Type         Group           
-----------------------------------------------------------------------------------------------------------------------
-CCC_160M_ADJ_ALIAS     160.0 MHz     394.9 MHz     6.250         2.532         3.718     declared     default_clkgroup
-CCC_160M_FXD           160.0 MHz     264.2 MHz     6.250         3.785         2.465     declared     default_clkgroup
-CLK60MHZ               60.0 MHz      66.3 MHz      16.665        15.085        1.580     declared     group_39_31     
-CLK_40M_GL             40.0 MHz      57.4 MHz      25.000        17.411        2.712     declared     default_clkgroup
-Y_INFERRED             200.0 MHz     269.0 MHz     5.000         3.717         1.283     declared     default_clkgroup
-======================================================================================================================
+                       Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group           
+-----------------------------------------------------------------------------------------------------------------------
+CCC_160M_ADJ_ALIAS     160.0 MHz     394.9 MHz     6.250         2.532         3.718      declared     default_clkgroup
+CCC_160M_FXD           160.0 MHz     264.2 MHz     6.250         3.785         2.465      declared     default_clkgroup
+CLK60MHZ               60.0 MHz      53.2 MHz      16.665        18.789        -2.124     declared     group_39_31     
+CLK_40M_GL             40.0 MHz      57.6 MHz      25.000        17.353        2.712      declared     default_clkgroup
+=======================================================================================================================
 @W: MT548 :"z:/windows/comet_fw/constraint/top_basic_a.sdc":24:0:24:0|Source for clock CCC_160M_ADJ not found in netlist. Run the constraint checker to verify if constraints are applied correctly.
+@W: MT548 :"z:/windows/comet_fw/constraint/top_basic_a.sdc":27:0:27:0|Source for clock Y_INFERRED not found in netlist. Run the constraint checker to verify if constraints are applied correctly.
 
 
 
@@ -1043,21 +1069,20 @@ Y_INFERRED             200.0 MHz     269.0 MHz     5.000         3.717         1
 Clock Relationships
 *******************
 
-Clocks                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
-------------------------------------------------------------------------------------------------------------------------------
-Starting            Ending              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
-------------------------------------------------------------------------------------------------------------------------------
-CLK_40M_GL          CLK_40M_GL          |  25.000      7.589  |  No paths    -      |  12.500      7.966  |  No paths    -    
-CLK_40M_GL          CCC_160M_FXD        |  6.250       2.712  |  No paths    -      |  No paths    -      |  No paths    -    
-CLK_40M_GL          CLK60MHZ            |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
-CCC_160M_FXD        CLK_40M_GL          |  6.250       4.618  |  No paths    -      |  No paths    -      |  No paths    -    
-CCC_160M_FXD        CCC_160M_FXD        |  6.250       2.465  |  No paths    -      |  No paths    -      |  No paths    -    
-CLK60MHZ            CLK_40M_GL          |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
-CLK60MHZ            CLK60MHZ            |  16.665      1.580  |  No paths    -      |  No paths    -      |  No paths    -    
-CCC_160M_ADJ_ALIAS  CCC_160M_FXD        |  6.250       4.554  |  No paths    -      |  No paths    -      |  No paths    -    
-CCC_160M_ADJ_ALIAS  CCC_160M_ADJ_ALIAS  |  6.250       3.718  |  No paths    -      |  No paths    -      |  No paths    -    
-Y_INFERRED          Y_INFERRED          |  5.000       1.283  |  No paths    -      |  No paths    -      |  No paths    -    
-==============================================================================================================================
+Clocks                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------
+CLK_40M_GL          CLK_40M_GL          |  25.000      7.647   |  No paths    -      |  12.500      7.966  |  No paths    -    
+CLK_40M_GL          CCC_160M_FXD        |  6.250       2.712   |  No paths    -      |  No paths    -      |  No paths    -    
+CLK_40M_GL          CLK60MHZ            |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+CCC_160M_FXD        CLK_40M_GL          |  6.250       4.618   |  No paths    -      |  No paths    -      |  No paths    -    
+CCC_160M_FXD        CCC_160M_FXD        |  6.250       2.465   |  No paths    -      |  No paths    -      |  No paths    -    
+CLK60MHZ            CLK_40M_GL          |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+CLK60MHZ            CLK60MHZ            |  16.665      -2.124  |  No paths    -      |  No paths    -      |  No paths    -    
+CCC_160M_ADJ_ALIAS  CCC_160M_FXD        |  6.250       4.554   |  No paths    -      |  No paths    -      |  No paths    -    
+CCC_160M_ADJ_ALIAS  CCC_160M_ADJ_ALIAS  |  6.250       3.718   |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -1245,41 +1270,41 @@ Detailed Report for Clock: CLK60MHZ
 Starting Points with Worst Slack
 ********************************
 
-                                 Starting                                               Arrival          
-Instance                         Reference     Type         Pin     Net                 Time        Slack
-                                 Clock                                                                   
----------------------------------------------------------------------------------------------------------
-U50_PATTERNS.REG_STATE[2]        CLK60MHZ      DFN1C0       Q       REG_STATE[2]        0.580       1.580
-U50_PATTERNS.REG_STATE[3]        CLK60MHZ      DFN1C0       Q       REG_STATE[3]        0.737       1.702
-U50_PATTERNS.REG_STATE[5]        CLK60MHZ      DFN1C0       Q       REG_STATE[5]        0.737       1.745
-U50_PATTERNS.SM_BANK_SEL[18]     CLK60MHZ      DFN1E1C0     Q       SM_BANK_SEL[18]     0.737       1.746
-U50_PATTERNS.REG_STATE_0[4]      CLK60MHZ      DFN1C0       Q       REG_STATE_0[4]      0.737       1.802
-U50_PATTERNS.REG_STATE[1]        CLK60MHZ      DFN1C0       Q       REG_STATE[1]        0.737       1.884
-U50_PATTERNS.SM_BANK_SEL[19]     CLK60MHZ      DFN1E1C0     Q       SM_BANK_SEL[19]     0.737       1.886
-U50_PATTERNS.REG_STATE_0[1]      CLK60MHZ      DFN1C0       Q       REG_STATE_0[1]      0.737       1.929
-U50_PATTERNS.REG_STATE[0]        CLK60MHZ      DFN1C0       Q       REG_STATE[0]        0.580       2.058
-U50_PATTERNS.REG_STATE_0[3]      CLK60MHZ      DFN1C0       Q       REG_STATE_0[3]      0.737       2.064
-=========================================================================================================
+                                 Starting                                               Arrival           
+Instance                         Reference     Type         Pin     Net                 Time        Slack 
+                                 Clock                                                                    
+----------------------------------------------------------------------------------------------------------
+U50_PATTERNS.REG_STATE[3]        CLK60MHZ      DFN1C0       Q       REG_STATE[3]        0.737       -2.124
+U50_PATTERNS.REG_STATE[1]        CLK60MHZ      DFN1C0       Q       REG_STATE[1]        0.737       -2.030
+U50_PATTERNS.REG_STATE[4]        CLK60MHZ      DFN1C0       Q       REG_STATE[4]        0.737       -0.539
+U50_PATTERNS.REG_STATE[0]        CLK60MHZ      DFN1C0       Q       REG_STATE[0]        0.580       -0.156
+U50_PATTERNS.REG_STATE[2]        CLK60MHZ      DFN1C0       Q       REG_STATE[2]        0.580       -0.129
+U50_PATTERNS.RD_USB_ADBUS[2]     CLK60MHZ      DFN1C0       Q       RD_USB_ADBUS[2]     0.737       1.915 
+U50_PATTERNS.REG_STATE[5]        CLK60MHZ      DFN1C0       Q       REG_STATE[5]        0.737       1.917 
+U50_PATTERNS.RD_USB_ADBUS[3]     CLK60MHZ      DFN1C0       Q       RD_USB_ADBUS[3]     0.737       2.421 
+U50_PATTERNS.SI_CNT[0]           CLK60MHZ      DFN1E1C0     Q       SI_CNT[0]           0.737       2.729 
+U50_PATTERNS.REG_STATE_0[5]      CLK60MHZ      DFN1C0       Q       REG_STATE_0[5]      0.737       2.768 
+==========================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                   Starting                                              Required          
-Instance                           Reference     Type         Pin     Net                Time         Slack
-                                   Clock                                                                   
------------------------------------------------------------------------------------------------------------
-U50_PATTERNS.ELINK_ADDRA_15[0]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[0]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_15[1]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[1]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_15[2]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[2]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_15[3]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[3]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_15[4]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[4]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_15[5]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[5]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_15[6]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[6]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_15[7]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[7]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_16[0]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[0]     16.092       1.580
-U50_PATTERNS.ELINK_ADDRA_16[1]     CLK60MHZ      DFN1E0C0     D       N_TFC_ADDRA[1]     16.092       1.580
-===========================================================================================================
+                                 Starting                                                   Required           
+Instance                         Reference     Type         Pin     Net                     Time         Slack 
+                                 Clock                                                                         
+---------------------------------------------------------------------------------------------------------------
+U50_PATTERNS.WR_XFER_TYPE[5]     CLK60MHZ      DFN1C0       D       WR_XFER_TYPE_RNO[5]     16.092       -2.124
+U50_PATTERNS.WR_XFER_TYPE[2]     CLK60MHZ      DFN1C0       D       WR_XFER_TYPE_RNO[2]     16.092       -1.879
+U50_PATTERNS.WR_XFER_TYPE[3]     CLK60MHZ      DFN1C0       D       WR_XFER_TYPE_RNO[3]     16.126       -1.761
+U50_PATTERNS.WR_XFER_TYPE[4]     CLK60MHZ      DFN1C0       D       WR_XFER_TYPE_RNO[4]     16.092       -1.297
+U50_PATTERNS.SM_BANK_SEL[9]      CLK60MHZ      DFN1E1C0     D       N_1847                  16.126       -0.958
+U50_PATTERNS.SM_BANK_SEL[10]     CLK60MHZ      DFN1E1C0     D       N_1839                  16.126       -0.958
+U50_PATTERNS.SM_BANK_SEL[11]     CLK60MHZ      DFN1E1C0     D       N_1846                  16.126       -0.958
+U50_PATTERNS.SM_BANK_SEL[8]      CLK60MHZ      DFN1E1C0     D       N_1836                  16.126       -0.956
+U50_PATTERNS.SM_BANK_SEL[4]      CLK60MHZ      DFN1E1C0     D       N_1832                  16.126       -0.916
+U50_PATTERNS.SM_BANK_SEL[5]      CLK60MHZ      DFN1E1C0     D       N_1845                  16.126       -0.916
+===============================================================================================================
 
 
 
@@ -1293,45 +1318,264 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         16.092
 
-    - Propagation time:                      14.512
+    - Propagation time:                      18.215
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 1.580
+    = Slack (critical) :                     -2.124
 
-    Number of logic level(s):                7
-    Starting point:                          U50_PATTERNS.REG_STATE[2] / Q
-    Ending point:                            U50_PATTERNS.ELINK_ADDRA_15[0] / D
+    Number of logic level(s):                9
+    Starting point:                          U50_PATTERNS.REG_STATE[3] / Q
+    Ending point:                            U50_PATTERNS.WR_XFER_TYPE[5] / D
     The start point is clocked by            CLK60MHZ [rising] on pin CLK
     The end   point is clocked by            CLK60MHZ [rising] on pin CLK
 
 Instance / Net                                       Pin      Pin               Arrival     No. of    
-Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
 ------------------------------------------------------------------------------------------------------
-U50_PATTERNS.REG_STATE[2]               DFN1C0       Q        Out     0.580     0.580       -         
-REG_STATE[2]                            Net          -        -       2.409     -           22        
-U50_PATTERNS.REG_STATE_RNIUFQN_1[0]     NOR2         B        In      -         2.989       -         
-U50_PATTERNS.REG_STATE_RNIUFQN_1[0]     NOR2         Y        Out     0.514     3.504       -         
-N_1710_i_0                              Net          -        -       1.423     -           6         
-U50_PATTERNS.REG_STATE_RNI1SN31[5]      NOR2B        A        In      -         4.927       -         
-U50_PATTERNS.REG_STATE_RNI1SN31[5]      NOR2B        Y        Out     0.514     5.441       -         
-N_427                                   Net          -        -       0.322     -           1         
-U50_PATTERNS.REG_STATE_RNIPNS13[5]      AO1A         C        In      -         5.763       -         
-U50_PATTERNS.REG_STATE_RNIPNS13[5]      AO1A         Y        Out     0.633     6.396       -         
-N_254                                   Net          -        -       0.322     -           1         
-U50_PATTERNS.REG_STATE_RNIOVPD3[1]      NOR2A        A        In      -         6.717       -         
-U50_PATTERNS.REG_STATE_RNIOVPD3[1]      NOR2A        Y        Out     0.627     7.345       -         
-N_1704                                  Net          -        -       0.806     -           3         
-U50_PATTERNS.ELK_N_ACTIVE_RNI412H3      NOR2B        B        In      -         8.151       -         
-U50_PATTERNS.ELK_N_ACTIVE_RNI412H3      NOR2B        Y        Out     0.627     8.778       -         
-N_429                                   Net          -        -       0.322     -           1         
-U50_PATTERNS.USB_TXE_B_RNIDI8PA         OR3          C        In      -         9.100       -         
-U50_PATTERNS.USB_TXE_B_RNIDI8PA         OR3          Y        Out     0.751     9.851       -         
-N_261                                   Net          -        -       1.639     -           8         
-U50_PATTERNS.REG_ADDR_RNI52SAB[0]       NOR3B        A        In      -         11.490      -         
-U50_PATTERNS.REG_ADDR_RNI52SAB[0]       NOR3B        Y        Out     0.641     12.131      -         
-N_TFC_ADDRA[0]                          Net          -        -       2.381     -           21        
-U50_PATTERNS.ELINK_ADDRA_15[0]          DFN1E0C0     D        In      -         14.512      -         
+U50_PATTERNS.REG_STATE[3]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[3]                              Net        -        -       2.127     -           15        
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       B        In      -         2.864       -         
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       Y        Out     0.646     3.511       -         
+N_1690_i                                  Net        -        -       1.184     -           4         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       A        In      -         4.694       -         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       Y        Out     0.537     5.231       -         
+N_1691                                    Net        -        -       1.776     -           11        
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        A        In      -         7.008       -         
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        Y        Out     0.507     7.515       -         
+N_1694                                    Net        -        -       1.994     -           12        
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        B        In      -         9.508       -         
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        Y        Out     0.646     10.155      -         
+N_1697                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       B        In      -         11.794      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       Y        Out     0.646     12.440      -         
+N_1702                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIOEOG3[7]     OR2        A        In      -         14.079      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIOEOG3[7]     OR2        Y        Out     0.507     14.587      -         
+N_1717                                    Net        -        -       0.806     -           3         
+U50_PATTERNS.RD_USB_ADBUS_RNI42PD4[4]     OR2        B        In      -         15.393      -         
+U50_PATTERNS.RD_USB_ADBUS_RNI42PD4[4]     OR2        Y        Out     0.646     16.040      -         
+N_1763                                    Net        -        -       0.386     -           2         
+U50_PATTERNS.WR_XFER_TYPE_RNO_0[5]        NOR2B      A        In      -         16.425      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO_0[5]        NOR2B      Y        Out     0.514     16.940      -         
+N_1828                                    Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE_RNO[5]          AO1A       C        In      -         17.261      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO[5]          AO1A       Y        Out     0.633     17.894      -         
+WR_XFER_TYPE_RNO[5]                       Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE[5]              DFN1C0     D        In      -         18.215      -         
 ======================================================================================================
-Total path delay (propagation time + setup) of 15.085 is 5.462(36.2%) logic and 9.623(63.8%) route.
+Total path delay (propagation time + setup) of 18.789 is 6.595(35.1%) logic and 12.194(64.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      16.665
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.092
+
+    - Propagation time:                      18.121
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.030
+
+    Number of logic level(s):                9
+    Starting point:                          U50_PATTERNS.REG_STATE[1] / Q
+    Ending point:                            U50_PATTERNS.WR_XFER_TYPE[5] / D
+    The start point is clocked by            CLK60MHZ [rising] on pin CLK
+    The end   point is clocked by            CLK60MHZ [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+U50_PATTERNS.REG_STATE[1]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[1]                              Net        -        -       2.172     -           16        
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       A        In      -         2.909       -         
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       Y        Out     0.507     3.417       -         
+N_1690_i                                  Net        -        -       1.184     -           4         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       A        In      -         4.600       -         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       Y        Out     0.537     5.137       -         
+N_1691                                    Net        -        -       1.776     -           11        
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        A        In      -         6.914       -         
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        Y        Out     0.507     7.421       -         
+N_1694                                    Net        -        -       1.994     -           12        
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        B        In      -         9.415       -         
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        Y        Out     0.646     10.061      -         
+N_1697                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       B        In      -         11.700      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       Y        Out     0.646     12.346      -         
+N_1702                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIOEOG3[7]     OR2        A        In      -         13.985      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIOEOG3[7]     OR2        Y        Out     0.507     14.493      -         
+N_1717                                    Net        -        -       0.806     -           3         
+U50_PATTERNS.RD_USB_ADBUS_RNI42PD4[4]     OR2        B        In      -         15.299      -         
+U50_PATTERNS.RD_USB_ADBUS_RNI42PD4[4]     OR2        Y        Out     0.646     15.946      -         
+N_1763                                    Net        -        -       0.386     -           2         
+U50_PATTERNS.WR_XFER_TYPE_RNO_0[5]        NOR2B      A        In      -         16.331      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO_0[5]        NOR2B      Y        Out     0.514     16.846      -         
+N_1828                                    Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE_RNO[5]          AO1A       C        In      -         17.167      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO[5]          AO1A       Y        Out     0.633     17.800      -         
+WR_XFER_TYPE_RNO[5]                       Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE[5]              DFN1C0     D        In      -         18.121      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 18.695 is 6.456(34.5%) logic and 12.239(65.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      16.665
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.092
+
+    - Propagation time:                      17.970
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.879
+
+    Number of logic level(s):                9
+    Starting point:                          U50_PATTERNS.REG_STATE[3] / Q
+    Ending point:                            U50_PATTERNS.WR_XFER_TYPE[2] / D
+    The start point is clocked by            CLK60MHZ [rising] on pin CLK
+    The end   point is clocked by            CLK60MHZ [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+U50_PATTERNS.REG_STATE[3]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[3]                              Net        -        -       2.127     -           15        
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       B        In      -         2.864       -         
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       Y        Out     0.646     3.511       -         
+N_1690_i                                  Net        -        -       1.184     -           4         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       A        In      -         4.694       -         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       Y        Out     0.537     5.231       -         
+N_1691                                    Net        -        -       1.776     -           11        
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        A        In      -         7.008       -         
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        Y        Out     0.507     7.515       -         
+N_1694                                    Net        -        -       1.994     -           12        
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        B        In      -         9.508       -         
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        Y        Out     0.646     10.155      -         
+N_1697                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       B        In      -         11.794      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       Y        Out     0.646     12.440      -         
+N_1702                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIOEOG3[7]     OR2        A        In      -         14.079      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIOEOG3[7]     OR2        Y        Out     0.507     14.587      -         
+N_1717                                    Net        -        -       0.806     -           3         
+U50_PATTERNS.RD_USB_ADBUS_RNIMMEN4[5]     NOR2A      B        In      -         15.393      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIMMEN4[5]     NOR2A      Y        Out     0.407     15.800      -         
+N_1823                                    Net        -        -       0.386     -           2         
+U50_PATTERNS.WR_XFER_TYPE_RNO_0[2]        AO1D       C        In      -         16.185      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO_0[2]        AO1D       Y        Out     0.655     16.841      -         
+WR_XFER_TYPE_0_i_0[2]                     Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE_RNO[2]          OA1C       C        In      -         17.162      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO[2]          OA1C       Y        Out     0.487     17.649      -         
+WR_XFER_TYPE_RNO[2]                       Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE[2]              DFN1C0     D        In      -         17.970      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 18.544 is 6.350(34.2%) logic and 12.194(65.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      16.665
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.092
+
+    - Propagation time:                      17.876
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.785
+
+    Number of logic level(s):                9
+    Starting point:                          U50_PATTERNS.REG_STATE[1] / Q
+    Ending point:                            U50_PATTERNS.WR_XFER_TYPE[2] / D
+    The start point is clocked by            CLK60MHZ [rising] on pin CLK
+    The end   point is clocked by            CLK60MHZ [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+U50_PATTERNS.REG_STATE[1]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[1]                              Net        -        -       2.172     -           16        
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       A        In      -         2.909       -         
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       Y        Out     0.507     3.417       -         
+N_1690_i                                  Net        -        -       1.184     -           4         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       A        In      -         4.600       -         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       Y        Out     0.537     5.137       -         
+N_1691                                    Net        -        -       1.776     -           11        
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        A        In      -         6.914       -         
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        Y        Out     0.507     7.421       -         
+N_1694                                    Net        -        -       1.994     -           12        
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        B        In      -         9.415       -         
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        Y        Out     0.646     10.061      -         
+N_1697                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       B        In      -         11.700      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       Y        Out     0.646     12.346      -         
+N_1702                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIOEOG3[7]     OR2        A        In      -         13.985      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIOEOG3[7]     OR2        Y        Out     0.507     14.493      -         
+N_1717                                    Net        -        -       0.806     -           3         
+U50_PATTERNS.RD_USB_ADBUS_RNIMMEN4[5]     NOR2A      B        In      -         15.299      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIMMEN4[5]     NOR2A      Y        Out     0.407     15.706      -         
+N_1823                                    Net        -        -       0.386     -           2         
+U50_PATTERNS.WR_XFER_TYPE_RNO_0[2]        AO1D       C        In      -         16.092      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO_0[2]        AO1D       Y        Out     0.655     16.747      -         
+WR_XFER_TYPE_0_i_0[2]                     Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE_RNO[2]          OA1C       C        In      -         17.068      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO[2]          OA1C       Y        Out     0.487     17.555      -         
+WR_XFER_TYPE_RNO[2]                       Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE[2]              DFN1C0     D        In      -         17.876      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 18.450 is 6.211(33.7%) logic and 12.239(66.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      16.665
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         16.126
+
+    - Propagation time:                      17.887
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.761
+
+    Number of logic level(s):                8
+    Starting point:                          U50_PATTERNS.REG_STATE[3] / Q
+    Ending point:                            U50_PATTERNS.WR_XFER_TYPE[3] / D
+    The start point is clocked by            CLK60MHZ [rising] on pin CLK
+    The end   point is clocked by            CLK60MHZ [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+U50_PATTERNS.REG_STATE[3]                 DFN1C0     Q        Out     0.737     0.737       -         
+REG_STATE[3]                              Net        -        -       2.127     -           15        
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       B        In      -         2.864       -         
+U50_PATTERNS.REG_STATE_RNI0IQN[3]         NOR2       Y        Out     0.646     3.511       -         
+N_1690_i                                  Net        -        -       1.184     -           4         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       A        In      -         4.694       -         
+U50_PATTERNS.REG_STATE_RNI2TN31[4]        OR2A       Y        Out     0.537     5.231       -         
+N_1691                                    Net        -        -       1.776     -           11        
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        A        In      -         7.008       -         
+U50_PATTERNS.REG_STATE_RNI0DIR1[2]        OR2        Y        Out     0.507     7.515       -         
+N_1694                                    Net        -        -       1.994     -           12        
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        B        In      -         9.508       -         
+U50_PATTERNS.RD_USB_ADBUS_RNI5KNJ2[6]     OR2        Y        Out     0.646     10.155      -         
+N_1697                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       B        In      -         11.794      -         
+U50_PATTERNS.RD_USB_ADBUS_RNIPADT2[7]     OR2A       Y        Out     0.646     12.440      -         
+N_1702                                    Net        -        -       1.639     -           8         
+U50_PATTERNS.RD_USB_ADBUS_RNISIOG3[4]     OR2        A        In      -         14.079      -         
+U50_PATTERNS.RD_USB_ADBUS_RNISIOG3[4]     OR2        Y        Out     0.507     14.587      -         
+N_1716                                    Net        -        -       1.279     -           5         
+U50_PATTERNS.WR_XFER_TYPE_RNO_1[3]        NOR2A      A        In      -         15.866      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO_1[3]        NOR2A      Y        Out     0.627     16.493      -         
+N_1825                                    Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE_RNO[3]          NOR3       C        In      -         16.815      -         
+U50_PATTERNS.WR_XFER_TYPE_RNO[3]          NOR3       Y        Out     0.751     17.566      -         
+WR_XFER_TYPE_RNO[3]                       Net        -        -       0.322     -           1         
+U50_PATTERNS.WR_XFER_TYPE[3]              DFN1C0     D        In      -         17.887      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 18.426 is 6.145(33.4%) logic and 12.281(66.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1419,161 +1663,93 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 
 
-
-====================================
-Detailed Report for Clock: Y_INFERRED
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                    Starting                                                Arrival          
-Instance                            Reference      Type       Pin     Net                   Time        Slack
-                                    Clock                                                                    
--------------------------------------------------------------------------------------------------------------
-U_GEN_REF_CLK.GEN_40M_REFCNT[1]     Y_INFERRED     DFN1C0     Q       GEN_40M_REFCNT[1]     0.737       1.283
-U_GEN_REF_CLK.GEN_40M_REFCNT[2]     Y_INFERRED     DFN1C0     Q       GEN_40M_REFCNT[2]     0.737       1.575
-U_GEN_REF_CLK.GEN_40M_REFCNT[0]     Y_INFERRED     DFN1C0     Q       GEN_40M_REFCNT[0]     0.737       2.072
-=============================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                                    Starting                                                  Required          
-Instance                            Reference      Type       Pin     Net                     Time         Slack
-                                    Clock                                                                       
-----------------------------------------------------------------------------------------------------------------
-U_GEN_REF_CLK.GEN_40M_REFCNT[1]     Y_INFERRED     DFN1C0     D       SUM1                    4.461        1.283
-U_GEN_REF_CLK.GEN_40M_REFCNT[2]     Y_INFERRED     DFN1C0     D       N_GEN_40M_REFCNT[2]     4.426        1.472
-U_GEN_REF_CLK.GEN_40M_REFCNT[0]     Y_INFERRED     DFN1C0     D       N_GEN_40M_REFCNT[0]     4.461        1.476
-U_GEN_REF_CLK.GEN_40M_REF           Y_INFERRED     DFN1C0     D       un14_gen_40m_refcnt     4.461        1.712
-================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      5.000
-    - Setup time:                            0.539
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         4.461
-
-    - Propagation time:                      3.179
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     1.283
-
-    Number of logic level(s):                1
-    Starting point:                          U_GEN_REF_CLK.GEN_40M_REFCNT[1] / Q
-    Ending point:                            U_GEN_REF_CLK.GEN_40M_REFCNT[1] / D
-    The start point is clocked by            Y_INFERRED [rising] on pin CLK
-    The end   point is clocked by            Y_INFERRED [rising] on pin CLK
-
-Instance / Net                                           Pin      Pin               Arrival     No. of    
-Name                                          Type       Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------
-U_GEN_REF_CLK.GEN_40M_REFCNT[1]               DFN1C0     Q        Out     0.737     0.737       -         
-GEN_40M_REFCNT[1]                             Net        -        -       1.184     -           4         
-U_GEN_REF_CLK.un2_n_gen_40m_refcnt_1.SUM1     XOR2       B        In      -         1.921       -         
-U_GEN_REF_CLK.un2_n_gen_40m_refcnt_1.SUM1     XOR2       Y        Out     0.937     2.857       -         
-SUM1                                          Net        -        -       0.322     -           1         
-U_GEN_REF_CLK.GEN_40M_REFCNT[1]               DFN1C0     D        In      -         3.179       -         
-==========================================================================================================
-Total path delay (propagation time + setup) of 3.717 is 2.212(59.5%) logic and 1.505(40.5%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
 ##### END OF TIMING REPORT #####]
 
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:16s; Memory used current: 195MB peak: 200MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:13s; Memory used current: 200MB peak: 206MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:16s; Memory used current: 195MB peak: 200MB)
+Finished timing report (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:13s; Memory used current: 200MB peak: 206MB)
 
 --------------------------------------------------------------------------------
 Target Part: A3PE1500_PQFP208_STD
 Report for cell TOP_COMET.rtl
   Core Cell usage:
               cell count     area count*area
-              AND2    10      1.0       10.0
+              AND2    11      1.0       11.0
              AND2A     4      1.0        4.0
               AND3     6      1.0        6.0
-               AO1   169      1.0      169.0
+               AO1   160      1.0      160.0
               AO13     3      1.0        3.0
               AO16     1      1.0        1.0
-              AO1A    53      1.0       53.0
-              AO1B     6      1.0        6.0
-              AO1C    21      1.0       21.0
-              AO1D     5      1.0        5.0
-              AOI1    36      1.0       36.0
+              AO1A    51      1.0       51.0
+              AO1B     7      1.0        7.0
+              AO1C    23      1.0       23.0
+              AO1D     6      1.0        6.0
+              AOI1    23      1.0       23.0
              AOI1A     4      1.0        4.0
-             AOI1B     9      1.0        9.0
+             AOI1B    10      1.0       10.0
+               AX1     1      1.0        1.0
               AX1A     1      1.0        1.0
-              AX1C     8      1.0        8.0
-              AX1E     5      1.0        5.0
+              AX1C     7      1.0        7.0
+              AX1E     2      1.0        2.0
               BUFF     3      1.0        3.0
             CLKINT     1      0.0        0.0
            DDR_OUT    25      0.0        0.0
            DDR_REG    21      0.0        0.0
-               GND   160      0.0        0.0
+               GND   159      0.0        0.0
                INV    20      1.0       20.0
                MX2  1344      1.0     1344.0
-              MX2A    17      1.0       17.0
+              MX2A    15      1.0       15.0
               MX2B    34      1.0       34.0
               MX2C    11      1.0       11.0
               NOR2    90      1.0       90.0
-             NOR2A   291      1.0      291.0
-             NOR2B   348      1.0      348.0
-              NOR3    41      1.0       41.0
-             NOR3A   119      1.0      119.0
-             NOR3B   114      1.0      114.0
-             NOR3C   105      1.0      105.0
-               OA1    28      1.0       28.0
-              OA1A    14      1.0       14.0
-              OA1B    40      1.0       40.0
-              OA1C    27      1.0       27.0
+             NOR2A   311      1.0      311.0
+             NOR2B   371      1.0      371.0
+              NOR3    34      1.0       34.0
+             NOR3A   100      1.0      100.0
+             NOR3B   115      1.0      115.0
+             NOR3C   104      1.0      104.0
+               OA1    37      1.0       37.0
+              OA1A    13      1.0       13.0
+              OA1B    32      1.0       32.0
+              OA1C    32      1.0       32.0
               OAI1     2      1.0        2.0
-               OR2   216      1.0      216.0
-              OR2A   101      1.0      101.0
-              OR2B    24      1.0       24.0
+               OR2   209      1.0      209.0
+              OR2A    96      1.0       96.0
+              OR2B    26      1.0       26.0
                OR3   145      1.0      145.0
-              OR3A    26      1.0       26.0
-              OR3B    15      1.0       15.0
-              OR3C     4      1.0        4.0
+              OR3A    31      1.0       31.0
+              OR3B    16      1.0       16.0
+              OR3C    11      1.0       11.0
             PLLINT     3      0.0        0.0
-               VCC   160      0.0        0.0
+               VCC   159      0.0        0.0
                XA1     2      1.0        2.0
               XA1A     5      1.0        5.0
-              XA1B    44      1.0       44.0
-              XA1C    44      1.0       44.0
+              XA1B    45      1.0       45.0
+              XA1C    43      1.0       43.0
              XNOR2     9      1.0        9.0
              XNOR3     3      1.0        3.0
-               XO1    16      1.0       16.0
-              XOR2    66      1.0       66.0
+               XO1    15      1.0       15.0
+              XO1A     1      1.0        1.0
+              XOR2    65      1.0       65.0
 
 
             DFI1C0     9      1.0        9.0
           DFI1E1P0     1      1.0        1.0
             DFI1P0    26      1.0       26.0
-            DFN1C0  2387      1.0     2387.0
+            DFN1C0  2383      1.0     2383.0
           DFN1E0C0   146      1.0      146.0
           DFN1E0P0    46      1.0       46.0
           DFN1E1C0   841      1.0      841.0
           DFN1E1P0     7      1.0        7.0
-            DFN1P0    31      1.0       31.0
+            DFN1P0    30      1.0       30.0
             DYNCCC     2      0.0        0.0
             RAM4K9    21      0.0        0.0
                    -----          ----------
-             TOTAL  7596              7203.0
+             TOTAL  7590              7199.0
 
 
   IO Cell usage:
@@ -1589,7 +1765,7 @@ Report for cell TOP_COMET.rtl
              TOTAL    60
 
 
-Core Cells         : 7203 of 38400 (19%)
+Core Cells         : 7199 of 38400 (19%)
 IO Cells           : 60
 
   RAM/ROM Usage Summary
@@ -1597,9 +1773,9 @@ Block Rams : 21 of 60 (35%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 39MB peak: 200MB)
+At Mapper Exit (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:13s; Memory used current: 39MB peak: 206MB)
 
-Process took 0h:00m:18s realtime, 0h:00m:17s cputime
-# Sun Dec 29 18:59:50 2019
+Process took 0h:00m:15s realtime, 0h:00m:13s cputime
+# Fri Jan 10 10:15:23 2020
 
 ###########################################################]

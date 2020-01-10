@@ -57,5 +57,7 @@
 @N: CL159 :"Z:\windows\comet_fw\hdl\DDR_BIDIR_LVDS_DUAL_CLK.vhd":24:8:24:14|Input DDR_CLR is unused.
 @N: CL201 :"Z:\windows\comet_fw\hdl\USB_INTERFACE.vhd":867:12:867:13|Trying to extract state machine for register REG_STATE.
 @N: CL201 :"Z:\windows\comet_fw\hdl\GP_PATT_GEN.vhd":94:12:94:13|Trying to extract state machine for register GP_PG_SM.
+@N: CL159 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":47:4:47:11|Input CLK200_P is unused.
+@N: CL159 :"Z:\windows\comet_fw\hdl\TOP_COMET.vhd":48:4:48:11|Input CLK200_N is unused.
 @N|Running in 64-bit mode
 

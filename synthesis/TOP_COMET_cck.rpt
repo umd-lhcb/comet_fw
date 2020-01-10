@@ -1,7 +1,7 @@
 # Synopsys Constraint Checker, version mapact, Build 2172R, built Oct 30 2017
 # Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-# Written on Sun Dec 29 18:59:30 2019
+# Written on Fri Jan 10 10:15:05 2020
 
 
 ##### DESIGN INFO #######################################################
@@ -14,7 +14,7 @@ Constraint File(s):      "Z:\windows\comet_fw\constraint\Top_Basic_a.sdc"
 
 ##### SUMMARY ############################################################
 
-Found 1 issues in 1 out of 7 constraints
+Found 2 issues in 2 out of 7 constraints
 
 
 ##### DETAILS ############################################################
@@ -36,7 +36,6 @@ CLK60MHZ               CLK_40M_GL             |     Diff grp         |     No pa
 CLK60MHZ               CLK60MHZ               |     16.665           |     No paths         |     No paths         |     No paths                         
 CCC_160M_ADJ_ALIAS     CCC_160M_FXD           |     6.250            |     No paths         |     No paths         |     No paths                         
 CCC_160M_ADJ_ALIAS     CCC_160M_ADJ_ALIAS     |     6.250            |     No paths         |     No paths         |     No paths                         
-Y_INFERRED             Y_INFERRED             |     5.000            |     No paths         |     No paths         |     No paths                         
 =========================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -66,6 +65,8 @@ p:BIDIR_USB_ADBUS[6] (bidir end point)
 p:BIDIR_USB_ADBUS[6] (bidir start point)
 p:BIDIR_USB_ADBUS[7] (bidir end point)
 p:BIDIR_USB_ADBUS[7] (bidir start point)
+p:BP_CLK40_N
+p:BP_CLK40_P
 p:CLK200_N
 p:CLK200_P
 p:DCB_SALT_SEL
@@ -200,6 +201,8 @@ Inapplicable constraints
 
 create_clock -name CCC_160M_ADJ -period 6.250 n:U13C_MASTER_DES.CCC_160M_ADJ
 	@E:"z:/windows/comet_fw/constraint/top_basic_a.sdc":24:0:24:0|object "n:U13C_MASTER_DES.CCC_160M_ADJ" does not exist
+create_clock -name Y_INFERRED -period 5.000 n:U0_200M_BUF.Y
+	@E:"z:/windows/comet_fw/constraint/top_basic_a.sdc":27:0:27:0|object "n:U0_200M_BUF.Y" does not exist
 
 Applicable constraints with issues
 **********************************

@@ -1,11 +1,12 @@
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
+File Z:\windows\comet_fw\synthesis\synwork\TOP_COMET_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 74MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 74MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Dec 29 18:59:26 2019
+# Fri Jan 10 10:15:01 2020
 
 ###########################################################]
