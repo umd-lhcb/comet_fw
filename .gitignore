@@ -1,5 +1,6 @@
 tooldata/libero*
 *.bak
+*.depends
 
 simulation/
 *.msg
